@@ -69,10 +69,10 @@ module.exports = function (grunt) {
         iMax = filenameArray.length,
         filename,
         fullpath,
-        document;
+        doc;
       for (i = 0; i < iMax; i++) {
         filename = filenameArray[i];
-        document =  = new DOMParser().parseFromString(contentStr);
+        doc = new DOMParser().parseFromString(contentStr);
         // create file with name=filename and contents=contentStr
         fullpath = './docs/api/' + filename;
         grunt.file.write(fullpath, contentStr);
@@ -100,6 +100,8 @@ module.exports = function (grunt) {
       // now create the files
       createFiles(filenameArray);
     }
+
+
   });
   // Default task.
   grunt.registerTask('default', ['shell', 'concat','uglify','createFiles']);

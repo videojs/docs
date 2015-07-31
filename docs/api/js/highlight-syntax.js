@@ -1,3 +1,3 @@
-var BCLS = ( function () {
+var BCLS = ( function (hljs) {
 
-})();
+})(hljs);
