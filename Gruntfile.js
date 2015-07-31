@@ -33,8 +33,7 @@ module.exports = function (grunt) {
     var classData = [],
         docData = '',
         contentStr = '<!DOCTYPE html> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <title></title> <script src="//use.edgefonts.net/source-code-pro.js"></script> <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css"> <!-- there are many other style for highlighted code here: https://cdnjs.com/libraries/highlight.js --> <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/atelier-forest.light.min.css"> <link rel="stylesheet" type="text/css" href="css/api-docs.css"> <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> </head> <body> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script><script src="js/highlight-syntax.js"></script> </body> </html>',
-        DOMParser = require('xmldom').DOMParser,
-        doc = new DOMParser().parseFromString();
+        DOMParser = require('xmldom').DOMParser;
     //read the JSDoc JSON into a variable
     docData = grunt.file.readJSON('cumulative.json');
     // extract the class items from the doc data
@@ -69,9 +68,11 @@ module.exports = function (grunt) {
       var i,
         iMax = filenameArray.length,
         filename,
-        fullpath;
+        fullpath,
+        document;
       for (i = 0; i < iMax; i++) {
         filename = filenameArray[i];
+        document =  = new DOMParser().parseFromString(contentStr);
         // create file with name=filename and contents=contentStr
         fullpath = './docs/api/' + filename;
         grunt.file.write(fullpath, contentStr);
