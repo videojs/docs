@@ -1,14 +1,13 @@
-var title = doc.getElementsByTagName('title')[0],
+var title,
     // data structures
     classes = {thisClass: [], parentClass: []},
-    docsPath = 'https://github.com/videojs/video.js/blob/master/src/js/',
     // paths
     classFilePath,
     parentClassFilePath,
     // elements
     mainContent,
     main,
-    doc_body = doc.getElementsByTagName('body')[0];
+    doc_body;
 
 /**
  * tests for all the ways a variable might be undefined or not have a value
@@ -636,6 +635,9 @@ function contentInit(docFileName) {
                 getAncestorData(parent_class_name);
             }
         };
+    // get refenence to doc body and title
+    doc_body = doc.getElementsByTagName('body')[0];
+    title = doc.getElementsByTagName('title')[0];
     // content wrapper
     mainContent = createEl('div', {id: 'main', class: 'section'});
     // src file is the js file of the same name
