@@ -1,11 +1,11 @@
 var BCLSVJS = (function (window, document, docData) {
-    "use strict";
+    'use strict';
     var title = document.getElementsByTagName('title')[0],
         // data structures
         classes = [],
         // elements
         main,
-        doc_body = document.getElementsByTagName("body")[0],
+        doc_body = document.getElementsByTagName('body')[0],
         // functions
         isDefined,
         findObjectsInArray,
@@ -23,7 +23,7 @@ var BCLSVJS = (function (window, document, docData) {
      * @return {}
      */
     bclslog = function (context, message) {
-        if (window["console"] && console["log"]) {
+        if (window['console'] && console['log']) {
             console.log(context, message);
         }
         return;
@@ -34,7 +34,7 @@ var BCLSVJS = (function (window, document, docData) {
      * @return {Boolean} true if variable is defined and has a value
      */
     isDefined = function (x) {
-        if (x !== "" && x !== null && x !== undefined && x !== NaN) {
+        if (x !== '' && x !== null && x !== undefined && x !== NaN) {
             return true;
         }
         return false;
@@ -119,10 +119,10 @@ var BCLSVJS = (function (window, document, docData) {
      */
     addHeaderContent = function () {
         var doc_body = document.getElementsByTagName('body')[0],
-            mainContent = createEl("div", {id: "main"}),
-            topSection = createEl("section", {id: "top", class: "section"}),
-            header = createEl("h1"),
-            text = document.createTextNode("video.js API Documentation Index"),
+            mainContent = createEl('div', {id: 'main'}),
+            topSection = createEl('section', {id: 'top', class: 'section'}),
+            header = createEl('h1'),
+            text = document.createTextNode('video.js API Documentation Index'),
             topP,
             topPtext,
             topLink,
@@ -159,16 +159,16 @@ var BCLSVJS = (function (window, document, docData) {
         // add the top section to the document
         mainContent.appendChild(topSection);
         doc_body.appendChild(mainContent);
-        main = document.getElementById("main");
+        main = document.getElementById('main');
     };
     /**
      * add the side nav
      */
     addIndex = function () {
-        var section = createEl("section", {id: "index", class: "section"}),
-            sectionHeader = createEl("h2"),
+        var section = createEl('section', {id: 'index', class: 'section'}),
+            sectionHeader = createEl('h2'),
             classlists = {},
-            alphaArr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"],
+            alphaArr = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
             firstLetter,
             numberAlphaItems = 0,
             itemsPerColumn,
@@ -187,7 +187,7 @@ var BCLSVJS = (function (window, document, docData) {
             j,
             jMax,
             counter = 0;
-        text = document.createTextNode("Index of classes");
+        text = document.createTextNode('Index of classes');
         sectionHeader.appendChild(text);
         // create alpha arrays
         iMax = classes.length;
@@ -196,31 +196,30 @@ var BCLSVJS = (function (window, document, docData) {
             firstLetter = item.name.charAt(0).toLowerCase();
             // create alpha array if non-existent, push item
             if (isDefined(classlists[firstLetter]) === false) {
-                bclslog("false");
                 classlists[firstLetter] = [];
                 numberAlphaItems++;
             }
             classlists[firstLetter].push({name: item.name, filename: item.meta.filename});
         }
         itemsPerColumn = Math.ceil(numberAlphaItems / 3);
-        bclslog("classlists", classlists);
+        bclslog('classlists', classlists);
         iMax = alphaArr.length;
         for (i = 0; i < iMax; i++) {
             if (isDefined(classlists[alphaArr[i]])) {
-                indexListHolder = createEl("div");
-                indexListHeader = createEl("h4", {class: "indexHeader"});
-                text = document.createTextNode("~" + alphaArr[i].toUpperCase() + "~");
+                indexListHolder = createEl('div');
+                indexListHeader = createEl('h4', {class: 'indexHeader'});
+                text = document.createTextNode('~' + alphaArr[i].toUpperCase() + '~');
                 indexListHeader.appendChild(text);
                 indexListHolder.appendChild(indexListHeader);
-                indexList = createEl("ul");
+                indexList = createEl('ul');
                 indexListHolder.appendChild(indexList);
                 jMax = classlists[alphaArr[i]].length;
-                bclslog("jMax", jMax);
+                bclslog('jMax', jMax);
                 for (j = 0; j < jMax; j++) {
-                    bclslog("classlists[alphaArr[i]", classlists[alphaArr[i]]);
-                    listItem = createEl("li");
+                    bclslog('classlists[alphaArr[i]', classlists[alphaArr[i]]);
+                    listItem = createEl('li');
                     indexList.appendChild(listItem);
-                    listLink = createEl("a", {href: classlists[alphaArr[i]][j].filename.replace(".js", ".html")});
+                    listLink = createEl('a', {href: classlists[alphaArr[i]][j].filename.replace('.js', '.html')});
                     listItem.appendChild(listLink);
                     listText = document.createTextNode(classlists[alphaArr[i]][j].name);
                     listLink.appendChild(listText);
@@ -235,7 +234,7 @@ var BCLSVJS = (function (window, document, docData) {
                 counter = 0;
             }
             if (counter === 0) {
-                columnDiv = createEl("div", {class: "indexColumn"});
+                columnDiv = createEl('div', {class: 'indexColumn'});
                 section.appendChild(columnDiv);
             }
             columnDiv.appendChild(indexEls[i]);
@@ -250,24 +249,24 @@ var BCLSVJS = (function (window, document, docData) {
             videojs = {name: 'videojs', meta: {filename: 'video.js'}},
             j;
         // get the data objects for all classes
-        classes = getSubArray(docData, "kind", "class");
+        classes = getSubArray(docData, 'kind', 'class');
         // videojs is a special case
         classes.push(videojs);
-        bclslog("classes", classes);
+        bclslog('classes', classes);
         // set the doc title
-        title.innerHTML = "API Documentation Index";
+        title.innerHTML = 'API Documentation Index';
         // remove any private items
-        privateItems = findObjectsInArray(classes, "access", "private");
-        bclslog("privateItems", privateItems);
+        privateItems = findObjectsInArray(classes, 'access', 'private');
+        bclslog('privateItems', privateItems);
         j = privateItems.length;
-        bclslog("j", j);
+        bclslog('j', j);
         while (j > 0) {
             j--;
             classes.splice(privateItems[j], 1);
         }
         // sort the array
-        classes = sortArray(classes, "name");
-        bclslog("classes", classes);
+        classes = sortArray(classes, 'name');
+        bclslog('classes', classes);
         // now we're ready to roll
         addHeaderContent();
         addIndex();

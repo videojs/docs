@@ -222,7 +222,7 @@ var BCLSVJS = (function (window, document, docData, hljs) {
             extendsNode = createEl('p'),
             extendsLink,
             definedIn = createEl('p'),
-            definedInLink = createEl('a', {href: docsPath + classFilePath + "#L" + headerData.meta.lineno}),
+            definedInLink = createEl('a', {href: docsPath + classFilePath + '#L' + headerData.meta.lineno}),
             description = createEl('div', {style: 'border:none', id: 'classDescription'}),
             descriptionEl,
             constructorHeader = createEl('h3'),
@@ -494,7 +494,7 @@ var BCLSVJS = (function (window, document, docData, hljs) {
             topLinkA,
             // helper function
             createMemberItem = function (classData, member) {
-                bclslog("member", member);
+                bclslog('member', member);
                 // create the class member items
                 jMax = classData[member.data].length;
                 for (j = 0; j < jMax; j++) {
@@ -620,7 +620,7 @@ var BCLSVJS = (function (window, document, docData, hljs) {
      * use hljs to highlight the syntax in code blocks
      */
     highlightCode = function () {
-        var codeBlocks = document.querySelectorAll("pre code"),
+        var codeBlocks = document.querySelectorAll('pre code'),
             i,
             iMax;
         if (isDefined(codeBlocks)) {
@@ -645,7 +645,7 @@ var BCLSVJS = (function (window, document, docData, hljs) {
             // helper function to get the chain of parent classes
             getAncestorData = function (parent_class) {
                 // get data objects for the class
-                classes.parentClasses[parentCounter] = findClassObjects(docData, parent_class + ".js");
+                classes.parentClasses[parentCounter] = findClassObjects(docData, parent_class + '.js');
                 // check to see if there are any parent class items
                 if (classes.parentClasses[parentCounter].length > 0) {
                     doc_data.parentClasses[parentCounter] = {};
@@ -660,7 +660,7 @@ var BCLSVJS = (function (window, document, docData, hljs) {
                         parentClassFilePath = doc_data.parentClasses[parentCounter].headerInfo.meta.filename;
                     }
                     // remove any private items
-                    privateItems = findObjectsInArray(classes.parentClasses[parentCounter], "access", "private");
+                    privateItems = findObjectsInArray(classes.parentClasses[parentCounter], 'access', 'private');
                     j = privateItems.length;
                     while (j > 0) {
                         j--;
@@ -669,7 +669,7 @@ var BCLSVJS = (function (window, document, docData, hljs) {
                     // now get the member arrays
                     doc_data.parentClasses[parentCounter].methods = getSubArray(classes.parentClasses[parentCounter], 'kind', 'function');
                     doc_data.parentClasses[parentCounter].methods = sortArray(doc_data.parentClasses[parentCounter].methods, 'name');
-                    doc_data.parentClasses[parentCounter].events = getSubArray(classes.parentClasses[parentCounter], 'kind', "event");
+                    doc_data.parentClasses[parentCounter].events = getSubArray(classes.parentClasses[parentCounter], 'kind', 'event');
                     doc_data.parentClasses[parentCounter].events = sortArray(doc_data.parentClasses[parentCounter].events, 'name');
                     doc_data.parentClasses[parentCounter].properties = getSubArray(classes.parentClasses[parentCounter], 'kind', 'property');
                     doc_data.parentClasses[parentCounter].properties = sortArray(doc_data.parentClasses[parentCounter].properties, 'name');
@@ -683,18 +683,18 @@ var BCLSVJS = (function (window, document, docData, hljs) {
                 }
             };
         // content wrapper
-        mainContent = createEl('div', {id: "main", class: "section"});
+        mainContent = createEl('div', {id: 'main', class: 'section'});
         // get the class name from the file name
         fileName = path[path.length - 1];
-        doc_class = fileName.substring(0, fileName.indexOf("."));
-        srcFileName = doc_class + ".js";
-        bclslog("srcFileName", srcFileName);
+        doc_class = fileName.substring(0, fileName.indexOf('.'));
+        srcFileName = doc_class + '.js';
+        bclslog('srcFileName', srcFileName);
         // video.js is a special case - all others will be the same
         if (srcFileName === 'video.js') {
             // for doc purposes, treat video like a class, though it's not
             // get the data objects for this class
             classes.thisClass = findClassObjects(docData, srcFileName);
-            bclslog("classes", classes);
+            bclslog('classes', classes);
             idx = findObjectInArray(classes.thisClass, 'name', 'videojs');
             doc_data.thisClass = {};
             // get the class overview object
@@ -710,7 +710,7 @@ var BCLSVJS = (function (window, document, docData, hljs) {
             text = document.createTextNode(doc_data.thisClass.headerInfo.name);
             title.appendChild(text);
             // remove any private items
-            privateItems = findObjectsInArray(classes.thisClass, "access", "private");
+            privateItems = findObjectsInArray(classes.thisClass, 'access', 'private');
             j = privateItems.length;
             while (j > 0) {
                 j--;
@@ -719,15 +719,15 @@ var BCLSVJS = (function (window, document, docData, hljs) {
             // now get the member arrays
             doc_data.thisClass.methods = getSubArray(classes.thisClass, 'kind', 'function');
             doc_data.thisClass.methods = sortArray(doc_data.thisClass.methods, 'name');
-            doc_data.thisClass.events = getSubArray(classes.thisClass, 'kind', "event");
+            doc_data.thisClass.events = getSubArray(classes.thisClass, 'kind', 'event');
             doc_data.thisClass.events = sortArray(doc_data.thisClass.events, 'name');
             doc_data.thisClass.properties = getSubArray(classes.thisClass, 'kind', 'property');
             doc_data.thisClass.properties = sortArray(doc_data.thisClass.properties, 'name');
-            bclslog("thisClass", doc_data.thisClass);
+            bclslog('thisClass', doc_data.thisClass);
         } else {
             // get the data objects for this class
             classes.thisClass = findClassObjects(docData, srcFileName);
-            bclslog("classes", classes);
+            bclslog('classes', classes);
             idx = findObjectInArray(classes.thisClass, 'kind', 'class');
             doc_data.thisClass = {};
             doc_data.thisClass.headerInfo = copyObj(classes.thisClass[idx]);
@@ -742,7 +742,7 @@ var BCLSVJS = (function (window, document, docData, hljs) {
             text = document.createTextNode(doc_data.thisClass.headerInfo.name);
             title.appendChild(text);
             // remove any private items
-            privateItems = findObjectsInArray(classes.thisClass, "access", "private");
+            privateItems = findObjectsInArray(classes.thisClass, 'access', 'private');
             j = privateItems.length;
             while (j > 0) {
                 j--;
@@ -751,11 +751,11 @@ var BCLSVJS = (function (window, document, docData, hljs) {
             // now get the member arrays
             doc_data.thisClass.methods = getSubArray(classes.thisClass, 'kind', 'function');
             doc_data.thisClass.methods = sortArray(doc_data.thisClass.methods, 'name');
-            doc_data.thisClass.events = getSubArray(classes.thisClass, 'kind', "event");
+            doc_data.thisClass.events = getSubArray(classes.thisClass, 'kind', 'event');
             doc_data.thisClass.events = sortArray(doc_data.thisClass.events, 'name');
             doc_data.thisClass.properties = getSubArray(classes.thisClass, 'kind', 'property');
             doc_data.thisClass.properties = sortArray(doc_data.thisClass.properties, 'name');
-            bclslog("thisClass", doc_data.thisClass);
+            bclslog('thisClass', doc_data.thisClass);
             // get parent class, if any, and anything it inherits
             if (isDefined(doc_data.thisClass.headerInfo.augments)) {
                 doc_data.parentClass = {};
@@ -765,7 +765,7 @@ var BCLSVJS = (function (window, document, docData, hljs) {
                 parent_class_name = docData[idx].meta.filename.replace('.js', '');
                 getAncestorData(parent_class_name);
             }
-            bclslog("parentClasses", doc_data.parentClasses);
+            bclslog('parentClasses', doc_data.parentClasses);
         }
         // now we're ready to roll
         addIndex();
