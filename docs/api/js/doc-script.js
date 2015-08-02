@@ -12,7 +12,7 @@ var title,
 /**
  * tests for all the ways a variable might be undefined or not have a value
  *
- * @param {*} x the variable to test
+ * @param {*} x - the variable to test
  * @return {Boolean} true if variable is defined and has a value
  */
 function isDefined(x) {
@@ -24,8 +24,8 @@ function isDefined(x) {
 /**
  * determines whether specified item is in an array
  *
- * @param {array} array to check
- * @param {string} item to check for
+ * @param {array} arr - array to check
+ * @param {string} item - to check for
  * @return {boolean} true if item is in the array, else false
  */
 function isItemInArray(arr, item) {
@@ -42,7 +42,7 @@ function isItemInArray(arr, item) {
  * get a copy of (rather than reference to) an object
  *
  * @param  {object} obj - the object you want a copy
- * @return {object}     the copy
+ * @return {object} the copy
  */
 function copyObj(obj) {
     if (isDefined(obj)) {
