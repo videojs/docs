@@ -1,5 +1,5 @@
-document.on = (function(hljs) {
-    var codeBlocks = document.querySelectorAll('pre code'),
+document.onLoad = (function(hljs) {
+    var codeBlocks = document.querySelectorAll('pre>code'),
         i,
         iMax,;
 
