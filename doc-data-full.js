@@ -9,7 +9,7 @@ var docData =
             ],
             "filename": "base-styles.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "base-styles.js",
@@ -28,7 +28,7 @@ var docData =
             ],
             "filename": "big-play-button.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "big-play-button.js",
@@ -47,7 +47,7 @@ var docData =
             ],
             "filename": "big-play-button.js",
             "lineno": 9,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Initial play button. Shows before the video has played. The hiding of the\nbig play button is done via CSS and player states.</p>",
@@ -89,7 +89,7 @@ var docData =
             ],
             "filename": "big-play-button.js",
             "lineno": 24,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -117,7 +117,7 @@ var docData =
             ],
             "filename": "big-play-button.js",
             "lineno": 34,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handles click for play</p>",
@@ -135,7 +135,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "button.js",
@@ -154,7 +154,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 13,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Base class for all buttons</p>",
@@ -196,7 +196,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 34,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -245,7 +245,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 64,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Controls text - both request and localize</p>",
@@ -283,7 +283,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 80,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Allows sub components to stack CSS class names</p>",
@@ -310,7 +310,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 90,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle Click - Override with specific functionality for button</p>",
@@ -328,7 +328,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 97,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle Focus - Add keyboard functionality to element</p>",
@@ -346,7 +346,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 106,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle KeyPress (document level) - Trigger click when keys are pressed</p>",
@@ -364,7 +364,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 119,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle Blur - Remove keyboard triggers</p>",
@@ -382,7 +382,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "component.js",
@@ -401,7 +401,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 18,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Base UI Component class\nComponents are embeddable UI objects that are represented by both a\njavascript object and an element in the DOM. They can be children of other\ncomponents, and can have many children themselves.</p>\n<pre class=\"prettyprint source lang-js\"><code>    // adding a button to the player\n    var button = player.addChild('button');\n    button.el(); // -> button element</code></pre><pre class=\"prettyprint source lang-html\"><code>    &lt;div class=&quot;video-js&quot;>\n      &lt;div class=&quot;vjs-button&quot;>Button&lt;/div>\n    &lt;/div></code></pre><p>Components are also event emitters.</p>\n<pre class=\"prettyprint source lang-js\"><code>    button.on('click', function(){\n      console.log('Button Clicked!');\n    });\n    button.trigger('customevent');</code></pre>",
@@ -450,7 +450,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 107,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Dispose of the component and all child components</p>",
@@ -468,7 +468,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 141,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Return the component's player</p>",
@@ -495,7 +495,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 151,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Deep merge of options objects\nWhenever a property is an object on both options objects\nthe two properties will be merged using mergeOptions.\nThis is used for merging options for child components. We\nwant it to be easy to override individual options on a child\ncomponent without having to rewrite all the other default options.</p>\n<pre class=\"prettyprint source lang-js\"><code>    Parent.prototype.options_ = {\n      children: {\n        'childOne': { 'foo': 'bar', 'asdf': 'fdsa' },\n        'childTwo': {},\n        'childThree': {}\n      }\n    }\n    newOptions = {\n      children: {\n        'childOne': { 'foo': 'baz', 'abc': '123' }\n        'childTwo': null,\n        'childFour': {}\n      }\n    }\n\n    this.options(newOptions);</code></pre><p>RESULT</p>\n<pre class=\"prettyprint source lang-js\"><code>    {\n      children: {\n        'childOne': { 'foo': 'baz', 'asdf': 'fdsa', 'abc': '123' },\n        'childTwo': null, // Disabled. Won't be initialized.\n        'childThree': {},\n        'childFour': {}\n      }\n    }</code></pre>",
@@ -534,7 +534,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 203,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get the component's DOM element</p>\n<pre class=\"prettyprint source lang-js\"><code>    var domEl = myComponent.el();</code></pre>",
@@ -561,7 +561,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 216,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -610,7 +610,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 252,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Return the component's DOM element where children are inserted.\nWill either be the same as el() or a new element defined in createEl().</p>",
@@ -637,7 +637,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 263,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get the component's ID</p>\n<pre class=\"prettyprint source lang-js\"><code>    var id = myComponent.id();</code></pre>",
@@ -664,7 +664,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 276,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get the component's name. The name is often used to reference the component.</p>\n<pre class=\"prettyprint source lang-js\"><code>    var name = myComponent.name();</code></pre>",
@@ -691,7 +691,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 289,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get an array of all child components</p>\n<pre class=\"prettyprint source lang-js\"><code>    var kids = myComponent.children();</code></pre>",
@@ -719,7 +719,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 302,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Returns a child component with the provided ID</p>",
@@ -746,7 +746,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 312,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Returns a child component with the provided name</p>",
@@ -773,7 +773,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 322,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Adds a child component inside this component</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.el();\n    // -> &lt;div class='my-component'>&lt;/div>\n    myComponent.children();\n    // [empty array]\n\n    var myButton = myComponent.addChild('MyButton');\n    // -> &lt;div class='my-component'>&lt;div class=&quot;my-button&quot;>myButton&lt;div>&lt;/div>\n    // -> myButton === myComonent.children()[0];</code></pre><p>Pass in options for child constructors and options for children of the child</p>\n<pre class=\"prettyprint source lang-js\"><code>    var myButton = myComponent.addChild('MyButton', {\n      text: 'Press Me',\n      children: {\n        buttonChildExample: {\n          buttonChildOption: true\n        }\n      }\n    });</code></pre>",
@@ -823,7 +823,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 412,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Remove a child component from this component's list of children, and the\nchild component's element from this component's element</p>",
@@ -852,7 +852,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 452,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Add and initialize default child components from options</p>\n<pre class=\"prettyprint source lang-js\"><code>    // when an instance of MyComponent is created, all children in options\n    // will be added to the instance by their name strings and options\n    MyComponent.prototype.options_.children = {\n      myChildComponent: {\n        myChildOption: true\n      }\n    }</code></pre><pre class=\"prettyprint source\"><code>// Or when creating the component</code></pre><pre class=\"prettyprint source lang-js\"><code>    var myComp = new MyComponent(player, {\n      children: {\n        myChildComponent: {\n          myChildOption: true\n        }\n      }\n    });</code></pre><p>The children option can also be an Array of child names or\nchild options objects (that also include a 'name' key).</p>\n<pre class=\"prettyprint source lang-js\"><code>    var myComp = new MyComponent(player, {\n      children: [\n        'button',\n        {\n          name: 'button',\n          someOtherOption: true\n        }\n      ]\n    });</code></pre>",
@@ -870,7 +870,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 548,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Allows sub components to stack CSS class names</p>",
@@ -898,7 +898,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 560,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Add an event listener to this component's element</p>\n<pre class=\"prettyprint source lang-js\"><code>    var myFunc = function(){\n      var myComponent = this;\n      // Do something when the event is fired\n    };\n\n    myComponent.on('eventType', myFunc);</code></pre><p>The context of myFunc will be myComponent unless previously bound.\nAlternatively, you can add a listener to another element or component.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.on(otherElement, 'eventName', myFunc);\n    myComponent.on(otherComponent, 'eventName', myFunc);</code></pre><p>The benefit of using this over <code>VjsEvents.on(otherElement, 'eventName', myFunc)</code>\nand <code>otherComponent.on('eventName', myFunc)</code> is that this way the listeners\nwill be automatically cleaned up when either component is disposed.\nIt will also bind myComponent as the context of myFunc.\n<strong>NOTE</strong>: When using this on elements in the page other than window\nand document (both permanent), if you remove the element from the DOM\nyou need to call <code>myComponent.trigger(el, 'dispose')</code> on it to clean up\nreferences to it and allow the browser to garbage collect it.</p>",
@@ -956,7 +956,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 635,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Remove an event listener from this component's element</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.off('eventType', myFunc);</code></pre><p>If myFunc is excluded, ALL listeners for the event type will be removed.\nIf eventType is excluded, ALL listeners will be removed from the component.\nAlternatively you can use <code>off</code> to remove listeners that were added to other\nelements or components using <code>myComponent.on(otherComponent...</code>.\nIn this case both the event type and listener function are REQUIRED.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.off(otherElement, 'eventType', myFunc);\n    myComponent.off(otherComponent, 'eventType', myFunc);</code></pre>",
@@ -1015,7 +1015,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 683,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Add an event listener to be triggered only once and then removed</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.one('eventName', myFunc);</code></pre><p>Alternatively you can add a listener to another element or component\nthat will be triggered only once.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.one(otherElement, 'eventName', myFunc);\n    myComponent.one(otherComponent, 'eventName', myFunc);</code></pre>",
@@ -1074,7 +1074,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 723,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Trigger an event on an element</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.trigger('eventName');\n    myComponent.trigger({'type':'eventName'});\n    myComponent.trigger('eventName', {data: 'some data'});\n    myComponent.trigger({'type':'eventName'}, {data: 'some data'});</code></pre>",
@@ -1125,7 +1125,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 742,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Bind a listener to the component's ready state.\nDifferent from event listeners in that if the ready event has already happened\nit will trigger the function immediately.</p>",
@@ -1163,7 +1163,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 764,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Trigger the ready listeners</p>",
@@ -1190,7 +1190,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 791,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Check if a component's element has a CSS class name</p>",
@@ -1228,7 +1228,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 802,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Add a CSS class name to the component's element</p>",
@@ -1266,7 +1266,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 814,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Remove and return a CSS class name from the component's element</p>",
@@ -1304,7 +1304,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 826,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Show the component element if hidden</p>",
@@ -1331,7 +1331,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 837,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Hide the component element if currently showing</p>",
@@ -1358,7 +1358,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 848,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Lock an item in its visible state\nTo be used with fadeIn/fadeOut.</p>",
@@ -1386,7 +1386,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 861,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Unlock an item to be hidden\nTo be used with fadeIn/fadeOut.</p>",
@@ -1414,7 +1414,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 874,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Set or get the width of the component (CSS values)\nSetting the video tag dimension values only works with values in pixels.\nPercent values will not work.\nSome percents can be used, but width()/height() will return the number + %,\nnot the actual computed width/height.</p>",
@@ -1472,7 +1472,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 891,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get or set the height of the component (CSS values)\nSetting the video tag dimension values only works with values in pixels.\nPercent values will not work.\nSome percents can be used, but width()/height() will return the number + %,\nnot the actual computed width/height.</p>",
@@ -1531,7 +1531,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 908,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Set both width and height at the same time</p>",
@@ -1581,7 +1581,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 921,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get or set width or height\nThis is the shared code for the width() and height() methods.\nAll for an integer, integer + 'px' or integer + '%';\nKnown issue: Hidden elements officially have a width of 0. We're defaulting\nto the style.width value and falling back to computedStyle which has the\nhidden element issue. Info, but probably not an efficient fix:\nhttp://www.foliotek.com/devblog/getting-the-width-of-a-hidden-element-with-jquery-using-width/</p>",
@@ -1650,7 +1650,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 984,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Emit 'tap' events when touch events are supported\nThis is used to support toggling the controls through a tap on the video.\nWe're requiring them to be enabled because otherwise every component would\nhave this extra overhead unnecessarily, on mobile devices where extra\noverhead is especially bad.</p>",
@@ -1669,7 +1669,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 1067,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Report user touch activity when touch events occur\nUser activity is used to determine when controls should show/hide. It's\nrelatively simple when it comes to mouse events, because any mouse event\nshould show the controls. So we capture mouse events that bubble up to the\nplayer and report activity when that happens.\nWith touch events it isn't as easy. We can't rely on touch events at the\nplayer level, because a tap (touchstart + touchend) on the video itself on\nmobile devices is meant to turn controls off (and on). User activity is\nchecked asynchronously, so what could happen is a tap event on the video\nturns the controls off, then the touchend event bubbles up to the player,\nwhich if it reported user activity, would turn the controls right back on.\n(We also don't want to completely block touch events from bubbling up)\nAlso a touchmove, touch+hold, and anything other than a tap is not supposed\nto turn the controls back on on a mobile device.\nHere we're setting the default component behavior to report user activity\nwhenever touch events happen, and this can be turned off by components that\nwant touch events to act differently.</p>",
@@ -1687,7 +1687,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 1120,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Creates timeout and sets up disposal automatically.</p>",
@@ -1735,7 +1735,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 1145,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Clears a timeout and removes the associated dispose listener</p>",
@@ -1774,7 +1774,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 1164,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Creates an interval and sets up disposal automatically.</p>",
@@ -1822,7 +1822,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 1188,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Clears an interval and removes the associated dispose listener</p>",
@@ -1861,7 +1861,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 1207,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Registers a component</p>",
@@ -1899,7 +1899,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 1224,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Gets a component by name</p>",
@@ -1937,7 +1937,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 1243,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Sets up the constructor using the supplied init method\nor uses the init of the parent object</p>",
@@ -1966,7 +1966,7 @@ var docData =
             ],
             "filename": "control-bar.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "name": "control-bar/control-bar.js",
@@ -1985,7 +1985,7 @@ var docData =
             ],
             "filename": "control-bar.js",
             "lineno": 24,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Container of main controls</p>",
@@ -2006,7 +2006,7 @@ var docData =
             ],
             "filename": "control-bar.js",
             "lineno": 32,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -2033,7 +2033,7 @@ var docData =
             ],
             "filename": "fullscreen-toggle.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "name": "control-bar/fullscreen-toggle.js",
@@ -2052,7 +2052,7 @@ var docData =
             ],
             "filename": "fullscreen-toggle.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Toggle fullscreen video</p>",
@@ -2073,7 +2073,7 @@ var docData =
             ],
             "filename": "fullscreen-toggle.js",
             "lineno": 15,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -2101,7 +2101,7 @@ var docData =
             ],
             "filename": "fullscreen-toggle.js",
             "lineno": 25,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Handles click for full screen</p>",
@@ -2119,7 +2119,7 @@ var docData =
             ],
             "filename": "live-display.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "name": "control-bar/live-display.js",
@@ -2138,7 +2138,7 @@ var docData =
             ],
             "filename": "live-display.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Displays the live indicator\nTODO - Future make it click to snap to live</p>",
@@ -2159,7 +2159,7 @@ var docData =
             ],
             "filename": "live-display.js",
             "lineno": 16,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -2186,7 +2186,7 @@ var docData =
             ],
             "filename": "mute-toggle.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "name": "control-bar/mute-toggle.js",
@@ -2205,7 +2205,7 @@ var docData =
             ],
             "filename": "mute-toggle.js",
             "lineno": 8,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>A button component for muting the audio</p>",
@@ -2246,7 +2246,7 @@ var docData =
             ],
             "filename": "mute-toggle.js",
             "lineno": 37,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -2274,7 +2274,7 @@ var docData =
             ],
             "filename": "mute-toggle.js",
             "lineno": 47,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Handle click on mute</p>",
@@ -2292,7 +2292,7 @@ var docData =
             ],
             "filename": "mute-toggle.js",
             "lineno": 56,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Update volume</p>",
@@ -2310,7 +2310,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "name": "control-bar/play-toggle.js",
@@ -2329,7 +2329,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Button to toggle between play and pause</p>",
@@ -2370,7 +2370,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 24,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -2398,7 +2398,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 34,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Handle click to toggle between play and pause</p>",
@@ -2416,7 +2416,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 47,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Add the vjs-playing class to the element so it can change appearance</p>",
@@ -2434,7 +2434,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 58,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Add the vjs-paused class to the element so it can change appearance</p>",
@@ -2452,7 +2452,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "name": "control-bar/playback-rate-menu/playback-rate-menu-button.js",
@@ -2471,7 +2471,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 10,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>The component for controlling the playback rate</p>",
@@ -2512,7 +2512,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 30,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -2539,7 +2539,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 49,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -2567,7 +2567,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 59,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Create the playback rate menu</p>",
@@ -2595,7 +2595,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 80,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Updates ARIA accessibility attributes</p>",
@@ -2613,7 +2613,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 90,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Handle menu item click</p>",
@@ -2631,7 +2631,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 111,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Get possible playback rates</p>",
@@ -2659,7 +2659,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 121,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Get supported playback rates</p>",
@@ -2687,7 +2687,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 135,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Hide playback rate controls when they're no playback rate options to select</p>",
@@ -2705,7 +2705,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 148,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Update button label when rate changed</p>",
@@ -2723,7 +2723,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-item.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "name": "control-bar/playback-rate-menu/playback-rate-menu-item.js",
@@ -2742,7 +2742,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-item.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>The specific menu item type for selecting a playback rate</p>",
@@ -2783,7 +2783,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-item.js",
             "lineno": 32,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Handle click on menu item</p>",
@@ -2801,7 +2801,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-item.js",
             "lineno": 42,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Update playback rate with selected rate</p>",
@@ -2819,7 +2819,7 @@ var docData =
             ],
             "filename": "load-progress-bar.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "name": "control-bar/progress-control/load-progress-bar.js",
@@ -2838,7 +2838,7 @@ var docData =
             ],
             "filename": "load-progress-bar.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Shows load progress</p>",
@@ -2879,7 +2879,7 @@ var docData =
             ],
             "filename": "load-progress-bar.js",
             "lineno": 22,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -2906,7 +2906,7 @@ var docData =
             ],
             "filename": "load-progress-bar.js",
             "lineno": 35,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Update progress bar</p>",
@@ -2924,7 +2924,7 @@ var docData =
             ],
             "filename": "play-progress-bar.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "name": "control-bar/progress-control/play-progress-bar.js",
@@ -2943,7 +2943,7 @@ var docData =
             ],
             "filename": "play-progress-bar.js",
             "lineno": 6,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Shows play progress</p>",
@@ -2984,7 +2984,7 @@ var docData =
             ],
             "filename": "play-progress-bar.js",
             "lineno": 16,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -3011,7 +3011,7 @@ var docData =
             ],
             "filename": "progress-control.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "name": "control-bar/progress-control/progress-control.js",
@@ -3030,7 +3030,7 @@ var docData =
             ],
             "filename": "progress-control.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>The Progress Control component contains the seek bar, load progress,\nand play progress</p>",
@@ -3071,7 +3071,7 @@ var docData =
             ],
             "filename": "progress-control.js",
             "lineno": 18,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -3098,7 +3098,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "name": "control-bar/progress-control/seek-bar.js",
@@ -3117,7 +3117,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 12,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Seek Bar and holder for the progress bars</p>",
@@ -3158,7 +3158,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 28,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -3185,7 +3185,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 41,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Update ARIA accessibility attributes</p>",
@@ -3203,7 +3203,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 53,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Get percentage of video played</p>",
@@ -3231,7 +3231,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 64,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Handle mouse down on seek bar</p>",
@@ -3249,7 +3249,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 78,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Handle mouse move on seek bar</p>",
@@ -3267,7 +3267,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 93,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Handle mouse up on seek bar</p>",
@@ -3285,7 +3285,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 107,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Move more quickly fast forward for keyboard-only users</p>",
@@ -3303,7 +3303,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 116,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Move more quickly rewind for keyboard-only users</p>",
@@ -3321,7 +3321,7 @@ var docData =
             ],
             "filename": "custom-control-spacer.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
             "code": {}
         },
         "name": "control-bar/spacer-controls/custom-control-spacer.js",
@@ -3340,7 +3340,7 @@ var docData =
             ],
             "filename": "custom-control-spacer.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Spacer specifically meant to be used as an insertion point for new plugins, etc.</p>",
@@ -3361,7 +3361,7 @@ var docData =
             ],
             "filename": "custom-control-spacer.js",
             "lineno": 15,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -3389,7 +3389,7 @@ var docData =
             ],
             "filename": "custom-control-spacer.js",
             "lineno": 25,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -3416,7 +3416,7 @@ var docData =
             ],
             "filename": "spacer.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
             "code": {}
         },
         "name": "control-bar/spacer-controls/spacer.js",
@@ -3435,7 +3435,7 @@ var docData =
             ],
             "filename": "spacer.js",
             "lineno": 6,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Just an empty spacer element that can be used as an append point for plugins, etc.\nAlso can be used to create space between elements when necessary.</p>",
@@ -3456,7 +3456,7 @@ var docData =
             ],
             "filename": "spacer.js",
             "lineno": 15,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -3484,7 +3484,7 @@ var docData =
             ],
             "filename": "spacer.js",
             "lineno": 25,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -3522,7 +3522,7 @@ var docData =
             ],
             "filename": "caption-settings-menu-item.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/caption-settings-menu-item.js",
@@ -3541,7 +3541,7 @@ var docData =
             ],
             "filename": "caption-settings-menu-item.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The menu item for caption track settings menu</p>",
@@ -3582,7 +3582,7 @@ var docData =
             ],
             "filename": "caption-settings-menu-item.js",
             "lineno": 30,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Handle click on menu item</p>",
@@ -3600,7 +3600,7 @@ var docData =
             ],
             "filename": "captions-button.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/captions-button.js",
@@ -3619,7 +3619,7 @@ var docData =
             ],
             "filename": "captions-button.js",
             "lineno": 8,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The button component for toggling and selecting captions</p>",
@@ -3671,7 +3671,7 @@ var docData =
             ],
             "filename": "captions-button.js",
             "lineno": 24,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -3699,7 +3699,7 @@ var docData =
             ],
             "filename": "captions-button.js",
             "lineno": 34,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Update caption menu items</p>",
@@ -3717,7 +3717,7 @@ var docData =
             ],
             "filename": "captions-button.js",
             "lineno": 55,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Create caption menu items</p>",
@@ -3745,7 +3745,7 @@ var docData =
             ],
             "filename": "chapters-button.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/chapters-button.js",
@@ -3764,7 +3764,7 @@ var docData =
             ],
             "filename": "chapters-button.js",
             "lineno": 14,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The button component for toggling and selecting chapters\nChapters act much differently than other text tracks\nCues are navigation vs. other tracks of alternative languages</p>",
@@ -3816,7 +3816,7 @@ var docData =
             ],
             "filename": "chapters-button.js",
             "lineno": 32,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -3844,7 +3844,7 @@ var docData =
             ],
             "filename": "chapters-button.js",
             "lineno": 42,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Create a menu item for each text track</p>",
@@ -3872,7 +3872,7 @@ var docData =
             ],
             "filename": "chapters-button.js",
             "lineno": 69,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Create menu from chapter buttons</p>",
@@ -3900,7 +3900,7 @@ var docData =
             ],
             "filename": "chapters-track-menu-item.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/chapters-track-menu-item.js",
@@ -3919,7 +3919,7 @@ var docData =
             ],
             "filename": "chapters-track-menu-item.js",
             "lineno": 8,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The chapter track menu item</p>",
@@ -3960,7 +3960,7 @@ var docData =
             ],
             "filename": "chapters-track-menu-item.js",
             "lineno": 33,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Handle click on menu item</p>",
@@ -3978,7 +3978,7 @@ var docData =
             ],
             "filename": "chapters-track-menu-item.js",
             "lineno": 44,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Update chapter menu item</p>",
@@ -3996,7 +3996,7 @@ var docData =
             ],
             "filename": "off-text-track-menu-item.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/off-text-track-menu-item.js",
@@ -4015,7 +4015,7 @@ var docData =
             ],
             "filename": "off-text-track-menu-item.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>A special menu item for turning of a specific type of text track</p>",
@@ -4056,7 +4056,7 @@ var docData =
             ],
             "filename": "off-text-track-menu-item.js",
             "lineno": 32,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Handle text track change</p>",
@@ -4085,7 +4085,7 @@ var docData =
             ],
             "filename": "subtitles-button.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/subtitles-button.js",
@@ -4104,7 +4104,7 @@ var docData =
             ],
             "filename": "subtitles-button.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The button component for toggling and selecting subtitles</p>",
@@ -4156,7 +4156,7 @@ var docData =
             ],
             "filename": "subtitles-button.js",
             "lineno": 23,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -4184,7 +4184,7 @@ var docData =
             ],
             "filename": "text-track-button.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/text-track-button.js",
@@ -4203,7 +4203,7 @@ var docData =
             ],
             "filename": "text-track-button.js",
             "lineno": 10,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The base class for buttons that toggle specific text track types (e.g. subtitles)</p>",
@@ -4244,7 +4244,7 @@ var docData =
             ],
             "filename": "text-track-menu-item.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/text-track-menu-item.js",
@@ -4263,7 +4263,7 @@ var docData =
             ],
             "filename": "text-track-menu-item.js",
             "lineno": 10,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The specific menu item type for selecting a language within a text track kind</p>",
@@ -4304,7 +4304,7 @@ var docData =
             ],
             "filename": "text-track-menu-item.js",
             "lineno": 67,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Handle click on text track</p>",
@@ -4322,7 +4322,7 @@ var docData =
             ],
             "filename": "text-track-menu-item.js",
             "lineno": 95,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Handle text track change</p>",
@@ -4340,7 +4340,7 @@ var docData =
             ],
             "filename": "current-time-display.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "name": "control-bar/time-controls/current-time-display.js",
@@ -4359,7 +4359,7 @@ var docData =
             ],
             "filename": "current-time-display.js",
             "lineno": 8,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Displays the current time</p>",
@@ -4400,7 +4400,7 @@ var docData =
             ],
             "filename": "current-time-display.js",
             "lineno": 24,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4427,7 +4427,7 @@ var docData =
             ],
             "filename": "current-time-display.js",
             "lineno": 45,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Update current time display</p>",
@@ -4445,7 +4445,7 @@ var docData =
             ],
             "filename": "duration-display.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "name": "control-bar/time-controls/duration-display.js",
@@ -4464,7 +4464,7 @@ var docData =
             ],
             "filename": "duration-display.js",
             "lineno": 8,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Displays the duration</p>",
@@ -4505,7 +4505,7 @@ var docData =
             ],
             "filename": "duration-display.js",
             "lineno": 30,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4532,7 +4532,7 @@ var docData =
             ],
             "filename": "duration-display.js",
             "lineno": 51,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Update duration time display</p>",
@@ -4550,7 +4550,7 @@ var docData =
             ],
             "filename": "remaining-time-display.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "name": "control-bar/time-controls/remaining-time-display.js",
@@ -4569,7 +4569,7 @@ var docData =
             ],
             "filename": "remaining-time-display.js",
             "lineno": 8,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Displays the time left in the video</p>",
@@ -4610,7 +4610,7 @@ var docData =
             ],
             "filename": "remaining-time-display.js",
             "lineno": 24,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4637,7 +4637,7 @@ var docData =
             ],
             "filename": "remaining-time-display.js",
             "lineno": 45,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Update remaining time display</p>",
@@ -4655,7 +4655,7 @@ var docData =
             ],
             "filename": "time-divider.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "name": "control-bar/time-controls/time-divider.js",
@@ -4674,7 +4674,7 @@ var docData =
             ],
             "filename": "time-divider.js",
             "lineno": 6,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>The separator between the current time and duration.\nCan be hidden if it's not needed in the design.</p>",
@@ -4715,7 +4715,7 @@ var docData =
             ],
             "filename": "time-divider.js",
             "lineno": 17,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4742,7 +4742,7 @@ var docData =
             ],
             "filename": "volume-bar.js",
             "lineno": 9,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>The bar that contains the volume level and can be clicked on to adjust the level</p>",
@@ -4783,7 +4783,7 @@ var docData =
             ],
             "filename": "volume-bar.js",
             "lineno": 25,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4810,7 +4810,7 @@ var docData =
             ],
             "filename": "volume-bar.js",
             "lineno": 38,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Handle mouse move on volume bar</p>",
@@ -4828,7 +4828,7 @@ var docData =
             ],
             "filename": "volume-bar.js",
             "lineno": 51,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Get percent of volume level</p>",
@@ -4854,7 +4854,7 @@ var docData =
             ],
             "filename": "volume-bar.js",
             "lineno": 65,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Increase volume level for keyboard users</p>",
@@ -4872,7 +4872,7 @@ var docData =
             ],
             "filename": "volume-bar.js",
             "lineno": 74,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Decrease volume level for keyboard users</p>",
@@ -4890,7 +4890,7 @@ var docData =
             ],
             "filename": "volume-bar.js",
             "lineno": 83,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Update ARIA accessibility attributes</p>",
@@ -4908,7 +4908,7 @@ var docData =
             ],
             "filename": "volume-control.js",
             "lineno": 6,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>The component for controlling the volume level</p>",
@@ -4949,7 +4949,7 @@ var docData =
             ],
             "filename": "volume-control.js",
             "lineno": 32,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4976,7 +4976,7 @@ var docData =
             ],
             "filename": "volume-level.js",
             "lineno": 3,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Shows volume level</p>",
@@ -5017,7 +5017,7 @@ var docData =
             ],
             "filename": "volume-level.js",
             "lineno": 13,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5044,7 +5044,7 @@ var docData =
             ],
             "filename": "volume-menu-button.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "name": "control-bar/volume-menu-button.js",
@@ -5063,7 +5063,7 @@ var docData =
             ],
             "filename": "volume-menu-button.js",
             "lineno": 11,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Button for volume menu</p>",
@@ -5104,7 +5104,7 @@ var docData =
             ],
             "filename": "volume-menu-button.js",
             "lineno": 41,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -5132,7 +5132,7 @@ var docData =
             ],
             "filename": "volume-menu-button.js",
             "lineno": 51,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -5160,7 +5160,7 @@ var docData =
             ],
             "filename": "volume-menu-button.js",
             "lineno": 78,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
             "code": {}
         },
         "description": "<p>Handle click on volume menu and calls super</p>",
@@ -5178,7 +5178,7 @@ var docData =
             ],
             "filename": "error-display.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "error-display.js",
@@ -5197,7 +5197,7 @@ var docData =
             ],
             "filename": "error-display.js",
             "lineno": 7,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Display that an error has occurred making the video unplayable</p>",
@@ -5239,7 +5239,7 @@ var docData =
             ],
             "filename": "error-display.js",
             "lineno": 24,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5266,7 +5266,7 @@ var docData =
             ],
             "filename": "error-display.js",
             "lineno": 41,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Update the error message in localized language</p>",
@@ -5284,7 +5284,7 @@ var docData =
             ],
             "filename": "event-emitter.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "event-emitter.js",
@@ -5303,7 +5303,7 @@ var docData =
             ],
             "filename": "fullscreen-api.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "fullscreen-api.js",
@@ -5322,7 +5322,7 @@ var docData =
             ],
             "filename": "global-options.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "global-options.js",
@@ -5341,7 +5341,7 @@ var docData =
             ],
             "filename": "loading-spinner.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "loading-spinner.js",
@@ -5360,7 +5360,7 @@ var docData =
             ],
             "filename": "loading-spinner.js",
             "lineno": 8,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Loading spinner for waiting events</p>",
@@ -5381,7 +5381,7 @@ var docData =
             ],
             "filename": "loading-spinner.js",
             "lineno": 16,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5399,7 +5399,7 @@ var docData =
             ],
             "filename": "media-error.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "media-error.js",
@@ -5418,7 +5418,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "name": "menu/menu-button.js",
@@ -5437,7 +5437,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 11,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>A button class with a popup menu</p>",
@@ -5478,7 +5478,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 31,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Update menu</p>",
@@ -5496,7 +5496,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 61,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Create menu</p>",
@@ -5524,7 +5524,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 91,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Create the list of menu items. Specific to each subclass.</p>",
@@ -5542,7 +5542,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 98,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5569,7 +5569,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 110,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -5597,7 +5597,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 120,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Focus - Add keyboard functionality to element\nThis function is not needed anymore. Instead, the \nkeyboard functionality is handled by\ntreating the button as triggering a submenu. \nWhen the button is pressed, the submenu\nappears. Pressing the button again makes \nthe submenu disappear.</p>",
@@ -5615,7 +5615,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 133,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Can't turn off list display that we turned\non with focus, because list would go away.</p>",
@@ -5633,7 +5633,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 141,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>When you click the button it adds focus, which \nwill show the menu indefinitely.\nSo we'll remove focus when the mouse leaves the button.\nFocus is needed for tab navigation.\nAllow sub components to stack CSS class names</p>",
@@ -5651,7 +5651,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 162,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Handle key press on menu</p>",
@@ -5680,7 +5680,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 187,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Makes changes based on button pressed</p>",
@@ -5698,7 +5698,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 201,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Makes changes based on button unpressed</p>",
@@ -5716,7 +5716,7 @@ var docData =
             ],
             "filename": "menu-item.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "name": "menu/menu-item.js",
@@ -5735,7 +5735,7 @@ var docData =
             ],
             "filename": "menu-item.js",
             "lineno": 8,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>The component for a menu item. <code>&lt;li&gt;</code></p>",
@@ -5776,7 +5776,7 @@ var docData =
             ],
             "filename": "menu-item.js",
             "lineno": 23,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5825,7 +5825,7 @@ var docData =
             ],
             "filename": "menu-item.js",
             "lineno": 38,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Handle a click on the menu item, and set it to selected</p>",
@@ -5843,7 +5843,7 @@ var docData =
             ],
             "filename": "menu-item.js",
             "lineno": 47,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Set this menu item as selected or not</p>",
@@ -5871,7 +5871,7 @@ var docData =
             ],
             "filename": "menu.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "name": "menu/menu.js",
@@ -5890,7 +5890,7 @@ var docData =
             ],
             "filename": "menu.js",
             "lineno": 9,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>The Menu component is used to build pop up menus, including subtitle and\ncaptions selection menus.</p>",
@@ -5911,7 +5911,7 @@ var docData =
             ],
             "filename": "menu.js",
             "lineno": 18,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Add a menu item to the menu</p>",
@@ -5941,7 +5941,7 @@ var docData =
             ],
             "filename": "menu.js",
             "lineno": 31,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5968,7 +5968,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "player.js",
@@ -5987,7 +5987,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 38,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>An instance of the <code>Player</code> class is created when any of the Video.js setup methods are used to initialize a video.</p>\n<pre class=\"prettyprint source lang-js\"><code>var myPlayer = videojs('example_video_1');</code></pre><p>In the following example, the <code>data-setup</code> attribute tells the Video.js library to create a player instance when the library is ready.</p>\n<pre class=\"prettyprint source lang-html\"><code>&lt;video id=&quot;example_video_1&quot; data-setup='{}' controls>\n  &lt;source src=&quot;my-source.mp4&quot; type=&quot;video/mp4&quot;>\n&lt;/video></code></pre><p>After an instance has been created it can be accessed globally using <code>Video('example_video_1')</code>.</p>",
@@ -6039,7 +6039,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 59,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>player's constructor function</p>",
@@ -6089,7 +6089,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 205,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Destroys the video player and does any necessary cleanup</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.dispose();</code></pre><p>This is especially helpful if you are dynamically adding and removing videos\nto/from the DOM.</p>",
@@ -6107,7 +6107,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 230,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -6134,7 +6134,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 296,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get/set player width</p>",
@@ -6174,7 +6174,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 307,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get/set player height</p>",
@@ -6214,7 +6214,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 318,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get/set dimension for player</p>",
@@ -6262,7 +6262,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 351,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Add/remove the vjs-fluid class</p>",
@@ -6291,7 +6291,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 371,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get/Set the aspect ratio</p>",
@@ -6326,7 +6326,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 396,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Update styles of the player element (height, width and aspect ratio)</p>",
@@ -6344,7 +6344,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 459,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Load the Media Playback Technology (tech)\nLoad/Create an instance of playback technology including element and API methods\nAnd append playback element in player div.</p>",
@@ -6382,7 +6382,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 570,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Unload playback technology</p>",
@@ -6400,7 +6400,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 586,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Add playback technology listeners</p>",
@@ -6418,7 +6418,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 610,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Remove the listeners used for click and tap controls. This is needed for\ntoggling to controls disabled, where a tap/touch should do nothing.</p>",
@@ -6436,7 +6436,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 626,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Player waits for the tech to be ready</p>",
@@ -6455,7 +6455,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 645,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the native controls are used</p>",
@@ -6474,7 +6474,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 655,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the user agent begins looking for media data</p>",
@@ -6492,7 +6492,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 681,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Add/remove the vjs-has-started class</p>",
@@ -6531,7 +6531,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 706,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired whenever the media begins or resumes playback</p>",
@@ -6549,7 +6549,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 723,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired whenever the media begins waiting</p>",
@@ -6567,7 +6567,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 733,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>A handler for events that signal that waiting has ended\nwhich is not consistent between browsers. See #1351</p>",
@@ -6585,7 +6585,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 744,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>A handler for events that signal that waiting has ended\nwhich is not consistent between browsers. See #1351</p>",
@@ -6603,7 +6603,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 755,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>A handler for events that signal that waiting has ended\nwhich is not consistent between browsers. See #1351</p>",
@@ -6621,7 +6621,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 766,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired whenever the player is jumping to a new time</p>",
@@ -6639,7 +6639,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 776,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the player has finished jumping to a new time</p>",
@@ -6657,7 +6657,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 786,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired the first time a video is played\nNot part of the HLS spec, and we're not sure if this is the best\nimplementation yet, so use sparingly. If you don't have a reason to\nprevent playback, use <code>myPlayer.one('play');</code> instead.</p>",
@@ -6675,7 +6675,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 805,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired whenever the media has been paused</p>",
@@ -6693,7 +6693,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 816,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired while the user agent is downloading media data</p>",
@@ -6711,7 +6711,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 830,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the end of the media resource is reached (currentTime == duration)</p>",
@@ -6729,7 +6729,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 847,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the duration of the media resource is first known or changed</p>",
@@ -6747,7 +6747,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 857,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle a click on the media element to play/pause</p>",
@@ -6777,7 +6777,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 879,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle a tap on the media element. It will toggle the user\nactivity state, which hides and shows the controls.</p>",
@@ -6795,7 +6795,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 889,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle touch to start</p>",
@@ -6813,7 +6813,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 898,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle touch to move</p>",
@@ -6831,7 +6831,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 909,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle touch to end</p>",
@@ -6849,7 +6849,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 919,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Update the duration of the player using the tech</p>",
@@ -6868,7 +6868,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 944,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the player switches in or out of fullscreen mode</p>",
@@ -6886,7 +6886,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 957,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>native click events on the SWF aren't triggered on IE11, Win8.1RT\nuse stageclick events triggered from inside the SWF instead</p>",
@@ -6905,7 +6905,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 968,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle Tech Fullscreen Change</p>",
@@ -6923,7 +6923,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 977,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when an error occurred during the loading of an audio/video</p>",
@@ -6941,7 +6941,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 986,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when the browser is intentionally not getting media data</p>",
@@ -6959,7 +6959,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 995,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when the loading of an audio/video is aborted</p>",
@@ -6977,7 +6977,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1004,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when the current playlist is empty</p>",
@@ -6995,7 +6995,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1013,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when the browser is trying to get media data, but data is not available</p>",
@@ -7013,7 +7013,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1022,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when the browser has loaded meta data for the audio/video</p>",
@@ -7031,7 +7031,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1031,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when the browser has loaded the current frame of the audio/video</p>",
@@ -7049,7 +7049,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1040,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when the current playback position has changed</p>",
@@ -7067,7 +7067,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1049,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when the playing speed of the audio/video is changed</p>",
@@ -7085,7 +7085,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1058,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when the volume has been changed</p>",
@@ -7103,7 +7103,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1067,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fires when the text track has been changed</p>",
@@ -7121,7 +7121,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1076,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get object for cached values.</p>",
@@ -7148,7 +7148,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1086,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Pass values to the playback tech</p>",
@@ -7188,7 +7188,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1111,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get calls can't wait for the tech, and sometimes don't need to.</p>",
@@ -7226,7 +7226,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1146,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>start media playback</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.play();</code></pre>",
@@ -7254,7 +7254,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1160,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Pause the video playback</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.pause();</code></pre>",
@@ -7282,7 +7282,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1174,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Check if the player is paused</p>\n<pre class=\"prettyprint source lang-js\"><code>    var isPaused = myPlayer.paused();\n    var isPlaying = !myPlayer.paused();</code></pre>",
@@ -7310,7 +7310,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1189,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Returns whether or not the user is &quot;scrubbing&quot;. Scrubbing is when the user\nhas clicked the progress bar handle and is dragging it along the progress bar.</p>",
@@ -7357,7 +7357,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1214,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get or set the current time (in seconds)</p>\n<pre class=\"prettyprint source lang-js\"><code>    // get\n    var whereYouAt = myPlayer.currentTime();\n    // set\n    myPlayer.currentTime(120); // 2 minutes into the video</code></pre>",
@@ -7405,7 +7405,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1245,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get the length in time of the video in seconds</p>\n<pre class=\"prettyprint source lang-js\"><code>    var lengthOfVideo = myPlayer.duration();</code></pre><p><strong>NOTE</strong>: The video must have started loading before the duration can be\nknown, and in the case of Flash, may not be known until the video starts\nplaying.</p>",
@@ -7444,7 +7444,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1274,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Calculates how much time is left.</p>\n<pre class=\"prettyprint source lang-js\"><code>    var timeLeft = myPlayer.remainingTime();</code></pre><p>Not a native video element function, but useful</p>",
@@ -7472,7 +7472,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1292,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get a TimeRange object with the times of the video that have been downloaded</p>\n<p>If you just want the percent of the video that's been downloaded,\nuse bufferedPercent.</p>\n<pre class=\"prettyprint source lang-js\"><code>    // Number of different ranges of time have been buffered. Usually 1.\n    numberOfRanges = bufferedTimeRange.length,\n    // Time in seconds when the first range starts. Usually 0.\n    firstRangeStart = bufferedTimeRange.start(0),\n    // Time in seconds when the first range ends\n    firstRangeEnd = bufferedTimeRange.end(0),\n    // Length in seconds of the first time range\n    firstRangeLength = firstRangeEnd - firstRangeStart;</code></pre>",
@@ -7500,7 +7500,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1321,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get the percent (as a decimal) of the video that's been downloaded</p>\n<pre class=\"prettyprint source lang-js\"><code>    var howMuchIsDownloaded = myPlayer.bufferedPercent();</code></pre><p>0 means none, 1 means all.\n(This method isn't in the HTML5 spec, but it's very convenient)</p>",
@@ -7528,7 +7528,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1336,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get the ending time of the last buffered time range\nThis is used in the progress bar to encapsulate all time ranges.</p>",
@@ -7556,7 +7556,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1355,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get or set the current volume of the media</p>\n<pre class=\"prettyprint source lang-js\"><code>    // get\n    var howLoudIsIt = myPlayer.volume();\n    // set\n    myPlayer.volume(0.5); // Set volume to half</code></pre><p>0 is off (muted), 1.0 is all the way up, 0.5 is half way.</p>",
@@ -7603,7 +7603,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1387,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get the current muted state, or turn mute on or off</p>\n<pre class=\"prettyprint source lang-js\"><code>    // get\n    var isVolumeMuted = myPlayer.muted();\n    // set\n    myPlayer.muted(true); // mute the volume</code></pre>",
@@ -7651,7 +7651,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1411,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Check to see if fullscreen is supported</p>",
@@ -7678,7 +7678,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1421,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Check if the player is in fullscreen mode</p>\n<pre class=\"prettyprint source lang-js\"><code>    // get\n    var fullscreenOrNot = myPlayer.isFullscreen();\n    // set\n    myPlayer.isFullscreen(true); // tell the player it's in fullscreen</code></pre><p>NOTE: As of the latest HTML5 spec, isFullscreen is no longer an official\nproperty and instead document.fullscreenElement is used. But isFullscreen is\nstill a valuable property for internal player workings.</p>",
@@ -7726,7 +7726,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1446,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Old naming for isFullscreen()</p>",
@@ -7775,7 +7775,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1460,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Increase the size of the video to full screen</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.requestFullscreen();</code></pre><p>In some browsers, full screen is not supported natively, so it enters\n&quot;full window mode&quot;, where the video fills the browser window.\nIn browsers and devices that support native full screen, sometimes the\nbrowser's default controls will be shown, and not the Video.js custom skin.\nThis includes most mobile devices (iOS, Android) and older versions of\nSafari.</p>",
@@ -7803,7 +7803,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1516,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Old naming for requestFullscreen</p>",
@@ -7832,7 +7832,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1528,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Return the video to its normal size after having been in full screen mode</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.exitFullscreen();</code></pre>",
@@ -7860,7 +7860,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1554,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Old naming for exitFullscreen</p>",
@@ -7889,7 +7889,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1566,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>When fullscreen isn't supported we can stretch the video container to as wide as the browser will let us.</p>",
@@ -7907,7 +7907,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1589,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Check for call to either exit full window or full screen on ESC key</p>",
@@ -7936,7 +7936,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1605,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Exit full window</p>",
@@ -7954,7 +7954,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1625,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Select source based on tech order</p>",
@@ -7994,7 +7994,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1661,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>The source function updates the video source\nThere are three types of variables you can pass as the argument.\n<strong>URL String</strong>: A URL to the the video file. Use this method if you are sure\nthe current playback technology (HTML5/Flash) can support the source you\nprovide. Currently only MP4 files can be used in both HTML5 and Flash.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.src(&quot;http://www.example.com/path/to/video.mp4&quot;);</code></pre><p><strong>Source Object (or element):</strong> A javascript object containing information\nabout the source file. Use this method if you want the player to determine if\nit can support the file using the type information.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.src({ type: &quot;video/mp4&quot;, src: &quot;http://www.example.com/path/to/video.mp4&quot; });</code></pre><p><strong>Array of Source Objects:</strong> To provide multiple versions of the source so\nthat it can be played using HTML5 across browsers you can use an array of\nsource objects. Video.js will detect which version is supported and load that\nfile.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.src([\n      { type: &quot;video/mp4&quot;, src: &quot;http://www.example.com/path/to/video.mp4&quot; },\n      { type: &quot;video/webm&quot;, src: &quot;http://www.example.com/path/to/video.webm&quot; },\n      { type: &quot;video/ogg&quot;, src: &quot;http://www.example.com/path/to/video.ogv&quot; }\n    ]);</code></pre>",
@@ -8043,7 +8043,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1748,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Handle an array of source objects</p>",
@@ -8073,7 +8073,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1778,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Begin loading the src data.</p>",
@@ -8101,7 +8101,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1789,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Returns the fully qualified URL of the current source value e.g. http://mysite.com/video.mp4\nCan be used in conjuction with <code>currentType</code> to assist in rebuilding the current source object.</p>",
@@ -8129,7 +8129,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1800,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get the current source type e.g. video/mp4\nThis can allow you rebuild the current source object so that you could load the same\nsource and tech later</p>",
@@ -8157,7 +8157,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1812,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get or set the preload attribute</p>",
@@ -8204,7 +8204,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1829,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get or set the autoplay attribute.</p>",
@@ -8251,7 +8251,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1846,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get or set the loop attribute on the video element.</p>",
@@ -8298,7 +8298,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1863,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>get or set the poster image source url</p>\n<h5>EXAMPLE:</h5><pre class=\"prettyprint source lang-js\"><code>    // get\n    var currentPoster = myPlayer.poster();\n    // set\n    myPlayer.poster('http://example.com/myImage.jpg');</code></pre>",
@@ -8346,7 +8346,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1901,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get or set whether or not the controls are showing.</p>",
@@ -8385,7 +8385,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1942,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Toggle native controls on/off. Native controls are the controls built into\ndevices (e.g. default iPhone controls), Flash, or other techs\n(e.g. Vimeo Controls)\n<strong>This should only be set by the current tech, because only the tech knows\nif it can support native controls</strong></p>",
@@ -8425,7 +8425,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1963,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>player is using the native device controls</p>",
@@ -8445,7 +8445,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1975,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>player is using the custom HTML controls</p>",
@@ -8465,7 +8465,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1991,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Set or get the current MediaError</p>",
@@ -8513,7 +8513,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2031,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Returns whether or not the player is in the &quot;ended&quot; state.</p>",
@@ -8541,7 +8541,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2039,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Returns whether or not the player is in the &quot;seeking&quot; state.</p>",
@@ -8569,7 +8569,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2047,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Returns the TimeRanges of the media that are currently available\nfor seeking to.</p>",
@@ -8597,7 +8597,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2056,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Report user activity</p>",
@@ -8626,7 +8626,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2066,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get/set if user is active</p>",
@@ -8665,7 +8665,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2115,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Listen for user activity based on timeout value</p>",
@@ -8683,7 +8683,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2199,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Gets or sets the current playback rate.  A playback rate of\n1.0 represents normal speed and 0.5 would indicate half-speed\nplayback, for instance.</p>",
@@ -8733,7 +8733,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2223,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Gets or sets the audio flag</p>",
@@ -8781,7 +8781,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2241,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Returns the current state of network activity for the element, from\nthe codes in the list below.</p>\n<ul>\n<li>NETWORK_EMPTY (numeric value 0)\nThe element has not yet been initialised. All attributes are in\ntheir initial states.</li>\n<li>NETWORK_IDLE (numeric value 1)\nThe element's resource selection algorithm is active and has\nselected a resource, but it is not actually using the network at\nthis time.</li>\n<li>NETWORK_LOADING (numeric value 2)\nThe user agent is actively trying to download data.</li>\n<li>NETWORK_NO_SOURCE (numeric value 3)\nThe element's resource selection algorithm is active, but it has\nnot yet found a resource to use.</li>\n</ul>",
@@ -8812,7 +8812,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2265,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Returns a value that expresses the current state of the element\nwith respect to rendering the current playback position, from the\ncodes in the list below.</p>\n<ul>\n<li>HAVE_NOTHING (numeric value 0)\nNo information regarding the media resource is available.</li>\n<li>HAVE_METADATA (numeric value 1)\nEnough of the resource has been obtained that the duration of the\nresource is available.</li>\n<li>HAVE_CURRENT_DATA (numeric value 2)\nData for the immediate current playback position is available.</li>\n<li>HAVE_FUTURE_DATA (numeric value 3)\nData for the immediate current playback position is available, as\nwell as enough data for the user agent to advance the current\nplayback position in the direction of playback.</li>\n<li>HAVE_ENOUGH_DATA (numeric value 4)\nThe user agent estimates that enough data is available for\nplayback to proceed uninterrupted.</li>\n</ul>",
@@ -8843,7 +8843,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2300,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get an array of associated text tracks. captions, subtitles, chapters, descriptions\nhttp://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-texttracks</p>",
@@ -8871,7 +8871,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2313,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get an array of remote text tracks</p>",
@@ -8898,7 +8898,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2323,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Add a text track\nIn addition to the W3C settings we allow adding additional info through options.\nhttp://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-addtexttrack</p>",
@@ -8947,7 +8947,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2337,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Add a remote text track</p>",
@@ -8976,7 +8976,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2347,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Remove a remote text track</p>",
@@ -9005,7 +9005,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2357,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get video width</p>",
@@ -9033,7 +9033,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2367,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get video height</p>",
@@ -9061,7 +9061,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2393,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>The player's language code\nNOTE: The language should be set in the player options if you want the\nthe controls to be built with a specific language. Changing the lanugage\nlater will not update controls text.</p>",
@@ -9108,7 +9108,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2413,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get the player's language dictionary\nMerge every time, because a newly added plugin might call videojs.addLanguage() at any time\nLanguages specified directly in the player options have precedence</p>",
@@ -9136,7 +9136,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2425,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Converts track info to JSON</p>",
@@ -9164,7 +9164,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2449,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Gets tag settings</p>",
@@ -9203,7 +9203,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2519,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the player has initial duration and dimension information</p>",
@@ -9221,7 +9221,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2526,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the player has downloaded data at the current playback position</p>",
@@ -9239,7 +9239,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2533,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the player has finished downloading the source data</p>",
@@ -9257,7 +9257,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2540,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the user is active, e.g. moves the mouse over the player</p>",
@@ -9275,7 +9275,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2547,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the user is inactive, e.g. a short delay after the last mouse move or control interaction</p>",
@@ -9293,7 +9293,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2554,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the current playback position has changed *\nDuring playback this is fired every 15-250 milliseconds, depending on the\nplayback technology in use.</p>",
@@ -9311,7 +9311,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2563,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when the volume changes</p>",
@@ -9329,7 +9329,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 2570,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Fired when an error occurs</p>",
@@ -9347,7 +9347,7 @@ var docData =
             ],
             "filename": "plugins.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "plugins.js",
@@ -9366,7 +9366,7 @@ var docData =
             ],
             "filename": "plugins.js",
             "lineno": 6,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>The method for registering a video.js plugin</p>",
@@ -9404,7 +9404,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "poster-image.js",
@@ -9423,7 +9423,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 12,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>The component that handles showing the poster image.</p>",
@@ -9464,7 +9464,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 29,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Clean up the poster image</p>",
@@ -9482,7 +9482,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 39,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Create the poster's image element</p>",
@@ -9509,7 +9509,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 65,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Event handler for updates to the player's poster source</p>",
@@ -9527,7 +9527,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 84,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Set the poster source depending on the display method</p>",
@@ -9556,7 +9556,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 105,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Event handler for clicks on the poster image</p>",
@@ -9574,7 +9574,7 @@ var docData =
             ],
             "filename": "setup.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "setup.js",
@@ -9593,7 +9593,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "name": "slider/slider.js",
@@ -9612,7 +9612,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 10,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>The base functionality for sliders like the volume bar and seek bar</p>",
@@ -9653,7 +9653,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 40,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -9701,7 +9701,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 62,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>Handle mouse down on slider</p>",
@@ -9730,7 +9730,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 81,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>To be overridden by a subclass</p>",
@@ -9748,7 +9748,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 88,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>Handle mouse up on Slider</p>",
@@ -9766,7 +9766,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 105,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>Update slider</p>",
@@ -9784,7 +9784,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 143,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>Calculate distance for slider</p>",
@@ -9813,7 +9813,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 199,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>Handle on focus for slider</p>",
@@ -9831,7 +9831,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 208,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>Handle key press for slider</p>",
@@ -9860,7 +9860,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 224,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>Handle on blur for slider</p>",
@@ -9878,7 +9878,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 233,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>Listener for click events on slider, used to prevent clicks\n  from bubbling up to parent elements like button menus.</p>",
@@ -9907,7 +9907,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 245,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
             "code": {}
         },
         "description": "<p>Get/set if slider is horizontal for vertical</p>",
@@ -9946,7 +9946,7 @@ var docData =
             ],
             "filename": "flash-rtmp.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "name": "tech/flash-rtmp.js",
@@ -9965,7 +9965,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "name": "tech/flash.js",
@@ -9984,7 +9984,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 18,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Flash Media Controller - Wrapper for fallback SWF API</p>",
@@ -10027,7 +10027,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 59,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -10054,7 +10054,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 106,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Play for flash tech</p>",
@@ -10072,7 +10072,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 115,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Pause for flash tech</p>",
@@ -10090,7 +10090,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 124,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get/set video</p>",
@@ -10129,7 +10129,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 140,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set video</p>",
@@ -10160,7 +10160,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 160,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set current time</p>",
@@ -10189,7 +10189,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 172,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get current time</p>",
@@ -10229,7 +10229,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 188,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get current source</p>",
@@ -10247,7 +10247,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 201,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Load media into player</p>",
@@ -10265,7 +10265,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 210,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get poster</p>",
@@ -10283,7 +10283,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 219,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Poster images are not handled by the Flash tech so make this a no-op</p>",
@@ -10301,7 +10301,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 226,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Determine if can seek in media</p>",
@@ -10328,7 +10328,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 240,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get buffered time range</p>",
@@ -10355,7 +10355,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 250,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get fullscreen support - \nFlash does not allow fullscreen through javascript\nso always returns false</p>",
@@ -10383,7 +10383,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 262,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Request to enter fullscreen\nFlash does not allow fullscreen through javascript\nso always returns false</p>",
@@ -10411,7 +10411,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "name": "tech/html5.js",
@@ -10430,7 +10430,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 18,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>HTML5 Media Controller - Wrapper for HTML5 Media API</p>",
@@ -10473,7 +10473,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 83,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Dispose of html5 media element</p>",
@@ -10491,7 +10491,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 93,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -10518,7 +10518,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 162,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Hide captions from text track</p>",
@@ -10536,7 +10536,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 184,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Play for html5 tech</p>",
@@ -10554,7 +10554,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 191,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Pause for html5 tech</p>",
@@ -10572,7 +10572,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 198,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Paused for html5 tech</p>",
@@ -10599,7 +10599,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 206,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get current time</p>",
@@ -10626,7 +10626,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 214,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set current time</p>",
@@ -10655,7 +10655,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 229,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get duration</p>",
@@ -10682,7 +10682,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 237,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get a TimeRange object that represents the intersection\nof the time ranges for which the user agent has all\nrelevant media</p>",
@@ -10709,7 +10709,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 247,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get volume level</p>",
@@ -10736,7 +10736,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 255,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set volume level</p>",
@@ -10765,7 +10765,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 263,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get if muted</p>",
@@ -10792,7 +10792,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 271,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set muted</p>",
@@ -10821,7 +10821,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 279,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get player width</p>",
@@ -10848,7 +10848,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 287,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get player height</p>",
@@ -10875,7 +10875,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 295,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get if there is fullscreen support</p>",
@@ -10902,7 +10902,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 312,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Request to enter fullscreen</p>",
@@ -10920,7 +10920,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 346,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Request to exit fullscreen</p>",
@@ -10938,7 +10938,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 355,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get/set video</p>",
@@ -10977,7 +10977,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 371,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set video</p>",
@@ -11007,7 +11007,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 380,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Load media into player</p>",
@@ -11025,7 +11025,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 387,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get current source</p>",
@@ -11052,7 +11052,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 395,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get poster</p>",
@@ -11079,7 +11079,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 411,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get preload attribute</p>",
@@ -11106,7 +11106,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 419,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set preload attribute</p>",
@@ -11135,7 +11135,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 427,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get autoplay attribute</p>",
@@ -11162,7 +11162,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 435,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set autoplay attribute</p>",
@@ -11191,7 +11191,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 443,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get controls attribute</p>",
@@ -11218,7 +11218,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 451,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set controls attribute</p>",
@@ -11247,7 +11247,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 459,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get loop attribute</p>",
@@ -11274,7 +11274,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 467,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set loop attribute</p>",
@@ -11303,7 +11303,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 475,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get error value</p>",
@@ -11330,7 +11330,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 483,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get whether or not the player is in the &quot;seeking&quot; state</p>",
@@ -11357,7 +11357,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 491,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get a TimeRanges object that represents the \nranges of the media resource to which it is possible \nfor the user agent to seek.</p>",
@@ -11384,7 +11384,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 501,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get if video ended</p>",
@@ -11411,7 +11411,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 509,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get the value of the muted content attribute\nThis attribute has no dynamic effect, it only \ncontrols the default state of the element</p>",
@@ -11438,7 +11438,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 519,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get desired speed at which the media resource is to play</p>",
@@ -11465,7 +11465,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 527,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set desired speed at which the media resource is to play</p>",
@@ -11494,7 +11494,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 535,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get the current state of network activity for the element, from\nthe list below\nNETWORK_EMPTY (numeric value 0)\nNETWORK_IDLE (numeric value 1)\nNETWORK_LOADING (numeric value 2)\nNETWORK_NO_SOURCE (numeric value 3)</p>",
@@ -11521,7 +11521,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 548,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get a value that expresses the current state of the element \nwith respect to rendering the current playback position, from \nthe codes in the list below\nHAVE_NOTHING (numeric value 0)\nHAVE_METADATA (numeric value 1)\nHAVE_CURRENT_DATA (numeric value 2)\nHAVE_FUTURE_DATA (numeric value 3)\nHAVE_ENOUGH_DATA (numeric value 4)</p>",
@@ -11548,7 +11548,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 563,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get width of video</p>",
@@ -11575,7 +11575,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 571,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get height of video</p>",
@@ -11602,7 +11602,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 579,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get text tracks</p>",
@@ -11629,7 +11629,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 593,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Creates and returns a text track object</p>",
@@ -11687,7 +11687,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 611,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Creates and returns a remote text track object</p>",
@@ -11725,7 +11725,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 670,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Remove remote text track from TextTrackList object</p>",
@@ -11754,7 +11754,7 @@ var docData =
             ],
             "filename": "loader.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "name": "tech/loader.js",
@@ -11773,7 +11773,7 @@ var docData =
             ],
             "filename": "loader.js",
             "lineno": 8,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>The Media Loader is the component that decides which playback technology to load\nwhen the player is initialized.</p>",
@@ -11825,7 +11825,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "name": "tech/tech.js",
@@ -11844,7 +11844,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 17,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Base class for media (HTML5 Video, Flash) controllers</p>",
@@ -11887,7 +11887,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 61,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set up click and touch listeners for the playback element\nOn desktops, a click on the video itself will toggle playback,\non a mobile device a click on the video toggles controls.\n(toggling controls is done by toggling the user state between active and\ninactive)\nA tap can signal that a user has become active, or has become inactive\ne.g. a quick tap on an iPhone movie should reveal the controls. Another\nquick tap should hide them again (signaling the user is in an inactive\nviewing state)\nIn addition to this, we still want the user to be considered inactive after\na few seconds of inactivity.\nNote: the only part of iOS interaction we can't mimic with this setup\nis a touch and hold on the video element counting as activity in order to\nkeep the controls showing, but that shouldn't be an issue. A touch and hold on\nany controls will still keep the user active</p>",
@@ -11905,7 +11905,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 97,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Turn on progress events</p>",
@@ -11923,7 +11923,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 111,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Turn off progress events</p>",
@@ -11941,7 +11941,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 123,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Track progress</p>",
@@ -11959,7 +11959,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 146,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Update duration</p>",
@@ -11977,7 +11977,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 155,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Create and get TimeRange object for buffering</p>",
@@ -12004,7 +12004,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 165,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get buffered percent</p>",
@@ -12031,7 +12031,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 175,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Stops tracking progress by clearing progress interval</p>",
@@ -12049,7 +12049,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 185,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set event listeners for on play and pause and tracking current time</p>",
@@ -12067,7 +12067,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 197,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Remove event listeners for on play and pause and tracking current time</p>",
@@ -12085,7 +12085,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 209,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Tracks current time</p>",
@@ -12103,7 +12103,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 221,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Turn off play progress tracking (when paused or dragging)</p>",
@@ -12121,7 +12121,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 234,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Turn off any manual progress or timeupdate tracking</p>",
@@ -12139,7 +12139,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 248,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Set current time</p>",
@@ -12157,7 +12157,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 258,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Initialize texttrack listeners</p>",
@@ -12175,7 +12175,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 281,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Emulate texttracks</p>",
@@ -12193,7 +12193,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 328,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get texttracks</p>",
@@ -12220,7 +12220,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 339,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Get remote texttracks</p>",
@@ -12247,7 +12247,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 350,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Creates and returns a remote text track object</p>",
@@ -12305,7 +12305,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 368,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Creates and returns a remote text track object</p>",
@@ -12343,7 +12343,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 384,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Remove remote texttrack</p>",
@@ -12372,7 +12372,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 395,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
             "code": {}
         },
         "description": "<p>Provide a default setPoster method for techs\nPoster support for techs should be optional, so we don't want techs to\nbreak if they don't have a way to set a poster.</p>",
@@ -12390,7 +12390,7 @@ var docData =
             ],
             "filename": "text-track-cue-list.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "name": "tracks/text-track-cue-list.js",
@@ -12409,7 +12409,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "name": "tracks/text-track-display.js",
@@ -12428,7 +12428,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 27,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>The component for displaying text track cues</p>",
@@ -12480,7 +12480,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 64,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Toggle display texttracks</p>",
@@ -12498,7 +12498,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 77,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -12525,7 +12525,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 89,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Clear display texttracks</p>",
@@ -12543,7 +12543,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 100,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Update display texttracks</p>",
@@ -12561,7 +12561,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 122,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Add texttrack to texttrack list</p>",
@@ -12590,7 +12590,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 202,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Add cue HTML to display</p>",
@@ -12638,7 +12638,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 219,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Try to update style\nSome style changes will throw an error, particularly in IE8. Those should be noops.</p>",
@@ -12685,7 +12685,7 @@ var docData =
             ],
             "filename": "text-track-enums.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "name": "tracks/text-track-enums.js",
@@ -12704,7 +12704,7 @@ var docData =
             ],
             "filename": "text-track-list.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "name": "tracks/text-track-list.js",
@@ -12723,7 +12723,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "name": "tracks/text-track-settings.js",
@@ -12742,7 +12742,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 11,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Manipulate settings of texttracks</p>",
@@ -12784,7 +12784,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 63,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -12811,7 +12811,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 76,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Get texttrack settings \nSettings are\n.vjs-edge-style\n.vjs-font-family\n.vjs-fg-color\n.vjs-text-opacity\n.vjs-bg-color\n.vjs-bg-opacity\n.window-color\n.vjs-window-opacity</p>",
@@ -12838,7 +12838,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 123,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Set texttrack settings \nSettings are\n.vjs-edge-style\n.vjs-font-family\n.vjs-fg-color\n.vjs-text-opacity\n.vjs-bg-color\n.vjs-bg-opacity\n.window-color\n.vjs-window-opacity</p>",
@@ -12867,7 +12867,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 159,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Restore texttrack settings</p>",
@@ -12885,7 +12885,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 176,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Save texttrack settings to local storage</p>",
@@ -12903,7 +12903,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 196,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "description": "<p>Update display of texttrack settings</p>",
@@ -12921,7 +12921,7 @@ var docData =
             ],
             "filename": "text-track.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
             "code": {}
         },
         "name": "tracks/text-track.js",
@@ -12940,7 +12940,7 @@ var docData =
             ],
             "filename": "browser.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "utils/browser.js",
@@ -12959,7 +12959,7 @@ var docData =
             ],
             "filename": "buffer.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "utils/buffer.js",
@@ -12978,7 +12978,7 @@ var docData =
             ],
             "filename": "buffer.js",
             "lineno": 6,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Compute how much your video has been buffered</p>",
@@ -13027,7 +13027,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "utils/dom.js",
@@ -13046,7 +13046,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 9,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Shorthand for document.getElementById()\nAlso allows for CSS (jQuery) ID syntax. But nothing other than IDs.</p>",
@@ -13085,7 +13085,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 25,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Creates an element and applies properties.</p>",
@@ -13134,7 +13134,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 57,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Insert an element as the first child node of another</p>",
@@ -13173,7 +13173,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 92,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Returns the cache object where data for an element is stored</p>",
@@ -13211,7 +13211,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 113,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Returns whether or not an element has cached data</p>",
@@ -13250,7 +13250,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 131,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Delete data for the element from the cache and the guid attr from getElementById</p>",
@@ -13280,7 +13280,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 161,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Check if an element has a CSS class</p>",
@@ -13318,7 +13318,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 172,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Add a CSS class name to an element</p>",
@@ -13356,7 +13356,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 185,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Remove a CSS class name from an element</p>",
@@ -13394,7 +13394,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 207,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Apply attributes to an HTML element.</p>",
@@ -13434,7 +13434,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 227,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Get an element's attribute values, as defined on the HTML tag\nAttributes are not the same as properties. They're defined on the tag\nor with setAttribute (which shouldn't be used with HTML)\nThis will return true or false for boolean attributes.</p>",
@@ -13473,7 +13473,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 271,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Attempt to block the ability to select text while dragging controls</p>",
@@ -13500,7 +13500,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 284,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Turn off text selection blocking</p>",
@@ -13527,7 +13527,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 296,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Offset Left\ngetBoundingClientRect technique from \nJohn Resig http://ejohn.org/blog/getboundingclientrect-is-awesome/</p>",
@@ -13566,7 +13566,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "utils/events.js",
@@ -13585,7 +13585,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 15,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Add an event listener to element\nIt stores the handler function in a separate cache object\nand adds a generic handler to the element's event,\nalong with a unique id (guid) to the element.</p>",
@@ -13634,7 +13634,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 76,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Removes event listeners from an element</p>",
@@ -13683,7 +13683,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 132,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Trigger an event for an element</p>",
@@ -13745,7 +13745,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 188,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Trigger a listener only once for an event</p>",
@@ -13794,7 +13794,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 209,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Fix a native event to have standard property values</p>",
@@ -13833,7 +13833,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 319,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Clean up the listener cache and dispatchers</p>",
@@ -13873,7 +13873,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 357,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Loops through an array of event types and calls the requested method for each type.</p>",
@@ -13931,7 +13931,7 @@ var docData =
             ],
             "filename": "fn.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "utils/fn.js",
@@ -13950,7 +13950,7 @@ var docData =
             ],
             "filename": "fn.js",
             "lineno": 6,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Bind (a.k.a proxy or Context). A simple method for changing the context of a function\nIt also stores a unique id on the function so it can be easily removed from events</p>",
@@ -14008,7 +14008,7 @@ var docData =
             ],
             "filename": "format-time.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "formatTime",
@@ -14058,7 +14058,7 @@ var docData =
             ],
             "filename": "guid.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "utils/guid.js",
@@ -14083,7 +14083,7 @@ var docData =
             ],
             "filename": "guid.js",
             "lineno": 10,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Get the next unique ID</p>",
@@ -14110,7 +14110,7 @@ var docData =
             ],
             "filename": "log.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "utils/log.js",
@@ -14129,7 +14129,7 @@ var docData =
             ],
             "filename": "log.js",
             "lineno": 33,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Log messages to the console and history based on the type of message</p>",
@@ -14168,7 +14168,7 @@ var docData =
             ],
             "filename": "merge-options.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "utils/merge-options.js",
@@ -14187,7 +14187,7 @@ var docData =
             ],
             "filename": "merge-options.js",
             "lineno": 13,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Merge two options objects, recursively merging <strong>only</strong> plain object\nproperties.  Previously <code>deepMerge</code>.</p>",
@@ -14236,7 +14236,7 @@ var docData =
             ],
             "filename": "round-float.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "roundFloat",
@@ -14286,7 +14286,7 @@ var docData =
             ],
             "filename": "time-ranges.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "createTimeRange",
@@ -14336,7 +14336,7 @@ var docData =
             ],
             "filename": "to-title-case.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "toTitleCase",
@@ -14376,7 +14376,7 @@ var docData =
             ],
             "filename": "url.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "name": "utils/url.js",
@@ -14395,7 +14395,7 @@ var docData =
             ],
             "filename": "url.js",
             "lineno": 6,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Resolve and parse the elements of a URL</p>",
@@ -14434,7 +14434,7 @@ var docData =
             ],
             "filename": "url.js",
             "lineno": 58,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Get absolute version of relative URL. Used to tell flash correct URL.\nhttp://stackoverflow.com/questions/470832/getting-an-absolute-url-from-a-relative-one-ie6-issue</p>",
@@ -14474,7 +14474,7 @@ var docData =
             ],
             "filename": "url.js",
             "lineno": 79,
-            "path": "/Users/mboles/.Trash/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
             "code": {}
         },
         "description": "<p>Returns the extension of the passed file name. It will return an empty string if you pass an invalid path</p>",
@@ -14513,7 +14513,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "video.js",
@@ -14532,7 +14532,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 30,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Doubles as the main function for users to create a player instance and also\nthe main library object.\nThe <code>videojs</code> function can be used to initialize or retrieve a player.</p>\n<pre class=\"prettyprint source lang-js\"><code>    var myPlayer = videojs('my_video_id');</code></pre>",
@@ -14595,7 +14595,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 102,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get the global options object</p>",
@@ -14626,7 +14626,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 111,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Set options that will apply to every player</p>\n<pre class=\"prettyprint source lang-js\"><code>    videojs.setGlobalOptions({\n      autoplay: true\n    });\n    // -> all players will autoplay by default</code></pre><p>NOTE: This will do a deep merge with the new options,\nnot overwrite the entire global options object.</p>",
@@ -14657,7 +14657,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 130,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get an object with the currently created players, keyed by player ID</p>",
@@ -14688,7 +14688,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 141,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Get a component class object by name</p>\n<pre class=\"prettyprint source lang-js\"><code>    var VjsButton = videojs.getComponent('Button');\n    // Create a new instance of the component\n    var myButton = new VjsButton(myPlayer);</code></pre>",
@@ -14719,7 +14719,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 155,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Register a component so it can referred to by name\nUsed when adding to other\ncomponents, either through addChild\n<code>component.addChild('myComponent')</code>\nor through default children options\n<code>{ children: ['myComponent'] }</code>.</p>\n<pre class=\"prettyprint source lang-js\"><code>    // Get a component to subclass\n    var VjsButton = videojs.getComponent('Button');\n    // Subclass the component (see 'extends' doc for more info)\n    var MySpecialButton = videojs.extends(VjsButton, {});\n    // Register the new component\n    VjsButton.registerComponent('MySepcialButton', MySepcialButton);\n    // (optionally) add the new component as a default player child\n    myPlayer.addChild('MySepcialButton');</code></pre><p>NOTE: You could also just initialize the component before adding.\n<code>component.addChild(new MyComponent());</code></p>",
@@ -14770,7 +14770,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 190,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Subclass an existing class\nMimics ES6 subclassing with the <code>extends</code> keyword</p>\n<pre class=\"prettyprint source lang-js\"><code>    // Create a basic javascript 'class'\n    function MyClass(name){\n      // Set a property at initialization\n      this.myName = name;\n    }\n    // Create an instance method\n    MyClass.prototype.sayMyName = function(){\n      alert(this.myName);\n    };\n    // Subclass the exisitng class and change the name\n    // when initializing\n    var MySubClass = videojs.extends(MyClass, {\n      constructor: function(name) {\n        // Call the super class constructor for the subclass\n        MyClass.call(this, name)\n      }\n    });\n    // Create an instance of the new sub class\n    var myInstance = new MySubClass('John');\n    myInstance.sayMyName(); // -> should alert &quot;John&quot;</code></pre>",
@@ -14821,7 +14821,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 225,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Merge two options objects recursively\nPerforms a deep merge like lodash.merge but <strong>only merges plain objects</strong>\n(not arrays, elements, anything else)\nOther values will be copied directly from the second object.</p>\n<pre class=\"prettyprint source lang-js\"><code>    var defaultOptions = {\n      foo: true,\n      bar: {\n        a: true,\n        b: [1,2,3]\n      }\n    };\n    var newOptions = {\n      foo: false,\n      bar: {\n        b: [4,5,6]\n      }\n    };\n    var result = videojs.mergeOptions(defaultOptions, newOptions);\n    // result.foo = false;\n    // result.bar.a = true;\n    // result.bar.b = [4,5,6];</code></pre>",
@@ -14881,7 +14881,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 260,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Create a Video.js player plugin\nPlugins are only initialized when options for the plugin are included\nin the player options, or the plugin function on the player instance is\ncalled.\n<strong>See the plugin guide in the docs for a more detailed example</strong></p>\n<pre class=\"prettyprint source lang-js\"><code>    // Make a plugin that alerts when the player plays\n    videojs.plugin('myPlugin', function(myPluginOptions) {\n      myPluginOptions = myPluginOptions || {};\n\n      var player = this;\n      var alertText = myPluginOptions.text || 'Player is playing!'\n\n      player.on('play', function(){\n        alert(alertText);\n      });\n    });\n    // USAGE EXAMPLES\n    // EXAMPLE 1: New player with plugin options, call plugin immediately\n    var player1 = videojs('idOne', {\n      myPlugin: {\n        text: 'Custom text!'\n      }\n    });\n    // Click play\n    // --> Should alert 'Custom text!'\n    // EXAMPLE 3: New player, initialize plugin later\n    var player3 = videojs('idThree');\n    // Click play\n    // --> NO ALERT\n    // Click pause\n    // Initialize plugin using the plugin function on the player instance\n    player3.myPlugin({\n      text: 'Plugin added later!'\n    });\n    // Click play\n    // --> Should alert 'Plugin added later!'</code></pre>",
@@ -14922,7 +14922,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 307,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "description": "<p>Adding languages so that they're available to all players.</p>\n<pre class=\"prettyprint source lang-js\"><code>    videojs.addLanguage('es', { 'Hello': 'Hola' });</code></pre>",
@@ -14973,7 +14973,7 @@ var docData =
             ],
             "filename": "xhr.js",
             "lineno": 1,
-            "path": "/Users/mboles/.Trash/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/videojs-src",
             "code": {}
         },
         "name": "xhr.js",
@@ -14987,80 +14987,80 @@ var docData =
         "kind": "package",
         "longname": "package:undefined",
         "files": [
-            "/Users/mboles/.Trash/docs/videojs-src/base-styles.js",
-            "/Users/mboles/.Trash/docs/videojs-src/big-play-button.js",
-            "/Users/mboles/.Trash/docs/videojs-src/button.js",
-            "/Users/mboles/.Trash/docs/videojs-src/component.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/control-bar.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/fullscreen-toggle.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/live-display.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/mute-toggle.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/play-toggle.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu/playback-rate-menu-button.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/playback-rate-menu/playback-rate-menu-item.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control/load-progress-bar.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control/play-progress-bar.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control/progress-control.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/progress-control/seek-bar.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/spacer-controls/custom-control-spacer.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/spacer-controls/spacer.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls/caption-settings-menu-item.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls/captions-button.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls/chapters-button.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls/chapters-track-menu-item.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls/off-text-track-menu-item.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls/subtitles-button.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls/text-track-button.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/text-track-controls/text-track-menu-item.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls/current-time-display.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls/duration-display.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls/remaining-time-display.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/time-controls/time-divider.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control/volume-bar.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control/volume-control.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-control/volume-level.js",
-            "/Users/mboles/.Trash/docs/videojs-src/control-bar/volume-menu-button.js",
-            "/Users/mboles/.Trash/docs/videojs-src/error-display.js",
-            "/Users/mboles/.Trash/docs/videojs-src/event-emitter.js",
-            "/Users/mboles/.Trash/docs/videojs-src/extends.js",
-            "/Users/mboles/.Trash/docs/videojs-src/fullscreen-api.js",
-            "/Users/mboles/.Trash/docs/videojs-src/global-options.js",
-            "/Users/mboles/.Trash/docs/videojs-src/loading-spinner.js",
-            "/Users/mboles/.Trash/docs/videojs-src/media-error.js",
-            "/Users/mboles/.Trash/docs/videojs-src/menu/menu-button.js",
-            "/Users/mboles/.Trash/docs/videojs-src/menu/menu-item.js",
-            "/Users/mboles/.Trash/docs/videojs-src/menu/menu.js",
-            "/Users/mboles/.Trash/docs/videojs-src/player.js",
-            "/Users/mboles/.Trash/docs/videojs-src/plugins.js",
-            "/Users/mboles/.Trash/docs/videojs-src/poster-image.js",
-            "/Users/mboles/.Trash/docs/videojs-src/setup.js",
-            "/Users/mboles/.Trash/docs/videojs-src/slider/slider.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tech/flash-rtmp.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tech/flash.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tech/html5.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tech/loader.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tech/tech.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tracks/text-track-cue-list.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tracks/text-track-display.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tracks/text-track-enums.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tracks/text-track-list.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tracks/text-track-settings.js",
-            "/Users/mboles/.Trash/docs/videojs-src/tracks/text-track.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/browser.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/buffer.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/dom.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/events.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/fn.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/format-time.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/guid.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/log.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/merge-options.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/round-float.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/time-ranges.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/to-title-case.js",
-            "/Users/mboles/.Trash/docs/videojs-src/utils/url.js",
-            "/Users/mboles/.Trash/docs/videojs-src/video.js",
-            "/Users/mboles/.Trash/docs/videojs-src/xhr.js"
+            "/Users/rcrooks/git/docs/videojs-src/base-styles.js",
+            "/Users/rcrooks/git/docs/videojs-src/big-play-button.js",
+            "/Users/rcrooks/git/docs/videojs-src/button.js",
+            "/Users/rcrooks/git/docs/videojs-src/component.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/control-bar.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/fullscreen-toggle.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/live-display.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/mute-toggle.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/play-toggle.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu/playback-rate-menu-button.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu/playback-rate-menu-item.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control/load-progress-bar.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control/play-progress-bar.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control/progress-control.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control/seek-bar.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls/custom-control-spacer.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls/spacer.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/caption-settings-menu-item.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/captions-button.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/chapters-button.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/chapters-track-menu-item.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/off-text-track-menu-item.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/subtitles-button.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/text-track-button.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/text-track-menu-item.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls/current-time-display.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls/duration-display.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls/remaining-time-display.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls/time-divider.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control/volume-bar.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control/volume-control.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control/volume-level.js",
+            "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-menu-button.js",
+            "/Users/rcrooks/git/docs/videojs-src/error-display.js",
+            "/Users/rcrooks/git/docs/videojs-src/event-emitter.js",
+            "/Users/rcrooks/git/docs/videojs-src/extends.js",
+            "/Users/rcrooks/git/docs/videojs-src/fullscreen-api.js",
+            "/Users/rcrooks/git/docs/videojs-src/global-options.js",
+            "/Users/rcrooks/git/docs/videojs-src/loading-spinner.js",
+            "/Users/rcrooks/git/docs/videojs-src/media-error.js",
+            "/Users/rcrooks/git/docs/videojs-src/menu/menu-button.js",
+            "/Users/rcrooks/git/docs/videojs-src/menu/menu-item.js",
+            "/Users/rcrooks/git/docs/videojs-src/menu/menu.js",
+            "/Users/rcrooks/git/docs/videojs-src/player.js",
+            "/Users/rcrooks/git/docs/videojs-src/plugins.js",
+            "/Users/rcrooks/git/docs/videojs-src/poster-image.js",
+            "/Users/rcrooks/git/docs/videojs-src/setup.js",
+            "/Users/rcrooks/git/docs/videojs-src/slider/slider.js",
+            "/Users/rcrooks/git/docs/videojs-src/tech/flash-rtmp.js",
+            "/Users/rcrooks/git/docs/videojs-src/tech/flash.js",
+            "/Users/rcrooks/git/docs/videojs-src/tech/html5.js",
+            "/Users/rcrooks/git/docs/videojs-src/tech/loader.js",
+            "/Users/rcrooks/git/docs/videojs-src/tech/tech.js",
+            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-cue-list.js",
+            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-display.js",
+            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-enums.js",
+            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-list.js",
+            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-settings.js",
+            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/browser.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/buffer.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/dom.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/events.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/fn.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/format-time.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/guid.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/log.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/merge-options.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/round-float.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/time-ranges.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/to-title-case.js",
+            "/Users/rcrooks/git/docs/videojs-src/utils/url.js",
+            "/Users/rcrooks/git/docs/videojs-src/video.js",
+            "/Users/rcrooks/git/docs/videojs-src/xhr.js"
         ]
     }
 ]
