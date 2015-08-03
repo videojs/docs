@@ -30,7 +30,7 @@ module.exports = function (grunt) {
     grunt.task.registerTask('createFiles', 'Create files into which docs will be injected', function () {
         var classData = [],
             docData = '',
-            contentStr = '<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title></title><script src="//use.edgefonts.net/source-code-pro.js">// font for code blocks</script><link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css"> <!-- there are many other style for highlighted code here: https://cdnjs.com/libraries/highlight.js --><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/atelier-forest.light.min.css"><link rel="stylesheet" type="text/css" href="css/api-docs.css"></head> <body></body></html>',
+            contentStr = '<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title></title><script src="//use.edgefonts.net/source-code-pro.js">\n // font for code blocks \n</script><link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css"> <!-- there are many other style for highlighted code here: https://cdnjs.com/libraries/highlight.js --><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/atelier-forest.light.min.css"><link rel="stylesheet" type="text/css" href="css/api-docs.css"></head><body></body></html>',
             DOMParser = require('xmldom').DOMParser,
             XMLSerializer = require('xmldom').XMLSerializer,
             doc,
@@ -888,9 +888,12 @@ module.exports = function (grunt) {
             addIndex(function () {
                 addHeaderContent(function () {
                     addMembersContent(function () {
-                        // add script to highlight syntax in code blocks
+                        // add scripts to highlight syntax in code blocks
                         var highlighter = createEl('script', {src: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js'});
-                        addText(highlighter, '// syntax highlighter for code samples');
+                        addText(highlighter, '\n // syntax highlighter for code samples \n');
+                        doc_body.appendChild(highlighter);
+                        highlighter = createEl('script', {src: './js/highlight-syntax.js'});
+                        addText(highlighter, '\n // activates syntax highlighting \n');
                         doc_body.appendChild(highlighter);
                         // now we're ready to write the file
                         callback();

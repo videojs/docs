@@ -1,7 +1,7 @@
-document.onLoad = (function(hljs) {
+BCLSHighligher = (function(hljs) {
     var codeBlocks = document.querySelectorAll('pre>code'),
         i,
-        iMax,;
+        iMax;
 
     /**
      * tests for all the ways a variable might be undefined or not have a value
