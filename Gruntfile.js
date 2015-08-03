@@ -83,10 +83,15 @@ module.exports = function (grunt) {
             var i,
                 iMax = filenameArray.length,
                 filename,
-                fullpath;
+                fullpath,
+                reLT = new RegExp('&lt;'),
+                reGT = new RegExp('&gt;');
             function writeFile() {
                 // create file with name=filename and contents=contentStr
                 docContentStr = new XMLSerializer().serializeToString(doc);
+                // convert bracket code to brackets
+                docContentStr = docContentStr.replace(reLT, '<');
+                docContentStr = docContentStr.replace(reGT, '>');
              console.log("here");
                 fullpath = './docs/api/' + filename;
                 grunt.file.write(fullpath, docContentStr);
@@ -312,7 +317,6 @@ module.exports = function (grunt) {
                     style: 'border:none',
                     id: 'classDescription'
                 }),
-                descriptionEl,
                 constructorHeader = createEl('h3'),
                 constructorPre = createEl('pre'),
                 constructorCode = createEl('code'),
@@ -413,8 +417,7 @@ module.exports = function (grunt) {
                 text = doc.createTextNode(headerData.name + '()');
             }
             constructorCode.appendChild(text);
-            descriptionEl = doc.getElementById('classDescription');
-            descriptionEl.innerHTML = headerData.description;
+            addText(description, headerData.description);
             callback();
         };
         /**
@@ -580,7 +583,6 @@ module.exports = function (grunt) {
                 itemParams = [],
                 itemParamsHeader,
                 itemDescription,
-                itemDescriptionEl,
                 itemFooter,
                 itemFooterLink,
                 itemFooterContent,
@@ -708,8 +710,7 @@ module.exports = function (grunt) {
                                 addText(headerSuffix, ' (deprecated)');
                                 itemHeader.appendChild(headerSuffix);
                             }
-                            itemDescriptionEl = doc.getElementById(item.name + 'Description');
-                            itemDescriptionEl.innerHTML = item.description;
+                            addText(itemDescription, item.description);
                             addText(itemFooterContent, 'Defined in ');
                             itemFooterContent.appendChild(itemFooterLink);
                             addText(itemFooterLink, 'src/js/' + item.meta.filename + ' line number: ' + item.meta.lineno);

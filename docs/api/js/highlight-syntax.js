@@ -1,7 +1,8 @@
-var BCLS = (function(hljs) {
+document.on = (function(hljs) {
     var codeBlocks = document.querySelectorAll('pre code'),
         i,
-        iMax;
+        iMax,;
+
     /**
      * tests for all the ways a variable might be undefined or not have a value
      * @param {*} x the variable to test
