@@ -1,39 +1,39 @@
 /**
-* @file text-track.js
-*/
+ * @file text-track.js
+ */
 import TextTrackCueList from './text-track-cue-list';
 import * as Fn from '../utils/fn.js';
 import * as Guid from '../utils/guid.js';
 import * as browser from '../utils/browser.js';
 import * as TextTrackEnum from './text-track-enums';
 import log from '../utils/log.js';
-import EventEmitter from '../event-emitter';
+import EventTarget from '../event-target';
 import document from 'global/document';
 import window from 'global/window';
 import XHR from '../xhr.js';
 
 /*
-* https://html.spec.whatwg.org/multipage/embedded-content.html#texttrack
-*
-* interface TextTrack : EventTarget {
-*   readonly attribute TextTrackKind kind;
-*   readonly attribute DOMString label;
-*   readonly attribute DOMString language;
-*
-*   readonly attribute DOMString id;
-*   readonly attribute DOMString inBandMetadataTrackDispatchType;
-*
-*   attribute TextTrackMode mode;
-*
-*   readonly attribute TextTrackCueList? cues;
-*   readonly attribute TextTrackCueList? activeCues;
-*
-*   void addCue(TextTrackCue cue);
-*   void removeCue(TextTrackCue cue);
-*
-*   attribute EventHandler oncuechange;
-* };
-*/
+ * https://html.spec.whatwg.org/multipage/embedded-content.html#texttrack
+ *
+ * interface TextTrack : EventTarget {
+ *   readonly attribute TextTrackKind kind;
+ *   readonly attribute DOMString label;
+ *   readonly attribute DOMString language;
+ *
+ *   readonly attribute DOMString id;
+ *   readonly attribute DOMString inBandMetadataTrackDispatchType;
+ *
+ *   attribute TextTrackMode mode;
+ *
+ *   readonly attribute TextTrackCueList? cues;
+ *   readonly attribute TextTrackCueList? activeCues;
+ *
+ *   void addCue(TextTrackCue cue);
+ *   void removeCue(TextTrackCue cue);
+ *
+ *   attribute EventHandler oncuechange;
+ * };
+ */
 let TextTrack = function(options={}) {
   if (!options.tech) {
     throw new Error('A tech was not provided.');
@@ -176,6 +176,7 @@ let TextTrack = function(options={}) {
   });
 
   if (options.src) {
+    tt.src = options.src;
     loadTrack(options.src, tt);
   } else {
     tt.loaded_ = true;
@@ -186,7 +187,7 @@ let TextTrack = function(options={}) {
   }
 };
 
-TextTrack.prototype = Object.create(EventEmitter.prototype);
+TextTrack.prototype = Object.create(EventTarget.prototype);
 TextTrack.prototype.constructor = TextTrack;
 
 /*
