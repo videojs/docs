@@ -1,1 +1,2 @@
 exclude: [Gruntfile.js, test.js]
+source: ./docs
