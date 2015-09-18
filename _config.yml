@@ -1,1 +1,1 @@
-exclude: [Gruntfile.js]
+exclude: [Gruntfile.js, test.js]
