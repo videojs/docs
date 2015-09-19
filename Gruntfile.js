@@ -4,8 +4,13 @@ module.exports = function (grunt) {
     grunt.initConfig({
         shell: {
             generateJSON: {
-                command: 'jsdoc --configure ./conf.json ./videojs-src > cumulative.json'
-            }
+                command: 'jsdoc --configure ./conf.json ./video.js/src/js > cumulative.json'
+            },
+            cloneVideoJS: {
+                // Once 5.0 is in stable the line below should be use instead
+                // command: 'rm -rf ./video.js && git clone -b stable --single-branch https://github.com/videojs/video.js.git'
+                command: 'rm -rf ./video.js && git clone -b master --single-branch https://github.com/videojs/video.js.git'
+            },
         },
         concat: {
             dist: {
@@ -903,5 +908,6 @@ module.exports = function (grunt) {
         };
     });
     // Default task.
-    grunt.registerTask('default', ['shell', 'concat', 'uglify', 'createFiles']);
+    grunt.registerTask('no-clone', ['shell:generateJSON', 'concat', 'uglify', 'createFiles']);
+    grunt.registerTask('default', ['shell:cloneVideoJS', 'no-clone']);
 }
