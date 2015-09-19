@@ -1,1 +1,1 @@
-exclude: [CNAME, README, "*.js", "*.json", "*.txt", "Gem*"]
+exclude: [CNAME, README, "/*.js", "/*.json", "/*.txt", "/Gem*"]
