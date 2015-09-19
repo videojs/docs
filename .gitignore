@@ -27,3 +27,6 @@ build/Release
 node_modules
 
 video.js
+cumulative.json
+doc-data-full.js
+doc-data.js
