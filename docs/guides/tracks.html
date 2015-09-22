@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generated-by" content="Markdown PRO, http://markdownpro.com"/>
+<title></title>
+<style type="text/css">
+html,body{margin:0;padding:0;}
+body {padding: 20px}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+q:before,q:after,blockquote:before,blockquote:after{content:"";}
+html{overflow-y:scroll;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+a:focus{outline:thin dotted;}
+a:hover,a:active{outline:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;*overflow:visible;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+textarea{overflow:auto;vertical-align:top;}
+html,body{background-color:#ffffff;}
+body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:18px;color:#404040;}
+.container{width:940px;margin-left:auto;margin-right:auto;zoom:1;}.container:before,.container:after{display:table;content:"";zoom:1;*display:inline;}
+.container:after{clear:both;}
+.container-fluid{position:relative;min-width:940px;padding-left:20px;padding-right:20px;zoom:1;}.container-fluid:before,.container-fluid:after{display:table;content:"";zoom:1;*display:inline;}
+.container-fluid:after{clear:both;}
+.container-fluid>.sidebar{float:left;width:220px;}
+.container-fluid>.content{margin-left:240px;}
+a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:hover{color:#00438a;text-decoration:underline;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+.hide{display:none;}
+.show{display:block;}
+.row{zoom:1;margin-left:-20px;}.row:before,.row:after{display:table;content:"";zoom:1;*display:inline;}
+.row:after{clear:both;}
+p{font-size:13px;font-weight:normal;line-height:18px;margin-bottom:9px;}p small{font-size:11px;color:#bfbfbf;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
+h1{margin-bottom:18px;font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h2{font-size:24px;line-height:36px;}h2 small{font-size:14px;}
+h3,h4,h5,h6{line-height:36px;}
+h3{font-size:18px;}h3 small{font-size:14px;}
+h4{font-size:16px;}h4 small{font-size:12px;}
+h5{font-size:14px;}
+h6{font-size:13px;color:#bfbfbf;text-transform:uppercase;}
+ul,ol{margin:0 0 18px 25px;}
+ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
+ul{list-style:disc;}
+ol{list-style:decimal;}
+li{line-height:18px;color:#808080;}
+ul.unstyled{list-style:none;margin-left:0;}
+dl{margin-bottom:18px;}dl dt,dl dd{line-height:18px;}
+dl dt{font-weight:bold;}
+dl dd{margin-left:9px;}
+hr{margin:20px 0 19px;border:0;border-bottom:1px solid #eee;}
+strong{font-style:inherit;font-weight:bold;}
+em{font-style:italic;font-weight:inherit;line-height:inherit;}
+.muted{color:#bfbfbf;}
+blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;}
+blockquote small{display:block;font-size:12px;font-weight:300;line-height:18px;color:#bfbfbf;}blockquote small:before{content:'\2014 \00A0';}
+address{display:block;line-height:18px;margin-bottom:18px;}
+code,pre{padding:0 3px 2px;font-family:Monaco, Andale Mono, Courier New, monospace;font-size:12px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+code{padding:1px 3px;}
+pre{background-color:#f5f5f5;display:block;padding:8.5px;margin:0 0 18px;line-height:18px;font-size:12px;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+form{margin-bottom:18px;}
+fieldset{margin-bottom:18px;padding-top:18px;}fieldset legend{display:block;padding-left:150px;font-size:19.5px;line-height:1;color:#404040;*padding:0 0 5px 145px;*line-height:1.5;}
+form .clearfix{margin-bottom:18px;zoom:1;}form .clearfix:before,form .clearfix:after{display:table;content:"";zoom:1;*display:inline;}
+form .clearfix:after{clear:both;}
+label,input,select,textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:normal;}
+label{padding-top:6px;font-size:13px;line-height:18px;float:left;width:130px;text-align:right;color:#404040;}
+form .input{margin-left:150px;}
+input[type=checkbox],input[type=radio]{cursor:pointer;}
+input,textarea,select,.uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;font-size:13px;line-height:18px;color:#808080;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+input[type=checkbox],input[type=radio]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;border:none;}
+input[type=file]{background-color:#ffffff;padding:initial;border:initial;line-height:initial;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+input[type=button],input[type=reset],input[type=submit]{width:auto;height:auto;}
+select,input[type=file]{height:27px;line-height:27px;*margin-top:4px;}
+select[multiple]{height:inherit;}
+textarea{height:auto;}
+.uneditable-input{background-color:#ffffff;display:block;border-color:#eee;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);cursor:not-allowed;}
+:-moz-placeholder{color:#bfbfbf;}
+::-webkit-input-placeholder{color:#bfbfbf;}
+input,textarea{-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;-moz-transition:border linear 0.2s,box-shadow linear 0.2s;-ms-transition:border linear 0.2s,box-shadow linear 0.2s;-o-transition:border linear 0.2s,box-shadow linear 0.2s;transition:border linear 0.2s,box-shadow linear 0.2s;-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);}
+input:focus,textarea:focus{outline:0;border-color:rgba(82, 168, 236, 0.8);-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);}
+input[type=file]:focus,input[type=checkbox]:focus,select:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:1px dotted #666;}
+form div.clearfix.error{background:#fae5e3;padding:10px 0;margin:-10px 0 10px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}form div.clearfix.error>label,form div.clearfix.error span.help-inline,form div.clearfix.error span.help-block{color:#9d261d;}
+form div.clearfix.error input,form div.clearfix.error textarea{border-color:#c87872;-webkit-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);-moz-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);box-shadow:0 0 3px rgba(171, 41, 32, 0.25);}form div.clearfix.error input:focus,form div.clearfix.error textarea:focus{border-color:#b9554d;-webkit-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);-moz-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);box-shadow:0 0 6px rgba(171, 41, 32, 0.5);}
+form div.clearfix.error .input-prepend span.add-on,form div.clearfix.error .input-append span.add-on{background:#f4c8c5;border-color:#c87872;color:#b9554d;}
+table{width:100%;margin-bottom:18px;padding:0;border-collapse:separate;*border-collapse:collapse;font-size:13px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left;}
+table th{padding-top:9px;font-weight:bold;vertical-align:middle;border-bottom:1px solid #ddd;}
+table td{vertical-align:top;}
+table th+th,table td+td{border-left:1px solid #ddd;}
+table tr+tr td{border-top:1px solid #ddd;}
+table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.zebra-striped tbody tr:nth-child(odd) td{background-color:#f9f9f9;}
+.zebra-striped tbody tr:hover td{background-color:#f5f5f5;}
+.zebra-striped .header{cursor:pointer;}.zebra-striped .header:after{content:"";float:right;margin-top:7px;border-width:0 4px 4px;border-style:solid;border-color:#000 transparent;visibility:hidden;}
+.zebra-striped .header:hover:after{visibility:visible;}
+footer{margin-top:17px;padding-top:17px;border-top:1px solid #eee;}
+.page-header{margin-bottom:17px;border-bottom:1px solid #ddd;-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}.page-header h1{margin-bottom:8px;}
+.close{float:right;color:#000000;font-size:20px;font-weight:bold;line-height:13.5px;text-shadow:0 1px 0 #ffffff;filter:alpha(opacity=20);-khtml-opacity:0.2;-moz-opacity:0.2;opacity:0.2;}.close:hover{color:#000000;text-decoration:none;filter:alpha(opacity=40);-khtml-opacity:0.4;-moz-opacity:0.4;opacity:0.4;}
+
+pre {
+	padding: 0;
+	margin: 10px 0px 10px;
+	overflow: auto; /*--If the Code exceeds the width, a scrolling is available--*/
+	overflow-Y: hidden;  /*--Hides vertical scroll created by IE--*/
+}
+pre code {
+	margin: 5px;  /*--Left Margin--*/
+	padding: 0px;
+	display: block;
+    line-height: 18px;
+}
+.center { text-align:center}
+.left {text-align:left}
+.right {text-align:right}
+
+</style><style type="text/css">
+body {
+	font-family: "Geneva", Arial, sans-serif;
+	font-size: 13px;
+	margin: 10px;
+}
+
+a, a:visited {
+	color: #09c;
+}
+
+a:hover {
+	color: #336699;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0px 0px 10px;	
+	font-weight: bold;
+}
+
+h2 {
+	border-bottom: 2px dotted #ccc;
+	margin: 5px 0px 15px;	
+}
+
+h6 {
+	color: #09c;
+}
+
+blockquote {
+	font-family: "Georgia", Courier New, courier, sans-serif;
+	background: #efefef;
+	padding: 5px 10px;
+	border: solid 1px #ddd;
+	margin: 15px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	color:  #333;
+	
+}
+
+ul, ol {
+	margin-bottom: 15px;
+}
+
+li {
+	padding: 3px;
+}
+
+
+
+code {
+	background-color: #f1f1f1;
+    color: #336699;
+}
+
+pre {
+	background-color: #f1f1f1;
+}
+
+pre > code {
+	margin: 0px;
+	padding: 5px;
+	border: 0px;
+	background-color: #f1f1f1;
+}
+
+
+</style></head>
+<body>
+<h1 id="toc_0">Tracks</h1>
+
+<p>Text Tracks are a function of HTML5 video for providing time triggered text to the viewer. Video.js makes tracks work across all browsers. There are currently five types of tracks:</p>
+
+<ul>
+<li><strong>Subtitles</strong>: Translations of the dialogue in the video for when audio is available but not understood. Subtitles are shown over the video.</li>
+<li><strong>Captions</strong>: Transcription of the dialogue, sound effects, musical cues, and other audio information for when the viewer is deaf/hard of hearing, or the video is muted. Captions are also shown over the video.</li>
+<li><strong>Chapters</strong>: Chapter titles that are used to create navigation within the video. Typically they&#39;re in the form of a list of chapters that the viewer can click on to go to a specific chapter.</li>
+<li><strong>Descriptions</strong> (not supported yet): Text descriptions of what&#39;s happening in the video for when the video portion isn&#39;t available, because the viewer is blind, not using a screen, or driving and about to crash because they&#39;re trying to enjoy a video while driving. Descriptions are read by a screen reader or turned into a separate audio track.</li>
+<li><strong>Metadata</strong> (not supported yet): Tracks that have data meant for javascript to parse and do something with. These aren&#39;t shown to the user.</li>
+</ul>
+
+<h2 id="toc_1">Creating the Text File</h2>
+
+<p>Timed text requires a text file in <a href="http://dev.w3.org/html5/webvtt/">WebVTT</a> format. This format defines a list of &quot;cues&quot; that have a start time, and end time, and text to display. <a href="http://ie.microsoft.com/testdrive/Graphics/CaptionMaker/">Microsoft has a builder</a> that can help you get started on the file.</p>
+
+<p>When creating captions, there&#39;s also additional <a href="http://www.theneitherworld.com/mcpoodle/SCC_TOOLS/DOCS/SCC_FORMAT.HTML#style">caption formatting techniques</a> that would be good to use, like brackets around sound effects: [ sound effect ]. If you&#39;d like a more in depth style guide for captioning, you can reference the <a href="http://www.dcmp.org/captioningkey/">Captioning Key</a>, but keep in mind not all features are supported by WebVTT or (more likely) the Video.js WebVTT implementation.</p>
+
+<h2 id="toc_2">Adding to Video.js</h2>
+
+<p>Once you have your WebVTT file created, you can add it to Video.js using the track tag. Put your track tag after all the source elements, and before any fallback content.</p>
+
+<pre><code class="html">&lt;video id=&quot;example_video_1&quot; class=&quot;video-js vjs-default-skin&quot;  
+  controls preload=&quot;auto&quot; width=&quot;640&quot; height=&quot;264&quot;  
+  data-setup=&#39;{&quot;example_option&quot;:true}&#39;&gt;  
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.mp4&quot; type=&#39;video/mp4&#39; /&gt;  
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.webm&quot; type=&#39;video/webm&#39; /&gt;  
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.ogv&quot; type=&#39;video/ogg&#39; /&gt;  
+
+ &lt;track kind=&quot;captions&quot; src=&quot;http://example.com/path/to/captions.vtt&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;
+
+&lt;/video&gt;
+</code></pre>
+
+<h2 id="toc_3">Subtitles from Another Domain</h2>
+
+<p>Because we&#39;re pulling in the text track file via Javascript, the <a href="http://en.wikipedia.org/wiki/Same_origin_policy">same-origin policy</a> applies. If you&#39;d like to have a player served from one domain,
+but the text track served from another, you&#39;ll need to <a href="http://enable-cors.org/">enable CORS</a> in order to do so.</p>
+
+<h2 id="toc_4">Track Attributes</h2>
+
+<p>Additional settings for track tags.</p>
+
+<h3 id="toc_5">kind</h3>
+
+<p>One of the five track types listed above. Kind defaults to subtitles if no kind is included.</p>
+
+<h3 id="toc_6">label</h3>
+
+<p>The label for the track that will be show to the user, for example in a menu that list the different languages available for subtitles.</p>
+
+<h3 id="toc_7">default</h3>
+
+<p>The default attribute can be used to have a track default to showing. Otherwise the viewer would need to select their language from the captions or subtitles menu.
+NOTE: For chapters, default is required if you want the chapters menu to show.</p>
+
+<h3 id="toc_8">srclang</h3>
+
+<p>The two-letter code (valid BCP 47 language tag) for the language of the text track, for example &quot;en&quot; for English. Here&#39;s a list of available language codes.</p>
+
+<table border="0" cellspacing="5" cellpadding="5">
+  <tr>
+    <td>
+
+      <table>
+        <tr><th>ab<th><td>Abkhazian</td></tr>
+        <tr><th>aa<th><td>Afar</td></tr>
+        <tr><th>af<th><td>Afrikaans</td></tr>
+        <tr><th>sq<th><td>Albanian</td></tr>
+        <tr><th>am<th><td>Amharic</td></tr>
+        <tr><th>ar<th><td>Arabic</td></tr>
+        <tr><th>an<th><td>Aragonese</td></tr>
+        <tr><th>hy<th><td>Armenian</td></tr>
+        <tr><th>as<th><td>Assamese</td></tr>
+        <tr><th>ay<th><td>Aymara</td></tr>
+        <tr><th>az<th><td>Azerbaijani</td></tr>
+        <tr><th>ba<th><td>Bashkir</td></tr>
+        <tr><th>eu<th><td>Basque</td></tr>
+        <tr><th>bn<th><td>Bengali (Bangla)</td></tr>
+        <tr><th>dz<th><td>Bhutani</td></tr>
+        <tr><th>bh<th><td>Bihari</td></tr>
+        <tr><th>bi<th><td>Bislama</td></tr>
+        <tr><th>br<th><td>Breton</td></tr>
+        <tr><th>bg<th><td>Bulgarian</td></tr>
+        <tr><th>my<th><td>Burmese</td></tr>
+        <tr><th>be<th><td>Byelorussian (Belarusian)</td></tr>
+        <tr><th>km<th><td>Cambodian</td></tr>
+        <tr><th>ca<th><td>Catalan</td></tr>
+        <tr><th>zh<th><td>Chinese (Simplified)</td></tr>
+        <tr><th>zh<th><td>Chinese (Traditional)</td></tr>
+        <tr><th>co<th><td>Corsican</td></tr>
+        <tr><th>hr<th><td>Croatian</td></tr>
+        <tr><th>cs<th><td>Czech</td></tr>
+        <tr><th>da<th><td>Danish</td></tr>
+        <tr><th>nl<th><td>Dutch</td></tr>
+        <tr><th>en<th><td>English</td></tr>
+        <tr><th>eo<th><td>Esperanto</td></tr>
+        <tr><th>et<th><td>Estonian</td></tr>
+        <tr><th>fo<th><td>Faeroese</td></tr>
+        <tr><th>fa<th><td>Farsi</td></tr>
+        <tr><th>fj<th><td>Fiji</td></tr>
+        <tr><th>fi<th><td>Finnish</td></tr>
+      </table>
+
+    </td>
+    <td>
+
+      <table>
+        <tr><th>fr<th><td>French</td></tr>
+        <tr><th>fy<th><td>Frisian</td></tr>
+        <tr><th>gl<th><td>Galician</td></tr>
+        <tr><th>gd<th><td>Gaelic (Scottish)</td></tr>
+        <tr><th>gv<th><td>Gaelic (Manx)</td></tr>
+        <tr><th>ka<th><td>Georgian</td></tr>
+        <tr><th>de<th><td>German</td></tr>
+        <tr><th>el<th><td>Greek</td></tr>
+        <tr><th>kl<th><td>Greenlandic</td></tr>
+        <tr><th>gn<th><td>Guarani</td></tr>
+        <tr><th>gu<th><td>Gujarati</td></tr>
+        <tr><th>ht<th><td>Haitian Creole</td></tr>
+        <tr><th>ha<th><td>Hausa</td></tr>
+        <tr><th>he<th><td>Hebrew</td></tr>
+        <tr><th>hi<th><td>Hindi</td></tr>
+        <tr><th>hu<th><td>Hungarian</td></tr>
+        <tr><th>is<th><td>Icelandic</td></tr>
+        <tr><th>io<th><td>Ido</td></tr>
+        <tr><th>id<th><td>Indonesian</td></tr>
+        <tr><th>ia<th><td>Interlingua</td></tr>
+        <tr><th>ie<th><td>Interlingue</td></tr>
+        <tr><th>iu<th><td>Inuktitut</td></tr>
+        <tr><th>ik<th><td>Inupiak</td></tr>
+        <tr><th>ga<th><td>Irish</td></tr>
+        <tr><th>it<th><td>Italian</td></tr>
+        <tr><th>ja<th><td>Japanese</td></tr>
+        <tr><th>jv<th><td>Javanese</td></tr>
+        <tr><th>kn<th><td>Kannada</td></tr>
+        <tr><th>ks<th><td>Kashmiri</td></tr>
+        <tr><th>kk<th><td>Kazakh</td></tr>
+        <tr><th>rw<th><td>Kinyarwanda (Ruanda)</td></tr>
+        <tr><th>ky<th><td>Kirghiz</td></tr>
+        <tr><th>rn<th><td>Kirundi (Rundi)</td></tr>
+        <tr><th>ko<th><td>Korean</td></tr>
+        <tr><th>ku<th><td>Kurdish</td></tr>
+        <tr><th>lo<th><td>Laothian</td></tr>
+        <tr><th>la<th><td>Latin</td></tr>
+      </table>
+
+    </td>
+    <td>
+
+      <table>
+        <tr><th>lv<th><td>Latvian (Lettish)</td></tr>
+        <tr><th>li<th><td>Limburgish ( Limburger)</td></tr>
+        <tr><th>ln<th><td>Lingala</td></tr>
+        <tr><th>lt<th><td>Lithuanian</td></tr>
+        <tr><th>mk<th><td>Macedonian</td></tr>
+        <tr><th>mg<th><td>Malagasy</td></tr>
+        <tr><th>ms<th><td>Malay</td></tr>
+        <tr><th>ml<th><td>Malayalam</td></tr>
+        <tr><th>mt<th><td>Maltese</td></tr>
+        <tr><th>mi<th><td>Maori</td></tr>
+        <tr><th>mr<th><td>Marathi</td></tr>
+        <tr><th>mo<th><td>Moldavian</td></tr>
+        <tr><th>mn<th><td>Mongolian</td></tr>
+        <tr><th>na<th><td>Nauru</td></tr>
+        <tr><th>ne<th><td>Nepali</td></tr>
+        <tr><th>no<th><td>Norwegian</td></tr>
+        <tr><th>oc<th><td>Occitan</td></tr>
+        <tr><th>or<th><td>Oriya</td></tr>
+        <tr><th>om<th><td>Oromo (Afan, Galla)</td></tr>
+        <tr><th>ps<th><td>Pashto (Pushto)</td></tr>
+        <tr><th>pl<th><td>Polish</td></tr>
+        <tr><th>pt<th><td>Portuguese</td></tr>
+        <tr><th>pa<th><td>Punjabi</td></tr>
+        <tr><th>qu<th><td>Quechua</td></tr>
+        <tr><th>rm<th><td>Rhaeto-Romance</td></tr>
+        <tr><th>ro<th><td>Romanian</td></tr>
+        <tr><th>ru<th><td>Russian</td></tr>
+        <tr><th>sm<th><td>Samoan</td></tr>
+        <tr><th>sg<th><td>Sangro</td></tr>
+        <tr><th>sa<th><td>Sanskrit</td></tr>
+        <tr><th>sr<th><td>Serbian</td></tr>
+        <tr><th>sh<th><td>Serbo-Croatian</td></tr>
+        <tr><th>st<th><td>Sesotho</td></tr>
+        <tr><th>tn<th><td>Setswana</td></tr>
+        <tr><th>sn<th><td>Shona</td></tr>
+        <tr><th>ii<th><td>Sichuan Yi</td></tr>
+        <tr><th>sd<th><td>Sindhi</td></tr>
+      </table>
+
+    </td>
+    <td>
+
+      <table>
+        <tr><th>si<th><td>Sinhalese</td></tr>
+        <tr><th>ss<th><td>Siswati</td></tr>
+        <tr><th>sk<th><td>Slovak</td></tr>
+        <tr><th>sl<th><td>Slovenian</td></tr>
+        <tr><th>so<th><td>Somali</td></tr>
+        <tr><th>es<th><td>Spanish</td></tr>
+        <tr><th>su<th><td>Sundanese</td></tr>
+        <tr><th>sw<th><td>Swahili (Kiswahili)</td></tr>
+        <tr><th>sv<th><td>Swedish</td></tr>
+        <tr><th>tl<th><td>Tagalog</td></tr>
+        <tr><th>tg<th><td>Tajik</td></tr>
+        <tr><th>ta<th><td>Tamil</td></tr>
+        <tr><th>tt<th><td>Tatar</td></tr>
+        <tr><th>te<th><td>Telugu</td></tr>
+        <tr><th>th<th><td>Thai</td></tr>
+        <tr><th>bo<th><td>Tibetan</td></tr>
+        <tr><th>ti<th><td>Tigrinya</td></tr>
+        <tr><th>to<th><td>Tonga</td></tr>
+        <tr><th>ts<th><td>Tsonga</td></tr>
+        <tr><th>tr<th><td>Turkish</td></tr>
+        <tr><th>tk<th><td>Turkmen</td></tr>
+        <tr><th>tw<th><td>Twi</td></tr>
+        <tr><th>ug<th><td>Uighur</td></tr>
+        <tr><th>uk<th><td>Ukrainian</td></tr>
+        <tr><th>ur<th><td>Urdu</td></tr>
+        <tr><th>uz<th><td>Uzbek</td></tr>
+        <tr><th>vi<th><td>Vietnamese</td></tr>
+        <tr><th>vo<th><td>Volapük</td></tr>
+        <tr><th>wa<th><td>Wallon</td></tr>
+        <tr><th>cy<th><td>Welsh</td></tr>
+        <tr><th>wo<th><td>Wolof</td></tr>
+        <tr><th>xh<th><td>Xhosa</td></tr>
+        <tr><th>yi<th><td>Yiddish</td></tr>
+        <tr><th>yo<th><td>Yoruba</td></tr>
+        <tr><th>zu<th><td>Zulu</td></tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
