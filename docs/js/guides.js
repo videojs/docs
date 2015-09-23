@@ -25,7 +25,13 @@ var BCLS = ( function () {
 
     function buildSideNav() {
         if (isDefined(sections)) {
-            navList =document.createElement('ul');
+            var homeHead = document.createElement('p'),
+                homeLink = document.createElement('a');
+            homeLink.setAttribute('href', '../../index.html');
+            homeLink.setAttribute('style', 'font-size:1.4em;font-weight:bold;text-align:right;margin:0;padding-left:1em');
+            homeLink.textContent = 'Docs Home';
+            homeHead.appendChild(homeLink);
+            navList = document.createElement('ul');
             navList.setAttribute('class', 'sidenav-list');
             navItem = document.createElement('li');
             navA = document.createElement('a');
@@ -45,6 +51,7 @@ var BCLS = ( function () {
                 navItem.appendChild(navA);
                 navList.appendChild(navItem);
             }
+            sidenav.appendChild(homeHead);
             sidenav.appendChild(navList);
         }
     }

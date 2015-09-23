@@ -11,12 +11,12 @@ body {
 .sidenav {
     position: fixed;
     height: 100%;
-    left: 0;
+    right: 1em;
     max-width: 18%;
     display: inline-block;
     font-size: .7em;
     border: none;
-    border-right: 1px solid #DDD;
+    border-left: 1px solid #DDD;
 }
 
 .sidenav-list {
@@ -27,7 +27,7 @@ body {
 }
 .main {
     position: absolute;
-    left: 25%;
+    right: 25%;
     display: inline-block;
     max-width: 70%;
 }
