@@ -50,7 +50,7 @@ var BCLS = ( function () {
     }
 
     function setTitle() {
-        title.textContent = heading.textContent;
+        title.textContent = 'Videojs ' + heading.textContent;
     }
 
     setTitle();

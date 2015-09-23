@@ -10,14 +10,20 @@ body {
 
 .sidenav {
     position: fixed;
-    max-width: 20%;
+    height: 100%;
+    left: 0;
+    max-width: 18%;
     display: inline-block;
     font-size: .7em;
     border: none;
+    border-right: 1px solid #DDD;
 }
 
 .sidenav-list {
     list-style-type: none;
+}
+.sidenav-list>li {
+    margin-bottom: .6em;
 }
 .main {
     position: absolute;
@@ -54,7 +60,7 @@ h1 {
 }
 h2 {
     border-bottom: 1px #DDD solid;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h3 {
