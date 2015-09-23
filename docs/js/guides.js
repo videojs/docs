@@ -60,6 +60,28 @@ var BCLS = ( function () {
         title.textContent = 'Videojs ' + heading.textContent;
     }
 
+    function addFooter() {
+        var path = document.location.pathname,
+            footer = document.createElement('div'),
+            srcLink = document.createElement('a'),
+            main = document.getElementById('main'),
+            srcPath;
+        // extract file name
+        if (path.indexOf('#') > 0) {
+            path = path.substring(0, path.indexOf('#'));
+        }
+        path = path.substring(path.lastIndexOf('/') + 1);
+        srcPath = 'https://github.com/videojs/docs/blob/gh-pages/docs/guides/' + path;
+        footer.setAttribute('class', 'footer');
+        srcLink.setAttribute('href', srcPath);
+        srcLink.appendChild(document.createTextNode('source'));
+        footer.innerHTML = 'Want to add or fix something? Go to the ';
+        footer.appendChild(srcLink);
+        footer.innerHTML += ', fork it, work it, submit a pull request.';
+        main.appendChild(footer);
+    }
+
     setTitle();
     buildSideNav();
+    addFooter();
 })();

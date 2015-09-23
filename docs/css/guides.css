@@ -31,6 +31,13 @@ body {
     display: inline-block;
     max-width: 70%;
 }
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: .2em;
+    background-color: #EEE;
+}
 
 @media (max-width: 700px) {
   .member-index {
