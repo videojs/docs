@@ -1,22 +1,29 @@
 body {
     color: #333;
-    margin: 6em;
-    margin-top: 4em;
+    /*margin: 6em;*/
+    margin-top: 2em;
     margin-right: 3em;
+    margin-left: 1em;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
 }
 
 .sidenav {
-    float: left;
+    position: fixed;
     max-width: 20%;
     display: inline-block;
+    font-size: .7em;
+    border: none;
 }
 
 .sidenav-list {
     list-style-type: none;
 }
 .main {
+    position: absolute;
+    left: 25%;
     display: inline-block;
+    max-width: 70%;
 }
 
 @media (max-width: 700px) {

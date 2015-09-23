@@ -1,5 +1,5 @@
 var BCLS = ( function () {
-    var heading = document.getElementByTagName('h1')[0],
+    var heading = document.getElementsByTagName('h1')[0],
         title = document.getElementsByTagName('title')[0],
         sections = document.getElementsByTagName('h2'),
         sidenav = document.getElementById('sidenav'),
@@ -27,10 +27,32 @@ var BCLS = ( function () {
         if (isDefined(sections)) {
             navList =document.createElement('ul');
             navList.setAttribute('class', 'sidenav-list');
+            navItem = document.createElement('li');
+            navA = document.createElement('a');
+            navA.setAttribute('href', '#toc0');
+            navText = document.createTextNode('Top');
+            navA.appendChild(navText);
+            navItem.appendChild(navA);
+            navList.appendChild(navItem);
             iMax = sections.length;
             for (i = 0; i < iMax; i++) {
                 item = sections[i];
+                navItem = document.createElement('li');
+                navA = document.createElement('a');
+                navA.setAttribute('href', '#toc' + (i + 1));
+                navText = document.createTextNode(item.textContent);
+                navA.appendChild(navText);
+                navItem.appendChild(navA);
+                navList.appendChild(navItem);
             }
+            sidenav.appendChild(navList);
         }
     }
+
+    function setTitle() {
+        title.textContent = heading.textContent;
+    }
+
+    setTitle();
+    buildSideNav();
 })();
