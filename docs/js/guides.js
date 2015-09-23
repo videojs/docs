@@ -39,7 +39,7 @@ var BCLS = ( function () {
                 item = sections[i];
                 navItem = document.createElement('li');
                 navA = document.createElement('a');
-                navA.setAttribute('href', '#toc' + (i + 1));
+                navA.setAttribute('href', '#' + item.id );
                 navText = document.createTextNode(item.textContent);
                 navA.appendChild(navText);
                 navItem.appendChild(navA);
