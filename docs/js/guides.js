@@ -29,7 +29,7 @@ var BCLS = ( function () {
                 homeLink = document.createElement('a');
             homeLink.setAttribute('href', '../../index.html');
             homeLink.setAttribute('style', 'font-size:1.4em;font-weight:bold;text-align:right;margin:0;padding-left:1em');
-            homeLink.textContent = 'Docs Home';
+            homeLink.textContent = 'Docs Index';
             homeHead.appendChild(homeLink);
             navList = document.createElement('ul');
             navList.setAttribute('class', 'sidenav-list');
