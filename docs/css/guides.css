@@ -28,11 +28,15 @@ body {
 .main {
     position: absolute;
     right: 25%;
+    padding-bottom: 40px;
     display: inline-block;
     max-width: 70%;
 }
 .footer {
     bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
     width: 100%;
     text-align: center;
     padding: .2em;
@@ -86,7 +90,7 @@ div {
 }
 
 pre {
-    background-color: #F4F3EC;
+    background-color: #FDF6E3;
     font-size: .8em;
     margin-bottom: 1.3rem;
     padding: .5rem;
