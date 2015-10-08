@@ -9,7 +9,7 @@ module.exports = function (grunt) {
             cloneVideoJS: {
                 // Once 5.0 is in stable the line below should be use instead
                 // command: 'rm -rf ./video.js && git clone -b stable --single-branch https://github.com/videojs/video.js.git'
-                command: 'rm -rf ./video.js && git clone -b master --single-branch https://github.com/videojs/video.js.git'
+                command: 'rm -rf ./video.js && git clone -b stable --single-branch https://github.com/videojs/video.js.git'
             },
         },
         concat: {
