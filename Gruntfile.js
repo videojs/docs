@@ -95,7 +95,7 @@ module.exports = function (grunt) {
             function writeFile() {
                 // create file with name=filename and contents=contentStr
                 docContentStr = new XMLSerializer().serializeToString(doc);
-                // convert bracket character codes to brackets
+                // convert html character codes to brackets
                 docContentStr = docContentStr.replace(reLT, '<');
                 docContentStr = docContentStr.replace(reGT, '>');
                 docContentStr = docContentStr.replace(reQuot, '"');
