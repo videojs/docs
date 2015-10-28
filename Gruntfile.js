@@ -90,13 +90,15 @@ module.exports = function (grunt) {
                 filename,
                 fullpath,
                 reLT = new RegExp('&lt;', 'g'),
-                reGT = new RegExp('&gt;', 'g');
+                reGT = new RegExp('&gt;', 'g'),
+                reQuot = new RegExp('&quot;', 'g');
             function writeFile() {
                 // create file with name=filename and contents=contentStr
                 docContentStr = new XMLSerializer().serializeToString(doc);
                 // convert bracket character codes to brackets
                 docContentStr = docContentStr.replace(reLT, '<');
                 docContentStr = docContentStr.replace(reGT, '>');
+                docContentStr = docContentStr.replace(reQuot, '"');
                 fullpath = './docs/api/' + filename;
                 grunt.file.write(fullpath, docContentStr);
             }
