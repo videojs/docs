@@ -80,6 +80,20 @@ module.exports = function (grunt) {
             }
             return idxArr;
         }
+
+        /**
+         * does a regex replace on a str
+         * @param  {String}   str      the string to make replacements on
+         * @param  {Object}   regex    the regex
+         * @param  {String}   newStr   the string to substitute for the regex finds
+         * @param  {Function} callback callback function
+         * @return {String}   str      the string with replacements made
+         */
+        function regexReplace(str, regex, newStr, callback) {
+            str = str.replace(regex, newStr);
+            return str;
+        }
+
         /**
          * create the HTML files for the classes
          * @param {array} filenameArray - array of the filenames
@@ -89,16 +103,36 @@ module.exports = function (grunt) {
                 iMax = filenameArray.length,
                 filename,
                 fullpath,
-                reLT = new RegExp('&lt;', 'g'),
+                reLT1 = new RegExp('&amp;lt;', 'g'),
+                reLT2 = new RegExp('&lt;', 'g'),
                 reGT = new RegExp('&gt;', 'g'),
-                reQuot = new RegExp('&quot;', 'g');
+                reQuot1 = new RegExp('&amp;quot;', 'g'),
+                reQuot2 = new RegExp('&quot;', 'g');
+
+            /**
+             * does a regex replace on a str
+             * @param  {String}   str      the string to make replacements on
+             * @param  {Object}   regex    the regex
+             * @param  {String}   newStr   the string to substitute for the regex finds
+             * @param  {Function} callback callback function
+             * @return {String}   str      the string with replacements made
+             */
+            function regexReplace(str, regex, newStr, callback) {
+                str = str.replace(regex, newStr);
+                return str;
+            }
+
             function writeFile() {
+
+
                 // create file with name=filename and contents=contentStr
                 docContentStr = new XMLSerializer().serializeToString(doc);
                 // convert html character codes to brackets
-                docContentStr = docContentStr.replace(reLT, '<');
+                docContentStr = docContentStr.replace(reLT1, '<');
+                docContentStr = docContentStr.replace(reLT2, '<');
                 docContentStr = docContentStr.replace(reGT, '>');
-                docContentStr = docContentStr.replace(reQuot, '"');
+                docContentStr = docContentStr.replace(reQuot1, '"');
+                docContentStr = docContentStr.replace(reQuot2, '"');
                 fullpath = './docs/api/' + filename;
                 grunt.file.write(fullpath, docContentStr);
             }
@@ -321,7 +355,8 @@ module.exports = function (grunt) {
                 }),
                 description = createEl('div', {
                     style: 'border:none',
-                    id: 'classDescription'
+                    id: 'classDescription',
+                    class: 'description'
                 }),
                 constructorHeader = createEl('h3'),
                 constructorPre = createEl('pre'),
@@ -902,6 +937,7 @@ module.exports = function (grunt) {
                         highlighter = createEl('script', {src: './js/highlight-syntax.js'});
                         addText(highlighter, '\n // activates syntax highlighting \n');
                         doc_body.appendChild(highlighter);
+
                         // now we're ready to write the file
                         callback();
                     });

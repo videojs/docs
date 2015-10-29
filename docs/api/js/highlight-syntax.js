@@ -1,7 +1,10 @@
-BCLSHighligher = (function(hljs) {
+BCLSHighlighter = (function(hljs) {
     var codeBlocks = document.querySelectorAll('pre>code'),
         i,
-        iMax;
+        iMax,
+        txt,
+        reLT = new RegExp('<', 'g'),
+        reGT = new RegExp('>;', 'g');
 
     /**
      * tests for all the ways a variable might be undefined or not have a value
@@ -14,9 +17,14 @@ BCLSHighligher = (function(hljs) {
         }
         return true;
     };
+
     if (isDefined(codeBlocks)) {
         iMax = codeBlocks.length;
         for (i = 0; i < iMax; i++) {
+            txt = codeBlocks[i].innerHTML.toString();
+            txt = txt.replace(reLT, '&lt;');
+            txt = txt.replace(reGT, '&gt;');
+            codeBlocks[i].innerHTML = txt;
             hljs.highlightBlock(codeBlocks[i]);
         }
     }
