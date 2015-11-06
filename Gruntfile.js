@@ -384,7 +384,7 @@ module.exports = function (grunt) {
                 topSection.appendChild(extendsNode);
                 addText(extendsNode, 'EXTENDS: ');
                 extendsLink = createEl('a', {
-                    href: parentClassFilePath + doc_data.parentClasses[0].headerInfo.meta.filename
+                    href: doc_data.parentClasses[0].headerInfo.meta.filename.replace('.js', '.html')
                 });
                 extendsNode.appendChild(extendsLink);
                 addText(extendsLink, doc_data.parentClasses[0].headerInfo.meta.filename);
