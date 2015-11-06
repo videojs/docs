@@ -24,7 +24,7 @@ module.exports = function (grunt) {
         uglify: {
             dist: {
                 src: 'doc-data-full.js',
-                dest: 'doc-data.js'
+                dest: './docs/api/js/doc-data.js'
             }
         },
         copy: {
