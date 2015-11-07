@@ -121,6 +121,7 @@ var BCLSVJS = (function (window, document, docData) {
         var doc_body = document.getElementsByTagName('body')[0],
             mainContent = createEl('div', {id: 'main'}),
             topSection = createEl('section', {id: 'top', class: 'section'}),
+            mainLink = createEl('a', {href: '//docs.videojs.com/', style: 'float:right;font-weight:bold;margin-top:-3em;background-color:#ECEEF1;padding:2px 4px;'}),
             header = createEl('h1'),
             text = document.createTextNode('video.js API Documentation Index'),
             topP,
@@ -128,6 +129,8 @@ var BCLSVJS = (function (window, document, docData) {
             topLink,
             topLinkStrong;
         // add elements
+        mainLink.appendChild(document.createTextNode('Documentation Home'));
+        topSection.appendChild(mainLink);
         header.appendChild(text);
         topSection.appendChild(header);
         // add paragraph for videojs function

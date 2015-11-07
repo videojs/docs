@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="../css/guides.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,600,600italic' rel='stylesheet' type='text/css'><link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css" />
+<script type="text/javascript" src="//use.edgefonts.net/source-code-pro.js"></script>
+</head>
+<body>
+<div id="sidenav" class="sidenav"></div>
+<div id="main" class="main">
+    <h1 id="toc_0">Components</h1>
+
+<p>The Video.js player is built on top of a simple, custom UI components architecture. The player class and all control classes inherit from the Component class, or a subclass of Component.</p>
+
+<pre><code class="js">videojs.Control = videojs.Component.extend();
+videojs.Button = videojs.Control.extend();
+videojs.PlayToggle = videojs.Button.extend();
+</code></pre>
+
+<p>The UI component architecture makes it easier to add child components to a parent component and build up an entire user interface, like the controls for the Video.js player.</p>
+
+<pre><code class="js">// Adding a new control to the player
+myPlayer.addChild(&#39;BigPlayButton&#39;);
+</code></pre>
+
+<p>Every component has an associated DOM element, and when you add a child component, it inserts the element of that child into the element of the parent.</p>
+
+<pre><code class="js">myPlayer.addChild(&#39;BigPlayButton&#39;);
+</code></pre>
+
+<p>Results in:</p>
+
+<pre><code class="html">    &lt;!-- Player Element --&gt;
+    &lt;div class=&quot;video-js&quot;&gt;
+      &lt;!-- BigPlayButton Element --&gt;
+      &lt;div class=&quot;vjs-big-play-button&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<p>The actual default component structure of the Video.js player looks something like this:</p>
+
+<pre><code>Player
+    PosterImage
+    TextTrackDisplay
+    LoadingSpinner
+    BigPlayButton
+    ControlBar
+        PlayToggle
+        FullscreenToggle
+        CurrentTimeDisplay
+        TimeDivider
+        DurationDisplay
+        RemainingTimeDisplay
+        ProgressControl
+            SeekBar
+              LoadProgressBar
+              PlayProgressBar
+              SeekHandle
+        VolumeControl
+            VolumeBar
+                VolumeLevel
+                VolumeHandle
+        MuteToggle
+</code></pre>
+
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+<script src="../js/guides.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+
+</html>
