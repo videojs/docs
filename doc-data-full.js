@@ -9,7 +9,7 @@ var docData =
             ],
             "filename": "base-styles.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "base-styles.js",
@@ -28,7 +28,7 @@ var docData =
             ],
             "filename": "big-play-button.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "big-play-button.js",
@@ -47,7 +47,7 @@ var docData =
             ],
             "filename": "big-play-button.js",
             "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Initial play button. Shows before the video has played. The hiding of the\nbig play button is done via CSS and player states.</p>",
@@ -89,7 +89,7 @@ var docData =
             ],
             "filename": "big-play-button.js",
             "lineno": 22,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -117,7 +117,7 @@ var docData =
             ],
             "filename": "big-play-button.js",
             "lineno": 32,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Handles click for play</p>",
@@ -135,7 +135,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "button.js",
@@ -154,7 +154,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 11,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Base class for all buttons</p>",
@@ -196,7 +196,7 @@ var docData =
             ],
             "filename": "button.js",
             "lineno": 32,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -240,12 +240,12 @@ var docData =
         "comment": "/**\n* Controls text - both request and localize\n*\n* @param {String} text Text for button\n* @return {String}\n* @method controlText\n*/",
         "meta": {
             "range": [
-                569,
-                701
+                578,
+                710
             ],
             "filename": "button.js",
-            "lineno": 63,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 66,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Controls text - both request and localize</p>",
@@ -278,12 +278,12 @@ var docData =
         "comment": "/**\n* Allows sub components to stack CSS class names\n*\n* @return {String}\n* @method buildCSSClass\n*/",
         "meta": {
             "range": [
-                729,
-                829
+                738,
+                838
             ],
             "filename": "button.js",
-            "lineno": 79,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 82,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Allows sub components to stack CSS class names</p>",
@@ -305,12 +305,12 @@ var docData =
         "comment": "/**\n* Handle Click - Override with specific functionality for button\n*\n* @method handleClick\n*/",
         "meta": {
             "range": [
-                842,
-                937
+                851,
+                946
             ],
             "filename": "button.js",
-            "lineno": 89,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 92,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Handle Click - Override with specific functionality for button</p>",
@@ -323,12 +323,12 @@ var docData =
         "comment": "/**\n* Handle Focus - Add keyboard functionality to element\n*\n* @method handleFocus\n*/",
         "meta": {
             "range": [
-                944,
-                1029
+                953,
+                1038
             ],
             "filename": "button.js",
-            "lineno": 96,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 99,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Handle Focus - Add keyboard functionality to element</p>",
@@ -341,12 +341,12 @@ var docData =
         "comment": "/**\n* Handle KeyPress (document level) - Trigger click when keys are pressed\n*\n* @method handleKeyPress\n*/",
         "meta": {
             "range": [
-                1042,
-                1148
+                1051,
+                1157
             ],
             "filename": "button.js",
-            "lineno": 105,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 108,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Handle KeyPress (document level) - Trigger click when keys are pressed</p>",
@@ -359,18 +359,39 @@ var docData =
         "comment": "/**\n* Handle Blur - Remove keyboard triggers\n*\n* @method handleBlur\n*/",
         "meta": {
             "range": [
-                1173,
-                1243
+                1182,
+                1252
             ],
             "filename": "button.js",
-            "lineno": 118,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 121,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Handle Blur - Remove keyboard triggers</p>",
         "kind": "function",
         "name": "handleBlur",
         "longname": "handleBlur",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* The `CloseButton` component is a button which fires a \"close\" event\n* when it is activated.\n*\n* @extends Button\n* @class CloseButton\n*/",
+        "meta": {
+            "range": [
+                9,
+                150
+            ],
+            "filename": "close-button.js",
+            "lineno": 4,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>The <code>CloseButton</code> component is a button which fires a &quot;close&quot; event\nwhen it is activated.</p>",
+        "augments": [
+            "Button"
+        ],
+        "kind": "class",
+        "name": "CloseButton",
+        "longname": "CloseButton",
         "scope": "global"
     },
     {
@@ -382,7 +403,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "component.js",
@@ -401,7 +422,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 18,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Base UI Component class\nComponents are embeddable UI objects that are represented by both a\njavascript object and an element in the DOM. They can be children of other\ncomponents, and can have many children themselves.</p>\n<pre class=\"prettyprint source lang-js\"><code>    // adding a button to the player\n    var button = player.addChild('button');\n    button.el(); // -> button element</code></pre><pre class=\"prettyprint source lang-html\"><code>    &lt;div class=&quot;video-js&quot;>\n      &lt;div class=&quot;vjs-button&quot;>Button&lt;/div>\n    &lt;/div></code></pre><p>Components are also event targets.</p>\n<pre class=\"prettyprint source lang-js\"><code>    button.on('click', function(){\n      console.log('Button Clicked!');\n    });\n    button.trigger('customevent');</code></pre>",
@@ -450,7 +471,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 101,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Dispose of the component and all child components</p>",
@@ -468,7 +489,7 @@ var docData =
             ],
             "filename": "component.js",
             "lineno": 135,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Return the component's player</p>",
@@ -487,18 +508,18 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Deep merge of options objects\n* Whenever a property is an object on both options objects\n* the two properties will be merged using mergeOptions.\n* This is used for merging options for child components. We\n* want it to be easy to override individual options on a child\n* component without having to rewrite all the other default options.\n* ```js\n*     Parent.prototype.options_ = {\n*       children: {\n*         'childOne': { 'foo': 'bar', 'asdf': 'fdsa' },\n*         'childTwo': {},\n*         'childThree': {}\n*       }\n*     }\n*     newOptions = {\n*       children: {\n*         'childOne': { 'foo': 'baz', 'abc': '123' }\n*         'childTwo': null,\n*         'childFour': {}\n*       }\n*     }\n*\n*     this.options(newOptions);\n* ```\n* RESULT\n* ```js\n*     {\n*       children: {\n*         'childOne': { 'foo': 'baz', 'asdf': 'fdsa', 'abc': '123' },\n*         'childTwo': null, // Disabled. Won't be initialized.\n*         'childThree': {},\n*         'childFour': {}\n*       }\n*     }\n* ```\n*\n* @param  {Object} obj Object of new option values\n* @return {Object}     A NEW object of this.options_ and obj merged\n* @method options\n*/",
+        "comment": "/**\n* Deep merge of options objects\n* Whenever a property is an object on both options objects\n* the two properties will be merged using mergeOptions.\n*\n* ```js\n*     Parent.prototype.options_ = {\n*       optionSet: {\n*         'childOne': { 'foo': 'bar', 'asdf': 'fdsa' },\n*         'childTwo': {},\n*         'childThree': {}\n*       }\n*     }\n*     newOptions = {\n*       optionSet: {\n*         'childOne': { 'foo': 'baz', 'abc': '123' }\n*         'childTwo': null,\n*         'childFour': {}\n*       }\n*     }\n*\n*     this.options(newOptions);\n* ```\n* RESULT\n* ```js\n*     {\n*       optionSet: {\n*         'childOne': { 'foo': 'baz', 'asdf': 'fdsa', 'abc': '123' },\n*         'childTwo': null, // Disabled. Won't be initialized.\n*         'childThree': {},\n*         'childFour': {}\n*       }\n*     }\n* ```\n*\n* @param  {Object} obj Object of new option values\n* @return {Object}     A NEW object of this.options_ and obj merged\n* @method options\n*/",
         "meta": {
             "range": [
                 1361,
-                2498
+                2311
             ],
             "filename": "component.js",
             "lineno": 145,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
-        "description": "<p>Deep merge of options objects\nWhenever a property is an object on both options objects\nthe two properties will be merged using mergeOptions.\nThis is used for merging options for child components. We\nwant it to be easy to override individual options on a child\ncomponent without having to rewrite all the other default options.</p>\n<pre class=\"prettyprint source lang-js\"><code>    Parent.prototype.options_ = {\n      children: {\n        'childOne': { 'foo': 'bar', 'asdf': 'fdsa' },\n        'childTwo': {},\n        'childThree': {}\n      }\n    }\n    newOptions = {\n      children: {\n        'childOne': { 'foo': 'baz', 'abc': '123' }\n        'childTwo': null,\n        'childFour': {}\n      }\n    }\n\n    this.options(newOptions);</code></pre><p>RESULT</p>\n<pre class=\"prettyprint source lang-js\"><code>    {\n      children: {\n        'childOne': { 'foo': 'baz', 'asdf': 'fdsa', 'abc': '123' },\n        'childTwo': null, // Disabled. Won't be initialized.\n        'childThree': {},\n        'childFour': {}\n      }\n    }</code></pre>",
+        "description": "<p>Deep merge of options objects\nWhenever a property is an object on both options objects\nthe two properties will be merged using mergeOptions.</p>\n<pre class=\"prettyprint source lang-js\"><code>    Parent.prototype.options_ = {\n      optionSet: {\n        'childOne': { 'foo': 'bar', 'asdf': 'fdsa' },\n        'childTwo': {},\n        'childThree': {}\n      }\n    }\n    newOptions = {\n      optionSet: {\n        'childOne': { 'foo': 'baz', 'abc': '123' }\n        'childTwo': null,\n        'childFour': {}\n      }\n    }\n\n    this.options(newOptions);</code></pre><p>RESULT</p>\n<pre class=\"prettyprint source lang-js\"><code>    {\n      optionSet: {\n        'childOne': { 'foo': 'baz', 'asdf': 'fdsa', 'abc': '123' },\n        'childTwo': null, // Disabled. Won't be initialized.\n        'childThree': {},\n        'childFour': {}\n      }\n    }</code></pre>",
         "params": [
             {
                 "type": {
@@ -529,12 +550,12 @@ var docData =
         "comment": "/**\n* Get the component's DOM element\n* ```js\n*     var domEl = myComponent.el();\n* ```\n*\n* @return {Element}\n* @method el\n*/",
         "meta": {
             "range": [
-                2532,
-                2657
+                2345,
+                2470
             ],
             "filename": "component.js",
-            "lineno": 197,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 195,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get the component's DOM element</p>\n<pre class=\"prettyprint source lang-js\"><code>    var domEl = myComponent.el();</code></pre>",
@@ -553,15 +574,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Create the component's DOM element\n*\n* @param  {String=} tagName  Element's node type. e.g. 'div'\n* @param  {Object=} attributes An object of element attributes that should be set on the element\n* @return {Element}\n* @method createEl\n*/",
+        "comment": "/**\n* Create the component's DOM element\n*\n* @param  {String=} tagName  Element's node type. e.g. 'div'\n* @param  {Object=} properties An object of properties that should be set\n* @param  {Object=} attributes An object of attributes that should be set\n* @return {Element}\n* @method createEl\n*/",
         "meta": {
             "range": [
-                2670,
-                2912
+                2483,
+                2776
             ],
             "filename": "component.js",
-            "lineno": 210,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 208,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -583,7 +604,17 @@ var docData =
                     ]
                 },
                 "optional": true,
-                "description": "<p>An object of element attributes that should be set on the element</p>",
+                "description": "<p>An object of properties that should be set</p>",
+                "name": "properties"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "optional": true,
+                "description": "<p>An object of attributes that should be set</p>",
                 "name": "attributes"
             }
         ],
@@ -605,12 +636,12 @@ var docData =
         "comment": "/**\n* Return the component's DOM element where children are inserted.\n* Will either be the same as el() or a new element defined in createEl().\n*\n* @return {Element}\n* @method contentEl\n*/",
         "meta": {
             "range": [
-                2997,
-                3185
+                2861,
+                3049
             ],
             "filename": "component.js",
-            "lineno": 246,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 245,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Return the component's DOM element where children are inserted.\nWill either be the same as el() or a new element defined in createEl().</p>",
@@ -632,12 +663,12 @@ var docData =
         "comment": "/**\n* Get the component's ID\n* ```js\n*     var id = myComponent.id();\n* ```\n*\n* @return {String}\n* @method id\n*/",
         "meta": {
             "range": [
-                3198,
-                3310
+                3062,
+                3174
             ],
             "filename": "component.js",
-            "lineno": 257,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 256,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get the component's ID</p>\n<pre class=\"prettyprint source lang-js\"><code>    var id = myComponent.id();</code></pre>",
@@ -659,12 +690,12 @@ var docData =
         "comment": "/**\n* Get the component's name. The name is often used to reference the component.\n* ```js\n*     var name = myComponent.name();\n* ```\n*\n* @return {String}\n* @method name\n*/",
         "meta": {
             "range": [
-                3323,
-                3495
+                3187,
+                3359
             ],
             "filename": "component.js",
-            "lineno": 270,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 269,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get the component's name. The name is often used to reference the component.</p>\n<pre class=\"prettyprint source lang-js\"><code>    var name = myComponent.name();</code></pre>",
@@ -686,12 +717,12 @@ var docData =
         "comment": "/**\n* Get an array of all child components\n* ```js\n*     var kids = myComponent.children();\n* ```\n*\n* @return {Array} The children\n* @method children\n*/",
         "meta": {
             "range": [
-                3508,
-                3660
+                3372,
+                3524
             ],
             "filename": "component.js",
-            "lineno": 283,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 282,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get an array of all child components</p>\n<pre class=\"prettyprint source lang-js\"><code>    var kids = myComponent.children();</code></pre>",
@@ -714,12 +745,12 @@ var docData =
         "comment": "/**\n* Returns a child component with the provided ID\n*\n* @return {Component}\n* @method getChildById\n*/",
         "meta": {
             "range": [
-                3673,
-                3775
+                3537,
+                3639
             ],
             "filename": "component.js",
-            "lineno": 296,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 295,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Returns a child component with the provided ID</p>",
@@ -741,12 +772,12 @@ var docData =
         "comment": "/**\n* Returns a child component with the provided name\n*\n* @return {Component}\n* @method getChild\n*/",
         "meta": {
             "range": [
-                3788,
-                3888
+                3652,
+                3752
             ],
             "filename": "component.js",
-            "lineno": 306,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 305,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Returns a child component with the provided name</p>",
@@ -765,18 +796,18 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Adds a child component inside this component\n* ```js\n*     myComponent.el();\n*     // -> <div class='my-component'></div>\n*     myComponent.children();\n*     // [empty array]\n*\n*     var myButton = myComponent.addChild('MyButton');\n*     // -> <div class='my-component'><div class=\"my-button\">myButton<div></div>\n*     // -> myButton === myComonent.children()[0];\n* ```\n* Pass in options for child constructors and options for children of the child\n* ```js\n*     var myButton = myComponent.addChild('MyButton', {\n*       text: 'Press Me',\n*       children: {\n*         buttonChildExample: {\n*           buttonChildOption: true\n*         }\n*       }\n*     });\n* ```\n*\n* @param {String|Component} child The class name or instance of a child to add\n* @param {Object=} options Options, including options to be passed to children of the child.\n* @return {Component} The child component (created by this process if a string was used)\n* @method addChild\n*/",
+        "comment": "/**\n* Adds a child component inside this component\n* ```js\n*     myComponent.el();\n*     // -> <div class='my-component'></div>\n*     myComponent.children();\n*     // [empty array]\n*\n*     var myButton = myComponent.addChild('MyButton');\n*     // -> <div class='my-component'><div class=\"my-button\">myButton<div></div>\n*     // -> myButton === myComponent.children()[0];\n* ```\n* Pass in options for child constructors and options for children of the child\n* ```js\n*     var myButton = myComponent.addChild('MyButton', {\n*       text: 'Press Me',\n*       buttonChildExample: {\n*         buttonChildOption: true\n*       }\n*     });\n* ```\n*\n* @param {String|Component} child The class name or instance of a child to add\n* @param {Object=} options Options, including options to be passed to children of the child.\n* @return {Component} The child component (created by this process if a string was used)\n* @method addChild\n*/",
         "meta": {
             "range": [
-                3901,
-                4856
+                3765,
+                4685
             ],
             "filename": "component.js",
-            "lineno": 316,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 315,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
-        "description": "<p>Adds a child component inside this component</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.el();\n    // -> &lt;div class='my-component'>&lt;/div>\n    myComponent.children();\n    // [empty array]\n\n    var myButton = myComponent.addChild('MyButton');\n    // -> &lt;div class='my-component'>&lt;div class=&quot;my-button&quot;>myButton&lt;div>&lt;/div>\n    // -> myButton === myComonent.children()[0];</code></pre><p>Pass in options for child constructors and options for children of the child</p>\n<pre class=\"prettyprint source lang-js\"><code>    var myButton = myComponent.addChild('MyButton', {\n      text: 'Press Me',\n      children: {\n        buttonChildExample: {\n          buttonChildOption: true\n        }\n      }\n    });</code></pre>",
+        "description": "<p>Adds a child component inside this component</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.el();\n    // -> &lt;div class='my-component'>&lt;/div>\n    myComponent.children();\n    // [empty array]\n\n    var myButton = myComponent.addChild('MyButton');\n    // -> &lt;div class='my-component'>&lt;div class=&quot;my-button&quot;>myButton&lt;div>&lt;/div>\n    // -> myButton === myComponent.children()[0];</code></pre><p>Pass in options for child constructors and options for children of the child</p>\n<pre class=\"prettyprint source lang-js\"><code>    var myButton = myComponent.addChild('MyButton', {\n      text: 'Press Me',\n      buttonChildExample: {\n        buttonChildOption: true\n      }\n    });</code></pre>",
         "params": [
             {
                 "type": {
@@ -818,12 +849,12 @@ var docData =
         "comment": "/**\n* Remove a child component from this component's list of children, and the\n* child component's element from this component's element\n*\n* @param  {Component} component Component to remove\n* @method removeChild\n*/",
         "meta": {
             "range": [
-                5040,
-                5255
+                4869,
+                5084
             ],
             "filename": "component.js",
-            "lineno": 406,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 403,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Remove a child component from this component's list of children, and the\nchild component's element from this component's element</p>",
@@ -844,18 +875,18 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Add and initialize default child components from options\n* ```js\n*     // when an instance of MyComponent is created, all children in options\n*     // will be added to the instance by their name strings and options\n*     MyComponent.prototype.options_.children = {\n*       myChildComponent: {\n*         myChildOption: true\n*       }\n*     }\n* ```\n*     // Or when creating the component\n* ```js\n*     var myComp = new MyComponent(player, {\n*       children: {\n*         myChildComponent: {\n*           myChildOption: true\n*         }\n*       }\n*     });\n* ```\n* The children option can also be an Array of child names or\n* child options objects (that also include a 'name' key).\n* ```js\n*     var myComp = new MyComponent(player, {\n*       children: [\n*         'button',\n*         {\n*           name: 'button',\n*           someOtherOption: true\n*         }\n*       ]\n*     });\n* ```\n*\n* @method initChildren\n*/",
+        "comment": "/**\n* Add and initialize default child components from options\n* ```js\n*     // when an instance of MyComponent is created, all children in options\n*     // will be added to the instance by their name strings and options\n*     MyComponent.prototype.options_ = {\n*       children: [\n*         'myChildComponent'\n*       ],\n*       myChildComponent: {\n*         myChildOption: true\n*       }\n*     };\n*\n*     // Or when creating the component\n*     var myComp = new MyComponent(player, {\n*       children: [\n*         'myChildComponent'\n*       ],\n*       myChildComponent: {\n*         myChildOption: true\n*       }\n*     });\n* ```\n* The children option can also be an array of\n* child options objects (that also include a 'name' key).\n* This can be used if you have two child components of the\n* same type that need different options.\n* ```js\n*     var myComp = new MyComponent(player, {\n*       children: [\n*         'button',\n*         {\n*           name: 'button',\n*           someOtherOption: true\n*         },\n*         {\n*           name: 'button',\n*           someOtherOption: false\n*         }\n*       ]\n*     });\n* ```\n*\n* @method initChildren\n*/",
         "meta": {
             "range": [
-                5355,
-                6272
+                5184,
+                6338
             ],
             "filename": "component.js",
-            "lineno": 446,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 443,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
-        "description": "<p>Add and initialize default child components from options</p>\n<pre class=\"prettyprint source lang-js\"><code>    // when an instance of MyComponent is created, all children in options\n    // will be added to the instance by their name strings and options\n    MyComponent.prototype.options_.children = {\n      myChildComponent: {\n        myChildOption: true\n      }\n    }</code></pre><pre class=\"prettyprint source\"><code>// Or when creating the component</code></pre><pre class=\"prettyprint source lang-js\"><code>    var myComp = new MyComponent(player, {\n      children: {\n        myChildComponent: {\n          myChildOption: true\n        }\n      }\n    });</code></pre><p>The children option can also be an Array of child names or\nchild options objects (that also include a 'name' key).</p>\n<pre class=\"prettyprint source lang-js\"><code>    var myComp = new MyComponent(player, {\n      children: [\n        'button',\n        {\n          name: 'button',\n          someOtherOption: true\n        }\n      ]\n    });</code></pre>",
+        "description": "<p>Add and initialize default child components from options</p>\n<pre class=\"prettyprint source lang-js\"><code>    // when an instance of MyComponent is created, all children in options\n    // will be added to the instance by their name strings and options\n    MyComponent.prototype.options_ = {\n      children: [\n        'myChildComponent'\n      ],\n      myChildComponent: {\n        myChildOption: true\n      }\n    };\n\n    // Or when creating the component\n    var myComp = new MyComponent(player, {\n      children: [\n        'myChildComponent'\n      ],\n      myChildComponent: {\n        myChildOption: true\n      }\n    });</code></pre><p>The children option can also be an array of\nchild options objects (that also include a 'name' key).\nThis can be used if you have two child components of the\nsame type that need different options.</p>\n<pre class=\"prettyprint source lang-js\"><code>    var myComp = new MyComponent(player, {\n      children: [\n        'button',\n        {\n          name: 'button',\n          someOtherOption: true\n        },\n        {\n          name: 'button',\n          someOtherOption: false\n        }\n      ]\n    });</code></pre>",
         "kind": "function",
         "name": "initChildren",
         "longname": "initChildren",
@@ -865,12 +896,12 @@ var docData =
         "comment": "/**\n* Allows sub components to stack CSS class names\n*\n* @return {String} The constructed class name\n* @method buildCSSClass\n*/",
         "meta": {
             "range": [
-                6468,
-                6595
+                6534,
+                6661
             ],
             "filename": "component.js",
-            "lineno": 548,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 554,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Allows sub components to stack CSS class names</p>",
@@ -893,12 +924,12 @@ var docData =
         "comment": "/**\n* Add an event listener to this component's element\n* ```js\n*     var myFunc = function(){\n*       var myComponent = this;\n*       // Do something when the event is fired\n*     };\n*\n*     myComponent.on('eventType', myFunc);\n* ```\n* The context of myFunc will be myComponent unless previously bound.\n* Alternatively, you can add a listener to another element or component.\n* ```js\n*     myComponent.on(otherElement, 'eventName', myFunc);\n*     myComponent.on(otherComponent, 'eventName', myFunc);\n* ```\n* The benefit of using this over `VjsEvents.on(otherElement, 'eventName', myFunc)`\n* and `otherComponent.on('eventName', myFunc)` is that this way the listeners\n* will be automatically cleaned up when either component is disposed.\n* It will also bind myComponent as the context of myFunc.\n* **NOTE**: When using this on elements in the page other than window\n* and document (both permanent), if you remove the element from the DOM\n* you need to call `myComponent.trigger(el, 'dispose')` on it to clean up\n* references to it and allow the browser to garbage collect it.\n*\n* @param  {String|Component} first   The event type or other component\n* @param  {Function|String}      second  The event handler or event type\n* @param  {Function}             third   The event handler\n* @return {Component}\n* @method on\n*/",
         "meta": {
             "range": [
-                6614,
-                7932
+                6680,
+                7998
             ],
             "filename": "component.js",
-            "lineno": 560,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 566,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Add an event listener to this component's element</p>\n<pre class=\"prettyprint source lang-js\"><code>    var myFunc = function(){\n      var myComponent = this;\n      // Do something when the event is fired\n    };\n\n    myComponent.on('eventType', myFunc);</code></pre><p>The context of myFunc will be myComponent unless previously bound.\nAlternatively, you can add a listener to another element or component.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.on(otherElement, 'eventName', myFunc);\n    myComponent.on(otherComponent, 'eventName', myFunc);</code></pre><p>The benefit of using this over <code>VjsEvents.on(otherElement, 'eventName', myFunc)</code>\nand <code>otherComponent.on('eventName', myFunc)</code> is that this way the listeners\nwill be automatically cleaned up when either component is disposed.\nIt will also bind myComponent as the context of myFunc.\n<strong>NOTE</strong>: When using this on elements in the page other than window\nand document (both permanent), if you remove the element from the DOM\nyou need to call <code>myComponent.trigger(el, 'dispose')</code> on it to clean up\nreferences to it and allow the browser to garbage collect it.</p>",
@@ -951,12 +982,12 @@ var docData =
         "comment": "/**\n* Remove an event listener from this component's element\n* ```js\n*     myComponent.off('eventType', myFunc);\n* ```\n* If myFunc is excluded, ALL listeners for the event type will be removed.\n* If eventType is excluded, ALL listeners will be removed from the component.\n* Alternatively you can use `off` to remove listeners that were added to other\n* elements or components using `myComponent.on(otherComponent...`.\n* In this case both the event type and listener function are REQUIRED.\n* ```js\n*     myComponent.off(otherElement, 'eventType', myFunc);\n*     myComponent.off(otherComponent, 'eventType', myFunc);\n* ```\n*\n* @param  {String=|Component}  first  The event type or other component\n* @param  {Function=|String}       second The listener function or event type\n* @param  {Function=}              third  The listener for other component\n* @return {Component}\n* @method off\n*/",
         "meta": {
             "range": [
-                8065,
-                8951
+                8131,
+                9017
             ],
             "filename": "component.js",
-            "lineno": 635,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 641,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Remove an event listener from this component's element</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.off('eventType', myFunc);</code></pre><p>If myFunc is excluded, ALL listeners for the event type will be removed.\nIf eventType is excluded, ALL listeners will be removed from the component.\nAlternatively you can use <code>off</code> to remove listeners that were added to other\nelements or components using <code>myComponent.on(otherComponent...</code>.\nIn this case both the event type and listener function are REQUIRED.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.off(otherElement, 'eventType', myFunc);\n    myComponent.off(otherComponent, 'eventType', myFunc);</code></pre>",
@@ -1010,12 +1041,12 @@ var docData =
         "comment": "/**\n* Add an event listener to be triggered only once and then removed\n* ```js\n*     myComponent.one('eventName', myFunc);\n* ```\n* Alternatively you can add a listener to another element or component\n* that will be triggered only once.\n* ```js\n*     myComponent.one(otherElement, 'eventName', myFunc);\n*     myComponent.one(otherComponent, 'eventName', myFunc);\n* ```\n*\n* @param  {String|Component}  first   The event type or other component\n* @param  {Function|String}       second  The listener function or event type\n* @param  {Function=}             third   The listener function for other component\n* @return {Component}\n* @method one\n*/",
         "meta": {
             "range": [
-                9033,
-                9675
+                9099,
+                9741
             ],
             "filename": "component.js",
-            "lineno": 683,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 689,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Add an event listener to be triggered only once and then removed</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.one('eventName', myFunc);</code></pre><p>Alternatively you can add a listener to another element or component\nthat will be triggered only once.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.one(otherElement, 'eventName', myFunc);\n    myComponent.one(otherComponent, 'eventName', myFunc);</code></pre>",
@@ -1069,12 +1100,12 @@ var docData =
         "comment": "/**\n* Trigger an event on an element\n* ```js\n*     myComponent.trigger('eventName');\n*     myComponent.trigger({'type':'eventName'});\n*     myComponent.trigger('eventName', {data: 'some data'});\n*     myComponent.trigger({'type':'eventName'}, {data: 'some data'});\n* ```\n*\n* @param  {Event|Object|String} event  A string (the type) or an event object with a type attribute\n* @param  {Object} [hash] data hash to pass along with the event\n* @return {Component}       self\n* @method trigger\n*/",
         "meta": {
             "range": [
-                9742,
-                10233
+                9808,
+                10299
             ],
             "filename": "component.js",
-            "lineno": 723,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 729,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Trigger an event on an element</p>\n<pre class=\"prettyprint source lang-js\"><code>    myComponent.trigger('eventName');\n    myComponent.trigger({'type':'eventName'});\n    myComponent.trigger('eventName', {data: 'some data'});\n    myComponent.trigger({'type':'eventName'}, {data: 'some data'});</code></pre>",
@@ -1120,12 +1151,12 @@ var docData =
         "comment": "/**\n* Bind a listener to the component's ready state.\n* Different from event listeners in that if the ready event has already happened\n* it will trigger the function immediately.\n*\n* @param  {Function} fn Ready listener\n* @param  {Boolean} sync Exec the listener synchronously if component is ready\n* @return {Component}\n* @method ready\n*/",
         "meta": {
             "range": [
-                10249,
-                10588
+                10315,
+                10654
             ],
             "filename": "component.js",
-            "lineno": 742,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 748,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Bind a listener to the component's ready state.\nDifferent from event listeners in that if the ready event has already happened\nit will trigger the function immediately.</p>",
@@ -1167,12 +1198,12 @@ var docData =
         "comment": "/**\n* Trigger the ready listeners\n*\n* @return {Component}\n* @method triggerReady\n*/",
         "meta": {
             "range": [
-                10640,
-                10723
+                10706,
+                10789
             ],
             "filename": "component.js",
-            "lineno": 769,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 775,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Trigger the ready listeners</p>",
@@ -1194,12 +1225,12 @@ var docData =
         "comment": "/**\n* Check if a component's element has a CSS class name\n*\n* @param {String} classToCheck Classname to check\n* @return {Component}\n* @method hasClass\n*/",
         "meta": {
             "range": [
-                10787,
-                10940
+                10853,
+                11006
             ],
             "filename": "component.js",
-            "lineno": 796,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 802,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Check if a component's element has a CSS class name</p>",
@@ -1232,12 +1263,12 @@ var docData =
         "comment": "/**\n* Add a CSS class name to the component's element\n*\n* @param {String} classToAdd Classname to add\n* @return {Component}\n* @method addClass\n*/",
         "meta": {
             "range": [
-                10953,
-                11098
+                11019,
+                11164
             ],
             "filename": "component.js",
-            "lineno": 807,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 813,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Add a CSS class name to the component's element</p>",
@@ -1270,12 +1301,12 @@ var docData =
         "comment": "/**\n* Remove and return a CSS class name from the component's element\n*\n* @param {String} classToRemove Classname to remove\n* @return {Component}\n* @method removeClass\n*/",
         "meta": {
             "range": [
-                11114,
-                11284
+                11180,
+                11350
             ],
             "filename": "component.js",
-            "lineno": 819,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 825,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Remove and return a CSS class name from the component's element</p>",
@@ -1308,12 +1339,12 @@ var docData =
         "comment": "/**\n* Show the component element if hidden\n*\n* @return {Component}\n* @method show\n*/",
         "meta": {
             "range": [
-                11300,
-                11384
+                11366,
+                11450
             ],
             "filename": "component.js",
-            "lineno": 831,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 837,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Show the component element if hidden</p>",
@@ -1335,12 +1366,12 @@ var docData =
         "comment": "/**\n* Hide the component element if currently showing\n*\n* @return {Component}\n* @method hide\n*/",
         "meta": {
             "range": [
-                11400,
-                11495
+                11466,
+                11561
             ],
             "filename": "component.js",
-            "lineno": 842,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 848,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Hide the component element if currently showing</p>",
@@ -1362,12 +1393,12 @@ var docData =
         "comment": "/**\n* Lock an item in its visible state\n* To be used with fadeIn/fadeOut.\n*\n* @return {Component}\n* @private\n* @method lockShowing\n*/",
         "meta": {
             "range": [
-                11511,
-                11644
+                11577,
+                11710
             ],
             "filename": "component.js",
-            "lineno": 853,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 859,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Lock an item in its visible state\nTo be used with fadeIn/fadeOut.</p>",
@@ -1390,12 +1421,12 @@ var docData =
         "comment": "/**\n* Unlock an item to be hidden\n* To be used with fadeIn/fadeOut.\n*\n* @return {Component}\n* @private\n* @method unlockShowing\n*/",
         "meta": {
             "range": [
-                11660,
-                11789
+                11726,
+                11855
             ],
             "filename": "component.js",
-            "lineno": 866,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 872,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Unlock an item to be hidden\nTo be used with fadeIn/fadeOut.</p>",
@@ -1418,12 +1449,12 @@ var docData =
         "comment": "/**\n* Set or get the width of the component (CSS values)\n* Setting the video tag dimension values only works with values in pixels.\n* Percent values will not work.\n* Some percents can be used, but width()/height() will return the number + %,\n* not the actual computed width/height.\n*\n* @param  {Number|String=} num   Optional width number\n* @param  {Boolean} skipListeners Skip the 'resize' event trigger\n* @return {Component} This component, when setting the width\n* @return {Number|String} The width, when getting\n* @method width\n*/",
         "meta": {
             "range": [
-                11805,
-                12339
+                11871,
+                12405
             ],
             "filename": "component.js",
-            "lineno": 879,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 885,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Set or get the width of the component (CSS values)\nSetting the video tag dimension values only works with values in pixels.\nPercent values will not work.\nSome percents can be used, but width()/height() will return the number + %,\nnot the actual computed width/height.</p>",
@@ -1476,12 +1507,12 @@ var docData =
         "comment": "/**\n* Get or set the height of the component (CSS values)\n* Setting the video tag dimension values only works with values in pixels.\n* Percent values will not work.\n* Some percents can be used, but width()/height() will return the number + %,\n* not the actual computed width/height.\n*\n* @param  {Number|String=} num     New component height\n* @param  {Boolean=} skipListeners Skip the resize event trigger\n* @return {Component} This component, when setting the height\n* @return {Number|String} The height, when getting\n* @method height\n*/",
         "meta": {
             "range": [
-                12352,
-                12890
+                12418,
+                12956
             ],
             "filename": "component.js",
-            "lineno": 896,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 902,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get or set the height of the component (CSS values)\nSetting the video tag dimension values only works with values in pixels.\nPercent values will not work.\nSome percents can be used, but width()/height() will return the number + %,\nnot the actual computed width/height.</p>",
@@ -1535,12 +1566,12 @@ var docData =
         "comment": "/**\n* Set both width and height at the same time\n*\n* @param  {Number|String} width Width of player\n* @param  {Number|String} height Height of player\n* @return {Component} The component\n* @method dimensions\n*/",
         "meta": {
             "range": [
-                12903,
-                13111
+                12969,
+                13177
             ],
             "filename": "component.js",
-            "lineno": 913,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 919,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Set both width and height at the same time</p>",
@@ -1585,12 +1616,12 @@ var docData =
         "comment": "/**\n* Get or set width or height\n* This is the shared code for the width() and height() methods.\n* All for an integer, integer + 'px' or integer + '%';\n* Known issue: Hidden elements officially have a width of 0. We're defaulting\n* to the style.width value and falling back to computedStyle which has the\n* hidden element issue. Info, but probably not an efficient fix:\n* http://www.foliotek.com/devblog/getting-the-width-of-a-hidden-element-with-jquery-using-width/\n*\n* @param  {String} widthOrHeight  'width' or 'height'\n* @param  {Number|String=} num     New dimension\n* @param  {Boolean=} skipListeners Skip resize event trigger\n* @return {Component} The component if a dimension was set\n* @return {Number|String} The dimension if nothing was set\n* @private\n* @method dimension\n*/",
         "meta": {
             "range": [
-                13127,
-                13911
+                13193,
+                13977
             ],
             "filename": "component.js",
-            "lineno": 926,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 932,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get or set width or height\nThis is the shared code for the width() and height() methods.\nAll for an integer, integer + 'px' or integer + '%';\nKnown issue: Hidden elements officially have a width of 0. We're defaulting\nto the style.width value and falling back to computedStyle which has the\nhidden element issue. Info, but probably not an efficient fix:\nhttp://www.foliotek.com/devblog/getting-the-width-of-a-hidden-element-with-jquery-using-width/</p>",
@@ -1654,12 +1685,12 @@ var docData =
         "comment": "/**\n* Emit 'tap' events when touch events are supported\n* This is used to support toggling the controls through a tap on the video.\n* We're requiring them to be enabled because otherwise every component would\n* have this extra overhead unnecessarily, on mobile devices where extra\n* overhead is especially bad.\n*\n* @private\n* @method emitTapEvents\n*/",
         "meta": {
             "range": [
-                14050,
-                14400
+                14116,
+                14466
             ],
             "filename": "component.js",
-            "lineno": 989,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 995,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Emit 'tap' events when touch events are supported\nThis is used to support toggling the controls through a tap on the video.\nWe're requiring them to be enabled because otherwise every component would\nhave this extra overhead unnecessarily, on mobile devices where extra\noverhead is especially bad.</p>",
@@ -1673,12 +1704,12 @@ var docData =
         "comment": "/**\n* Report user touch activity when touch events occur\n* User activity is used to determine when controls should show/hide. It's\n* relatively simple when it comes to mouse events, because any mouse event\n* should show the controls. So we capture mouse events that bubble up to the\n* player and report activity when that happens.\n* With touch events it isn't as easy. We can't rely on touch events at the\n* player level, because a tap (touchstart + touchend) on the video itself on\n* mobile devices is meant to turn controls off (and on). User activity is\n* checked asynchronously, so what could happen is a tap event on the video\n* turns the controls off, then the touchend event bubbles up to the player,\n* which if it reported user activity, would turn the controls right back on.\n* (We also don't want to completely block touch events from bubbling up)\n* Also a touchmove, touch+hold, and anything other than a tap is not supposed\n* to turn the controls back on on a mobile device.\n* Here we're setting the default component behavior to report user activity\n* whenever touch events happen, and this can be turned off by components that\n* want touch events to act differently.\n*\n* @method enableTouchActivity\n*/",
         "meta": {
             "range": [
-                14620,
-                15835
+                14686,
+                15901
             ],
             "filename": "component.js",
-            "lineno": 1072,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1078,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Report user touch activity when touch events occur\nUser activity is used to determine when controls should show/hide. It's\nrelatively simple when it comes to mouse events, because any mouse event\nshould show the controls. So we capture mouse events that bubble up to the\nplayer and report activity when that happens.\nWith touch events it isn't as easy. We can't rely on touch events at the\nplayer level, because a tap (touchstart + touchend) on the video itself on\nmobile devices is meant to turn controls off (and on). User activity is\nchecked asynchronously, so what could happen is a tap event on the video\nturns the controls off, then the touchend event bubbles up to the player,\nwhich if it reported user activity, would turn the controls right back on.\n(We also don't want to completely block touch events from bubbling up)\nAlso a touchmove, touch+hold, and anything other than a tap is not supposed\nto turn the controls back on on a mobile device.\nHere we're setting the default component behavior to report user activity\nwhenever touch events happen, and this can be turned off by components that\nwant touch events to act differently.</p>",
@@ -1691,12 +1722,12 @@ var docData =
         "comment": "/**\n* Creates timeout and sets up disposal automatically.\n*\n* @param {Function} fn The function to run after the timeout.\n* @param {Number} timeout Number of ms to delay before executing specified function.\n* @return {Number} Returns the timeout ID\n* @method setTimeout\n*/",
         "meta": {
             "range": [
-                15932,
-                16204
+                15998,
+                16270
             ],
             "filename": "component.js",
-            "lineno": 1125,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1131,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Creates timeout and sets up disposal automatically.</p>",
@@ -1739,12 +1770,12 @@ var docData =
         "comment": "/**\n* Clears a timeout and removes the associated dispose listener\n*\n* @param {Number} timeoutId The id of the timeout to clear\n* @return {Number} Returns the timeout ID\n* @method clearTimeout\n*/",
         "meta": {
             "range": [
-                16256,
-                16451
+                16322,
+                16517
             ],
             "filename": "component.js",
-            "lineno": 1150,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1156,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Clears a timeout and removes the associated dispose listener</p>",
@@ -1778,12 +1809,12 @@ var docData =
         "comment": "/**\n* Creates an interval and sets up disposal automatically.\n*\n* @param {Function} fn The function to run every N seconds.\n* @param {Number} interval Number of ms to delay before executing specified function.\n* @return {Number} Returns the interval ID\n* @method setInterval\n*/",
         "meta": {
             "range": [
-                16488,
-                16765
+                16554,
+                16831
             ],
             "filename": "component.js",
-            "lineno": 1169,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1175,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Creates an interval and sets up disposal automatically.</p>",
@@ -1826,12 +1857,12 @@ var docData =
         "comment": "/**\n* Clears an interval and removes the associated dispose listener\n*\n* @param {Number} intervalId The id of the interval to clear\n* @return {Number} Returns the interval ID\n* @method clearInterval\n*/",
         "meta": {
             "range": [
-                16814,
-                17015
+                16880,
+                17081
             ],
             "filename": "component.js",
-            "lineno": 1193,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1199,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Clears an interval and removes the associated dispose listener</p>",
@@ -1865,12 +1896,12 @@ var docData =
         "comment": "/**\n* Registers a component\n*\n* @param {String} name Name of the component to register\n* @param {Object} comp The component to register\n* @static\n* @method registerComponent\n*/",
         "meta": {
             "range": [
-                17052,
-                17228
+                17118,
+                17294
             ],
             "filename": "component.js",
-            "lineno": 1212,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1218,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Registers a component</p>",
@@ -1903,12 +1934,12 @@ var docData =
         "comment": "/**\n* Gets a component by name\n*\n* @param {String} name Name of the component to get\n* @return {Component}\n* @static\n* @method getComponent\n*/",
         "meta": {
             "range": [
-                17256,
-                17398
+                17322,
+                17464
             ],
             "filename": "component.js",
-            "lineno": 1229,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1235,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Gets a component by name</p>",
@@ -1941,12 +1972,12 @@ var docData =
         "comment": "/**\n* Sets up the constructor using the supplied init method\n* or uses the init of the parent object\n*\n* @param {Object} props An object of properties\n* @static\n* @deprecated\n* @method extend\n*/",
         "meta": {
             "range": [
-                17432,
-                17626
+                17498,
+                17692
             ],
             "filename": "component.js",
-            "lineno": 1248,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1254,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Sets up the constructor using the supplied init method\nor uses the init of the parent object</p>",
@@ -1976,7 +2007,7 @@ var docData =
             ],
             "filename": "control-bar.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "name": "control-bar/control-bar.js",
@@ -1995,7 +2026,7 @@ var docData =
             ],
             "filename": "control-bar.js",
             "lineno": 24,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Container of main controls</p>",
@@ -2016,7 +2047,7 @@ var docData =
             ],
             "filename": "control-bar.js",
             "lineno": 32,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -2043,7 +2074,7 @@ var docData =
             ],
             "filename": "fullscreen-toggle.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "name": "control-bar/fullscreen-toggle.js",
@@ -2062,7 +2093,7 @@ var docData =
             ],
             "filename": "fullscreen-toggle.js",
             "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Toggle fullscreen video</p>",
@@ -2083,7 +2114,7 @@ var docData =
             ],
             "filename": "fullscreen-toggle.js",
             "lineno": 15,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -2111,7 +2142,7 @@ var docData =
             ],
             "filename": "fullscreen-toggle.js",
             "lineno": 25,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Handles click for full screen</p>",
@@ -2129,7 +2160,7 @@ var docData =
             ],
             "filename": "live-display.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "name": "control-bar/live-display.js",
@@ -2140,15 +2171,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Displays the live indicator\n* TODO - Future make it click to snap to live\n* \n* @extends Component\n* @class LiveDisplay\n*/",
+        "comment": "/**\n* Displays the live indicator\n* TODO - Future make it click to snap to live\n*\n* @extends Component\n* @class LiveDisplay\n*/",
         "meta": {
             "range": [
                 40,
-                167
+                166
             ],
             "filename": "live-display.js",
             "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Displays the live indicator\nTODO - Future make it click to snap to live</p>",
@@ -2164,12 +2195,12 @@ var docData =
         "comment": "/**\n* Create the component's DOM element\n*\n* @return {Element}\n* @method createEl\n*/",
         "meta": {
             "range": [
-                174,
-                258
+                194,
+                278
             ],
             "filename": "live-display.js",
-            "lineno": 16,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "lineno": 23,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -2196,7 +2227,7 @@ var docData =
             ],
             "filename": "mute-toggle.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "name": "control-bar/mute-toggle.js",
@@ -2215,7 +2246,7 @@ var docData =
             ],
             "filename": "mute-toggle.js",
             "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>A button component for muting the audio</p>",
@@ -2256,7 +2287,7 @@ var docData =
             ],
             "filename": "mute-toggle.js",
             "lineno": 39,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -2284,7 +2315,7 @@ var docData =
             ],
             "filename": "mute-toggle.js",
             "lineno": 49,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Handle click on mute</p>",
@@ -2302,7 +2333,7 @@ var docData =
             ],
             "filename": "mute-toggle.js",
             "lineno": 58,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Update volume</p>",
@@ -2320,7 +2351,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "name": "control-bar/play-toggle.js",
@@ -2339,7 +2370,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Button to toggle between play and pause</p>",
@@ -2380,7 +2411,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 24,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -2408,7 +2439,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 34,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Handle click to toggle between play and pause</p>",
@@ -2426,7 +2457,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 47,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Add the vjs-playing class to the element so it can change appearance</p>",
@@ -2444,7 +2475,7 @@ var docData =
             ],
             "filename": "play-toggle.js",
             "lineno": 58,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Add the vjs-paused class to the element so it can change appearance</p>",
@@ -2462,7 +2493,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "name": "control-bar/playback-rate-menu/playback-rate-menu-button.js",
@@ -2481,7 +2512,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 10,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>The component for controlling the playback rate</p>",
@@ -2522,7 +2553,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 30,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -2549,7 +2580,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 49,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -2577,7 +2608,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 59,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Create the playback rate menu</p>",
@@ -2605,7 +2636,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 80,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Updates ARIA accessibility attributes</p>",
@@ -2623,7 +2654,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 90,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Handle menu item click</p>",
@@ -2641,7 +2672,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 111,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Get possible playback rates</p>",
@@ -2669,7 +2700,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 121,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Get supported playback rates</p>",
@@ -2697,7 +2728,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 135,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Hide playback rate controls when they're no playback rate options to select</p>",
@@ -2715,7 +2746,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-button.js",
             "lineno": 148,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Update button label when rate changed</p>",
@@ -2733,7 +2764,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-item.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "name": "control-bar/playback-rate-menu/playback-rate-menu-item.js",
@@ -2752,7 +2783,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-item.js",
             "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>The specific menu item type for selecting a playback rate</p>",
@@ -2793,7 +2824,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-item.js",
             "lineno": 32,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Handle click on menu item</p>",
@@ -2811,7 +2842,7 @@ var docData =
             ],
             "filename": "playback-rate-menu-item.js",
             "lineno": 42,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu",
             "code": {}
         },
         "description": "<p>Update playback rate with selected rate</p>",
@@ -2829,7 +2860,7 @@ var docData =
             ],
             "filename": "load-progress-bar.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "name": "control-bar/progress-control/load-progress-bar.js",
@@ -2848,7 +2879,7 @@ var docData =
             ],
             "filename": "load-progress-bar.js",
             "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Shows load progress</p>",
@@ -2889,7 +2920,7 @@ var docData =
             ],
             "filename": "load-progress-bar.js",
             "lineno": 22,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -2916,13 +2947,100 @@ var docData =
             ],
             "filename": "load-progress-bar.js",
             "lineno": 35,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Update progress bar</p>",
         "kind": "function",
         "name": "update",
         "longname": "update",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* @file mouse-time-display.js\n*/",
+        "meta": {
+            "range": [
+                0,
+                36
+            ],
+            "filename": "mouse-time-display.js",
+            "lineno": 1,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
+            "code": {}
+        },
+        "name": "control-bar/progress-control/mouse-time-display.js",
+        "kind": "file",
+        "description": "<p>mouse-time-display.js</p>",
+        "preserveName": true,
+        "longname": "control-bar/progress-control/mouse-time-display.js",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* The Mouse Time Display component shows the time you will seek to\n* when hovering over the progress bar\n*\n* @param {Player|Object} player\n* @param {Object=} options\n* @extends Component\n* @class MouseTimeDisplay\n*/",
+        "meta": {
+            "range": [
+                55,
+                274
+            ],
+            "filename": "mouse-time-display.js",
+            "lineno": 10,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
+            "code": {}
+        },
+        "description": "<p>The Mouse Time Display component shows the time you will seek to\nwhen hovering over the progress bar</p>",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Player",
+                        "Object"
+                    ]
+                },
+                "name": "player"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "optional": true,
+                "name": "options"
+            }
+        ],
+        "augments": [
+            "Component"
+        ],
+        "kind": "class",
+        "name": "MouseTimeDisplay",
+        "longname": "MouseTimeDisplay",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Create the component's DOM element\n*\n* @return {Element}\n* @method createEl\n*/",
+        "meta": {
+            "range": [
+                311,
+                395
+            ],
+            "filename": "mouse-time-display.js",
+            "lineno": 31,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
+            "code": {}
+        },
+        "description": "<p>Create the component's DOM element</p>",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Element"
+                    ]
+                }
+            }
+        ],
+        "kind": "function",
+        "name": "createEl",
+        "longname": "createEl",
         "scope": "global"
     },
     {
@@ -2934,7 +3052,7 @@ var docData =
             ],
             "filename": "play-progress-bar.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "name": "control-bar/progress-control/play-progress-bar.js",
@@ -2953,7 +3071,7 @@ var docData =
             ],
             "filename": "play-progress-bar.js",
             "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Shows play progress</p>",
@@ -2989,12 +3107,12 @@ var docData =
         "comment": "/**\n* Create the component's DOM element\n*\n* @return {Element}\n* @method createEl\n*/",
         "meta": {
             "range": [
-                208,
-                292
+                211,
+                295
             ],
             "filename": "play-progress-bar.js",
-            "lineno": 24,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 25,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -3021,7 +3139,7 @@ var docData =
             ],
             "filename": "progress-control.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "name": "control-bar/progress-control/progress-control.js",
@@ -3035,12 +3153,12 @@ var docData =
         "comment": "/**\n* The Progress Control component contains the seek bar, load progress,\n* and play progress\n*\n* @param {Player|Object} player\n* @param {Object=} options\n* @extends Component\n* @class ProgressControl\n*/",
         "meta": {
             "range": [
-                44,
-                248
+                47,
+                251
             ],
             "filename": "progress-control.js",
-            "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 8,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>The Progress Control component contains the seek bar, load progress,\nand play progress</p>",
@@ -3076,12 +3194,12 @@ var docData =
         "comment": "/**\n* Create the component's DOM element\n*\n* @return {Element}\n* @method createEl\n*/",
         "meta": {
             "range": [
-                255,
-                339
+                258,
+                342
             ],
             "filename": "progress-control.js",
-            "lineno": 18,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 19,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -3108,7 +3226,7 @@ var docData =
             ],
             "filename": "seek-bar.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "name": "control-bar/progress-control/seek-bar.js",
@@ -3122,12 +3240,12 @@ var docData =
         "comment": "/**\n* Seek Bar and holder for the progress bars\n*\n* @param {Player|Object} player\n* @param {Object=} options\n* @extends Slider\n* @class SeekBar\n*/",
         "meta": {
             "range": [
-                48,
-                194
+                51,
+                197
             ],
             "filename": "seek-bar.js",
-            "lineno": 11,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 12,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Seek Bar and holder for the progress bars</p>",
@@ -3163,12 +3281,12 @@ var docData =
         "comment": "/**\n* Create the component's DOM element\n*\n* @return {Element}\n* @method createEl\n*/",
         "meta": {
             "range": [
-                219,
-                303
+                222,
+                306
             ],
             "filename": "seek-bar.js",
-            "lineno": 27,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 28,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -3190,12 +3308,12 @@ var docData =
         "comment": "/**\n* Update ARIA accessibility attributes\n*\n* @method updateARIAAttributes\n*/",
         "meta": {
             "range": [
-                325,
-                403
+                331,
+                409
             ],
             "filename": "seek-bar.js",
-            "lineno": 40,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 42,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Update ARIA accessibility attributes</p>",
@@ -3208,12 +3326,12 @@ var docData =
         "comment": "/**\n* Get percentage of video played\n*\n* @return {Number} Percentage played\n* @method getPercent\n*/",
         "meta": {
             "range": [
-                425,
-                524
+                431,
+                530
             ],
             "filename": "seek-bar.js",
-            "lineno": 52,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 54,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Get percentage of video played</p>",
@@ -3236,12 +3354,12 @@ var docData =
         "comment": "/**\n* Handle mouse down on seek bar\n*\n* @method handleMouseDown\n*/",
         "meta": {
             "range": [
-                540,
-                606
+                546,
+                612
             ],
             "filename": "seek-bar.js",
-            "lineno": 63,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 65,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Handle mouse down on seek bar</p>",
@@ -3254,12 +3372,12 @@ var docData =
         "comment": "/**\n* Handle mouse move on seek bar\n*\n* @method handleMouseMove\n*/",
         "meta": {
             "range": [
-                634,
-                700
+                640,
+                706
             ],
             "filename": "seek-bar.js",
-            "lineno": 77,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 79,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Handle mouse move on seek bar</p>",
@@ -3272,12 +3390,12 @@ var docData =
         "comment": "/**\n* Handle mouse up on seek bar\n*\n* @method handleMouseUp\n*/",
         "meta": {
             "range": [
-                731,
-                793
+                737,
+                799
             ],
             "filename": "seek-bar.js",
-            "lineno": 92,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 94,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Handle mouse up on seek bar</p>",
@@ -3290,12 +3408,12 @@ var docData =
         "comment": "/**\n* Move more quickly fast forward for keyboard-only users\n*\n* @method stepForward\n*/",
         "meta": {
             "range": [
-                821,
-                908
+                827,
+                914
             ],
             "filename": "seek-bar.js",
-            "lineno": 106,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 108,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Move more quickly fast forward for keyboard-only users</p>",
@@ -3308,12 +3426,12 @@ var docData =
         "comment": "/**\n* Move more quickly rewind for keyboard-only users\n*\n* @method stepBack\n*/",
         "meta": {
             "range": [
-                921,
-                999
+                927,
+                1005
             ],
             "filename": "seek-bar.js",
-            "lineno": 115,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control",
+            "lineno": 117,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control",
             "code": {}
         },
         "description": "<p>Move more quickly rewind for keyboard-only users</p>",
@@ -3331,7 +3449,7 @@ var docData =
             ],
             "filename": "custom-control-spacer.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/spacer-controls",
             "code": {}
         },
         "name": "control-bar/spacer-controls/custom-control-spacer.js",
@@ -3350,7 +3468,7 @@ var docData =
             ],
             "filename": "custom-control-spacer.js",
             "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Spacer specifically meant to be used as an insertion point for new plugins, etc.</p>",
@@ -3371,7 +3489,7 @@ var docData =
             ],
             "filename": "custom-control-spacer.js",
             "lineno": 15,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -3399,7 +3517,7 @@ var docData =
             ],
             "filename": "custom-control-spacer.js",
             "lineno": 25,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -3426,7 +3544,7 @@ var docData =
             ],
             "filename": "spacer.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/spacer-controls",
             "code": {}
         },
         "name": "control-bar/spacer-controls/spacer.js",
@@ -3445,7 +3563,7 @@ var docData =
             ],
             "filename": "spacer.js",
             "lineno": 6,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Just an empty spacer element that can be used as an append point for plugins, etc.\nAlso can be used to create space between elements when necessary.</p>",
@@ -3466,7 +3584,7 @@ var docData =
             ],
             "filename": "spacer.js",
             "lineno": 15,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -3486,29 +3604,18 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Create the component's DOM element\n*\n* @param {Object} props An object of properties  \n* @return {Element}\n* @method createEl\n*/",
+        "comment": "/**\n* Create the component's DOM element\n*\n* @return {Element}\n* @method createEl\n*/",
         "meta": {
             "range": [
                 375,
-                509
+                459
             ],
             "filename": "spacer.js",
             "lineno": 25,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/spacer-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
-        "params": [
-            {
-                "type": {
-                    "names": [
-                        "Object"
-                    ]
-                },
-                "description": "<p>An object of properties</p>",
-                "name": "props"
-            }
-        ],
         "returns": [
             {
                 "type": {
@@ -3532,7 +3639,7 @@ var docData =
             ],
             "filename": "caption-settings-menu-item.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/caption-settings-menu-item.js",
@@ -3551,7 +3658,7 @@ var docData =
             ],
             "filename": "caption-settings-menu-item.js",
             "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The menu item for caption track settings menu</p>",
@@ -3592,7 +3699,7 @@ var docData =
             ],
             "filename": "caption-settings-menu-item.js",
             "lineno": 30,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Handle click on menu item</p>",
@@ -3610,7 +3717,7 @@ var docData =
             ],
             "filename": "captions-button.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/captions-button.js",
@@ -3629,7 +3736,7 @@ var docData =
             ],
             "filename": "captions-button.js",
             "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The button component for toggling and selecting captions</p>",
@@ -3681,7 +3788,7 @@ var docData =
             ],
             "filename": "captions-button.js",
             "lineno": 24,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -3709,7 +3816,7 @@ var docData =
             ],
             "filename": "captions-button.js",
             "lineno": 34,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Update caption menu items</p>",
@@ -3727,7 +3834,7 @@ var docData =
             ],
             "filename": "captions-button.js",
             "lineno": 55,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Create caption menu items</p>",
@@ -3755,7 +3862,7 @@ var docData =
             ],
             "filename": "chapters-button.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/chapters-button.js",
@@ -3774,7 +3881,7 @@ var docData =
             ],
             "filename": "chapters-button.js",
             "lineno": 14,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The button component for toggling and selecting chapters\nChapters act much differently than other text tracks\nCues are navigation vs. other tracks of alternative languages</p>",
@@ -3826,7 +3933,7 @@ var docData =
             ],
             "filename": "chapters-button.js",
             "lineno": 32,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -3854,7 +3961,7 @@ var docData =
             ],
             "filename": "chapters-button.js",
             "lineno": 42,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Create a menu item for each text track</p>",
@@ -3882,7 +3989,7 @@ var docData =
             ],
             "filename": "chapters-button.js",
             "lineno": 69,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Create menu from chapter buttons</p>",
@@ -3910,7 +4017,7 @@ var docData =
             ],
             "filename": "chapters-track-menu-item.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/chapters-track-menu-item.js",
@@ -3929,7 +4036,7 @@ var docData =
             ],
             "filename": "chapters-track-menu-item.js",
             "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The chapter track menu item</p>",
@@ -3970,7 +4077,7 @@ var docData =
             ],
             "filename": "chapters-track-menu-item.js",
             "lineno": 33,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Handle click on menu item</p>",
@@ -3988,7 +4095,7 @@ var docData =
             ],
             "filename": "chapters-track-menu-item.js",
             "lineno": 44,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Update chapter menu item</p>",
@@ -4006,7 +4113,7 @@ var docData =
             ],
             "filename": "off-text-track-menu-item.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/off-text-track-menu-item.js",
@@ -4025,7 +4132,7 @@ var docData =
             ],
             "filename": "off-text-track-menu-item.js",
             "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>A special menu item for turning of a specific type of text track</p>",
@@ -4066,7 +4173,7 @@ var docData =
             ],
             "filename": "off-text-track-menu-item.js",
             "lineno": 32,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Handle text track change</p>",
@@ -4095,7 +4202,7 @@ var docData =
             ],
             "filename": "subtitles-button.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/subtitles-button.js",
@@ -4114,7 +4221,7 @@ var docData =
             ],
             "filename": "subtitles-button.js",
             "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The button component for toggling and selecting subtitles</p>",
@@ -4166,7 +4273,7 @@ var docData =
             ],
             "filename": "subtitles-button.js",
             "lineno": 23,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -4194,7 +4301,7 @@ var docData =
             ],
             "filename": "text-track-button.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/text-track-button.js",
@@ -4213,7 +4320,7 @@ var docData =
             ],
             "filename": "text-track-button.js",
             "lineno": 10,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The base class for buttons that toggle specific text track types (e.g. subtitles)</p>",
@@ -4254,7 +4361,7 @@ var docData =
             ],
             "filename": "text-track-menu-item.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "name": "control-bar/text-track-controls/text-track-menu-item.js",
@@ -4273,7 +4380,7 @@ var docData =
             ],
             "filename": "text-track-menu-item.js",
             "lineno": 10,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>The specific menu item type for selecting a language within a text track kind</p>",
@@ -4314,7 +4421,7 @@ var docData =
             ],
             "filename": "text-track-menu-item.js",
             "lineno": 67,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Handle click on text track</p>",
@@ -4332,7 +4439,7 @@ var docData =
             ],
             "filename": "text-track-menu-item.js",
             "lineno": 95,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls",
             "code": {}
         },
         "description": "<p>Handle text track change</p>",
@@ -4350,7 +4457,7 @@ var docData =
             ],
             "filename": "current-time-display.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "name": "control-bar/time-controls/current-time-display.js",
@@ -4369,7 +4476,7 @@ var docData =
             ],
             "filename": "current-time-display.js",
             "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Displays the current time</p>",
@@ -4410,7 +4517,7 @@ var docData =
             ],
             "filename": "current-time-display.js",
             "lineno": 24,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4432,12 +4539,12 @@ var docData =
         "comment": "/**\n* Update current time display\n*\n* @method updateContent\n*/",
         "meta": {
             "range": [
-                350,
-                412
+                359,
+                421
             ],
             "filename": "current-time-display.js",
-            "lineno": 45,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "lineno": 48,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Update current time display</p>",
@@ -4455,7 +4562,7 @@ var docData =
             ],
             "filename": "duration-display.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "name": "control-bar/time-controls/duration-display.js",
@@ -4474,7 +4581,7 @@ var docData =
             ],
             "filename": "duration-display.js",
             "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Displays the duration</p>",
@@ -4515,7 +4622,7 @@ var docData =
             ],
             "filename": "duration-display.js",
             "lineno": 30,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4534,15 +4641,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Update duration time display   \n*\n* @method updateContent\n*/",
+        "comment": "/**\n* Update duration time display\n*\n* @method updateContent\n*/",
         "meta": {
             "range": [
-                357,
-                423
+                366,
+                429
             ],
             "filename": "duration-display.js",
-            "lineno": 51,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "lineno": 54,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Update duration time display</p>",
@@ -4560,7 +4667,7 @@ var docData =
             ],
             "filename": "remaining-time-display.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "name": "control-bar/time-controls/remaining-time-display.js",
@@ -4579,7 +4686,7 @@ var docData =
             ],
             "filename": "remaining-time-display.js",
             "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Displays the time left in the video</p>",
@@ -4620,7 +4727,7 @@ var docData =
             ],
             "filename": "remaining-time-display.js",
             "lineno": 24,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4642,12 +4749,12 @@ var docData =
         "comment": "/**\n* Update remaining time display\n*\n* @method updateContent\n*/",
         "meta": {
             "range": [
-                364,
-                428
+                373,
+                437
             ],
             "filename": "remaining-time-display.js",
-            "lineno": 45,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "lineno": 48,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Update remaining time display</p>",
@@ -4665,7 +4772,7 @@ var docData =
             ],
             "filename": "time-divider.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "name": "control-bar/time-controls/time-divider.js",
@@ -4684,7 +4791,7 @@ var docData =
             ],
             "filename": "time-divider.js",
             "lineno": 6,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>The separator between the current time and duration.\nCan be hidden if it's not needed in the design.</p>",
@@ -4725,7 +4832,7 @@ var docData =
             ],
             "filename": "time-divider.js",
             "lineno": 17,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4752,7 +4859,7 @@ var docData =
             ],
             "filename": "volume-bar.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "name": "control-bar/volume-control/volume-bar.js",
@@ -4771,7 +4878,7 @@ var docData =
             ],
             "filename": "volume-bar.js",
             "lineno": 11,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>The bar that contains the volume level and can be clicked on to adjust the level</p>",
@@ -4812,7 +4919,7 @@ var docData =
             ],
             "filename": "volume-bar.js",
             "lineno": 27,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -4834,12 +4941,12 @@ var docData =
         "comment": "/**\n* Handle mouse move on volume bar\n*\n* @method handleMouseMove\n*/",
         "meta": {
             "range": [
-                368,
-                436
+                371,
+                439
             ],
             "filename": "volume-bar.js",
-            "lineno": 40,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "lineno": 41,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Handle mouse move on volume bar</p>",
@@ -4852,12 +4959,12 @@ var docData =
         "comment": "/**\n* Get percent of volume level\n*\n* @retun {Number} Volume level percent\n* @method getPercent\n*/",
         "meta": {
             "range": [
-                461,
-                559
+                464,
+                562
             ],
             "filename": "volume-bar.js",
-            "lineno": 53,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "lineno": 54,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Get percent of volume level</p>",
@@ -4878,12 +4985,12 @@ var docData =
         "comment": "/**\n* Increase volume level for keyboard users\n*\n* @method stepForward\n*/",
         "meta": {
             "range": [
-                584,
-                657
+                587,
+                660
             ],
             "filename": "volume-bar.js",
-            "lineno": 67,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "lineno": 68,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Increase volume level for keyboard users</p>",
@@ -4896,12 +5003,12 @@ var docData =
         "comment": "/**\n* Decrease volume level for keyboard users\n*\n* @method stepBack\n*/",
         "meta": {
             "range": [
-                670,
-                740
+                673,
+                743
             ],
             "filename": "volume-bar.js",
-            "lineno": 76,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "lineno": 77,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Decrease volume level for keyboard users</p>",
@@ -4914,12 +5021,12 @@ var docData =
         "comment": "/**\n* Update ARIA accessibility attributes\n*\n* @method updateARIAAttributes\n*/",
         "meta": {
             "range": [
-                753,
-                831
+                756,
+                834
             ],
             "filename": "volume-bar.js",
-            "lineno": 85,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "lineno": 86,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Update ARIA accessibility attributes</p>",
@@ -4937,7 +5044,7 @@ var docData =
             ],
             "filename": "volume-control.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "name": "control-bar/volume-control/volume-control.js",
@@ -4956,7 +5063,7 @@ var docData =
             ],
             "filename": "volume-control.js",
             "lineno": 9,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>The component for controlling the volume level</p>",
@@ -4997,7 +5104,7 @@ var docData =
             ],
             "filename": "volume-control.js",
             "lineno": 35,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5024,7 +5131,7 @@ var docData =
             ],
             "filename": "volume-level.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "name": "control-bar/volume-control/volume-level.js",
@@ -5043,7 +5150,7 @@ var docData =
             ],
             "filename": "volume-level.js",
             "lineno": 6,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Shows volume level</p>",
@@ -5084,7 +5191,7 @@ var docData =
             ],
             "filename": "volume-level.js",
             "lineno": 16,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5111,7 +5218,7 @@ var docData =
             ],
             "filename": "volume-menu-button.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "name": "control-bar/volume-menu-button.js",
@@ -5130,7 +5237,7 @@ var docData =
             ],
             "filename": "volume-menu-button.js",
             "lineno": 11,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Button for volume menu</p>",
@@ -5166,12 +5273,12 @@ var docData =
         "comment": "/**\n* Allow sub components to stack CSS class names\n*\n* @return {String} The constructed class name\n* @method buildCSSClass\n*/",
         "meta": {
             "range": [
-                316,
-                442
+                352,
+                478
             ],
             "filename": "volume-menu-button.js",
-            "lineno": 58,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "lineno": 70,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -5194,12 +5301,12 @@ var docData =
         "comment": "/**\n* Allow sub components to stack CSS class names\n*\n* @return {Menu} The volume menu button\n* @method createMenu\n*/",
         "meta": {
             "range": [
-                476,
-                593
+                512,
+                629
             ],
             "filename": "volume-menu-button.js",
-            "lineno": 75,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "lineno": 87,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -5222,12 +5329,12 @@ var docData =
         "comment": "/**\n* Handle click on volume menu and calls super\n*\n* @method handleClick\n*/",
         "meta": {
             "range": [
-                645,
-                721
+                669,
+                745
             ],
             "filename": "volume-menu-button.js",
-            "lineno": 98,
-            "path": "/Users/rcrooks/git/docs/videojs-src/control-bar",
+            "lineno": 106,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/control-bar",
             "code": {}
         },
         "description": "<p>Handle click on volume menu and calls super</p>",
@@ -5245,7 +5352,7 @@ var docData =
             ],
             "filename": "error-display.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "error-display.js",
@@ -5256,41 +5363,20 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Display that an error has occurred making the video unplayable\n*\n* @param {Object} player  Main Player\n* @param {Object=} options Object of option names and values\n* @extends Component\n* @class ErrorDisplay\n*/",
+        "comment": "/**\n* Display that an error has occurred making the video unplayable.\n*\n* @extends ModalDialog\n* @class ErrorDisplay\n*/",
         "meta": {
             "range": [
-                41,
-                256
+                50,
+                169
             ],
             "filename": "error-display.js",
-            "lineno": 7,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 10,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
-        "description": "<p>Display that an error has occurred making the video unplayable</p>",
-        "params": [
-            {
-                "type": {
-                    "names": [
-                        "Object"
-                    ]
-                },
-                "description": "<p>Main Player</p>",
-                "name": "player"
-            },
-            {
-                "type": {
-                    "names": [
-                        "Object"
-                    ]
-                },
-                "optional": true,
-                "description": "<p>Object of option names and values</p>",
-                "name": "options"
-            }
-        ],
+        "description": "<p>Display that an error has occurred making the video unplayable.</p>",
         "augments": [
-            "Component"
+            "ModalDialog"
         ],
         "kind": "class",
         "name": "ErrorDisplay",
@@ -5298,48 +5384,31 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Create the component's DOM element\n*\n* @return {Element}\n* @method createEl\n*/",
+        "comment": "/**\n* Include the old class for backward-compatibility.\n*\n* This can be removed in 6.0.\n*\n* @method buildCSSClass\n* @deprecated\n* @return {String}\n*/",
         "meta": {
             "range": [
-                284,
-                368
+                294,
+                443
             ],
             "filename": "error-display.js",
-            "lineno": 24,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 29,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
-        "description": "<p>Create the component's DOM element</p>",
+        "description": "<p>Include the old class for backward-compatibility.</p>\n<p>This can be removed in 6.0.</p>",
+        "kind": "function",
+        "name": "buildCSSClass",
+        "deprecated": true,
         "returns": [
             {
                 "type": {
                     "names": [
-                        "Element"
+                        "String"
                     ]
                 }
             }
         ],
-        "kind": "function",
-        "name": "createEl",
-        "longname": "createEl",
-        "scope": "global"
-    },
-    {
-        "comment": "/**\n* Update the error message in localized language\n*\n* @method update\n*/",
-        "meta": {
-            "range": [
-                402,
-                476
-            ],
-            "filename": "error-display.js",
-            "lineno": 41,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
-            "code": {}
-        },
-        "description": "<p>Update the error message in localized language</p>",
-        "kind": "function",
-        "name": "update",
-        "longname": "update",
+        "longname": "buildCSSClass",
         "scope": "global"
     },
     {
@@ -5351,7 +5420,7 @@ var docData =
             ],
             "filename": "event-target.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "event-target.js",
@@ -5370,7 +5439,7 @@ var docData =
             ],
             "filename": "fullscreen-api.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "fullscreen-api.js",
@@ -5389,7 +5458,7 @@ var docData =
             ],
             "filename": "loading-spinner.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "loading-spinner.js",
@@ -5408,7 +5477,7 @@ var docData =
             ],
             "filename": "loading-spinner.js",
             "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Loading spinner for waiting events</p>",
@@ -5429,7 +5498,7 @@ var docData =
             ],
             "filename": "loading-spinner.js",
             "lineno": 16,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5447,7 +5516,7 @@ var docData =
             ],
             "filename": "media-error.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "media-error.js",
@@ -5466,7 +5535,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "name": "menu/menu-button.js",
@@ -5485,7 +5554,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 11,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>A button class with a popup menu</p>",
@@ -5526,7 +5595,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 31,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Update menu</p>",
@@ -5544,7 +5613,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 61,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Create menu</p>",
@@ -5572,7 +5641,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 91,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Create the list of menu items. Specific to each subclass.</p>",
@@ -5590,7 +5659,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 98,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5617,7 +5686,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 110,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Allow sub components to stack CSS class names</p>",
@@ -5645,7 +5714,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 129,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Focus - Add keyboard functionality to element\nThis function is not needed anymore. Instead, the\nkeyboard functionality is handled by\ntreating the button as triggering a submenu.\nWhen the button is pressed, the submenu\nappears. Pressing the button again makes\nthe submenu disappear.</p>",
@@ -5663,7 +5732,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 142,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Can't turn off list display that we turned\non with focus, because list would go away.</p>",
@@ -5681,7 +5750,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 150,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>When you click the button it adds focus, which\nwill show the menu indefinitely.\nSo we'll remove focus when the mouse leaves the button.\nFocus is needed for tab navigation.\nAllow sub components to stack CSS class names</p>",
@@ -5699,7 +5768,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 171,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Handle key press on menu</p>",
@@ -5728,7 +5797,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 196,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Makes changes based on button pressed</p>",
@@ -5746,7 +5815,7 @@ var docData =
             ],
             "filename": "menu-button.js",
             "lineno": 210,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Makes changes based on button unpressed</p>",
@@ -5764,7 +5833,7 @@ var docData =
             ],
             "filename": "menu-item.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "name": "menu/menu-item.js",
@@ -5783,7 +5852,7 @@ var docData =
             ],
             "filename": "menu-item.js",
             "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>The component for a menu item. <code>&lt;li&gt;</code></p>",
@@ -5816,15 +5885,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Create the component's DOM element\n*\n* @param {String=} type Desc\n* @param {Object=} props Desc \n* @return {Element}\n* @method createEl\n*/",
+        "comment": "/**\n* Create the component's DOM element\n*\n* @param {String=} type Desc\n* @param {Object=} props Desc\n* @return {Element}\n* @method createEl\n*/",
         "meta": {
             "range": [
                 205,
-                349
+                348
             ],
             "filename": "menu-item.js",
             "lineno": 23,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -5868,12 +5937,12 @@ var docData =
         "comment": "/**\n* Handle a click on the menu item, and set it to selected\n*\n* @method handleClick\n*/",
         "meta": {
             "range": [
-                371,
-                459
+                370,
+                458
             ],
             "filename": "menu-item.js",
             "lineno": 38,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Handle a click on the menu item, and set it to selected</p>",
@@ -5886,12 +5955,12 @@ var docData =
         "comment": "/**\n* Set this menu item as selected or not\n*\n* @param  {Boolean} selected\n* @method selected\n*/",
         "meta": {
             "range": [
-                472,
-                568
+                471,
+                567
             ],
             "filename": "menu-item.js",
             "lineno": 47,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Set this menu item as selected or not</p>",
@@ -5919,7 +5988,7 @@ var docData =
             ],
             "filename": "menu.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "name": "menu/menu.js",
@@ -5938,7 +6007,7 @@ var docData =
             ],
             "filename": "menu.js",
             "lineno": 9,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>The Menu component is used to build pop up menus, including subtitle and\ncaptions selection menus.</p>",
@@ -5959,7 +6028,7 @@ var docData =
             ],
             "filename": "menu.js",
             "lineno": 18,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Add a menu item to the menu</p>",
@@ -5989,7 +6058,7 @@ var docData =
             ],
             "filename": "menu.js",
             "lineno": 31,
-            "path": "/Users/rcrooks/git/docs/videojs-src/menu",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/menu",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -6008,6 +6077,392 @@ var docData =
         "scope": "global"
     },
     {
+        "comment": "/**\n* @file modal-dialog.js\n*/",
+        "meta": {
+            "range": [
+                0,
+                30
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 1,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "name": "modal-dialog.js",
+        "kind": "file",
+        "description": "<p>modal-dialog.js</p>",
+        "preserveName": true,
+        "longname": "modal-dialog.js",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* The `ModalDialog` displays over the video and its controls, which blocks\n* interaction with the player until it is closed.\n*\n* Modal dialogs include a \"Close\" button and will close when that button\n* is activated - or when ESC is pressed anywhere.\n*\n* @extends Component\n* @class ModalDialog\n*/",
+        "meta": {
+            "range": [
+                67,
+                367
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 16,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>The <code>ModalDialog</code> displays over the video and its controls, which blocks\ninteraction with the player until it is closed.</p>\n<p>Modal dialogs include a &quot;Close&quot; button and will close when that button\nis activated - or when ESC is pressed anywhere.</p>",
+        "augments": [
+            "Component"
+        ],
+        "kind": "class",
+        "name": "ModalDialog",
+        "longname": "ModalDialog",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Create the modal's DOM element\n*\n* @method createEl\n* @return {Element}\n*/",
+        "meta": {
+            "range": [
+                1448,
+                1528
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 83,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Create the modal's DOM element</p>",
+        "kind": "function",
+        "name": "createEl",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Element"
+                    ]
+                }
+            }
+        ],
+        "longname": "createEl",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Build the modal's CSS class.\n*\n* @method buildCSSClass\n* @return {String}\n*/",
+        "meta": {
+            "range": [
+                1565,
+                1647
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 101,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Build the modal's CSS class.</p>",
+        "kind": "function",
+        "name": "buildCSSClass",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                }
+            }
+        ],
+        "longname": "buildCSSClass",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Handles key presses on the document, looking for ESC, which closes\n* the modal.\n*\n* @method handleKeyPress\n* @param  {Event} e\n*/",
+        "meta": {
+            "range": [
+                1660,
+                1795
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 111,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Handles key presses on the document, looking for ESC, which closes\nthe modal.</p>",
+        "kind": "function",
+        "name": "handleKeyPress",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Event"
+                    ]
+                },
+                "name": "e"
+            }
+        ],
+        "longname": "handleKeyPress",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Opens the modal.\n*\n* @method open\n* @return {ModalDialog}\n*/",
+        "meta": {
+            "range": [
+                2077,
+                2143
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 150,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Opens the modal.</p>",
+        "kind": "function",
+        "name": "open",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "ModalDialog"
+                    ]
+                }
+            }
+        ],
+        "longname": "open",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Whether or not the modal is opened currently.\n*\n* @method opened\n* @param  {Boolean} [value]\n*         If given, it will open (`true`) or close (`false`) the modal.\n*\n* @return {Boolean}\n*/",
+        "meta": {
+            "range": [
+                2246,
+                2441
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 190,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Whether or not the modal is opened currently.</p>",
+        "kind": "function",
+        "name": "opened",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "optional": true,
+                "description": "<p>If given, it will open (<code>true</code>) or close (<code>false</code>) the modal.</p>",
+                "name": "value"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                }
+            }
+        ],
+        "longname": "opened",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Closes the modal.\n*\n* @method close\n* @return {ModalDialog}\n*/",
+        "meta": {
+            "range": [
+                2463,
+                2531
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 206,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Closes the modal.</p>",
+        "kind": "function",
+        "name": "close",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "ModalDialog"
+                    ]
+                }
+            }
+        ],
+        "longname": "close",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Whether or not the modal is closeable via the UI.\n*\n* @method closeable\n* @param  {Boolean} [value]\n*         If given as a Boolean, it will set the `closeable` option.\n*\n* @return {Boolean}\n*/",
+        "meta": {
+            "range": [
+                2613,
+                2812
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 239,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Whether or not the modal is closeable via the UI.</p>",
+        "kind": "function",
+        "name": "closeable",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "optional": true,
+                "description": "<p>If given as a Boolean, it will set the <code>closeable</code> option.</p>",
+                "name": "value"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                }
+            }
+        ],
+        "longname": "closeable",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Fill the modal's content element with the modal's \"content\" option.\n*\n* The content element will be emptied before this change takes place.\n*\n* @method fill\n* @return {ModalDialog}\n*/",
+        "meta": {
+            "range": [
+                2894,
+                3083
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 275,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Fill the modal's content element with the modal's &quot;content&quot; option.</p>\n<p>The content element will be emptied before this change takes place.</p>",
+        "kind": "function",
+        "name": "fill",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "ModalDialog"
+                    ]
+                }
+            }
+        ],
+        "longname": "fill",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Fill the modal's content element with arbitrary content.\n*\n* The content element will be emptied before this change takes place.\n*\n* @method fillWith\n* @param  {Mixed} [content]\n*         The same rules apply to this as apply to the `content` option.\n*\n* @return {ModalDialog}\n*/",
+        "meta": {
+            "range": [
+                3096,
+                3381
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 287,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Fill the modal's content element with arbitrary content.</p>\n<p>The content element will be emptied before this change takes place.</p>",
+        "kind": "function",
+        "name": "fillWith",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Mixed"
+                    ]
+                },
+                "optional": true,
+                "description": "<p>The same rules apply to this as apply to the <code>content</code> option.</p>",
+                "name": "content"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "ModalDialog"
+                    ]
+                }
+            }
+        ],
+        "longname": "fillWith",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Empties the content element.\n*\n* This happens automatically anytime the modal is filled.\n*\n* @method empty\n* @return {ModalDialog}\n*/",
+        "meta": {
+            "range": [
+                3457,
+                3596
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 323,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Empties the content element.</p>\n<p>This happens automatically anytime the modal is filled.</p>",
+        "kind": "function",
+        "name": "empty",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "ModalDialog"
+                    ]
+                }
+            }
+        ],
+        "longname": "empty",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Gets or sets the modal content, which gets normalized before being\n* rendered into the DOM.\n*\n* This does not update the DOM or fill the modal, but it is called during\n* that process.\n*\n* @method content\n* @param  {Mixed} [value]\n*         If defined, sets the internal content value to be used on the\n*         next call(s) to `fill`. This value is normalized before being\n*         inserted. To \"clear\" the internal content value, pass `null`.\n*\n* @return {Mixed}\n*/",
+        "meta": {
+            "range": [
+                3618,
+                4092
+            ],
+            "filename": "modal-dialog.js",
+            "lineno": 338,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Gets or sets the modal content, which gets normalized before being\nrendered into the DOM.</p>\n<p>This does not update the DOM or fill the modal, but it is called during\nthat process.</p>",
+        "kind": "function",
+        "name": "content",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Mixed"
+                    ]
+                },
+                "optional": true,
+                "description": "<p>If defined, sets the internal content value to be used on the\n        next call(s) to <code>fill</code>. This value is normalized before being\n        inserted. To &quot;clear&quot; the internal content value, pass <code>null</code>.</p>",
+                "name": "value"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Mixed"
+                    ]
+                }
+            }
+        ],
+        "longname": "content",
+        "scope": "global"
+    },
+    {
         "comment": "/**\n* @file player.js\n*/",
         "meta": {
             "range": [
@@ -6016,7 +6471,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "player.js",
@@ -6030,12 +6485,12 @@ var docData =
         "comment": "/**\n* An instance of the `Player` class is created when any of the Video.js setup methods are used to initialize a video.\n* ```js\n* var myPlayer = videojs('example_video_1');\n* ```\n* In the following example, the `data-setup` attribute tells the Video.js library to create a player instance when the library is ready.\n* ```html\n* <video id=\"example_video_1\" data-setup='{}' controls>\n*   <source src=\"my-source.mp4\" type=\"video/mp4\">\n* </video>\n* ```\n* After an instance has been created it can be accessed globally using `Video('example_video_1')`.\n*\n* @param {Element} tag        The original video tag used for configuring options\n* @param {Object=} options    Object of option names and values\n* @param {Function=} ready    Ready callback function\n* @extends Component\n* @class Player\n*/",
         "meta": {
             "range": [
-                130,
-                921
+                133,
+                924
             ],
             "filename": "player.js",
-            "lineno": 39,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 40,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>An instance of the <code>Player</code> class is created when any of the Video.js setup methods are used to initialize a video.</p>\n<pre class=\"prettyprint source lang-js\"><code>var myPlayer = videojs('example_video_1');</code></pre><p>In the following example, the <code>data-setup</code> attribute tells the Video.js library to create a player instance when the library is ready.</p>\n<pre class=\"prettyprint source lang-html\"><code>&lt;video id=&quot;example_video_1&quot; data-setup='{}' controls>\n  &lt;source src=&quot;my-source.mp4&quot; type=&quot;video/mp4&quot;>\n&lt;/video></code></pre><p>After an instance has been created it can be accessed globally using <code>Video('example_video_1')</code>.</p>",
@@ -6082,12 +6537,12 @@ var docData =
         "comment": "/**\n* player's constructor function\n*\n* @constructs\n* @method init\n* @param {Element} tag        The original video tag used for configuring options\n* @param {Object=} options    Player options\n* @param {Function=} ready    Ready callback function\n*/",
         "meta": {
             "range": [
-                928,
-                1178
+                931,
+                1181
             ],
             "filename": "player.js",
-            "lineno": 60,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 61,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>player's constructor function</p>",
@@ -6137,7 +6592,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 211,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Destroys the video player and does any necessary cleanup</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.dispose();</code></pre><p>This is especially helpful if you are dynamically adding and removing videos\nto/from the DOM.</p>",
@@ -6155,7 +6610,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 240,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -6182,7 +6637,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 308,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get/set player width</p>",
@@ -6222,7 +6677,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 319,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get/set player height</p>",
@@ -6262,7 +6717,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 330,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get/set dimension for player</p>",
@@ -6310,7 +6765,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 363,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Add/remove the vjs-fluid class</p>",
@@ -6339,7 +6794,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 383,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get/Set the aspect ratio</p>",
@@ -6374,7 +6829,7 @@ var docData =
             ],
             "filename": "player.js",
             "lineno": 408,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Update styles of the player element (height, width and aspect ratio)</p>",
@@ -6384,15 +6839,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Load the Media Playback Technology (tech)\n* Load/Create an instance of playback technology including element and API methods\n* And append playback element in player div.\n*\n* @param {String} techName Name of the playback technology\n* @param {String} source Video source\n* @method loadTech\n*/",
+        "comment": "/**\n* Load the Media Playback Technology (tech)\n* Load/Create an instance of playback technology including element and API methods\n* And append playback element in player div.\n*\n* @param {String} techName Name of the playback technology\n* @param {String} source Video source\n* @method loadTech_\n* @private\n*/",
         "meta": {
             "range": [
                 3429,
-                3725
+                3737
             ],
             "filename": "player.js",
             "lineno": 470,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Load the Media Playback Technology (tech)\nLoad/Create an instance of playback technology including element and API methods\nAnd append playback element in player div.</p>",
@@ -6417,111 +6872,116 @@ var docData =
             }
         ],
         "kind": "function",
-        "name": "loadTech",
-        "longname": "loadTech",
+        "name": "loadTech_",
+        "access": "private",
+        "longname": "loadTech_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Unload playback technology\n*\n* @method unloadTech\n*/",
+        "comment": "/**\n* Unload playback technology\n*\n* @method unloadTech_\n* @private\n*/",
         "meta": {
             "range": [
-                4056,
-                4114
+                4053,
+                4123
             ],
             "filename": "player.js",
-            "lineno": 589,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 585,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Unload playback technology</p>",
         "kind": "function",
-        "name": "unloadTech",
-        "longname": "unloadTech",
+        "name": "unloadTech_",
+        "access": "private",
+        "longname": "unloadTech_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Add playback technology listeners\n*\n* @method addTechControlsListeners\n*/",
+        "comment": "/**\n* Set up click and touch listeners for the playback element\n*\n* On desktops, a click on the video itself will toggle playback,\n* on a mobile device a click on the video toggles controls.\n* (toggling controls is done by toggling the user state between active and\n* inactive)\n* A tap can signal that a user has become active, or has become inactive\n* e.g. a quick tap on an iPhone movie should reveal the controls. Another\n* quick tap should hide them again (signaling the user is in an inactive\n* viewing state)\n* In addition to this, we still want the user to be considered inactive after\n* a few seconds of inactivity.\n* Note: the only part of iOS interaction we can't mimic with this setup\n* is a touch and hold on the video element counting as activity in order to\n* keep the controls showing, but that shouldn't be an issue. A touch and hold\n* on any controls will still keep the user active\n*\n* @private\n* @method addTechControlsListeners_\n*/",
         "meta": {
             "range": [
-                4151,
-                4230
+                4160,
+                5111
             ],
             "filename": "player.js",
-            "lineno": 606,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 603,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
-        "description": "<p>Add playback technology listeners</p>",
+        "description": "<p>Set up click and touch listeners for the playback element</p>\n<p>On desktops, a click on the video itself will toggle playback,\non a mobile device a click on the video toggles controls.\n(toggling controls is done by toggling the user state between active and\ninactive)\nA tap can signal that a user has become active, or has become inactive\ne.g. a quick tap on an iPhone movie should reveal the controls. Another\nquick tap should hide them again (signaling the user is in an inactive\nviewing state)\nIn addition to this, we still want the user to be considered inactive after\na few seconds of inactivity.\nNote: the only part of iOS interaction we can't mimic with this setup\nis a touch and hold on the video element counting as activity in order to\nkeep the controls showing, but that shouldn't be an issue. A touch and hold\non any controls will still keep the user active</p>",
+        "access": "private",
         "kind": "function",
-        "name": "addTechControlsListeners",
-        "longname": "addTechControlsListeners",
+        "name": "addTechControlsListeners_",
+        "longname": "addTechControlsListeners_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Remove the listeners used for click and tap controls. This is needed for\n* toggling to controls disabled, where a tap/touch should do nothing.\n*\n* @method removeTechControlsListeners\n*/",
+        "comment": "/**\n* Remove the listeners used for click and tap controls. This is needed for\n* toggling to controls disabled, where a tap/touch should do nothing.\n*\n* @method removeTechControlsListeners_\n* @private\n*/",
         "meta": {
             "range": [
-                4288,
-                4479
+                5178,
+                5381
             ],
             "filename": "player.js",
-            "lineno": 630,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 646,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Remove the listeners used for click and tap controls. This is needed for\ntoggling to controls disabled, where a tap/touch should do nothing.</p>",
         "kind": "function",
-        "name": "removeTechControlsListeners",
-        "longname": "removeTechControlsListeners",
+        "name": "removeTechControlsListeners_",
+        "access": "private",
+        "longname": "removeTechControlsListeners_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Player waits for the tech to be ready\n*\n* @private\n* @method handleTechReady\n*/",
+        "comment": "/**\n* Player waits for the tech to be ready\n*\n* @method handleTechReady_\n* @private\n*/",
         "meta": {
             "range": [
-                4510,
-                4595
+                5412,
+                5498
             ],
             "filename": "player.js",
-            "lineno": 646,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 663,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Player waits for the tech to be ready</p>",
-        "access": "private",
         "kind": "function",
-        "name": "handleTechReady",
-        "longname": "handleTechReady",
+        "name": "handleTechReady_",
+        "access": "private",
+        "longname": "handleTechReady_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired when the user agent begins looking for media data\n*\n* @event loadstart\n*/",
+        "comment": "/**\n* Fired when the user agent begins looking for media data\n*\n* @private\n* @method handleTechLoadStart_\n*/",
         "meta": {
             "range": [
-                4650,
-                4735
+                5571,
+                5679
             ],
             "filename": "player.js",
-            "lineno": 670,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 693,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when the user agent begins looking for media data</p>",
-        "kind": "event",
-        "name": "loadstart",
-        "longname": "event:loadstart",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechLoadStart_",
+        "longname": "handleTechLoadStart_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Add/remove the vjs-has-started class\n*\n* @param {Boolean} hasStarted The value of true adds the class the value of false remove the class\n* @return {Boolean} Boolean value if has started\n* @method hasStarted\n*/",
+        "comment": "/**\n* Add/remove the vjs-has-started class\n*\n* @param {Boolean} hasStarted The value of true adds the class the value of false remove the class\n* @return {Boolean} Boolean value if has started\n* @private\n* @method hasStarted\n*/",
         "meta": {
             "range": [
-                4799,
-                5015
+                5743,
+                5970
             ],
             "filename": "player.js",
-            "lineno": 696,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 720,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Add/remove the vjs-has-started class</p>",
@@ -6546,237 +7006,250 @@ var docData =
                 "description": "<p>Boolean value if has started</p>"
             }
         ],
+        "access": "private",
         "kind": "function",
         "name": "hasStarted",
         "longname": "hasStarted",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired whenever the media begins or resumes playback\n*\n* @event play\n*/",
+        "comment": "/**\n* Fired whenever the media begins or resumes playback\n*\n* @private\n* @method handleTechPlay_\n*/",
         "meta": {
             "range": [
-                5070,
-                5146
+                6025,
+                6124
             ],
             "filename": "player.js",
-            "lineno": 721,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 746,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired whenever the media begins or resumes playback</p>",
-        "kind": "event",
-        "name": "play",
-        "longname": "event:play",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechPlay_",
+        "longname": "handleTechPlay_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired whenever the media begins waiting\n*\n* @event waiting\n*/",
+        "comment": "/**\n* Fired whenever the media begins waiting\n*\n* @private\n* @method handleTechWaiting_\n*/",
         "meta": {
             "range": [
-                5183,
-                5250
+                6161,
+                6251
             ],
             "filename": "player.js",
-            "lineno": 738,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 764,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired whenever the media begins waiting</p>",
-        "kind": "event",
-        "name": "waiting",
-        "longname": "event:waiting",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechWaiting_",
+        "longname": "handleTechWaiting_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* A handler for events that signal that waiting has ended\n* which is not consistent between browsers. See #1351\n*\n* @event canplay\n*/",
+        "comment": "/**\n* A handler for events that signal that waiting has ended\n* which is not consistent between browsers. See #1351\n*\n* @private\n* @method handleTechCanPlay_\n*/",
         "meta": {
             "range": [
-                5266,
-                5403
+                6267,
+                6427
             ],
             "filename": "player.js",
-            "lineno": 748,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 775,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>A handler for events that signal that waiting has ended\nwhich is not consistent between browsers. See #1351</p>",
-        "kind": "event",
-        "name": "canplay",
-        "longname": "event:canplay",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechCanPlay_",
+        "longname": "handleTechCanPlay_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* A handler for events that signal that waiting has ended\n* which is not consistent between browsers. See #1351\n*\n* @event canplaythrough\n*/",
+        "comment": "/**\n* A handler for events that signal that waiting has ended\n* which is not consistent between browsers. See #1351\n*\n* @private\n* @method handleTechCanPlayThrough_\n*/",
         "meta": {
             "range": [
-                5419,
-                5563
+                6443,
+                6610
             ],
             "filename": "player.js",
-            "lineno": 759,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 787,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>A handler for events that signal that waiting has ended\nwhich is not consistent between browsers. See #1351</p>",
-        "kind": "event",
-        "name": "canplaythrough",
-        "longname": "event:canplaythrough",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechCanPlayThrough_",
+        "longname": "handleTechCanPlayThrough_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* A handler for events that signal that waiting has ended\n* which is not consistent between browsers. See #1351\n*\n* @event playing\n*/",
+        "comment": "/**\n* A handler for events that signal that waiting has ended\n* which is not consistent between browsers. See #1351\n*\n* @private\n* @method handleTechPlaying_\n*/",
         "meta": {
             "range": [
-                5579,
-                5716
+                6626,
+                6786
             ],
             "filename": "player.js",
-            "lineno": 770,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 799,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>A handler for events that signal that waiting has ended\nwhich is not consistent between browsers. See #1351</p>",
-        "kind": "event",
-        "name": "playing",
-        "longname": "event:playing",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechPlaying_",
+        "longname": "handleTechPlaying_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired whenever the player is jumping to a new time\n*\n* @event seeking\n*/",
+        "comment": "/**\n* Fired whenever the player is jumping to a new time\n*\n* @private\n* @method handleTechSeeking_\n*/",
         "meta": {
             "range": [
-                5732,
-                5810
+                6802,
+                6903
             ],
             "filename": "player.js",
-            "lineno": 781,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 811,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired whenever the player is jumping to a new time</p>",
-        "kind": "event",
-        "name": "seeking",
-        "longname": "event:seeking",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechSeeking_",
+        "longname": "handleTechSeeking_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired when the player has finished jumping to a new time\n*\n* @event seeked\n*/",
+        "comment": "/**\n* Fired when the player has finished jumping to a new time\n*\n* @private\n* @method handleTechSeeked_\n*/",
         "meta": {
             "range": [
-                5826,
-                5909
+                6919,
+                7025
             ],
             "filename": "player.js",
-            "lineno": 791,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 822,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when the player has finished jumping to a new time</p>",
-        "kind": "event",
-        "name": "seeked",
-        "longname": "event:seeked",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechSeeked_",
+        "longname": "handleTechSeeked_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired the first time a video is played\n* Not part of the HLS spec, and we're not sure if this is the best\n* implementation yet, so use sparingly. If you don't have a reason to\n* prevent playback, use `myPlayer.one('play');` instead.\n*\n* @event firstplay\n*/",
+        "comment": "/**\n* Fired the first time a video is played\n* Not part of the HLS spec, and we're not sure if this is the best\n* implementation yet, so use sparingly. If you don't have a reason to\n* prevent playback, use `myPlayer.one('play');` instead.\n*\n* @private\n* @method handleTechFirstPlay_\n*/",
         "meta": {
             "range": [
-                5925,
-                6187
+                7041,
+                7326
             ],
             "filename": "player.js",
-            "lineno": 801,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 833,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired the first time a video is played\nNot part of the HLS spec, and we're not sure if this is the best\nimplementation yet, so use sparingly. If you don't have a reason to\nprevent playback, use <code>myPlayer.one('play');</code> instead.</p>",
-        "kind": "event",
-        "name": "firstplay",
-        "longname": "event:firstplay",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechFirstPlay_",
+        "longname": "handleTechFirstPlay_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired whenever the media has been paused\n*\n* @event pause\n*/",
+        "comment": "/**\n* Fired whenever the media has been paused\n*\n* @private\n* @method handleTechPause_\n*/",
         "meta": {
             "range": [
-                6221,
-                6287
+                7360,
+                7449
             ],
             "filename": "player.js",
-            "lineno": 820,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 853,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired whenever the media has been paused</p>",
-        "kind": "event",
-        "name": "pause",
-        "longname": "event:pause",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechPause_",
+        "longname": "handleTechPause_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired while the user agent is downloading media data\n*\n* @event progress\n*/",
+        "comment": "/**\n* Fired while the user agent is downloading media data\n*\n* @private\n* @method handleTechProgress_\n*/",
         "meta": {
             "range": [
-                6306,
-                6387
+                7468,
+                7572
             ],
             "filename": "player.js",
-            "lineno": 831,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 865,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired while the user agent is downloading media data</p>",
-        "kind": "event",
-        "name": "progress",
-        "longname": "event:progress",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechProgress_",
+        "longname": "handleTechProgress_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired when the end of the media resource is reached (currentTime == duration)\n*\n* @event ended\n*/",
+        "comment": "/**\n* Fired when the end of the media resource is reached (currentTime == duration)\n*\n* @private\n* @method handleTechEnded_\n*/",
         "meta": {
             "range": [
-                6415,
-                6518
+                7585,
+                7711
             ],
             "filename": "player.js",
-            "lineno": 845,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 875,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when the end of the media resource is reached (currentTime == duration)</p>",
-        "kind": "event",
-        "name": "ended",
-        "longname": "event:ended",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechEnded_",
+        "longname": "handleTechEnded_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired when the duration of the media resource is first known or changed\n*\n* @event durationchange\n*/",
+        "comment": "/**\n* Fired when the duration of the media resource is first known or changed\n*\n* @private\n* @method handleTechDurationChange_\n*/",
         "meta": {
             "range": [
-                6555,
-                6661
+                7748,
+                7877
             ],
             "filename": "player.js",
-            "lineno": 862,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 893,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when the duration of the media resource is first known or changed</p>",
-        "kind": "event",
-        "name": "durationchange",
-        "longname": "event:durationchange",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechDurationChange_",
+        "longname": "handleTechDurationChange_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Handle a click on the media element to play/pause\n*\n* @param {Object=} event Event object\n* @method handleTechClick\n*/",
+        "comment": "/**\n* Handle a click on the media element to play/pause\n*\n* @param {Object=} event Event object\n* @private\n* @method handleTechClick_\n*/",
         "meta": {
             "range": [
-                6677,
-                6801
+                7890,
+                8026
             ],
             "filename": "player.js",
-            "lineno": 872,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 903,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Handle a click on the media element to play/pause</p>",
@@ -6792,365 +7265,364 @@ var docData =
                 "name": "event"
             }
         ],
+        "access": "private",
         "kind": "function",
-        "name": "handleTechClick",
-        "longname": "handleTechClick",
+        "name": "handleTechClick_",
+        "longname": "handleTechClick_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Handle a tap on the media element. It will toggle the user\n* activity state, which hides and shows the controls.\n*\n* @method handleTechTap\n*/",
+        "comment": "/**\n* Handle a tap on the media element. It will toggle the user\n* activity state, which hides and shows the controls.\n*\n* @private\n* @method handleTechTap_\n*/",
         "meta": {
             "range": [
-                6850,
-                6997
+                8075,
+                8234
             ],
             "filename": "player.js",
-            "lineno": 894,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 926,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Handle a tap on the media element. It will toggle the user\nactivity state, which hides and shows the controls.</p>",
+        "access": "private",
         "kind": "function",
-        "name": "handleTechTap",
-        "longname": "handleTechTap",
+        "name": "handleTechTap_",
+        "longname": "handleTechTap_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Handle touch to start\n*\n* @method handleTechTouchStart\n*/",
+        "comment": "/**\n* Handle touch to start\n*\n* @private\n* @method handleTechTouchStart_\n*/",
         "meta": {
             "range": [
-                7010,
-                7073
+                8247,
+                8322
             ],
             "filename": "player.js",
-            "lineno": 904,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 937,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Handle touch to start</p>",
+        "access": "private",
         "kind": "function",
-        "name": "handleTechTouchStart",
-        "longname": "handleTechTouchStart",
+        "name": "handleTechTouchStart_",
+        "longname": "handleTechTouchStart_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Handle touch to move\n*\n* @method handleTechTouchMove\n*/",
+        "comment": "/**\n* Handle touch to move\n*\n* @private\n* @method handleTechTouchMove_\n*/",
         "meta": {
             "range": [
-                7086,
-                7147
+                8335,
+                8408
             ],
             "filename": "player.js",
-            "lineno": 913,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 947,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Handle touch to move</p>",
-        "kind": "function",
-        "name": "handleTechTouchMove",
-        "longname": "handleTechTouchMove",
-        "scope": "global"
-    },
-    {
-        "comment": "/**\n* Handle touch to end\n*\n* @method handleTechTouchEnd\n*/",
-        "meta": {
-            "range": [
-                7166,
-                7225
-            ],
-            "filename": "player.js",
-            "lineno": 924,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
-            "code": {}
-        },
-        "description": "<p>Handle touch to end</p>",
-        "kind": "function",
-        "name": "handleTechTouchEnd",
-        "longname": "handleTechTouchEnd",
-        "scope": "global"
-    },
-    {
-        "comment": "/**\n* Update the duration of the player using the tech\n*\n* @private\n* @method updateDuration\n*/",
-        "meta": {
-            "range": [
-                7241,
-                7336
-            ],
-            "filename": "player.js",
-            "lineno": 934,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
-            "code": {}
-        },
-        "description": "<p>Update the duration of the player using the tech</p>",
         "access": "private",
         "kind": "function",
-        "name": "updateDuration",
-        "longname": "updateDuration",
+        "name": "handleTechTouchMove_",
+        "longname": "handleTechTouchMove_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired when the player switches in or out of fullscreen mode\n*\n* @event fullscreenchange\n*/",
+        "comment": "/**\n* Handle touch to end\n*\n* @private\n* @method handleTechTouchEnd_\n*/",
         "meta": {
             "range": [
-                7394,
-                7490
+                8427,
+                8498
             ],
             "filename": "player.js",
             "lineno": 959,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
-        "description": "<p>Fired when the player switches in or out of fullscreen mode</p>",
-        "kind": "event",
-        "name": "fullscreenchange",
-        "longname": "event:fullscreenchange",
+        "description": "<p>Handle touch to end</p>",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechTouchEnd_",
+        "longname": "handleTechTouchEnd_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* native click events on the SWF aren't triggered on IE11, Win8.1RT\n* use stageclick events triggered from inside the SWF instead\n*\n* @private\n* @method handleStageClick\n*/",
+        "comment": "/**\n* Fired when the player switches in or out of fullscreen mode\n*\n* @private\n* @method handleFullscreenChange_\n*/",
         "meta": {
             "range": [
-                7515,
-                7691
+                8514,
+                8629
             ],
             "filename": "player.js",
-            "lineno": 972,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 970,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Fired when the player switches in or out of fullscreen mode</p>",
+        "access": "private",
+        "kind": "function",
+        "name": "handleFullscreenChange_",
+        "longname": "handleFullscreenChange_",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* native click events on the SWF aren't triggered on IE11, Win8.1RT\n* use stageclick events triggered from inside the SWF instead\n*\n* @private\n* @method handleStageClick_\n*/",
+        "meta": {
+            "range": [
+                8654,
+                8831
+            ],
+            "filename": "player.js",
+            "lineno": 984,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>native click events on the SWF aren't triggered on IE11, Win8.1RT\nuse stageclick events triggered from inside the SWF instead</p>",
         "access": "private",
         "kind": "function",
-        "name": "handleStageClick",
-        "longname": "handleStageClick",
+        "name": "handleStageClick_",
+        "longname": "handleStageClick_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Handle Tech Fullscreen Change\n*\n* @method handleTechFullscreenChange\n*/",
+        "comment": "/**\n* Handle Tech Fullscreen Change\n*\n* @private\n* @method handleTechFullscreenChange_\n*/",
         "meta": {
             "range": [
-                7704,
-                7781
-            ],
-            "filename": "player.js",
-            "lineno": 983,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
-            "code": {}
-        },
-        "description": "<p>Handle Tech Fullscreen Change</p>",
-        "kind": "function",
-        "name": "handleTechFullscreenChange",
-        "longname": "handleTechFullscreenChange",
-        "scope": "global"
-    },
-    {
-        "comment": "/**\n* Fires when an error occurred during the loading of an audio/video\n*\n* @event error\n*/",
-        "meta": {
-            "range": [
-                7803,
-                7894
+                8844,
+                8933
             ],
             "filename": "player.js",
             "lineno": 995,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Handle Tech Fullscreen Change</p>",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechFullscreenChange_",
+        "longname": "handleTechFullscreenChange_",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Fires when an error occurred during the loading of an audio/video\n*\n* @private\n* @method handleTechError_\n*/",
+        "meta": {
+            "range": [
+                8955,
+                9069
+            ],
+            "filename": "player.js",
+            "lineno": 1008,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fires when an error occurred during the loading of an audio/video</p>",
-        "kind": "event",
-        "name": "error",
-        "longname": "event:error",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechError_",
+        "longname": "handleTechError_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fires when the browser is intentionally not getting media data\n*\n* @event suspend\n*/",
+        "comment": "/**\n* Fires when the browser is intentionally not getting media data\n*\n* @private\n* @method handleTechSuspend_\n*/",
         "meta": {
             "range": [
-                7907,
-                7997
+                9085,
+                9198
             ],
             "filename": "player.js",
-            "lineno": 1004,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1019,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fires when the browser is intentionally not getting media data</p>",
-        "kind": "event",
-        "name": "suspend",
-        "longname": "event:suspend",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechSuspend_",
+        "longname": "handleTechSuspend_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fires when the loading of an audio/video is aborted\n*\n* @event abort\n*/",
+        "comment": "/**\n* Fires when the loading of an audio/video is aborted\n*\n* @private\n* @method handleTechAbort_\n*/",
         "meta": {
             "range": [
-                8010,
-                8087
+                9211,
+                9311
             ],
             "filename": "player.js",
-            "lineno": 1013,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1029,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fires when the loading of an audio/video is aborted</p>",
-        "kind": "event",
-        "name": "abort",
-        "longname": "event:abort",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechAbort_",
+        "longname": "handleTechAbort_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fires when the current playlist is empty\n*\n* @event emptied\n*/",
+        "comment": "/**\n* Fires when the current playlist is empty\n*\n* @private\n* @method handleTechEmptied_\n*/",
         "meta": {
             "range": [
-                8100,
-                8168
+                9324,
+                9415
             ],
             "filename": "player.js",
-            "lineno": 1022,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1039,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fires when the current playlist is empty</p>",
-        "kind": "event",
-        "name": "emptied",
-        "longname": "event:emptied",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechEmptied_",
+        "longname": "handleTechEmptied_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fires when the browser is trying to get media data, but data is not available\n*\n* @event stalled\n*/",
+        "comment": "/**\n* Fires when the browser is trying to get media data, but data is not available\n*\n* @private\n* @method handleTechStalled_\n*/",
         "meta": {
             "range": [
-                8181,
-                8286
-            ],
-            "filename": "player.js",
-            "lineno": 1031,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
-            "code": {}
-        },
-        "description": "<p>Fires when the browser is trying to get media data, but data is not available</p>",
-        "kind": "event",
-        "name": "stalled",
-        "longname": "event:stalled",
-        "scope": "global"
-    },
-    {
-        "comment": "/**\n* Fires when the browser has loaded meta data for the audio/video\n*\n* @event loadedmetadata\n*/",
-        "meta": {
-            "range": [
-                8299,
-                8397
-            ],
-            "filename": "player.js",
-            "lineno": 1040,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
-            "code": {}
-        },
-        "description": "<p>Fires when the browser has loaded meta data for the audio/video</p>",
-        "kind": "event",
-        "name": "loadedmetadata",
-        "longname": "event:loadedmetadata",
-        "scope": "global"
-    },
-    {
-        "comment": "/**\n* Fires when the browser has loaded the current frame of the audio/video\n*\n* @event loaddata\n*/",
-        "meta": {
-            "range": [
-                8410,
-                8509
+                9428,
+                9556
             ],
             "filename": "player.js",
             "lineno": 1049,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Fires when the browser is trying to get media data, but data is not available</p>",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechStalled_",
+        "longname": "handleTechStalled_",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Fires when the browser has loaded meta data for the audio/video\n*\n* @private\n* @method handleTechLoadedMetaData_\n*/",
+        "meta": {
+            "range": [
+                9569,
+                9690
+            ],
+            "filename": "player.js",
+            "lineno": 1059,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Fires when the browser has loaded meta data for the audio/video</p>",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechLoadedMetaData_",
+        "longname": "handleTechLoadedMetaData_",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Fires when the browser has loaded the current frame of the audio/video\n*\n* @private\n* @method handleTechLoadedData_\n*/",
+        "meta": {
+            "range": [
+                9703,
+                9827
+            ],
+            "filename": "player.js",
+            "lineno": 1069,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fires when the browser has loaded the current frame of the audio/video</p>",
-        "kind": "event",
-        "name": "loaddata",
-        "longname": "event:loaddata",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechLoadedData_",
+        "longname": "handleTechLoadedData_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fires when the current playback position has changed\n*\n* @event timeupdate\n*/",
+        "comment": "/**\n* Fires when the current playback position has changed\n*\n* @private\n* @method handleTechTimeUpdate_\n*/",
         "meta": {
             "range": [
-                8522,
-                8605
+                9840,
+                9946
             ],
             "filename": "player.js",
-            "lineno": 1058,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1079,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fires when the current playback position has changed</p>",
-        "kind": "event",
-        "name": "timeupdate",
-        "longname": "event:timeupdate",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechTimeUpdate_",
+        "longname": "handleTechTimeUpdate_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fires when the playing speed of the audio/video is changed\n*\n* @event ratechange\n*/",
+        "comment": "/**\n* Fires when the playing speed of the audio/video is changed\n*\n* @private\n* @method handleTechRateChange_\n*/",
         "meta": {
             "range": [
-                8618,
-                8707
+                9959,
+                10071
             ],
             "filename": "player.js",
-            "lineno": 1067,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1089,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fires when the playing speed of the audio/video is changed</p>",
-        "kind": "event",
-        "name": "ratechange",
-        "longname": "event:ratechange",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechRateChange_",
+        "longname": "handleTechRateChange_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fires when the volume has been changed\n*\n* @event volumechange\n*/",
+        "comment": "/**\n* Fires when the volume has been changed\n*\n* @private\n* @method handleTechVolumeChange_\n*/",
         "meta": {
             "range": [
-                8720,
-                8791
+                10084,
+                10178
             ],
             "filename": "player.js",
-            "lineno": 1076,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1099,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fires when the volume has been changed</p>",
-        "kind": "event",
-        "name": "volumechange",
-        "longname": "event:volumechange",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechVolumeChange_",
+        "longname": "handleTechVolumeChange_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fires when the text track has been changed\n*\n* @event texttrackchange\n*/",
+        "comment": "/**\n* Fires when the text track has been changed\n*\n* @private\n* @method handleTechTextTrackChange_\n*/",
         "meta": {
             "range": [
-                8804,
-                8882
+                10191,
+                10292
             ],
             "filename": "player.js",
-            "lineno": 1085,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1109,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fires when the text track has been changed</p>",
-        "kind": "event",
-        "name": "texttrackchange",
-        "longname": "event:texttrackchange",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechTextTrackChange_",
+        "longname": "handleTechTextTrackChange_",
         "scope": "global"
     },
     {
         "comment": "/**\n* Get object for cached values.\n*\n* @return {Object}\n* @method getCache\n*/",
         "meta": {
             "range": [
-                8895,
-                8973
+                10305,
+                10383
             ],
             "filename": "player.js",
-            "lineno": 1094,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1119,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get object for cached values.</p>",
@@ -7169,15 +7641,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Pass values to the playback tech\n*\n* @param {String=} method Method\n* @param {Object=} arg Argument\n* @method techCall\n*/",
+        "comment": "/**\n* Pass values to the playback tech\n*\n* @param {String=} method Method\n* @param {Object=} arg Argument\n* @private\n* @method techCall_\n*/",
         "meta": {
             "range": [
-                8986,
-                9113
+                10396,
+                10535
             ],
             "filename": "player.js",
-            "lineno": 1104,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1129,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Pass values to the playback tech</p>",
@@ -7203,21 +7675,22 @@ var docData =
                 "name": "arg"
             }
         ],
+        "access": "private",
         "kind": "function",
-        "name": "techCall",
-        "longname": "techCall",
+        "name": "techCall_",
+        "longname": "techCall_",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Get calls can't wait for the tech, and sometimes don't need to.\n*\n* @param {String} method Tech method\n* @return {Method}\n* @method techGet\n*/",
+        "comment": "/**\n* Get calls can't wait for the tech, and sometimes don't need to.\n*\n* @param {String} method Tech method\n* @return {Method}\n* @private\n* @method techGet_\n*/",
         "meta": {
             "range": [
-                9168,
-                9316
+                10590,
+                10750
             ],
             "filename": "player.js",
-            "lineno": 1129,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1155,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get calls can't wait for the tech, and sometimes don't need to.</p>",
@@ -7241,21 +7714,22 @@ var docData =
                 }
             }
         ],
+        "access": "private",
         "kind": "function",
-        "name": "techGet",
-        "longname": "techGet",
+        "name": "techGet_",
+        "longname": "techGet_",
         "scope": "global"
     },
     {
         "comment": "/**\n* start media playback\n* ```js\n*     myPlayer.play();\n* ```\n*\n* @return {Player} self\n* @method play\n*/",
         "meta": {
             "range": [
-                9401,
-                9508
+                10835,
+                10942
             ],
             "filename": "player.js",
-            "lineno": 1164,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1191,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>start media playback</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.play();</code></pre>",
@@ -7278,12 +7752,12 @@ var docData =
         "comment": "/**\n* Pause the video playback\n* ```js\n*     myPlayer.pause();\n* ```\n*\n* @return {Player} self\n* @method pause\n*/",
         "meta": {
             "range": [
-                9524,
-                9637
+                10958,
+                11071
             ],
             "filename": "player.js",
-            "lineno": 1178,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1205,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Pause the video playback</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.pause();</code></pre>",
@@ -7306,12 +7780,12 @@ var docData =
         "comment": "/**\n* Check if the player is paused\n* ```js\n*     var isPaused = myPlayer.paused();\n*     var isPlaying = !myPlayer.paused();\n* ```\n*\n* @return {Boolean} false if the media is currently playing, or true otherwise\n* @method paused\n*/",
         "meta": {
             "range": [
-                9653,
-                9885
+                11087,
+                11319
             ],
             "filename": "player.js",
-            "lineno": 1192,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1219,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Check if the player is paused</p>\n<pre class=\"prettyprint source lang-js\"><code>    var isPaused = myPlayer.paused();\n    var isPlaying = !myPlayer.paused();</code></pre>",
@@ -7334,12 +7808,12 @@ var docData =
         "comment": "/**\n* Returns whether or not the user is \"scrubbing\". Scrubbing is when the user\n* has clicked the progress bar handle and is dragging it along the progress bar.\n*\n* @param  {Boolean} isScrubbing   True/false the user is scrubbing\n* @return {Boolean}               The scrubbing status when getting\n* @return {Object}                The player when setting\n* @method scrubbing\n*/",
         "meta": {
             "range": [
-                9901,
-                10280
+                11335,
+                11714
             ],
             "filename": "player.js",
-            "lineno": 1207,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1234,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Returns whether or not the user is &quot;scrubbing&quot;. Scrubbing is when the user\nhas clicked the progress bar handle and is dragging it along the progress bar.</p>",
@@ -7381,12 +7855,12 @@ var docData =
         "comment": "/**\n* Get or set the current time (in seconds)\n* ```js\n*     // get\n*     var whereYouAt = myPlayer.currentTime();\n*     // set\n*     myPlayer.currentTime(120); // 2 minutes into the video\n* ```\n*\n* @param  {Number|String=} seconds The time to seek to\n* @return {Number}        The time in seconds, when not setting\n* @return {Player}    self, when the current time is set\n* @method currentTime\n*/",
         "meta": {
             "range": [
-                10329,
-                10726
+                11763,
+                12160
             ],
             "filename": "player.js",
-            "lineno": 1232,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1259,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get or set the current time (in seconds)</p>\n<pre class=\"prettyprint source lang-js\"><code>    // get\n    var whereYouAt = myPlayer.currentTime();\n    // set\n    myPlayer.currentTime(120); // 2 minutes into the video</code></pre>",
@@ -7429,12 +7903,12 @@ var docData =
         "comment": "/**\n* Get the length in time of the video in seconds\n* ```js\n*     var lengthOfVideo = myPlayer.duration();\n* ```\n* **NOTE**: The video must have started loading before the duration can be\n* known, and in the case of Flash, may not be known until the video starts\n* playing.\n*\n* @param {Number} seconds Duration when setting\n* @return {Number} The duration of the video in seconds when getting\n* @method duration\n*/",
         "meta": {
             "range": [
-                10778,
-                11193
+                12212,
+                12627
             ],
             "filename": "player.js",
-            "lineno": 1263,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1290,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get the length in time of the video in seconds</p>\n<pre class=\"prettyprint source lang-js\"><code>    var lengthOfVideo = myPlayer.duration();</code></pre><p><strong>NOTE</strong>: The video must have started loading before the duration can be\nknown, and in the case of Flash, may not be known until the video starts\nplaying.</p>",
@@ -7468,12 +7942,12 @@ var docData =
         "comment": "/**\n* Calculates how much time is left.\n* ```js\n*     var timeLeft = myPlayer.remainingTime();\n* ```\n* Not a native video element function, but useful\n*\n* @return {Number} The time remaining in seconds\n* @method remainingTime\n*/",
         "meta": {
             "range": [
-                11242,
-                11470
+                12712,
+                12940
             ],
             "filename": "player.js",
-            "lineno": 1292,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1331,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Calculates how much time is left.</p>\n<pre class=\"prettyprint source lang-js\"><code>    var timeLeft = myPlayer.remainingTime();</code></pre><p>Not a native video element function, but useful</p>",
@@ -7496,12 +7970,12 @@ var docData =
         "comment": "/**\n* Get a TimeRange object with the times of the video that have been downloaded\n* If you just want the percent of the video that's been downloaded,\n* use bufferedPercent.\n* ```js\n*     // Number of different ranges of time have been buffered. Usually 1.\n*     numberOfRanges = bufferedTimeRange.length,\n*     // Time in seconds when the first range starts. Usually 0.\n*     firstRangeStart = bufferedTimeRange.start(0),\n*     // Time in seconds when the first range ends\n*     firstRangeEnd = bufferedTimeRange.end(0),\n*     // Length in seconds of the first time range\n*     firstRangeLength = firstRangeEnd - firstRangeStart;\n* ```\n*\n* @return {Object} A mock TimeRange object (following HTML spec)\n* @method buffered\n*/",
         "meta": {
             "range": [
-                11495,
-                12220
+                12965,
+                13690
             ],
             "filename": "player.js",
-            "lineno": 1310,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1349,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get a TimeRange object with the times of the video that have been downloaded\nIf you just want the percent of the video that's been downloaded,\nuse bufferedPercent.</p>\n<pre class=\"prettyprint source lang-js\"><code>    // Number of different ranges of time have been buffered. Usually 1.\n    numberOfRanges = bufferedTimeRange.length,\n    // Time in seconds when the first range starts. Usually 0.\n    firstRangeStart = bufferedTimeRange.start(0),\n    // Time in seconds when the first range ends\n    firstRangeEnd = bufferedTimeRange.end(0),\n    // Length in seconds of the first time range\n    firstRangeLength = firstRangeEnd - firstRangeStart;</code></pre>",
@@ -7524,12 +7998,12 @@ var docData =
         "comment": "/**\n* Get the percent (as a decimal) of the video that's been downloaded\n* ```js\n*     var howMuchIsDownloaded = myPlayer.bufferedPercent();\n* ```\n* 0 means none, 1 means all.\n* (This method isn't in the HTML5 spec, but it's very convenient)\n*\n* @return {Number} A decimal between 0 and 1 representing the percent\n* @method bufferedPercent\n*/",
         "meta": {
             "range": [
-                12251,
-                12593
+                13721,
+                14063
             ],
             "filename": "player.js",
-            "lineno": 1338,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1377,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get the percent (as a decimal) of the video that's been downloaded</p>\n<pre class=\"prettyprint source lang-js\"><code>    var howMuchIsDownloaded = myPlayer.bufferedPercent();</code></pre><p>0 means none, 1 means all.\n(This method isn't in the HTML5 spec, but it's very convenient)</p>",
@@ -7552,12 +8026,12 @@ var docData =
         "comment": "/**\n* Get the ending time of the last buffered time range\n* This is used in the progress bar to encapsulate all time ranges.\n*\n* @return {Number} The end of the last buffered time range\n* @method bufferedEnd\n*/",
         "meta": {
             "range": [
-                12606,
-                12816
+                14076,
+                14286
             ],
             "filename": "player.js",
-            "lineno": 1353,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1392,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get the ending time of the last buffered time range\nThis is used in the progress bar to encapsulate all time ranges.</p>",
@@ -7580,12 +8054,12 @@ var docData =
         "comment": "/**\n* Get or set the current volume of the media\n* ```js\n*     // get\n*     var howLoudIsIt = myPlayer.volume();\n*     // set\n*     myPlayer.volume(0.5); // Set volume to half\n* ```\n* 0 is off (muted), 1.0 is all the way up, 0.5 is half way.\n*\n* @param  {Number} percentAsDecimal The new volume as a decimal percent\n* @return {Number}              The current volume when getting\n* @return {Player}              self when setting\n* @method volume\n*/",
         "meta": {
             "range": [
-                12853,
-                13302
+                14323,
+                14772
             ],
             "filename": "player.js",
-            "lineno": 1372,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1411,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get or set the current volume of the media</p>\n<pre class=\"prettyprint source lang-js\"><code>    // get\n    var howLoudIsIt = myPlayer.volume();\n    // set\n    myPlayer.volume(0.5); // Set volume to half</code></pre><p>0 is off (muted), 1.0 is all the way up, 0.5 is half way.</p>",
@@ -7627,12 +8101,12 @@ var docData =
         "comment": "/**\n* Get the current muted state, or turn mute on or off\n* ```js\n*     // get\n*     var isVolumeMuted = myPlayer.muted();\n*     // set\n*     myPlayer.muted(true); // mute the volume\n* ```\n*\n* @param  {Boolean=} muted True to mute, false to unmute\n* @return {Boolean} True if mute is on, false if not when getting\n* @return {Player} self when setting mute\n* @method muted\n*/",
         "meta": {
             "range": [
-                13354,
-                13728
+                14824,
+                15198
             ],
             "filename": "player.js",
-            "lineno": 1404,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1443,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get the current muted state, or turn mute on or off</p>\n<pre class=\"prettyprint source lang-js\"><code>    // get\n    var isVolumeMuted = myPlayer.muted();\n    // set\n    myPlayer.muted(true); // mute the volume</code></pre>",
@@ -7675,12 +8149,12 @@ var docData =
         "comment": "/**\n* Check to see if fullscreen is supported\n*\n* @return {Boolean}\n* @method supportsFullScreen\n*/",
         "meta": {
             "range": [
-                13759,
-                13858
+                15229,
+                15328
             ],
             "filename": "player.js",
-            "lineno": 1428,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1467,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Check to see if fullscreen is supported</p>",
@@ -7702,12 +8176,12 @@ var docData =
         "comment": "/**\n* Check if the player is in fullscreen mode\n* ```js\n*     // get\n*     var fullscreenOrNot = myPlayer.isFullscreen();\n*     // set\n*     myPlayer.isFullscreen(true); // tell the player it's in fullscreen\n* ```\n* NOTE: As of the latest HTML5 spec, isFullscreen is no longer an official\n* property and instead document.fullscreenElement is used. But isFullscreen is\n* still a valuable property for internal player workings.\n*\n* @param  {Boolean=} isFS Update the player's fullscreen state\n* @return {Boolean} true if fullscreen false if not when getting\n* @return {Player} self when setting\n* @method isFullscreen\n*/",
         "meta": {
             "range": [
-                13871,
-                14489
+                15341,
+                15959
             ],
             "filename": "player.js",
-            "lineno": 1438,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1477,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Check if the player is in fullscreen mode</p>\n<pre class=\"prettyprint source lang-js\"><code>    // get\n    var fullscreenOrNot = myPlayer.isFullscreen();\n    // set\n    myPlayer.isFullscreen(true); // tell the player it's in fullscreen</code></pre><p>NOTE: As of the latest HTML5 spec, isFullscreen is no longer an official\nproperty and instead document.fullscreenElement is used. But isFullscreen is\nstill a valuable property for internal player workings.</p>",
@@ -7750,12 +8224,12 @@ var docData =
         "comment": "/**\n* Increase the size of the video to full screen\n* ```js\n*     myPlayer.requestFullscreen();\n* ```\n* In some browsers, full screen is not supported natively, so it enters\n* \"full window mode\", where the video fills the browser window.\n* In browsers and devices that support native full screen, sometimes the\n* browser's default controls will be shown, and not the Video.js custom skin.\n* This includes most mobile devices (iOS, Android) and older versions of\n* Safari.\n*\n* @return {Player} self\n* @method requestFullscreen\n*/",
         "meta": {
             "range": [
-                14514,
-                15042
+                15984,
+                16512
             ],
             "filename": "player.js",
-            "lineno": 1463,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1502,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Increase the size of the video to full screen</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.requestFullscreen();</code></pre><p>In some browsers, full screen is not supported natively, so it enters\n&quot;full window mode&quot;, where the video fills the browser window.\nIn browsers and devices that support native full screen, sometimes the\nbrowser's default controls will be shown, and not the Video.js custom skin.\nThis includes most mobile devices (iOS, Android) and older versions of\nSafari.</p>",
@@ -7778,12 +8252,12 @@ var docData =
         "comment": "/**\n* Return the video to its normal size after having been in full screen mode\n* ```js\n*     myPlayer.exitFullscreen();\n* ```\n*\n* @return {Player} self\n* @method exitFullscreen\n*/",
         "meta": {
             "range": [
-                15166,
-                15346
+                16636,
+                16816
             ],
             "filename": "player.js",
-            "lineno": 1519,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1558,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Return the video to its normal size after having been in full screen mode</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.exitFullscreen();</code></pre>",
@@ -7806,12 +8280,12 @@ var docData =
         "comment": "/**\n* When fullscreen isn't supported we can stretch the video container to as wide as the browser will let us.\n*\n* @method enterFullWindow\n*/",
         "meta": {
             "range": [
-                15398,
-                15540
+                16868,
+                17010
             ],
             "filename": "player.js",
-            "lineno": 1545,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1584,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>When fullscreen isn't supported we can stretch the video container to as wide as the browser will let us.</p>",
@@ -7824,12 +8298,12 @@ var docData =
         "comment": "/**\n* Check for call to either exit full window or full screen on ESC key\n*\n* @param {String} event Event to check for key press\n* @method fullWindowOnEscKey\n*/",
         "meta": {
             "range": [
-                15595,
-                15755
+                17065,
+                17225
             ],
             "filename": "player.js",
-            "lineno": 1568,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1607,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Check for call to either exit full window or full screen on ESC key</p>",
@@ -7853,12 +8327,12 @@ var docData =
         "comment": "/**\n* Exit full window\n*\n* @method exitFullWindow\n*/",
         "meta": {
             "range": [
-                15786,
-                15838
+                17256,
+                17308
             ],
             "filename": "player.js",
-            "lineno": 1584,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1623,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Exit full window</p>",
@@ -7868,15 +8342,54 @@ var docData =
         "scope": "global"
     },
     {
+        "comment": "/**\n* Check whether the player can play a given mimetype\n*\n* @param {String} type The mimetype to check\n* @return {String} 'probably', 'maybe', or '' (empty string)\n* @method canPlayType\n*/",
+        "meta": {
+            "range": [
+                17354,
+                17543
+            ],
+            "filename": "player.js",
+            "lineno": 1643,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Check whether the player can play a given mimetype</p>",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "<p>The mimetype to check</p>",
+                "name": "type"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "<p>'probably', 'maybe', or '' (empty string)</p>"
+            }
+        ],
+        "kind": "function",
+        "name": "canPlayType",
+        "longname": "canPlayType",
+        "scope": "global"
+    },
+    {
         "comment": "/**\n* Select source based on tech order\n*\n* @param {Array} sources The sources for a media asset\n* @return {Object|Boolean} Object of source and tech order, otherwise false\n* @method selectSource\n*/",
         "meta": {
             "range": [
-                15884,
-                16082
+                17625,
+                17823
             ],
             "filename": "player.js",
-            "lineno": 1604,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1677,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Select source based on tech order</p>",
@@ -7911,12 +8424,12 @@ var docData =
         "comment": "/**\n* The source function updates the video source\n* There are three types of variables you can pass as the argument.\n* **URL String**: A URL to the the video file. Use this method if you are sure\n* the current playback technology (HTML5/Flash) can support the source you\n* provide. Currently only MP4 files can be used in both HTML5 and Flash.\n* ```js\n*     myPlayer.src(\"http://www.example.com/path/to/video.mp4\");\n* ```\n* **Source Object (or element):* * A javascript object containing information\n* about the source file. Use this method if you want the player to determine if\n* it can support the file using the type information.\n* ```js\n*     myPlayer.src({ type: \"video/mp4\", src: \"http://www.example.com/path/to/video.mp4\" });\n* ```\n* **Array of Source Objects:* * To provide multiple versions of the source so\n* that it can be played using HTML5 across browsers you can use an array of\n* source objects. Video.js will detect which version is supported and load that\n* file.\n* ```js\n*     myPlayer.src([\n*       { type: \"video/mp4\", src: \"http://www.example.com/path/to/video.mp4\" },\n*       { type: \"video/webm\", src: \"http://www.example.com/path/to/video.webm\" },\n*       { type: \"video/ogg\", src: \"http://www.example.com/path/to/video.ogv\" }\n*     ]);\n* ```\n*\n* @param  {String|Object|Array=} source The source URL, object, or array of sources\n* @return {String} The current video source when getting\n* @return {String} The player when setting\n* @method src\n*/",
         "meta": {
             "range": [
-                16170,
-                17641
+                17911,
+                19382
             ],
             "filename": "player.js",
-            "lineno": 1640,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1713,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>The source function updates the video source\nThere are three types of variables you can pass as the argument.\n<strong>URL String</strong>: A URL to the the video file. Use this method if you are sure\nthe current playback technology (HTML5/Flash) can support the source you\nprovide. Currently only MP4 files can be used in both HTML5 and Flash.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.src(&quot;http://www.example.com/path/to/video.mp4&quot;);</code></pre><p><em>*Source Object (or element):</em> * A javascript object containing information\nabout the source file. Use this method if you want the player to determine if\nit can support the file using the type information.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.src({ type: &quot;video/mp4&quot;, src: &quot;http://www.example.com/path/to/video.mp4&quot; });</code></pre><p><em>*Array of Source Objects:</em> * To provide multiple versions of the source so\nthat it can be played using HTML5 across browsers you can use an array of\nsource objects. Video.js will detect which version is supported and load that\nfile.</p>\n<pre class=\"prettyprint source lang-js\"><code>    myPlayer.src([\n      { type: &quot;video/mp4&quot;, src: &quot;http://www.example.com/path/to/video.mp4&quot; },\n      { type: &quot;video/webm&quot;, src: &quot;http://www.example.com/path/to/video.webm&quot; },\n      { type: &quot;video/ogg&quot;, src: &quot;http://www.example.com/path/to/video.ogv&quot; }\n    ]);</code></pre>",
@@ -7960,12 +8473,12 @@ var docData =
         "comment": "/**\n* Handle an array of source objects\n*\n* @param  {Array} sources Array of source objects\n* @private\n* @method sourceList_\n*/",
         "meta": {
             "range": [
-                17813,
-                17940
+                19554,
+                19681
             ],
             "filename": "player.js",
-            "lineno": 1729,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1802,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Handle an array of source objects</p>",
@@ -7990,12 +8503,12 @@ var docData =
         "comment": "/**\n* Begin loading the src data.\n*\n* @return {Player} Returns the player\n* @method load\n*/",
         "meta": {
             "range": [
-                18010,
-                18101
+                19751,
+                19842
             ],
             "filename": "player.js",
-            "lineno": 1759,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1832,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Begin loading the src data.</p>",
@@ -8018,12 +8531,12 @@ var docData =
         "comment": "/**\n* Returns the fully qualified URL of the current source value e.g. http://mysite.com/video.mp4\n* Can be used in conjuction with `currentType` to assist in rebuilding the current source object.\n*\n* @return {String} The current source\n* @method currentSrc\n*/",
         "meta": {
             "range": [
-                18117,
-                18377
+                19858,
+                20118
             ],
             "filename": "player.js",
-            "lineno": 1770,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1843,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Returns the fully qualified URL of the current source value e.g. http://mysite.com/video.mp4\nCan be used in conjuction with <code>currentType</code> to assist in rebuilding the current source object.</p>",
@@ -8046,12 +8559,12 @@ var docData =
         "comment": "/**\n* Get the current source type e.g. video/mp4\n* This can allow you rebuild the current source object so that you could load the same\n* source and tech later\n*\n* @return {String} The source MIME type\n* @method currentType\n*/",
         "meta": {
             "range": [
-                18390,
-                18616
+                20131,
+                20357
             ],
             "filename": "player.js",
-            "lineno": 1781,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1854,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get the current source type e.g. video/mp4\nThis can allow you rebuild the current source object so that you could load the same\nsource and tech later</p>",
@@ -8074,12 +8587,12 @@ var docData =
         "comment": "/**\n* Get or set the preload attribute\n*\n* @param {Boolean} value Boolean to determine if preload should be used\n* @return {String} The preload attribute value when getting\n* @return {Player} Returns the player when setting\n* @method preload\n*/",
         "meta": {
             "range": [
-                18629,
-                18873
+                20370,
+                20614
             ],
             "filename": "player.js",
-            "lineno": 1793,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1866,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get or set the preload attribute</p>",
@@ -8121,12 +8634,12 @@ var docData =
         "comment": "/**\n* Get or set the autoplay attribute.\n*\n* @param {Boolean} value Boolean to determine if preload should be used\n* @return {String} The autoplay attribute value when getting\n* @return {Player} Returns the player when setting\n* @method autoplay\n*/",
         "meta": {
             "range": [
-                18901,
-                19149
+                20642,
+                20890
             ],
             "filename": "player.js",
-            "lineno": 1810,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1883,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get or set the autoplay attribute.</p>",
@@ -8168,12 +8681,12 @@ var docData =
         "comment": "/**\n* Get or set the loop attribute on the video element.\n*\n* @param {Boolean} value Boolean to determine if preload should be used\n* @return {String} The loop attribute value when getting\n* @return {Player} Returns the player when setting\n* @method loop\n*/",
         "meta": {
             "range": [
-                19177,
-                19434
+                20918,
+                21175
             ],
             "filename": "player.js",
-            "lineno": 1827,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1900,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get or set the loop attribute on the video element.</p>",
@@ -8212,18 +8725,18 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* get or set the poster image source url\n* ##### EXAMPLE:\n* ```js\n*     // get\n*     var currentPoster = myPlayer.poster();\n*     // set\n*     myPlayer.poster('http://example.com/myImage.jpg');\n* ```\n*\n* @param  {String=} src Poster image source URL\n* @return {String} poster URL when getting\n* @return {Player} self when setting\n* @method poster\n*/",
+        "comment": "/**\n* Get or set the poster image source url\n*\n* ##### EXAMPLE:\n* ```js\n*     // get\n*     var currentPoster = myPlayer.poster();\n*     // set\n*     myPlayer.poster('http://example.com/myImage.jpg');\n* ```\n*\n* @param  {String=} src Poster image source URL\n* @return {String} poster URL when getting\n* @return {Player} self when setting\n* @method poster\n*/",
         "meta": {
             "range": [
-                19462,
-                19815
+                21203,
+                21558
             ],
             "filename": "player.js",
-            "lineno": 1844,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1917,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
-        "description": "<p>get or set the poster image source url</p>\n<h5>EXAMPLE:</h5><pre class=\"prettyprint source lang-js\"><code>    // get\n    var currentPoster = myPlayer.poster();\n    // set\n    myPlayer.poster('http://example.com/myImage.jpg');</code></pre>",
+        "description": "<p>Get or set the poster image source url</p>\n<h5>EXAMPLE:</h5><pre class=\"prettyprint source lang-js\"><code>    // get\n    var currentPoster = myPlayer.poster();\n    // set\n    myPlayer.poster('http://example.com/myImage.jpg');</code></pre>",
         "params": [
             {
                 "type": {
@@ -8260,15 +8773,34 @@ var docData =
         "scope": "global"
     },
     {
+        "comment": "/**\n* Some techs (e.g. YouTube) can provide a poster source in an\n* asynchronous way. We want the poster component to use this\n* poster source so that it covers up the tech's controls.\n* (YouTube's play button). However we only want to use this\n* soruce if the player user hasn't set a poster through\n* the normal APIs.\n*\n* @private\n* @method handleTechPosterChange_\n*/",
+        "meta": {
+            "range": [
+                21628,
+                21997
+            ],
+            "filename": "player.js",
+            "lineno": 1956,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Some techs (e.g. YouTube) can provide a poster source in an\nasynchronous way. We want the poster component to use this\nposter source so that it covers up the tech's controls.\n(YouTube's play button). However we only want to use this\nsoruce if the player user hasn't set a poster through\nthe normal APIs.</p>",
+        "access": "private",
+        "kind": "function",
+        "name": "handleTechPosterChange_",
+        "longname": "handleTechPosterChange_",
+        "scope": "global"
+    },
+    {
         "comment": "/**\n* Get or set whether or not the controls are showing.\n*\n* @param  {Boolean} bool Set controls to showing or not\n* @return {Boolean}    Controls are showing\n* @method controls\n*/",
         "meta": {
             "range": [
-                19885,
-                20066
+                22025,
+                22206
             ],
             "filename": "player.js",
-            "lineno": 1882,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 1976,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get or set whether or not the controls are showing.</p>",
@@ -8302,12 +8834,12 @@ var docData =
         "comment": "/**\n* Toggle native controls on/off. Native controls are the controls built into\n* devices (e.g. default iPhone controls), Flash, or other techs\n* (e.g. Vimeo Controls)\n* **This should only be set by the current tech, because only the tech knows\n* if it can support native controls**\n*\n* @param  {Boolean} bool    True signals that native controls are on\n* @return {Player}      Returns the player\n* @private\n* @method usingNativeControls\n*/",
         "meta": {
             "range": [
-                20169,
-                20610
+                22309,
+                22750
             ],
             "filename": "player.js",
-            "lineno": 1923,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2017,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Toggle native controls on/off. Native controls are the controls built into\ndevices (e.g. default iPhone controls), Flash, or other techs\n(e.g. Vimeo Controls)\n<strong>This should only be set by the current tech, because only the tech knows\nif it can support native controls</strong></p>",
@@ -8342,12 +8874,12 @@ var docData =
         "comment": "/**\n* player is using the native device controls\n*\n* @event usingnativecontrols\n* @memberof Player\n* @instance\n* @private\n*/",
         "meta": {
             "range": [
-                20641,
-                20765
+                22778,
+                22902
             ],
             "filename": "player.js",
-            "lineno": 1945,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2038,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>player is using the native device controls</p>",
@@ -8362,12 +8894,12 @@ var docData =
         "comment": "/**\n* player is using the custom HTML controls\n*\n* @event usingcustomcontrols\n* @memberof Player\n* @instance\n* @private\n*/",
         "meta": {
             "range": [
-                20781,
-                20903
+                22915,
+                23037
             ],
             "filename": "player.js",
-            "lineno": 1958,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2050,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>player is using the custom HTML controls</p>",
@@ -8382,12 +8914,12 @@ var docData =
         "comment": "/**\n* Set or get the current MediaError\n*\n* @param  {*} err A MediaError or a String/Number to be turned into a MediaError\n* @return {MediaError|null}     when getting\n* @return {Player}              when setting\n* @method error\n*/",
         "meta": {
             "range": [
-                20928,
-                21159
+                23062,
+                23293
             ],
             "filename": "player.js",
-            "lineno": 1974,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2066,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Set or get the current MediaError</p>",
@@ -8430,12 +8962,12 @@ var docData =
         "comment": "/**\n* Returns whether or not the player is in the \"ended\" state.\n*\n* @return {Boolean} True if the player is in the ended state, false if not.\n* @method ended\n*/",
         "meta": {
             "range": [
-                21256,
-                21417
+                23390,
+                23551
             ],
             "filename": "player.js",
-            "lineno": 2014,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2106,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Returns whether or not the player is in the &quot;ended&quot; state.</p>",
@@ -8458,12 +8990,12 @@ var docData =
         "comment": "/**\n* Returns whether or not the player is in the \"seeking\" state.\n*\n* @return {Boolean} True if the player is in the seeking state, false if not.\n* @method seeking\n*/",
         "meta": {
             "range": [
-                21424,
-                21591
+                23558,
+                23725
             ],
             "filename": "player.js",
-            "lineno": 2022,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2114,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Returns whether or not the player is in the &quot;seeking&quot; state.</p>",
@@ -8486,12 +9018,12 @@ var docData =
         "comment": "/**\n* Returns the TimeRanges of the media that are currently available\n* for seeking to.\n*\n* @return {TimeRanges} the seekable intervals of the media timeline\n* @method seekable\n*/",
         "meta": {
             "range": [
-                21598,
-                21778
+                23732,
+                23912
             ],
             "filename": "player.js",
-            "lineno": 2030,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2122,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Returns the TimeRanges of the media that are currently available\nfor seeking to.</p>",
@@ -8514,12 +9046,12 @@ var docData =
         "comment": "/**\n* Report user activity\n*\n* @param {Object} event Event object\n* @method reportUserActivity\n*/",
         "meta": {
             "range": [
-                21785,
-                21882
+                23919,
+                24016
             ],
             "filename": "player.js",
-            "lineno": 2039,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2131,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Report user activity</p>",
@@ -8543,12 +9075,12 @@ var docData =
         "comment": "/**\n* Get/set if user is active\n*\n* @param {Boolean} bool Value when setting\n* @return {Boolean} Value if user is active user when getting\n* @method userActive\n*/",
         "meta": {
             "range": [
-                21895,
-                22057
+                24029,
+                24191
             ],
             "filename": "player.js",
-            "lineno": 2049,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2141,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get/set if user is active</p>",
@@ -8579,33 +9111,34 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Listen for user activity based on timeout value\n*\n* @method listenForUserActivity\n*/",
+        "comment": "/**\n* Listen for user activity based on timeout value\n*\n* @private\n* @method listenForUserActivity_\n*/",
         "meta": {
             "range": [
-                22184,
-                22274
+                24318,
+                24420
             ],
             "filename": "player.js",
-            "lineno": 2098,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2190,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Listen for user activity based on timeout value</p>",
+        "access": "private",
         "kind": "function",
-        "name": "listenForUserActivity",
-        "longname": "listenForUserActivity",
+        "name": "listenForUserActivity_",
+        "longname": "listenForUserActivity_",
         "scope": "global"
     },
     {
         "comment": "/**\n* Gets or sets the current playback rate.  A playback rate of\n* 1.0 represents normal speed and 0.5 would indicate half-speed\n* playback, for instance.\n* @see https://html.spec.whatwg.org/multipage/embedded-content.html#dom-media-playbackrate\n*\n* @param  {Number} rate    New playback rate to set.\n* @return {Number}         Returns the new playback rate when setting\n* @return {Number}         Returns the current playback rate when getting\n* @method playbackRate\n*/",
         "meta": {
             "range": [
-                22509,
-                22980
+                24655,
+                25126
             ],
             "filename": "player.js",
-            "lineno": 2181,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2274,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Gets or sets the current playback rate.  A playback rate of\n1.0 represents normal speed and 0.5 would indicate half-speed\nplayback, for instance.</p>",
@@ -8650,12 +9183,12 @@ var docData =
         "comment": "/**\n* Gets or sets the audio flag\n*\n* @param  {Boolean} bool    True signals that this is an audio player.\n* @return {Boolean}         Returns true if player is audio, false if not when getting\n* @return {Player}      Returns the player if setting\n* @private\n* @method isAudio\n*/",
         "meta": {
             "range": [
-                23020,
-                23299
+                25166,
+                25445
             ],
             "filename": "player.js",
-            "lineno": 2205,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2298,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Gets or sets the audio flag</p>",
@@ -8698,12 +9231,12 @@ var docData =
         "comment": "/**\n* Returns the current state of network activity for the element, from\n* the codes in the list below.\n* - NETWORK_EMPTY (numeric value 0)\n*   The element has not yet been initialised. All attributes are in\n*   their initial states.\n* - NETWORK_IDLE (numeric value 1)\n*   The element's resource selection algorithm is active and has\n*   selected a resource, but it is not actually using the network at\n*   this time.\n* - NETWORK_LOADING (numeric value 2)\n*   The user agent is actively trying to download data.\n* - NETWORK_NO_SOURCE (numeric value 3)\n*   The element's resource selection algorithm is active, but it has\n*   not yet found a resource to use.\n*\n* @see https://html.spec.whatwg.org/multipage/embedded-content.html#network-states\n* @return {Number} the current network activity state\n* @method networkState\n*/",
         "meta": {
             "range": [
-                23327,
-                24150
+                25473,
+                26296
             ],
             "filename": "player.js",
-            "lineno": 2223,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2316,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Returns the current state of network activity for the element, from\nthe codes in the list below.</p>\n<ul>\n<li>NETWORK_EMPTY (numeric value 0)\nThe element has not yet been initialised. All attributes are in\ntheir initial states.</li>\n<li>NETWORK_IDLE (numeric value 1)\nThe element's resource selection algorithm is active and has\nselected a resource, but it is not actually using the network at\nthis time.</li>\n<li>NETWORK_LOADING (numeric value 2)\nThe user agent is actively trying to download data.</li>\n<li>NETWORK_NO_SOURCE (numeric value 3)\nThe element's resource selection algorithm is active, but it has\nnot yet found a resource to use.</li>\n</ul>",
@@ -8729,12 +9262,12 @@ var docData =
         "comment": "/**\n* Returns a value that expresses the current state of the element\n* with respect to rendering the current playback position, from the\n* codes in the list below.\n* - HAVE_NOTHING (numeric value 0)\n*   No information regarding the media resource is available.\n* - HAVE_METADATA (numeric value 1)\n*   Enough of the resource has been obtained that the duration of the\n*   resource is available.\n* - HAVE_CURRENT_DATA (numeric value 2)\n*   Data for the immediate current playback position is available.\n* - HAVE_FUTURE_DATA (numeric value 3)\n*   Data for the immediate current playback position is available, as\n*   well as enough data for the user agent to advance the current\n*   playback position in the direction of playback.\n* - HAVE_ENOUGH_DATA (numeric value 4)\n*   The user agent estimates that enough data is available for\n*   playback to proceed uninterrupted.\n*\n* @see https://html.spec.whatwg.org/multipage/embedded-content.html#dom-media-readystate\n* @return {Number} the current playback rendering state\n* @method readyState\n*/",
         "meta": {
             "range": [
-                24163,
-                25203
+                26309,
+                27349
             ],
             "filename": "player.js",
-            "lineno": 2247,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2340,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Returns a value that expresses the current state of the element\nwith respect to rendering the current playback position, from the\ncodes in the list below.</p>\n<ul>\n<li>HAVE_NOTHING (numeric value 0)\nNo information regarding the media resource is available.</li>\n<li>HAVE_METADATA (numeric value 1)\nEnough of the resource has been obtained that the duration of the\nresource is available.</li>\n<li>HAVE_CURRENT_DATA (numeric value 2)\nData for the immediate current playback position is available.</li>\n<li>HAVE_FUTURE_DATA (numeric value 3)\nData for the immediate current playback position is available, as\nwell as enough data for the user agent to advance the current\nplayback position in the direction of playback.</li>\n<li>HAVE_ENOUGH_DATA (numeric value 4)\nThe user agent estimates that enough data is available for\nplayback to proceed uninterrupted.</li>\n</ul>",
@@ -8760,12 +9293,12 @@ var docData =
         "comment": "/**\n* Get an array of associated text tracks. captions, subtitles, chapters, descriptions\n* http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-texttracks\n*\n* @return {Array}           Array of track objects\n* @method textTracks\n*/",
         "meta": {
             "range": [
-                25660,
-                25918
+                27806,
+                28064
             ],
             "filename": "player.js",
-            "lineno": 2282,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2375,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get an array of associated text tracks. captions, subtitles, chapters, descriptions\nhttp://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-texttracks</p>",
@@ -8788,12 +9321,12 @@ var docData =
         "comment": "/**\n* Get an array of remote text tracks\n*\n* @return {Array}\n* @method remoteTextTracks\n*/",
         "meta": {
             "range": [
-                25937,
-                26027
+                28083,
+                28173
             ],
             "filename": "player.js",
-            "lineno": 2295,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2388,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get an array of remote text tracks</p>",
@@ -8815,12 +9348,12 @@ var docData =
         "comment": "/**\n* Add a text track\n* In addition to the W3C settings we allow adding additional info through options.\n* http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-addtexttrack\n*\n* @param {String}  kind        Captions, subtitles, chapters, descriptions, or metadata\n* @param {String=} label       Optional label\n* @param {String=} language    Optional language\n* @method addTextTrack\n*/",
         "meta": {
             "range": [
-                26040,
-                26450
+                28186,
+                28596
             ],
             "filename": "player.js",
-            "lineno": 2305,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2398,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Add a text track\nIn addition to the W3C settings we allow adding additional info through options.\nhttp://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-addtexttrack</p>",
@@ -8864,12 +9397,12 @@ var docData =
         "comment": "/**\n* Add a remote text track\n*\n* @param {Object} options    Options for remote text track\n* @method addRemoteTextTrack\n*/",
         "meta": {
             "range": [
-                26463,
-                26585
+                28609,
+                28731
             ],
             "filename": "player.js",
-            "lineno": 2319,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2412,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Add a remote text track</p>",
@@ -8893,12 +9426,12 @@ var docData =
         "comment": "/**\n* Remove a remote text track\n*\n* @param {Object} track    Remote text track to remove\n* @method removeRemoteTextTrack\n*/",
         "meta": {
             "range": [
-                26598,
-                26722
+                28744,
+                28868
             ],
             "filename": "player.js",
-            "lineno": 2329,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2422,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Remove a remote text track</p>",
@@ -8922,12 +9455,12 @@ var docData =
         "comment": "/**\n* Get video width\n*\n* @return {Number} Video width\n* @method videoWidth\n*/",
         "meta": {
             "range": [
-                26735,
-                26813
+                28881,
+                28959
             ],
             "filename": "player.js",
-            "lineno": 2339,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2432,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get video width</p>",
@@ -8950,12 +9483,12 @@ var docData =
         "comment": "/**\n* Get video height\n*\n* @return {Number} Video height\n* @method videoHeight\n*/",
         "meta": {
             "range": [
-                26826,
-                26907
+                28972,
+                29053
             ],
             "filename": "player.js",
-            "lineno": 2349,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2442,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get video height</p>",
@@ -8978,12 +9511,12 @@ var docData =
         "comment": "/**\n* The player's language code\n* NOTE: The language should be set in the player options if you want the\n* the controls to be built with a specific language. Changing the lanugage\n* later will not update controls text.\n*\n* @param {String} code  The locale string\n* @return {String}      The locale string when getting\n* @return {Player}      self when setting\n* @method language\n*/",
         "meta": {
             "range": [
-                26968,
-                27350
+                29093,
+                29475
             ],
             "filename": "player.js",
-            "lineno": 2375,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2461,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>The player's language code\nNOTE: The language should be set in the player options if you want the\nthe controls to be built with a specific language. Changing the lanugage\nlater will not update controls text.</p>",
@@ -9025,12 +9558,12 @@ var docData =
         "comment": "/**\n* Get the player's language dictionary\n* Merge every time, because a newly added plugin might call videojs.addLanguage() at any time\n* Languages specified directly in the player options have precedence\n*\n* @return {Array} Array of languages\n* @method languages\n*/",
         "meta": {
             "range": [
-                27378,
-                27645
+                29503,
+                29770
             ],
             "filename": "player.js",
-            "lineno": 2395,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2481,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get the player's language dictionary\nMerge every time, because a newly added plugin might call videojs.addLanguage() at any time\nLanguages specified directly in the player options have precedence</p>",
@@ -9053,12 +9586,12 @@ var docData =
         "comment": "/**\n* Converts track info to JSON\n*\n* @return {Object} JSON object of options\n* @method toJSON\n*/",
         "meta": {
             "range": [
-                27658,
-                27755
+                29783,
+                29880
             ],
             "filename": "player.js",
-            "lineno": 2407,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2493,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Converts track info to JSON</p>",
@@ -9081,12 +9614,12 @@ var docData =
         "comment": "/**\n* Gets tag settings\n*\n* @param {Element} tag The player tag\n* @return {Array} An array of sources and track objects\n* @static\n* @method getTagSettings\n*/",
         "meta": {
             "range": [
-                27810,
-                27967
+                30500,
+                30657
             ],
             "filename": "player.js",
-            "lineno": 2431,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2549,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Gets tag settings</p>",
@@ -9120,12 +9653,12 @@ var docData =
         "comment": "/**\n* Fired when the player has initial duration and dimension information\n*\n* @event loadedmetadata\n*/",
         "meta": {
             "range": [
-                28433,
-                28536
+                31123,
+                31226
             ],
             "filename": "player.js",
-            "lineno": 2538,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2656,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when the player has initial duration and dimension information</p>",
@@ -9138,12 +9671,12 @@ var docData =
         "comment": "/**\n* Fired when the player has downloaded data at the current playback position\n*\n* @event loadeddata\n*/",
         "meta": {
             "range": [
-                28543,
-                28648
+                31233,
+                31338
             ],
             "filename": "player.js",
-            "lineno": 2545,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2663,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when the player has downloaded data at the current playback position</p>",
@@ -9153,33 +9686,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Fired when the player has finished downloading the source data\n*\n* @event loadedalldata\n*/",
-        "meta": {
-            "range": [
-                28655,
-                28751
-            ],
-            "filename": "player.js",
-            "lineno": 2552,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
-            "code": {}
-        },
-        "description": "<p>Fired when the player has finished downloading the source data</p>",
-        "kind": "event",
-        "name": "loadedalldata",
-        "longname": "event:loadedalldata",
-        "scope": "global"
-    },
-    {
         "comment": "/**\n* Fired when the user is active, e.g. moves the mouse over the player\n*\n* @event useractive\n*/",
         "meta": {
             "range": [
-                28758,
-                28856
+                31345,
+                31443
             ],
             "filename": "player.js",
-            "lineno": 2559,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2670,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when the user is active, e.g. moves the mouse over the player</p>",
@@ -9192,12 +9707,12 @@ var docData =
         "comment": "/**\n* Fired when the user is inactive, e.g. a short delay after the last mouse move or control interaction\n*\n* @event userinactive\n*/",
         "meta": {
             "range": [
-                28863,
-                28996
+                31450,
+                31583
             ],
             "filename": "player.js",
-            "lineno": 2566,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2677,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when the user is inactive, e.g. a short delay after the last mouse move or control interaction</p>",
@@ -9210,12 +9725,12 @@ var docData =
         "comment": "/**\n* Fired when the current playback position has changed *\n* During playback this is fired every 15-250 milliseconds, depending on the\n* playback technology in use.\n*\n* @event timeupdate\n*/",
         "meta": {
             "range": [
-                29003,
-                29194
+                31590,
+                31781
             ],
             "filename": "player.js",
-            "lineno": 2573,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2684,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when the current playback position has changed *\nDuring playback this is fired every 15-250 milliseconds, depending on the\nplayback technology in use.</p>",
@@ -9228,12 +9743,12 @@ var docData =
         "comment": "/**\n* Fired when the volume changes\n*\n* @event volumechange\n*/",
         "meta": {
             "range": [
-                29201,
-                29263
+                31788,
+                31850
             ],
             "filename": "player.js",
-            "lineno": 2582,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2693,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when the volume changes</p>",
@@ -9246,12 +9761,12 @@ var docData =
         "comment": "/**\n* Fired when an error occurs\n*\n* @event error\n*/",
         "meta": {
             "range": [
-                29270,
-                29322
+                31857,
+                31909
             ],
             "filename": "player.js",
-            "lineno": 2589,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 2700,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Fired when an error occurs</p>",
@@ -9269,7 +9784,7 @@ var docData =
             ],
             "filename": "plugins.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "plugins.js",
@@ -9288,7 +9803,7 @@ var docData =
             ],
             "filename": "plugins.js",
             "lineno": 6,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>The method for registering a video.js plugin</p>",
@@ -9326,7 +9841,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "poster-image.js",
@@ -9345,7 +9860,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 10,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>The component that handles showing the poster image.</p>",
@@ -9386,7 +9901,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 27,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Clean up the poster image</p>",
@@ -9404,7 +9919,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 37,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Create the poster's image element</p>",
@@ -9431,7 +9946,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 63,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Event handler for updates to the player's poster source</p>",
@@ -9449,7 +9964,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 82,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Set the poster source depending on the display method</p>",
@@ -9478,7 +9993,7 @@ var docData =
             ],
             "filename": "poster-image.js",
             "lineno": 103,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Event handler for clicks on the poster image</p>",
@@ -9496,7 +10011,7 @@ var docData =
             ],
             "filename": "setup.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "setup.js",
@@ -9515,7 +10030,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "name": "slider/slider.js",
@@ -9534,7 +10049,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 9,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>The base functionality for sliders like the volume bar and seek bar</p>",
@@ -9575,7 +10090,7 @@ var docData =
             ],
             "filename": "slider.js",
             "lineno": 38,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -9618,12 +10133,12 @@ var docData =
         "comment": "/**\n* Handle mouse down on slider\n*\n* @param {Object} event Mouse down event object\n* @method handleMouseDown\n*/",
         "meta": {
             "range": [
-                513,
-                625
+                525,
+                637
             ],
             "filename": "slider.js",
-            "lineno": 60,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "lineno": 64,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>Handle mouse down on slider</p>",
@@ -9647,12 +10162,12 @@ var docData =
         "comment": "/**\n* To be overridden by a subclass\n*\n* @method handleMouseMove\n*/",
         "meta": {
             "range": [
-                665,
-                732
+                683,
+                750
             ],
             "filename": "slider.js",
-            "lineno": 79,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "lineno": 85,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>To be overridden by a subclass</p>",
@@ -9665,12 +10180,12 @@ var docData =
         "comment": "/**\n* Handle mouse up on Slider\n*\n* @method handleMouseUp\n*/",
         "meta": {
             "range": [
-                739,
-                799
+                757,
+                817
             ],
             "filename": "slider.js",
-            "lineno": 86,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "lineno": 92,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>Handle mouse up on Slider</p>",
@@ -9683,12 +10198,12 @@ var docData =
         "comment": "/**\n* Update slider\n*\n* @method update\n*/",
         "meta": {
             "range": [
-                836,
-                877
+                860,
+                901
             ],
             "filename": "slider.js",
-            "lineno": 103,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "lineno": 111,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>Update slider</p>",
@@ -9701,12 +10216,12 @@ var docData =
         "comment": "/**\n* Calculate distance for slider\n*\n* @param {Object} event Event object\n* @method calculateDistance\n*/",
         "meta": {
             "range": [
-                977,
-                1082
+                1001,
+                1106
             ],
             "filename": "slider.js",
-            "lineno": 141,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "lineno": 149,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>Calculate distance for slider</p>",
@@ -9730,12 +10245,12 @@ var docData =
         "comment": "/**\n* Handle on focus for slider\n*\n* @method handleFocus\n*/",
         "meta": {
             "range": [
-                1185,
-                1244
+                1131,
+                1190
             ],
             "filename": "slider.js",
-            "lineno": 181,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "lineno": 163,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>Handle on focus for slider</p>",
@@ -9748,12 +10263,12 @@ var docData =
         "comment": "/**\n* Handle key press for slider\n*\n* @param {Object} event Event object\n* @method handleKeyPress\n*/",
         "meta": {
             "range": [
-                1257,
-                1357
+                1203,
+                1303
             ],
             "filename": "slider.js",
-            "lineno": 190,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "lineno": 172,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>Handle key press for slider</p>",
@@ -9777,12 +10292,12 @@ var docData =
         "comment": "/**\n* Handle on blur for slider\n*\n* @method handleBlur\n*/",
         "meta": {
             "range": [
-                1388,
-                1445
+                1334,
+                1391
             ],
             "filename": "slider.js",
-            "lineno": 206,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "lineno": 188,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>Handle on blur for slider</p>",
@@ -9795,12 +10310,12 @@ var docData =
         "comment": "/**\n* Listener for click events on slider, used to prevent clicks\n*   from bubbling up to parent elements like button menus.\n*\n* @param {Object} event Event object\n* @method handleClick\n*/",
         "meta": {
             "range": [
-                1458,
-                1646
+                1404,
+                1592
             ],
             "filename": "slider.js",
-            "lineno": 215,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "lineno": 197,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>Listener for click events on slider, used to prevent clicks\n  from bubbling up to parent elements like button menus.</p>",
@@ -9824,12 +10339,12 @@ var docData =
         "comment": "/**\n* Get/set if slider is horizontal for vertical\n*\n* @param {Boolean} bool True if slider is vertical, false is horizontal\n* @return {Boolean} True if slider is vertical, false is horizontal\n* @method vertical\n*/",
         "meta": {
             "range": [
-                1662,
-                1876
+                1608,
+                1822
             ],
             "filename": "slider.js",
-            "lineno": 227,
-            "path": "/Users/rcrooks/git/docs/videojs-src/slider",
+            "lineno": 209,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/slider",
             "code": {}
         },
         "description": "<p>Get/set if slider is horizontal for vertical</p>",
@@ -9868,7 +10383,7 @@ var docData =
             ],
             "filename": "flash-rtmp.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "name": "tech/flash-rtmp.js",
@@ -9887,7 +10402,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "name": "tech/flash.js",
@@ -9906,7 +10421,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 18,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Flash Media Controller - Wrapper for fallback SWF API</p>",
@@ -9949,7 +10464,7 @@ var docData =
             ],
             "filename": "flash.js",
             "lineno": 63,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -9971,12 +10486,12 @@ var docData =
         "comment": "/**\n* Play for flash tech\n*\n* @method play\n*/",
         "meta": {
             "range": [
-                756,
-                801
+                780,
+                825
             ],
             "filename": "flash.js",
-            "lineno": 110,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 118,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Play for flash tech</p>",
@@ -9989,12 +10504,12 @@ var docData =
         "comment": "/**\n* Pause for flash tech\n*\n* @method pause\n*/",
         "meta": {
             "range": [
-                814,
-                861
+                847,
+                894
             ],
             "filename": "flash.js",
-            "lineno": 119,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 130,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Pause for flash tech</p>",
@@ -10007,12 +10522,12 @@ var docData =
         "comment": "/**\n* Get/set video\n*\n* @param {Object=} src Source object\n* @return {Object}\n* @method src\n*/",
         "meta": {
             "range": [
-                874,
-                968
+                907,
+                1001
             ],
             "filename": "flash.js",
-            "lineno": 128,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 139,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get/set video</p>",
@@ -10046,12 +10561,12 @@ var docData =
         "comment": "/**\n* Set video\n*\n* @param {Object=} src Source object\n* @deprecated\n* @method setSrc\n*/",
         "meta": {
             "range": [
-                996,
-                1084
+                1029,
+                1117
             ],
             "filename": "flash.js",
-            "lineno": 144,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 155,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set video</p>",
@@ -10077,12 +10592,12 @@ var docData =
         "comment": "/**\n* Set current time\n*\n* @param {Number} time Current time of video\n* @method setCurrentTime\n*/",
         "meta": {
             "range": [
-                1228,
-                1325
+                1261,
+                1358
             ],
             "filename": "flash.js",
-            "lineno": 172,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 183,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set current time</p>",
@@ -10106,12 +10621,12 @@ var docData =
         "comment": "/**\n* Get current time\n*\n* @param {Number=} time Current time of video\n* @return {Number} Current time\n* @method currentTime\n*/",
         "meta": {
             "range": [
-                1368,
-                1495
+                1401,
+                1528
             ],
             "filename": "flash.js",
-            "lineno": 192,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 203,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get current time</p>",
@@ -10146,12 +10661,12 @@ var docData =
         "comment": "/**\n* Get current source\n*\n* @method currentSrc\n*/",
         "meta": {
             "range": [
-                1523,
-                1573
+                1556,
+                1606
             ],
             "filename": "flash.js",
-            "lineno": 208,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 219,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get current source</p>",
@@ -10164,12 +10679,12 @@ var docData =
         "comment": "/**\n* Load media into player\n*\n* @method load\n*/",
         "meta": {
             "range": [
-                1598,
-                1646
+                1631,
+                1679
             ],
             "filename": "flash.js",
-            "lineno": 221,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 232,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Load media into player</p>",
@@ -10182,12 +10697,12 @@ var docData =
         "comment": "/**\n* Get poster\n*\n* @method poster\n*/",
         "meta": {
             "range": [
-                1659,
-                1697
+                1692,
+                1730
             ],
             "filename": "flash.js",
-            "lineno": 230,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 241,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get poster</p>",
@@ -10200,12 +10715,12 @@ var docData =
         "comment": "/**\n* Poster images are not handled by the Flash tech so make this a no-op\n*\n* @method setPoster\n*/",
         "meta": {
             "range": [
-                1710,
-                1809
+                1743,
+                1842
             ],
             "filename": "flash.js",
-            "lineno": 239,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 250,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Poster images are not handled by the Flash tech so make this a no-op</p>",
@@ -10218,12 +10733,12 @@ var docData =
         "comment": "/**\n* Determine if can seek in media\n*\n* @return {TimeRangeObject}\n* @method seekable\n*/",
         "meta": {
             "range": [
-                1816,
-                1904
+                1849,
+                1937
             ],
             "filename": "flash.js",
-            "lineno": 246,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 257,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Determine if can seek in media</p>",
@@ -10245,12 +10760,12 @@ var docData =
         "comment": "/**\n* Get buffered time range\n*\n* @return {TimeRangeObject}\n* @method buffered\n*/",
         "meta": {
             "range": [
-                1929,
-                2010
+                1962,
+                2043
             ],
             "filename": "flash.js",
-            "lineno": 260,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 271,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get buffered time range</p>",
@@ -10272,12 +10787,12 @@ var docData =
         "comment": "/**\n* Get fullscreen support -\n* Flash does not allow fullscreen through javascript\n* so always returns false\n*\n* @return {Boolean} false\n* @method supportsFullScreen\n*/",
         "meta": {
             "range": [
-                2023,
-                2192
+                2068,
+                2237
             ],
             "filename": "flash.js",
-            "lineno": 270,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 285,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get fullscreen support -\nFlash does not allow fullscreen through javascript\nso always returns false</p>",
@@ -10300,12 +10815,12 @@ var docData =
         "comment": "/**\n* Request to enter fullscreen\n* Flash does not allow fullscreen through javascript\n* so always returns false\n*\n* @return {Boolean} false\n* @method enterFullScreen\n*/",
         "meta": {
             "range": [
-                2205,
-                2374
+                2250,
+                2419
             ],
             "filename": "flash.js",
-            "lineno": 282,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 297,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Request to enter fullscreen\nFlash does not allow fullscreen through javascript\nso always returns false</p>",
@@ -10333,7 +10848,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "name": "tech/html5.js",
@@ -10352,7 +10867,7 @@ var docData =
             ],
             "filename": "html5.js",
             "lineno": 18,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>HTML5 Media Controller - Wrapper for HTML5 Media API</p>",
@@ -10390,12 +10905,12 @@ var docData =
         "comment": "/**\n* Dispose of html5 media element\n*\n* @method dispose\n*/",
         "meta": {
             "range": [
-                511,
-                570
+                517,
+                576
             ],
             "filename": "html5.js",
-            "lineno": 88,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 90,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Dispose of html5 media element</p>",
@@ -10408,12 +10923,12 @@ var docData =
         "comment": "/**\n* Create the component's DOM element\n*\n* @return {Element}\n* @method createEl\n*/",
         "meta": {
             "range": [
-                640,
-                724
+                646,
+                730
             ],
             "filename": "html5.js",
-            "lineno": 116,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 118,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -10435,12 +10950,12 @@ var docData =
         "comment": "/**\n* Play for html5 tech\n*\n* @method play\n*/",
         "meta": {
             "range": [
-                956,
-                1001
+                1205,
+                1250
             ],
             "filename": "html5.js",
-            "lineno": 199,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 282,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Play for html5 tech</p>",
@@ -10453,12 +10968,12 @@ var docData =
         "comment": "/**\n* Pause for html5 tech\n*\n* @method pause\n*/",
         "meta": {
             "range": [
-                1008,
-                1055
+                1257,
+                1304
             ],
             "filename": "html5.js",
-            "lineno": 206,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 289,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Pause for html5 tech</p>",
@@ -10471,12 +10986,12 @@ var docData =
         "comment": "/**\n* Paused for html5 tech\n*\n* @return {Boolean}\n* @method paused\n*/",
         "meta": {
             "range": [
-                1062,
-                1131
+                1311,
+                1380
             ],
             "filename": "html5.js",
-            "lineno": 213,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 296,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Paused for html5 tech</p>",
@@ -10498,12 +11013,12 @@ var docData =
         "comment": "/**\n* Get current time\n*\n* @return {Number}\n* @method currentTime\n*/",
         "meta": {
             "range": [
-                1138,
-                1206
+                1387,
+                1455
             ],
             "filename": "html5.js",
-            "lineno": 221,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 304,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get current time</p>",
@@ -10525,12 +11040,12 @@ var docData =
         "comment": "/**\n* Set current time\n*\n* @param {Number} seconds Current time of video\n* @method setCurrentTime\n*/",
         "meta": {
             "range": [
-                1213,
-                1313
+                1462,
+                1562
             ],
             "filename": "html5.js",
-            "lineno": 229,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 312,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set current time</p>",
@@ -10554,12 +11069,12 @@ var docData =
         "comment": "/**\n* Get duration\n*\n* @return {Number}\n* @method duration\n*/",
         "meta": {
             "range": [
-                1341,
-                1402
+                1590,
+                1651
             ],
             "filename": "html5.js",
-            "lineno": 244,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 327,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get duration</p>",
@@ -10581,12 +11096,12 @@ var docData =
         "comment": "/**\n* Get a TimeRange object that represents the intersection\n* of the time ranges for which the user agent has all\n* relevant media\n*\n* @return {TimeRangeObject}\n* @method buffered\n*/",
         "meta": {
             "range": [
-                1409,
-                1593
+                1658,
+                1842
             ],
             "filename": "html5.js",
-            "lineno": 252,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 335,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get a TimeRange object that represents the intersection\nof the time ranges for which the user agent has all\nrelevant media</p>",
@@ -10608,12 +11123,12 @@ var docData =
         "comment": "/**\n* Get volume level\n*\n* @return {Number}\n* @method volume\n*/",
         "meta": {
             "range": [
-                1600,
-                1663
+                1849,
+                1912
             ],
             "filename": "html5.js",
-            "lineno": 262,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 345,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get volume level</p>",
@@ -10635,12 +11150,12 @@ var docData =
         "comment": "/**\n* Set volume level\n*\n* @param {Number} percentAsDecimal Volume percent as a decimal\n* @method setVolume\n*/",
         "meta": {
             "range": [
-                1670,
-                1780
+                1919,
+                2029
             ],
             "filename": "html5.js",
-            "lineno": 270,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 353,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set volume level</p>",
@@ -10664,12 +11179,12 @@ var docData =
         "comment": "/**\n* Get if muted\n*\n* @return {Boolean}\n* @method muted\n*/",
         "meta": {
             "range": [
-                1787,
-                1846
+                2036,
+                2095
             ],
             "filename": "html5.js",
-            "lineno": 278,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 361,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get if muted</p>",
@@ -10691,12 +11206,12 @@ var docData =
         "comment": "/**\n* Set muted\n*\n* @param {Boolean} If player is to be muted or note\n* @method setMuted\n*/",
         "meta": {
             "range": [
-                1853,
-                1944
+                2102,
+                2193
             ],
             "filename": "html5.js",
-            "lineno": 286,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 369,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set muted</p>",
@@ -10720,12 +11235,12 @@ var docData =
         "comment": "/**\n* Get player width\n*\n* @return {Number}\n* @method width\n*/",
         "meta": {
             "range": [
-                1951,
-                2013
+                2200,
+                2262
             ],
             "filename": "html5.js",
-            "lineno": 294,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 377,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get player width</p>",
@@ -10747,12 +11262,12 @@ var docData =
         "comment": "/**\n* Get player height\n*\n* @return {Number}\n* @method height\n*/",
         "meta": {
             "range": [
-                2020,
-                2084
+                2269,
+                2333
             ],
             "filename": "html5.js",
-            "lineno": 302,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 385,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get player height</p>",
@@ -10774,12 +11289,12 @@ var docData =
         "comment": "/**\n* Get if there is fullscreen support\n*\n* @return {Boolean}\n* @method supportsFullScreen\n*/",
         "meta": {
             "range": [
-                2091,
-                2185
+                2340,
+                2434
             ],
             "filename": "html5.js",
-            "lineno": 310,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 393,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get if there is fullscreen support</p>",
@@ -10801,12 +11316,12 @@ var docData =
         "comment": "/**\n* Request to enter fullscreen\n*\n* @method enterFullScreen\n*/",
         "meta": {
             "range": [
-                2219,
-                2283
+                2468,
+                2532
             ],
             "filename": "html5.js",
-            "lineno": 327,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 410,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Request to enter fullscreen</p>",
@@ -10819,12 +11334,12 @@ var docData =
         "comment": "/**\n* Request to exit fullscreen\n*\n* @method exitFullScreen\n*/",
         "meta": {
             "range": [
-                2371,
-                2433
+                2620,
+                2682
             ],
             "filename": "html5.js",
-            "lineno": 361,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 444,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Request to exit fullscreen</p>",
@@ -10837,12 +11352,12 @@ var docData =
         "comment": "/**\n* Get/set video\n*\n* @param {Object=} src Source object\n* @return {Object}\n* @method src\n*/",
         "meta": {
             "range": [
-                2446,
-                2540
+                2695,
+                2789
             ],
             "filename": "html5.js",
-            "lineno": 370,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 453,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get/set video</p>",
@@ -10876,12 +11391,12 @@ var docData =
         "comment": "/**\n* Set video\n*\n* @param {Object} src Source object\n* @deprecated\n* @method setSrc\n*/",
         "meta": {
             "range": [
-                2568,
-                2655
+                2817,
+                2904
             ],
             "filename": "html5.js",
-            "lineno": 386,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 469,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set video</p>",
@@ -10906,12 +11421,12 @@ var docData =
         "comment": "/**\n* Load media into player\n*\n* @method load\n*/",
         "meta": {
             "range": [
-                2662,
-                2710
+                2917,
+                2965
             ],
             "filename": "html5.js",
-            "lineno": 395,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 480,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Load media into player</p>",
@@ -10924,12 +11439,12 @@ var docData =
         "comment": "/**\n* Get current source\n*\n* @return {Object}\n* @method currentSrc\n*/",
         "meta": {
             "range": [
-                2717,
-                2786
+                2978,
+                3047
             ],
             "filename": "html5.js",
-            "lineno": 402,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 489,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get current source</p>",
@@ -10951,12 +11466,12 @@ var docData =
         "comment": "/**\n* Get poster\n*\n* @return {String}\n* @method poster\n*/",
         "meta": {
             "range": [
-                2793,
-                2850
+                3054,
+                3111
             ],
             "filename": "html5.js",
-            "lineno": 410,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 497,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get poster</p>",
@@ -10978,12 +11493,12 @@ var docData =
         "comment": "/**\n* Get preload attribute\n*\n* @return {String}\n* @method preload\n*/",
         "meta": {
             "range": [
-                2937,
-                3006
+                3198,
+                3267
             ],
             "filename": "html5.js",
-            "lineno": 426,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 513,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get preload attribute</p>",
@@ -11005,12 +11520,12 @@ var docData =
         "comment": "/**\n* Set preload attribute\n*\n* @param {String} val Value for preload attribute\n* @method setPreload\n*/",
         "meta": {
             "range": [
-                3013,
-                3116
+                3274,
+                3377
             ],
             "filename": "html5.js",
-            "lineno": 434,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 521,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set preload attribute</p>",
@@ -11034,12 +11549,12 @@ var docData =
         "comment": "/**\n* Get autoplay attribute\n*\n* @return {String}\n* @method autoplay\n*/",
         "meta": {
             "range": [
-                3123,
-                3194
+                3384,
+                3455
             ],
             "filename": "html5.js",
-            "lineno": 442,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 529,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get autoplay attribute</p>",
@@ -11061,12 +11576,12 @@ var docData =
         "comment": "/**\n* Set autoplay attribute\n*\n* @param {String} val Value for preload attribute\n* @method setAutoplay\n*/",
         "meta": {
             "range": [
-                3201,
-                3306
+                3462,
+                3567
             ],
             "filename": "html5.js",
-            "lineno": 450,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 537,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set autoplay attribute</p>",
@@ -11090,12 +11605,12 @@ var docData =
         "comment": "/**\n* Get controls attribute\n*\n* @return {String}\n* @method controls\n*/",
         "meta": {
             "range": [
-                3313,
-                3384
+                3574,
+                3645
             ],
             "filename": "html5.js",
-            "lineno": 458,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 545,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get controls attribute</p>",
@@ -11117,12 +11632,12 @@ var docData =
         "comment": "/**\n* Set controls attribute\n*\n* @param {String} val Value for controls attribute\n* @method setControls\n*/",
         "meta": {
             "range": [
-                3391,
-                3497
+                3652,
+                3758
             ],
             "filename": "html5.js",
-            "lineno": 466,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 553,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set controls attribute</p>",
@@ -11146,12 +11661,12 @@ var docData =
         "comment": "/**\n* Get loop attribute\n*\n* @return {String}\n* @method loop\n*/",
         "meta": {
             "range": [
-                3504,
-                3567
+                3765,
+                3828
             ],
             "filename": "html5.js",
-            "lineno": 474,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 561,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get loop attribute</p>",
@@ -11173,12 +11688,12 @@ var docData =
         "comment": "/**\n* Set loop attribute\n*\n* @param {String} val Value for loop attribute\n* @method setLoop\n*/",
         "meta": {
             "range": [
-                3574,
-                3668
+                3835,
+                3929
             ],
             "filename": "html5.js",
-            "lineno": 482,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 569,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set loop attribute</p>",
@@ -11202,12 +11717,12 @@ var docData =
         "comment": "/**\n* Get error value\n*\n* @return {String}\n* @method error\n*/",
         "meta": {
             "range": [
-                3675,
-                3736
+                3936,
+                3997
             ],
             "filename": "html5.js",
-            "lineno": 490,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 577,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get error value</p>",
@@ -11229,12 +11744,12 @@ var docData =
         "comment": "/**\n* Get whether or not the player is in the \"seeking\" state\n*\n* @return {Boolean}\n* @method seeking\n*/",
         "meta": {
             "range": [
-                3743,
-                3847
+                4004,
+                4108
             ],
             "filename": "html5.js",
-            "lineno": 498,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 585,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get whether or not the player is in the &quot;seeking&quot; state</p>",
@@ -11256,12 +11771,12 @@ var docData =
         "comment": "/**\n* Get a TimeRanges object that represents the\n* ranges of the media resource to which it is possible\n* for the user agent to seek.\n*\n* @return {TimeRangeObject}\n* @method seekable\n*/",
         "meta": {
             "range": [
-                3854,
-                4040
+                4115,
+                4301
             ],
             "filename": "html5.js",
-            "lineno": 506,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 593,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get a TimeRanges object that represents the\nranges of the media resource to which it is possible\nfor the user agent to seek.</p>",
@@ -11283,12 +11798,12 @@ var docData =
         "comment": "/**\n* Get if video ended\n*\n* @return {Boolean}\n* @method ended\n*/",
         "meta": {
             "range": [
-                4047,
-                4112
+                4308,
+                4373
             ],
             "filename": "html5.js",
-            "lineno": 516,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 603,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get if video ended</p>",
@@ -11310,12 +11825,12 @@ var docData =
         "comment": "/**\n* Get the value of the muted content attribute\n* This attribute has no dynamic effect, it only\n* controls the default state of the element\n*\n* @return {Boolean}\n* @method defaultMuted\n*/",
         "meta": {
             "range": [
-                4119,
-                4309
+                4380,
+                4570
             ],
             "filename": "html5.js",
-            "lineno": 524,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 611,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get the value of the muted content attribute\nThis attribute has no dynamic effect, it only\ncontrols the default state of the element</p>",
@@ -11337,12 +11852,12 @@ var docData =
         "comment": "/**\n* Get desired speed at which the media resource is to play\n*\n* @return {Number}\n* @method playbackRate\n*/",
         "meta": {
             "range": [
-                4316,
-                4425
+                4577,
+                4686
             ],
             "filename": "html5.js",
-            "lineno": 534,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 621,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get desired speed at which the media resource is to play</p>",
@@ -11364,12 +11879,12 @@ var docData =
         "comment": "/**\n* Set desired speed at which the media resource is to play\n*\n* @param {Number} val Speed at which the media resource is to play\n* @method setPlaybackRate\n*/",
         "meta": {
             "range": [
-                4761,
-                4921
+                5022,
+                5182
             ],
             "filename": "html5.js",
-            "lineno": 551,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 638,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set desired speed at which the media resource is to play</p>",
@@ -11393,12 +11908,12 @@ var docData =
         "comment": "/**\n* Get the current state of network activity for the element, from\n* the list below\n* NETWORK_EMPTY (numeric value 0)\n* NETWORK_IDLE (numeric value 1)\n* NETWORK_LOADING (numeric value 2)\n* NETWORK_NO_SOURCE (numeric value 3)\n*\n* @return {Number}\n* @method networkState\n*/",
         "meta": {
             "range": [
-                4928,
-                5202
+                5189,
+                5463
             ],
             "filename": "html5.js",
-            "lineno": 559,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 646,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get the current state of network activity for the element, from\nthe list below\nNETWORK_EMPTY (numeric value 0)\nNETWORK_IDLE (numeric value 1)\nNETWORK_LOADING (numeric value 2)\nNETWORK_NO_SOURCE (numeric value 3)</p>",
@@ -11420,12 +11935,12 @@ var docData =
         "comment": "/**\n* Get a value that expresses the current state of the element\n* with respect to rendering the current playback position, from\n* the codes in the list below\n* HAVE_NOTHING (numeric value 0)\n* HAVE_METADATA (numeric value 1)\n* HAVE_CURRENT_DATA (numeric value 2)\n* HAVE_FUTURE_DATA (numeric value 3)\n* HAVE_ENOUGH_DATA (numeric value 4)\n*\n* @return {Number}\n* @method readyState\n*/",
         "meta": {
             "range": [
-                5209,
-                5592
+                5470,
+                5853
             ],
             "filename": "html5.js",
-            "lineno": 572,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 659,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get a value that expresses the current state of the element\nwith respect to rendering the current playback position, from\nthe codes in the list below\nHAVE_NOTHING (numeric value 0)\nHAVE_METADATA (numeric value 1)\nHAVE_CURRENT_DATA (numeric value 2)\nHAVE_FUTURE_DATA (numeric value 3)\nHAVE_ENOUGH_DATA (numeric value 4)</p>",
@@ -11447,12 +11962,12 @@ var docData =
         "comment": "/**\n* Get width of video\n*\n* @return {Number}\n* @method videoWidth\n*/",
         "meta": {
             "range": [
-                5599,
-                5668
+                5860,
+                5929
             ],
             "filename": "html5.js",
-            "lineno": 587,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 674,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get width of video</p>",
@@ -11474,12 +11989,12 @@ var docData =
         "comment": "/**\n* Get height of video\n*\n* @return {Number}\n* @method videoHeight\n*/",
         "meta": {
             "range": [
-                5675,
-                5746
+                5936,
+                6007
             ],
             "filename": "html5.js",
-            "lineno": 595,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 682,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get height of video</p>",
@@ -11501,12 +12016,12 @@ var docData =
         "comment": "/**\n* Get text tracks\n*\n* @return {TextTrackList}\n* @method textTracks\n*/",
         "meta": {
             "range": [
-                5753,
-                5826
+                6014,
+                6087
             ],
             "filename": "html5.js",
-            "lineno": 603,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 690,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get text tracks</p>",
@@ -11528,12 +12043,12 @@ var docData =
         "comment": "/**\n* Creates and returns a text track object\n*\n* @param {String} kind Text track kind (subtitles, captions, descriptions\n*                                       chapters and metadata)\n* @param {String=} label Label to identify the text track\n* @param {String=} language Two letter language abbreviation\n* @return {TextTrackObject}\n* @method addTextTrack\n*/",
         "meta": {
             "range": [
-                5839,
-                6196
+                6100,
+                6457
             ],
             "filename": "html5.js",
-            "lineno": 613,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 700,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Creates and returns a text track object</p>",
@@ -11586,12 +12101,12 @@ var docData =
         "comment": "/**\n* Creates and returns a remote text track object\n*\n* @param {Object} options The object should contain values for\n* kind, language, label and src (location of the WebVTT file)\n* @return {TextTrackObject}\n* @method addRemoteTextTrack\n*/",
         "meta": {
             "range": [
-                6221,
-                6460
+                6482,
+                6721
             ],
             "filename": "html5.js",
-            "lineno": 631,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 718,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Creates and returns a remote text track object</p>",
@@ -11624,12 +12139,12 @@ var docData =
         "comment": "/**\n* Remove remote text track from TextTrackList object\n*\n* @param {TextTrackObject} track Texttrack object to remove\n* @method removeRemoteTextTrack\n*/",
         "meta": {
             "range": [
-                6560,
-                6713
+                6821,
+                6974
             ],
             "filename": "html5.js",
-            "lineno": 672,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 759,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Remove remote text track from TextTrackList object</p>",
@@ -11658,7 +12173,7 @@ var docData =
             ],
             "filename": "loader.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "name": "tech/loader.js",
@@ -11677,7 +12192,7 @@ var docData =
             ],
             "filename": "loader.js",
             "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>The Media Loader is the component that decides which playback technology to load\nwhen the player is initialized.</p>",
@@ -11729,7 +12244,7 @@ var docData =
             ],
             "filename": "tech.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "name": "tech/tech.js",
@@ -11743,12 +12258,12 @@ var docData =
         "comment": "/**\n* Base class for media (HTML5 Video, Flash) controllers\n*\n* @param {Object=} options Options object\n* @param {Function=} ready Ready callback function\n* @extends Component\n* @class Tech\n*/",
         "meta": {
             "range": [
-                164,
-                356
+                167,
+                359
             ],
             "filename": "tech.js",
-            "lineno": 17,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 18,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Base class for media (HTML5 Video, Flash) controllers</p>",
@@ -11783,33 +12298,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Set up click and touch listeners for the playback element\n* On desktops, a click on the video itself will toggle playback,\n* on a mobile device a click on the video toggles controls.\n* (toggling controls is done by toggling the user state between active and\n* inactive)\n* A tap can signal that a user has become active, or has become inactive\n* e.g. a quick tap on an iPhone movie should reveal the controls. Another\n* quick tap should hide them again (signaling the user is in an inactive\n* viewing state)\n* In addition to this, we still want the user to be considered inactive after\n* a few seconds of inactivity.\n* Note: the only part of iOS interaction we can't mimic with this setup\n* is a touch and hold on the video element counting as activity in order to\n* keep the controls showing, but that shouldn't be an issue. A touch and hold on\n* any controls will still keep the user active\n*\n* @method initControlsListeners\n*/",
-        "meta": {
-            "range": [
-                495,
-                1429
-            ],
-            "filename": "tech.js",
-            "lineno": 71,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
-            "code": {}
-        },
-        "description": "<p>Set up click and touch listeners for the playback element\nOn desktops, a click on the video itself will toggle playback,\non a mobile device a click on the video toggles controls.\n(toggling controls is done by toggling the user state between active and\ninactive)\nA tap can signal that a user has become active, or has become inactive\ne.g. a quick tap on an iPhone movie should reveal the controls. Another\nquick tap should hide them again (signaling the user is in an inactive\nviewing state)\nIn addition to this, we still want the user to be considered inactive after\na few seconds of inactivity.\nNote: the only part of iOS interaction we can't mimic with this setup\nis a touch and hold on the video element counting as activity in order to\nkeep the controls showing, but that shouldn't be an issue. A touch and hold on\nany controls will still keep the user active</p>",
-        "kind": "function",
-        "name": "initControlsListeners",
-        "longname": "initControlsListeners",
-        "scope": "global"
-    },
-    {
         "comment": "/**\n* Turn on progress events\n*\n* @method manualProgressOn\n*/",
         "meta": {
             "range": [
-                1603,
-                1664
+                623,
+                684
             ],
             "filename": "tech.js",
-            "lineno": 108,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 74,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Turn on progress events</p>",
@@ -11822,12 +12319,12 @@ var docData =
         "comment": "/**\n* Turn off progress events\n*\n* @method manualProgressOff\n*/",
         "meta": {
             "range": [
-                1692,
-                1755
+                712,
+                775
             ],
             "filename": "tech.js",
-            "lineno": 122,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 88,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Turn off progress events</p>",
@@ -11840,12 +12337,12 @@ var docData =
         "comment": "/**\n* Track progress\n*\n* @method trackProgress\n*/",
         "meta": {
             "range": [
-                1777,
-                1826
+                797,
+                846
             ],
             "filename": "tech.js",
-            "lineno": 134,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 100,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Track progress</p>",
@@ -11858,12 +12355,12 @@ var docData =
         "comment": "/**\n* Update duration\n*\n* @method onDurationChange\n*/",
         "meta": {
             "range": [
-                1884,
-                1937
+                904,
+                957
             ],
             "filename": "tech.js",
-            "lineno": 158,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 124,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Update duration</p>",
@@ -11876,12 +12373,12 @@ var docData =
         "comment": "/**\n* Create and get TimeRange object for buffering\n*\n* @return {TimeRangeObject}\n* @method buffered\n*/",
         "meta": {
             "range": [
-                1950,
-                2053
+                970,
+                1073
             ],
             "filename": "tech.js",
-            "lineno": 167,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 133,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Create and get TimeRange object for buffering</p>",
@@ -11903,12 +12400,12 @@ var docData =
         "comment": "/**\n* Get buffered percent\n*\n* @return {Number}\n* @method bufferedPercent\n*/",
         "meta": {
             "range": [
-                2066,
-                2142
+                1086,
+                1162
             ],
             "filename": "tech.js",
-            "lineno": 177,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 143,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get buffered percent</p>",
@@ -11930,12 +12427,12 @@ var docData =
         "comment": "/**\n* Stops tracking progress by clearing progress interval\n*\n* @method stopTrackingProgress\n*/",
         "meta": {
             "range": [
-                2155,
-                2250
+                1175,
+                1270
             ],
             "filename": "tech.js",
-            "lineno": 187,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 153,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Stops tracking progress by clearing progress interval</p>",
@@ -11948,12 +12445,12 @@ var docData =
         "comment": "/**\n* Set event listeners for on play and pause and tracking current time\n*\n* @method manualTimeUpdatesOn\n*/",
         "meta": {
             "range": [
-                2347,
-                2455
+                1367,
+                1475
             ],
             "filename": "tech.js",
-            "lineno": 197,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 163,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set event listeners for on play and pause and tracking current time</p>",
@@ -11966,12 +12463,12 @@ var docData =
         "comment": "/**\n* Remove event listeners for on play and pause and tracking current time\n*\n* @method manualTimeUpdatesOff\n*/",
         "meta": {
             "range": [
-                2477,
-                2589
+                1497,
+                1609
             ],
             "filename": "tech.js",
-            "lineno": 209,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 175,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Remove event listeners for on play and pause and tracking current time</p>",
@@ -11984,12 +12481,12 @@ var docData =
         "comment": "/**\n* Tracks current time\n*\n* @method trackCurrentTime\n*/",
         "meta": {
             "range": [
-                2611,
-                2668
+                1631,
+                1688
             ],
             "filename": "tech.js",
-            "lineno": 221,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 187,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Tracks current time</p>",
@@ -12002,12 +12499,12 @@ var docData =
         "comment": "/**\n* Turn off play progress tracking (when paused or dragging)\n*\n* @method stopTrackingCurrentTime\n*/",
         "meta": {
             "range": [
-                2690,
-                2792
+                1710,
+                1812
             ],
             "filename": "tech.js",
-            "lineno": 233,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 199,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Turn off play progress tracking (when paused or dragging)</p>",
@@ -12020,12 +12517,12 @@ var docData =
         "comment": "/**\n* Turn off any manual progress or timeupdate tracking\n*\n* @method dispose\n*/",
         "meta": {
             "range": [
-                2817,
-                2897
+                1837,
+                1917
             ],
             "filename": "tech.js",
-            "lineno": 246,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 212,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Turn off any manual progress or timeupdate tracking</p>",
@@ -12035,15 +12532,55 @@ var docData =
         "scope": "global"
     },
     {
+        "comment": "/**\n* When invoked without an argument, returns a MediaError object\n* representing the current error state of the player or null if\n* there is no error. When invoked with an argument, set the current\n* error state of the player.\n* @param {MediaError=} err    Optional an error object\n* @return {MediaError}        the current error object or null\n* @method error\n*/",
+        "meta": {
+            "range": [
+                1975,
+                2340
+            ],
+            "filename": "tech.js",
+            "lineno": 236,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
+            "code": {}
+        },
+        "description": "<p>When invoked without an argument, returns a MediaError object\nrepresenting the current error state of the player or null if\nthere is no error. When invoked with an argument, set the current\nerror state of the player.</p>",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "MediaError"
+                    ]
+                },
+                "optional": true,
+                "description": "<p>Optional an error object</p>",
+                "name": "err"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "MediaError"
+                    ]
+                },
+                "description": "<p>the current error object or null</p>"
+            }
+        ],
+        "kind": "function",
+        "name": "error",
+        "longname": "error",
+        "scope": "global"
+    },
+    {
         "comment": "/**\n* Return the time ranges that have been played through for the\n* current source. This implementation is incomplete. It does not\n* track the played time ranges, only whether the source has played\n* at all or not.\n* @return {TimeRangeObject} a single time range if this video has\n* played or an empty set of ranges if not.\n* @method played\n*/",
         "meta": {
             "range": [
-                2949,
-                3293
+                2377,
+                2721
             ],
             "filename": "tech.js",
-            "lineno": 268,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 257,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Return the time ranges that have been played through for the\ncurrent source. This implementation is incomplete. It does not\ntrack the played time ranges, only whether the source has played\nat all or not.</p>",
@@ -12066,12 +12603,12 @@ var docData =
         "comment": "/**\n* Set current time\n*\n* @method setCurrentTime\n*/",
         "meta": {
             "range": [
-                3315,
-                3367
+                2743,
+                2795
             ],
             "filename": "tech.js",
-            "lineno": 284,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 273,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Set current time</p>",
@@ -12084,12 +12621,12 @@ var docData =
         "comment": "/**\n* Initialize texttrack listeners\n*\n* @method initTextTrackListeners\n*/",
         "meta": {
             "range": [
-                3383,
-                3457
+                2811,
+                2885
             ],
             "filename": "tech.js",
-            "lineno": 294,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 283,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Initialize texttrack listeners</p>",
@@ -12102,12 +12639,12 @@ var docData =
         "comment": "/**\n* Emulate texttracks\n*\n* @method emulateTextTracks\n*/",
         "meta": {
             "range": [
-                3512,
-                3569
+                2940,
+                2997
             ],
             "filename": "tech.js",
-            "lineno": 317,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 306,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Emulate texttracks</p>",
@@ -12120,12 +12657,12 @@ var docData =
         "comment": "/**\n* Get texttracks\n*\n* @returns {TextTrackList}\n* @method textTracks\n*/",
         "meta": {
             "range": [
-                3756,
-                3829
+                3184,
+                3257
             ],
             "filename": "tech.js",
-            "lineno": 362,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 351,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get texttracks</p>",
@@ -12147,12 +12684,12 @@ var docData =
         "comment": "/**\n* Get remote texttracks\n*\n* @returns {TextTrackList}\n* @method remoteTextTracks\n*/",
         "meta": {
             "range": [
-                3845,
-                3931
+                3273,
+                3359
             ],
             "filename": "tech.js",
-            "lineno": 373,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 362,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Get remote texttracks</p>",
@@ -12174,12 +12711,12 @@ var docData =
         "comment": "/**\n* Creates and returns a remote text track object\n*\n* @param {String} kind Text track kind (subtitles, captions, descriptions\n*                                       chapters and metadata)\n* @param {String=} label Label to identify the text track\n* @param {String=} language Two letter language abbreviation\n* @return {TextTrackObject}\n* @method addTextTrack\n*/",
         "meta": {
             "range": [
-                3947,
-                4311
+                3375,
+                3739
             ],
             "filename": "tech.js",
-            "lineno": 384,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 373,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Creates and returns a remote text track object</p>",
@@ -12232,12 +12769,12 @@ var docData =
         "comment": "/**\n* Creates and returns a remote text track object\n*\n* @param {Object} options The object should contain values for\n* kind, language, label and src (location of the WebVTT file)\n* @return {TextTrackObject}\n* @method addRemoteTextTrack\n*/",
         "meta": {
             "range": [
-                4336,
-                4575
+                3764,
+                4003
             ],
             "filename": "tech.js",
-            "lineno": 402,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 391,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Creates and returns a remote text track object</p>",
@@ -12270,12 +12807,12 @@ var docData =
         "comment": "/**\n* Remove remote texttrack\n*\n* @param {TextTrackObject} track Texttrack to remove\n* @method removeRemoteTextTrack\n*/",
         "meta": {
             "range": [
-                4600,
-                4719
+                4028,
+                4147
             ],
             "filename": "tech.js",
-            "lineno": 418,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 407,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Remove remote texttrack</p>",
@@ -12299,12 +12836,12 @@ var docData =
         "comment": "/**\n* Provide a default setPoster method for techs\n* Poster support for techs should be optional, so we don't want techs to\n* break if they don't have a way to set a poster.\n*\n* @method setPoster\n*/",
         "meta": {
             "range": [
-                4735,
-                4933
+                4163,
+                4361
             ],
             "filename": "tech.js",
-            "lineno": 429,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tech",
+            "lineno": 418,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tech",
             "code": {}
         },
         "description": "<p>Provide a default setPoster method for techs\nPoster support for techs should be optional, so we don't want techs to\nbreak if they don't have a way to set a poster.</p>",
@@ -12322,7 +12859,7 @@ var docData =
             ],
             "filename": "text-track-cue-list.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "name": "tracks/text-track-cue-list.js",
@@ -12341,7 +12878,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "name": "tracks/text-track-display.js",
@@ -12360,7 +12897,7 @@ var docData =
             ],
             "filename": "text-track-display.js",
             "lineno": 27,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>The component for displaying text track cues</p>",
@@ -12404,15 +12941,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Toggle display texttracks \n*\n* @method toggleDisplay\n*/",
+        "comment": "/**\n* Toggle display texttracks\n*\n* @method toggleDisplay\n*/",
         "meta": {
             "range": [
                 446,
-                507
+                506
             ],
             "filename": "text-track-display.js",
             "lineno": 64,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Toggle display texttracks</p>",
@@ -12425,12 +12962,12 @@ var docData =
         "comment": "/**\n* Create the component's DOM element\n*\n* @return {Element}\n* @method createEl\n*/",
         "meta": {
             "range": [
-                532,
-                616
+                531,
+                615
             ],
             "filename": "text-track-display.js",
             "lineno": 77,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -12449,15 +12986,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Clear display texttracks \n*\n* @method clearDisplay\n*/",
+        "comment": "/**\n* Clear display texttracks\n*\n* @method clearDisplay\n*/",
         "meta": {
             "range": [
-                635,
-                694
+                634,
+                692
             ],
             "filename": "text-track-display.js",
             "lineno": 89,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Clear display texttracks</p>",
@@ -12467,15 +13004,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Update display texttracks \n*\n* @method updateDisplay\n*/",
+        "comment": "/**\n* Update display texttracks\n*\n* @method updateDisplay\n*/",
         "meta": {
             "range": [
-                713,
-                774
+                711,
+                771
             ],
             "filename": "text-track-display.js",
             "lineno": 100,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Update display texttracks</p>",
@@ -12485,15 +13022,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Add texttrack to texttrack list \n*\n* @param {TextTrackObject} track Texttrack object to be added to list\n* @method updateForTrack\n*/",
+        "comment": "/**\n* Add texttrack to texttrack list\n*\n* @param {TextTrackObject} track Texttrack object to be added to list\n* @method updateForTrack\n*/",
         "meta": {
             "range": [
-                826,
-                964
+                823,
+                960
             ],
             "filename": "text-track-display.js",
             "lineno": 122,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Add texttrack to texttrack list</p>",
@@ -12517,12 +13054,12 @@ var docData =
         "comment": "/**\n* Add cue HTML to display\n*\n* @param {Number} color Hex number for color, like #f0e\n* @param {Number} opacity Value for opacity,0.0 - 1.0\n* @return {RGBAColor} In the form 'rgba(255, 0, 0, 0.3)'\n* @method constructColor\n*/",
         "meta": {
             "range": [
-                1187,
-                1413
+                1183,
+                1409
             ],
             "filename": "text-track-display.js",
             "lineno": 202,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Add cue HTML to display</p>",
@@ -12565,12 +13102,12 @@ var docData =
         "comment": "/**\n* Try to update style\n* Some style changes will throw an error, particularly in IE8. Those should be noops.\n*\n* @param {Element} el The element to be styles\n* @param {CSSProperty} style The CSS property to be styled\n* @param {CSSStyle} rule The actual style to be applied to the property\n* @method tryUpdateStyle\n*/",
         "meta": {
             "range": [
-                1441,
-                1760
+                1437,
+                1756
             ],
             "filename": "text-track-display.js",
             "lineno": 219,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Try to update style\nSome style changes will throw an error, particularly in IE8. Those should be noops.</p>",
@@ -12617,7 +13154,7 @@ var docData =
             ],
             "filename": "text-track-enums.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "name": "tracks/text-track-enums.js",
@@ -12636,7 +13173,7 @@ var docData =
             ],
             "filename": "text-track-list-converter.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>text-track-list-converter.js</p>",
@@ -12650,12 +13187,12 @@ var docData =
         "comment": "/**\n* Examine a tech and return a JSON-compatible javascript array that\n* represents the state of all text tracks currently configured. The\n* return array is compatible with `jsonToTextTracks`.\n* @param tech {tech} the tech object to query\n* @return {Array} a serializable javascript representation of the\n* @function textTracksToJson\n*/",
         "meta": {
             "range": [
-                458,
-                795
+                467,
+                804
             ],
             "filename": "text-track-list-converter.js",
-            "lineno": 35,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "lineno": 38,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Examine a tech and return a JSON-compatible javascript array that\nrepresents the state of all text tracks currently configured. The\nreturn array is compatible with <code>jsonToTextTracks</code>.</p>",
@@ -12689,12 +13226,12 @@ var docData =
         "comment": "/**\n* Creates a set of remote text tracks on a tech based on an array of\n* javascript text track representations.\n* @param json {Array} an array of text track representation objects,\n* like those that would be produced by `textTracksToJson`\n* @param tech {tech} the tech to create text tracks on\n* @function jsonToTextTracks\n*/",
         "meta": {
             "range": [
-                841,
-                1168
+                856,
+                1183
             ],
             "filename": "text-track-list-converter.js",
-            "lineno": 58,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "lineno": 63,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Creates a set of remote text tracks on a tech based on an array of\njavascript text track representations.</p>",
@@ -12732,7 +13269,7 @@ var docData =
             ],
             "filename": "text-track-list.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "name": "tracks/text-track-list.js",
@@ -12751,7 +13288,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "name": "tracks/text-track-settings.js",
@@ -12770,7 +13307,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 11,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Manipulate settings of texttracks</p>",
@@ -12812,7 +13349,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 63,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Create the component's DOM element</p>",
@@ -12839,7 +13376,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 76,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Get texttrack settings \nSettings are\n.vjs-edge-style\n.vjs-font-family\n.vjs-fg-color\n.vjs-text-opacity\n.vjs-bg-color\n.vjs-bg-opacity\n.window-color\n.vjs-window-opacity</p>",
@@ -12866,7 +13403,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 123,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Set texttrack settings \nSettings are\n.vjs-edge-style\n.vjs-font-family\n.vjs-fg-color\n.vjs-text-opacity\n.vjs-bg-color\n.vjs-bg-opacity\n.window-color\n.vjs-window-opacity</p>",
@@ -12895,7 +13432,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 159,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Restore texttrack settings</p>",
@@ -12913,7 +13450,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 176,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Save texttrack settings to local storage</p>",
@@ -12931,7 +13468,7 @@ var docData =
             ],
             "filename": "text-track-settings.js",
             "lineno": 196,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "description": "<p>Update display of texttrack settings</p>",
@@ -12949,7 +13486,7 @@ var docData =
             ],
             "filename": "text-track.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/tracks",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/tracks",
             "code": {}
         },
         "name": "tracks/text-track.js",
@@ -12968,7 +13505,7 @@ var docData =
             ],
             "filename": "browser.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "utils/browser.js",
@@ -12987,7 +13524,7 @@ var docData =
             ],
             "filename": "buffer.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "utils/buffer.js",
@@ -13006,7 +13543,7 @@ var docData =
             ],
             "filename": "buffer.js",
             "lineno": 6,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Compute how much your video has been buffered</p>",
@@ -13055,7 +13592,7 @@ var docData =
             ],
             "filename": "dom.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "utils/dom.js",
@@ -13069,12 +13606,12 @@ var docData =
         "comment": "/**\n* Shorthand for document.getElementById()\n* Also allows for CSS (jQuery) ID syntax. But nothing other than IDs.\n*\n* @param  {String} id  Element ID\n* @return {Element}    Element with supplied ID\n* @function getEl\n*/",
         "meta": {
             "range": [
-                34,
-                254
+                40,
+                260
             ],
             "filename": "dom.js",
-            "lineno": 8,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 10,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Shorthand for document.getElementById()\nAlso allows for CSS (jQuery) ID syntax. But nothing other than IDs.</p>",
@@ -13108,12 +13645,12 @@ var docData =
         "comment": "/**\n* Creates an element and applies properties.\n*\n* @param  {String=} tagName    Name of tag to be created.\n* @param  {Object=} properties Element properties to be applied.\n* @return {Element}\n* @function createEl\n*/",
         "meta": {
             "range": [
-                279,
-                496
+                285,
+                502
             ],
             "filename": "dom.js",
-            "lineno": 24,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 26,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Creates an element and applies properties.</p>",
@@ -13154,15 +13691,60 @@ var docData =
         "scope": "global"
     },
     {
+        "comment": "/**\n* Injects text into an element, replacing any existing contents entirely.\n*\n* @param  {Element} el\n* @param  {String} text\n* @return {Element}\n* @function textContent\n*/",
+        "meta": {
+            "range": [
+                584,
+                757
+            ],
+            "filename": "dom.js",
+            "lineno": 61,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
+            "code": {}
+        },
+        "description": "<p>Injects text into an element, replacing any existing contents entirely.</p>",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Element"
+                    ]
+                },
+                "name": "el"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "text"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Element"
+                    ]
+                }
+            }
+        ],
+        "kind": "function",
+        "name": "textContent",
+        "longname": "textContent",
+        "scope": "global"
+    },
+    {
         "comment": "/**\n* Insert an element as the first child node of another\n*\n* @param  {Element} child   Element to insert\n* @param  {Element} parent Element to insert child into\n* @private\n* @function insertElFirst\n*/",
         "meta": {
             "range": [
-                569,
-                771
+                782,
+                984
             ],
             "filename": "dom.js",
-            "lineno": 56,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 77,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Insert an element as the first child node of another</p>",
@@ -13196,12 +13778,12 @@ var docData =
         "comment": "/**\n* Returns the cache object where data for an element is stored\n*\n* @param  {Element} el Element to store data for.\n* @return {Object}\n* @function getElData\n*/",
         "meta": {
             "range": [
-                1168,
-                1330
+                1381,
+                1543
             ],
             "filename": "dom.js",
-            "lineno": 91,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 112,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Returns the cache object where data for an element is stored</p>",
@@ -13234,12 +13816,12 @@ var docData =
         "comment": "/**\n* Returns whether or not an element has cached data\n*\n* @param  {Element} el A dom element\n* @return {Boolean}\n* @private\n* @function hasElData\n*/",
         "meta": {
             "range": [
-                1373,
-                1523
+                1586,
+                1736
             ],
             "filename": "dom.js",
-            "lineno": 112,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 133,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Returns whether or not an element has cached data</p>",
@@ -13273,12 +13855,12 @@ var docData =
         "comment": "/**\n* Delete data for the element from the cache and the guid attr from getElementById\n*\n* @param  {Element} el Remove data for an element\n* @private\n* @function removeElData\n*/",
         "meta": {
             "range": [
-                1554,
-                1731
+                1767,
+                1944
             ],
             "filename": "dom.js",
-            "lineno": 130,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 151,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Delete data for the element from the cache and the guid attr from getElementById</p>",
@@ -13303,12 +13885,12 @@ var docData =
         "comment": "/**\n* Check if an element has a CSS class\n*\n* @param {Element} element Element to check\n* @param {String} classToCheck Classname to check\n* @function hasElClass\n*/",
         "meta": {
             "range": [
-                1801,
-                1964
+                2014,
+                2177
             ],
             "filename": "dom.js",
-            "lineno": 160,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 181,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Check if an element has a CSS class</p>",
@@ -13341,12 +13923,12 @@ var docData =
         "comment": "/**\n* Add a CSS class name to an element\n*\n* @param {Element} element    Element to add class name to\n* @param {String} classToAdd Classname to add\n* @function addElClass\n*/",
         "meta": {
             "range": [
-                1977,
-                2150
+                2190,
+                2363
             ],
             "filename": "dom.js",
-            "lineno": 171,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 192,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Add a CSS class name to an element</p>",
@@ -13379,12 +13961,12 @@ var docData =
         "comment": "/**\n* Remove a CSS class name from an element\n*\n* @param {Element} element    Element to remove from class name\n* @param {String} classToRemove Classname to remove\n* @function removeElClass\n*/",
         "meta": {
             "range": [
-                2169,
-                2361
+                2382,
+                2574
             ],
             "filename": "dom.js",
-            "lineno": 184,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 205,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Remove a CSS class name from an element</p>",
@@ -13417,12 +13999,12 @@ var docData =
         "comment": "/**\n* Apply attributes to an HTML element.\n*\n* @param  {Element} el         Target element.\n* @param  {Object=} attributes Element attributes to be applied.\n* @private\n* @function setElAttributes\n*/",
         "meta": {
             "range": [
-                2407,
-                2605
+                2620,
+                2818
             ],
             "filename": "dom.js",
-            "lineno": 206,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 227,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Apply attributes to an HTML element.</p>",
@@ -13457,12 +14039,12 @@ var docData =
         "comment": "/**\n* Get an element's attribute values, as defined on the HTML tag\n* Attributes are not the same as properties. They're defined on the tag\n* or with setAttribute (which shouldn't be used with HTML)\n* This will return true or false for boolean attributes.\n*\n* @param  {Element} tag Element from which to get tag attributes\n* @return {Object}\n* @private\n* @function getElAttributes\n*/",
         "meta": {
             "range": [
-                2642,
-                3025
+                2855,
+                3238
             ],
             "filename": "dom.js",
-            "lineno": 226,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 247,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Get an element's attribute values, as defined on the HTML tag\nAttributes are not the same as properties. They're defined on the tag\nor with setAttribute (which shouldn't be used with HTML)\nThis will return true or false for boolean attributes.</p>",
@@ -13496,12 +14078,12 @@ var docData =
         "comment": "/**\n* Attempt to block the ability to select text while dragging controls\n*\n* @return {Boolean}\n* @method blockTextSelection\n*/",
         "meta": {
             "range": [
-                3125,
-                3252
+                3338,
+                3465
             ],
             "filename": "dom.js",
-            "lineno": 270,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 291,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Attempt to block the ability to select text while dragging controls</p>",
@@ -13523,12 +14105,12 @@ var docData =
         "comment": "/**\n* Turn off text selection blocking\n*\n* @return {Boolean}\n* @method unblockTextSelection\n*/",
         "meta": {
             "range": [
-                3274,
-                3368
+                3487,
+                3581
             ],
             "filename": "dom.js",
-            "lineno": 283,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 304,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Turn off text selection blocking</p>",
@@ -13550,12 +14132,12 @@ var docData =
         "comment": "/**\n* Offset Left\n* getBoundingClientRect technique from\n* John Resig http://ejohn.org/blog/getboundingclientrect-is-awesome/\n*\n* @param {Element} el Element from which to get offset\n* @return {Object=}\n* @method findElPosition\n*/",
         "meta": {
             "range": [
-                3387,
-                3617
+                3600,
+                3830
             ],
             "filename": "dom.js",
-            "lineno": 295,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 316,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Offset Left\ngetBoundingClientRect technique from\nJohn Resig http://ejohn.org/blog/getboundingclientrect-is-awesome/</p>",
@@ -13586,6 +14168,179 @@ var docData =
         "scope": "global"
     },
     {
+        "comment": "/**\n* Empties the contents of an element.\n*\n* @function emptyEl\n* @param    {Element} el\n* @return   {Element}\n*/",
+        "meta": {
+            "range": [
+                4661,
+                4774
+            ],
+            "filename": "dom.js",
+            "lineno": 409,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
+            "code": {}
+        },
+        "description": "<p>Empties the contents of an element.</p>",
+        "kind": "function",
+        "name": "emptyEl",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Element"
+                    ]
+                },
+                "name": "el"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Element"
+                    ]
+                }
+            }
+        ],
+        "longname": "emptyEl",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Normalizes content for eventual insertion into the DOM.\n*\n* This allows a wide range of content definition methods, but protects\n* from falling into the trap of simply writing to `innerHTML`, which is\n* an XSS concern.\n*\n* The content for an element can be passed in multiple types, whose\n* behavior is as follows:\n*\n* - String: Normalized into a text node.\n* - Node: An Element or TextNode is passed through.\n* - Array: A one-dimensional array of strings, nodes, or functions (which\n*   return single strings or nodes).\n* - Function: If the sole argument, is expected to produce a string, node,\n*   or array.\n*\n* @function normalizeContent\n* @param    {String|Element|Array|Function} content\n* @return   {Array}\n*/",
+        "meta": {
+            "range": [
+                4796,
+                5517
+            ],
+            "filename": "dom.js",
+            "lineno": 423,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
+            "code": {}
+        },
+        "description": "<p>Normalizes content for eventual insertion into the DOM.</p>\n<p>This allows a wide range of content definition methods, but protects\nfrom falling into the trap of simply writing to <code>innerHTML</code>, which is\nan XSS concern.</p>\n<p>The content for an element can be passed in multiple types, whose\nbehavior is as follows:</p>\n<ul>\n<li>String: Normalized into a text node.</li>\n<li>Node: An Element or TextNode is passed through.</li>\n<li>Array: A one-dimensional array of strings, nodes, or functions (which\nreturn single strings or nodes).</li>\n<li>Function: If the sole argument, is expected to produce a string, node,\nor array.</li>\n</ul>",
+        "kind": "function",
+        "name": "normalizeContent",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String",
+                        "Element",
+                        "Array",
+                        "function"
+                    ]
+                },
+                "name": "content"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                }
+            }
+        ],
+        "longname": "normalizeContent",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Normalizes and appends content to an element.\n*\n* @function appendContent\n* @param    {Element} el\n* @param    {String|Element|Array|Function} content\n* @return   {Element}\n*/",
+        "meta": {
+            "range": [
+                5602,
+                5783
+            ],
+            "filename": "dom.js",
+            "lineno": 472,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
+            "code": {}
+        },
+        "description": "<p>Normalizes and appends content to an element.</p>",
+        "kind": "function",
+        "name": "appendContent",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Element"
+                    ]
+                },
+                "name": "el"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String",
+                        "Element",
+                        "Array",
+                        "function"
+                    ]
+                },
+                "name": "content"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Element"
+                    ]
+                }
+            }
+        ],
+        "longname": "appendContent",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n* Normalizes and inserts content into an element; this is identical to\n* `appendContent()`, except it empties the element first.\n*\n* @function insertContent\n* @param    {Element} el\n* @param    {String|Element|Array|Function} content\n* @return   {Element}\n*/",
+        "meta": {
+            "range": [
+                5799,
+                6061
+            ],
+            "filename": "dom.js",
+            "lineno": 485,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
+            "code": {}
+        },
+        "description": "<p>Normalizes and inserts content into an element; this is identical to\n<code>appendContent()</code>, except it empties the element first.</p>",
+        "kind": "function",
+        "name": "insertContent",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Element"
+                    ]
+                },
+                "name": "el"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String",
+                        "Element",
+                        "Array",
+                        "function"
+                    ]
+                },
+                "name": "content"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Element"
+                    ]
+                }
+            }
+        ],
+        "longname": "insertContent",
+        "scope": "global"
+    },
+    {
         "comment": "/**\n* @file events.js\n*\n* Event System (John Resig - Secrets of a JS Ninja http://jsninja.com/)\n* (Original book version wasn't completely usable, so fixed some things and made Closure Compiler compatible)\n* This should work very similarly to jQuery's events, however it's based off the book version which isn't as\n* robust as jquery's, so there's probably some differences.\n*/",
         "meta": {
             "range": [
@@ -13594,7 +14349,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "utils/events.js",
@@ -13613,7 +14368,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 15,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Add an event listener to element\nIt stores the handler function in a separate cache object\nand adds a generic handler to the element's event,\nalong with a unique id (guid) to the element.</p>",
@@ -13662,7 +14417,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 76,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Removes event listeners from an element</p>",
@@ -13711,7 +14466,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 132,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Trigger an event for an element</p>",
@@ -13773,7 +14528,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 188,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Trigger a listener only once for an event</p>",
@@ -13822,7 +14577,7 @@ var docData =
             ],
             "filename": "events.js",
             "lineno": 209,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Fix a native event to have standard property values</p>",
@@ -13856,12 +14611,12 @@ var docData =
         "comment": "/**\n* Clean up the listener cache and dispatchers\n*\n* @param  {Element|Object} elem Element to clean up\n* @param  {String} type Type of event to clean up\n* @private\n* @method _cleanUpEvents\n*/",
         "meta": {
             "range": [
-                2653,
-                2845
+                2665,
+                2857
             ],
             "filename": "events.js",
-            "lineno": 321,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 325,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Clean up the listener cache and dispatchers</p>",
@@ -13896,12 +14651,12 @@ var docData =
         "comment": "/**\n* Loops through an array of event types and calls the requested method for each type.\n*\n* @param  {Function} fn   The event method we want to use.\n* @param  {Element|Object} elem Element or object to bind listeners to\n* @param  {String}   type Type of event to bind to.\n* @param  {Function} callback   Event listener.\n* @private\n* @function _handleMultipleEvents\n*/",
         "meta": {
             "range": [
-                2936,
-                3305
+                2948,
+                3317
             ],
             "filename": "events.js",
-            "lineno": 359,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 363,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Loops through an array of event types and calls the requested method for each type.</p>",
@@ -13959,7 +14714,7 @@ var docData =
             ],
             "filename": "fn.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "utils/fn.js",
@@ -13978,7 +14733,7 @@ var docData =
             ],
             "filename": "fn.js",
             "lineno": 6,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Bind (a.k.a proxy or Context). A simple method for changing the context of a function\nIt also stores a unique id on the function so it can be easily removed from events</p>",
@@ -14036,7 +14791,7 @@ var docData =
             ],
             "filename": "format-time.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "formatTime",
@@ -14086,7 +14841,7 @@ var docData =
             ],
             "filename": "guid.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "utils/guid.js",
@@ -14111,7 +14866,7 @@ var docData =
             ],
             "filename": "guid.js",
             "lineno": 10,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Get the next unique ID</p>",
@@ -14138,7 +14893,7 @@ var docData =
             ],
             "filename": "log.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "utils/log.js",
@@ -14157,7 +14912,7 @@ var docData =
             ],
             "filename": "log.js",
             "lineno": 33,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Log messages to the console and history based on the type of message</p>",
@@ -14196,7 +14951,7 @@ var docData =
             ],
             "filename": "merge-options.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "utils/merge-options.js",
@@ -14215,7 +14970,7 @@ var docData =
             ],
             "filename": "merge-options.js",
             "lineno": 35,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Merge one or more options objects, recursively merging <strong>only</strong>\nplain object properties.  Previously <code>deepMerge</code>.</p>",
@@ -14247,18 +15002,18 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* @file time-ranges.js\n*\n* Should create a fake TimeRange object\n* Mimics an HTML5 time range instance, which has functions that\n* return the start and end times for a range\n* TimeRanges are returned by the buffered() method\n*\n* @param  {Number} start Start time in seconds\n* @param  {Number} end   End time in seconds\n* @return {Object}       Fake TimeRange object\n* @private\n* @method createTimeRange\n*/",
+        "comment": "/**\n* @file time-ranges.js\n*\n* Should create a fake TimeRange object\n* Mimics an HTML5 time range instance, which has functions that\n* return the start and end times for a range\n* TimeRanges are returned by the buffered() method\n*\n* @param  {(Number|Array)} Start of a single range or an array of ranges\n* @param  {Number} End of a single range\n* @private\n* @method createTimeRanges\n*/",
         "meta": {
             "range": [
-                0,
-                409
+                6,
+                391
             ],
             "filename": "time-ranges.js",
-            "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 3,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
-        "name": "createTimeRange",
+        "name": "createTimeRanges",
         "kind": "function",
         "description": "<p>time-ranges.js</p>\n<p>Should create a fake TimeRange object\nMimics an HTML5 time range instance, which has functions that\nreturn the start and end times for a range\nTimeRanges are returned by the buffered() method</p>",
         "preserveName": true,
@@ -14266,11 +15021,12 @@ var docData =
             {
                 "type": {
                     "names": [
-                        "Number"
+                        "Number",
+                        "Array"
                     ]
                 },
-                "description": "<p>Start time in seconds</p>",
-                "name": "start"
+                "description": "<p>of a single range or an array of ranges</p>",
+                "name": "Start"
             },
             {
                 "type": {
@@ -14278,22 +15034,12 @@ var docData =
                         "Number"
                     ]
                 },
-                "description": "<p>End time in seconds</p>",
-                "name": "end"
-            }
-        ],
-        "returns": [
-            {
-                "type": {
-                    "names": [
-                        "Object"
-                    ]
-                },
-                "description": "<p>Fake TimeRange object</p>"
+                "description": "<p>of a single range</p>",
+                "name": "End"
             }
         ],
         "access": "private",
-        "longname": "createTimeRange",
+        "longname": "createTimeRanges",
         "scope": "global"
     },
     {
@@ -14305,7 +15051,7 @@ var docData =
             ],
             "filename": "to-title-case.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "toTitleCase",
@@ -14345,7 +15091,7 @@ var docData =
             ],
             "filename": "url.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "name": "utils/url.js",
@@ -14359,12 +15105,12 @@ var docData =
         "comment": "/**\n* Resolve and parse the elements of a URL\n*\n* @param  {String} url The url to parse\n* @return {Object}     An object of url details\n* @method parseUrl\n*/",
         "meta": {
             "range": [
-                28,
-                185
+                31,
+                188
             ],
             "filename": "url.js",
-            "lineno": 6,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 7,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Resolve and parse the elements of a URL</p>",
@@ -14398,12 +15144,12 @@ var docData =
         "comment": "/**\n* Get absolute version of relative URL. Used to tell flash correct URL.\n* http://stackoverflow.com/questions/470832/getting-an-absolute-url-from-a-relative-one-ie6-issue\n*\n* @param  {String} url URL to make absolute\n* @return {String}     Absolute URL\n* @private\n* @method getAbsoluteURL\n*/",
         "meta": {
             "range": [
-                321,
-                615
+                324,
+                618
             ],
             "filename": "url.js",
-            "lineno": 58,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 59,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Get absolute version of relative URL. Used to tell flash correct URL.\nhttp://stackoverflow.com/questions/470832/getting-an-absolute-url-from-a-relative-one-ie6-issue</p>",
@@ -14438,12 +15184,12 @@ var docData =
         "comment": "/**\n* Returns the extension of the passed file name. It will return an empty string if you pass an invalid path\n*\n* @param {String}    path    The fileName path like '/path/to/file.mp4'\n* @returns {String}          The extension in lower case or an empty string if no extension could be found.\n* @method getFileExtension\n*/",
         "meta": {
             "range": [
-                652,
-                975
+                655,
+                978
             ],
             "filename": "url.js",
-            "lineno": 79,
-            "path": "/Users/rcrooks/git/docs/videojs-src/utils",
+            "lineno": 80,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
             "code": {}
         },
         "description": "<p>Returns the extension of the passed file name. It will return an empty string if you pass an invalid path</p>",
@@ -14474,6 +15220,45 @@ var docData =
         "scope": "global"
     },
     {
+        "comment": "/**\n* Returns whether the url passed is a cross domain request or not.\n*\n* @param {String} url The url to check\n* @return {Boolean}   Whether it is a cross domain request or not\n* @method isCrossOrigin\n*/",
+        "meta": {
+            "range": [
+                1018,
+                1222
+            ],
+            "filename": "url.js",
+            "lineno": 100,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js/utils",
+            "code": {}
+        },
+        "description": "<p>Returns whether the url passed is a cross domain request or not.</p>",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "<p>The url to check</p>",
+                "name": "url"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "description": "<p>Whether it is a cross domain request or not</p>"
+            }
+        ],
+        "kind": "function",
+        "name": "isCrossOrigin",
+        "longname": "isCrossOrigin",
+        "scope": "global"
+    },
+    {
         "comment": "/**\n* @file video.js\n*/",
         "meta": {
             "range": [
@@ -14482,7 +15267,7 @@ var docData =
             ],
             "filename": "video.js",
             "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "name": "video.js",
@@ -14496,12 +15281,12 @@ var docData =
         "comment": "/**\n* Doubles as the main function for users to create a player instance and also\n* the main library object.\n* The `videojs` function can be used to initialize or retrieve a player.\n* ```js\n*     var myPlayer = videojs('my_video_id');\n* ```\n*\n* @param  {String|Element} id      Video element or video element ID\n* @param  {Object=} options        Optional options object for config/settings\n* @param  {Function=} ready        Optional ready callback\n* @return {Player}                 A player instance\n* @mixes videojs\n* @method videojs\n*/",
         "meta": {
             "range": [
-                126,
-                666
+                129,
+                669
             ],
             "filename": "video.js",
-            "lineno": 38,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 39,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Doubles as the main function for users to create a player instance and also\nthe main library object.\nThe <code>videojs</code> function can be used to initialize or retrieve a player.</p>\n<pre class=\"prettyprint source lang-js\"><code>    var myPlayer = videojs('my_video_id');</code></pre>",
@@ -14559,12 +15344,12 @@ var docData =
         "comment": "/**\n* Get an object with the currently created players, keyed by player ID\n*\n* @return {Object} The created players\n* @mixes videojs\n* @method getPlayers\n*/",
         "meta": {
             "range": [
-                1178,
-                1334
+                1205,
+                1361
             ],
             "filename": "video.js",
-            "lineno": 133,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 142,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get an object with the currently created players, keyed by player ID</p>",
@@ -14590,12 +15375,12 @@ var docData =
         "comment": "/**\n* Get a component class object by name\n* ```js\n*     var VjsButton = videojs.getComponent('Button');\n*     // Create a new instance of the component\n*     var myButton = new VjsButton(myPlayer);\n* ```\n*\n* @return {Component} Component identified by name\n* @mixes videojs\n* @method getComponent\n*/",
         "meta": {
             "range": [
-                1493,
-                1793
+                1520,
+                1820
             ],
             "filename": "video.js",
-            "lineno": 156,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 165,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Get a component class object by name</p>\n<pre class=\"prettyprint source lang-js\"><code>    var VjsButton = videojs.getComponent('Button');\n    // Create a new instance of the component\n    var myButton = new VjsButton(myPlayer);</code></pre>",
@@ -14618,18 +15403,18 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Register a component so it can referred to by name\n* Used when adding to other\n* components, either through addChild\n* `component.addChild('myComponent')`\n* or through default children options\n* `{ children: ['myComponent'] }`.\n* ```js\n*     // Get a component to subclass\n*     var VjsButton = videojs.getComponent('Button');\n*     // Subclass the component (see 'extends' doc for more info)\n*     var MySpecialButton = videojs.extends(VjsButton, {});\n*     // Register the new component\n*     VjsButton.registerComponent('MySepcialButton', MySepcialButton);\n*     // (optionally) add the new component as a default player child\n*     myPlayer.addChild('MySepcialButton');\n* ```\n* NOTE: You could also just initialize the component before adding.\n* `component.addChild(new MyComponent());`\n*\n* @param {String} The class name of the component\n* @param {Component} The component class\n* @return {Component} The newly registered component\n* @mixes videojs\n* @method registerComponent\n*/",
+        "comment": "/**\n* Register a component so it can referred to by name\n* Used when adding to other\n* components, either through addChild\n* `component.addChild('myComponent')`\n* or through default children options\n* `{ children: ['myComponent'] }`.\n* ```js\n*     // Get a component to subclass\n*     var VjsButton = videojs.getComponent('Button');\n*     // Subclass the component (see 'extend' doc for more info)\n*     var MySpecialButton = videojs.extend(VjsButton, {});\n*     // Register the new component\n*     VjsButton.registerComponent('MySepcialButton', MySepcialButton);\n*     // (optionally) add the new component as a default player child\n*     myPlayer.addChild('MySepcialButton');\n* ```\n* NOTE: You could also just initialize the component before adding.\n* `component.addChild(new MyComponent());`\n*\n* @param {String} The class name of the component\n* @param {Component} The component class\n* @return {Component} The newly registered component\n* @mixes videojs\n* @method registerComponent\n*/",
         "meta": {
             "range": [
-                1800,
-                2790
+                1827,
+                2815
             ],
             "filename": "video.js",
-            "lineno": 170,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 179,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
-        "description": "<p>Register a component so it can referred to by name\nUsed when adding to other\ncomponents, either through addChild\n<code>component.addChild('myComponent')</code>\nor through default children options\n<code>{ children: ['myComponent'] }</code>.</p>\n<pre class=\"prettyprint source lang-js\"><code>    // Get a component to subclass\n    var VjsButton = videojs.getComponent('Button');\n    // Subclass the component (see 'extends' doc for more info)\n    var MySpecialButton = videojs.extends(VjsButton, {});\n    // Register the new component\n    VjsButton.registerComponent('MySepcialButton', MySepcialButton);\n    // (optionally) add the new component as a default player child\n    myPlayer.addChild('MySepcialButton');</code></pre><p>NOTE: You could also just initialize the component before adding.\n<code>component.addChild(new MyComponent());</code></p>",
+        "description": "<p>Register a component so it can referred to by name\nUsed when adding to other\ncomponents, either through addChild\n<code>component.addChild('myComponent')</code>\nor through default children options\n<code>{ children: ['myComponent'] }</code>.</p>\n<pre class=\"prettyprint source lang-js\"><code>    // Get a component to subclass\n    var VjsButton = videojs.getComponent('Button');\n    // Subclass the component (see 'extend' doc for more info)\n    var MySpecialButton = videojs.extend(VjsButton, {});\n    // Register the new component\n    VjsButton.registerComponent('MySepcialButton', MySepcialButton);\n    // (optionally) add the new component as a default player child\n    myPlayer.addChild('MySepcialButton');</code></pre><p>NOTE: You could also just initialize the component before adding.\n<code>component.addChild(new MyComponent());</code></p>",
         "params": [
             {
                 "type": {
@@ -14669,18 +15454,18 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Subclass an existing class\n* Mimics ES6 subclassing with the `extends` keyword\n* ```js\n*     // Create a basic javascript 'class'\n*     function MyClass(name){\n*       // Set a property at initialization\n*       this.myName = name;\n*     }\n*     // Create an instance method\n*     MyClass.prototype.sayMyName = function(){\n*       alert(this.myName);\n*     };\n*     // Subclass the exisitng class and change the name\n*     // when initializing\n*     var MySubClass = videojs.extends(MyClass, {\n*       constructor: function(name) {\n*         // Call the super class constructor for the subclass\n*         MyClass.call(this, name)\n*       }\n*     });\n*     // Create an instance of the new sub class\n*     var myInstance = new MySubClass('John');\n*     myInstance.sayMyName(); // -> should alert \"John\"\n* ```\n*\n* @param {Function} The Class to subclass\n* @param {Object} An object including instace methods for the new class\n*                   Optionally including a `constructor` function\n* @return {Function} The newly created subclass\n* @mixes videojs\n* @method extends\n*/",
+        "comment": "/**\n* Subclass an existing class\n* Mimics ES6 subclassing with the `extend` keyword\n* ```js\n*     // Create a basic javascript 'class'\n*     function MyClass(name){\n*       // Set a property at initialization\n*       this.myName = name;\n*     }\n*     // Create an instance method\n*     MyClass.prototype.sayMyName = function(){\n*       alert(this.myName);\n*     };\n*     // Subclass the exisitng class and change the name\n*     // when initializing\n*     var MySubClass = videojs.extend(MyClass, {\n*       constructor: function(name) {\n*         // Call the super class constructor for the subclass\n*         MyClass.call(this, name)\n*       }\n*     });\n*     // Create an instance of the new sub class\n*     var myInstance = new MySubClass('John');\n*     myInstance.sayMyName(); // -> should alert \"John\"\n* ```\n*\n* @param {Function} The Class to subclass\n* @param {Object} An object including instace methods for the new class\n*                   Optionally including a `constructor` function\n* @return {Function} The newly created subclass\n* @mixes videojs\n* @method extend\n*/",
         "meta": {
             "range": [
-                3102,
-                4183
+                3127,
+                4205
             ],
             "filename": "video.js",
-            "lineno": 216,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 225,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
-        "description": "<p>Subclass an existing class\nMimics ES6 subclassing with the <code>extends</code> keyword</p>\n<pre class=\"prettyprint source lang-js\"><code>    // Create a basic javascript 'class'\n    function MyClass(name){\n      // Set a property at initialization\n      this.myName = name;\n    }\n    // Create an instance method\n    MyClass.prototype.sayMyName = function(){\n      alert(this.myName);\n    };\n    // Subclass the exisitng class and change the name\n    // when initializing\n    var MySubClass = videojs.extends(MyClass, {\n      constructor: function(name) {\n        // Call the super class constructor for the subclass\n        MyClass.call(this, name)\n      }\n    });\n    // Create an instance of the new sub class\n    var myInstance = new MySubClass('John');\n    myInstance.sayMyName(); // -> should alert &quot;John&quot;</code></pre>",
+        "description": "<p>Subclass an existing class\nMimics ES6 subclassing with the <code>extend</code> keyword</p>\n<pre class=\"prettyprint source lang-js\"><code>    // Create a basic javascript 'class'\n    function MyClass(name){\n      // Set a property at initialization\n      this.myName = name;\n    }\n    // Create an instance method\n    MyClass.prototype.sayMyName = function(){\n      alert(this.myName);\n    };\n    // Subclass the exisitng class and change the name\n    // when initializing\n    var MySubClass = videojs.extend(MyClass, {\n      constructor: function(name) {\n        // Call the super class constructor for the subclass\n        MyClass.call(this, name)\n      }\n    });\n    // Create an instance of the new sub class\n    var myInstance = new MySubClass('John');\n    myInstance.sayMyName(); // -> should alert &quot;John&quot;</code></pre>",
         "params": [
             {
                 "type": {
@@ -14715,20 +15500,20 @@ var docData =
             "videojs"
         ],
         "kind": "function",
-        "name": "extends",
-        "longname": "extends",
+        "name": "extend",
+        "longname": "extend",
         "scope": "global"
     },
     {
-        "comment": "/**\n* Merge two options objects recursively\n* Performs a deep merge like lodash.merge but **only merges plain objects**\n* (not arrays, elements, anything else)\n* Other values will be copied directly from the second object.\n* ```js\n*     var defaultOptions = {\n*       foo: true,\n*       bar: {\n*         a: true,\n*         b: [1,2,3]\n*       }\n*     };\n*     var newOptions = {\n*       foo: false,\n*       bar: {\n*         b: [4,5,6]\n*       }\n*     };\n*     var result = videojs.mergeOptions(defaultOptions, newOptions);\n*     // result.foo = false;\n*     // result.bar.a = true;\n*     // result.bar.b = [4,5,6];\n* ```\n*\n* @param {Object} The options object whose values will be overriden\n* @param {Object} The options object with values to override the first\n* @param {Object} Any number of additional options objects\n*\n* @return {Object} a new object with the merged values\n* @mixes videojs\n* @method mergeOptions\n*/",
+        "comment": "/**\n* Merge two options objects recursively\n* Performs a deep merge like lodash.merge but **only merges plain objects**\n* (not arrays, elements, anything else)\n* Other values will be copied directly from the second object.\n* ```js\n*     var defaultOptions = {\n*       foo: true,\n*       bar: {\n*         a: true,\n*         b: [1,2,3]\n*       }\n*     };\n*     var newOptions = {\n*       foo: false,\n*       bar: {\n*         b: [4,5,6]\n*       }\n*     };\n*     var result = videojs.mergeOptions(defaultOptions, newOptions);\n*     // result.foo = false;\n*     // result.bar.a = true;\n*     // result.bar.b = [4,5,6];\n* ```\n*\n* @param {Object} defaults  The options object whose values will be overriden\n* @param {Object} overrides The options object with values to override the first\n* @param {Object} etc       Any number of additional options objects\n*\n* @return {Object} a new object with the merged values\n* @mixes videojs\n* @method mergeOptions\n*/",
         "meta": {
             "range": [
-                4190,
-                5109
+                4212,
+                5161
             ],
             "filename": "video.js",
-            "lineno": 251,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 260,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Merge two options objects recursively\nPerforms a deep merge like lodash.merge but <strong>only merges plain objects</strong>\n(not arrays, elements, anything else)\nOther values will be copied directly from the second object.</p>\n<pre class=\"prettyprint source lang-js\"><code>    var defaultOptions = {\n      foo: true,\n      bar: {\n        a: true,\n        b: [1,2,3]\n      }\n    };\n    var newOptions = {\n      foo: false,\n      bar: {\n        b: [4,5,6]\n      }\n    };\n    var result = videojs.mergeOptions(defaultOptions, newOptions);\n    // result.foo = false;\n    // result.bar.a = true;\n    // result.bar.b = [4,5,6];</code></pre>",
@@ -14739,8 +15524,8 @@ var docData =
                         "Object"
                     ]
                 },
-                "description": "<p>options object whose values will be overriden</p>",
-                "name": "The"
+                "description": "<p>The options object whose values will be overriden</p>",
+                "name": "defaults"
             },
             {
                 "type": {
@@ -14748,8 +15533,8 @@ var docData =
                         "Object"
                     ]
                 },
-                "description": "<p>options object with values to override the first</p>",
-                "name": "The"
+                "description": "<p>The options object with values to override the first</p>",
+                "name": "overrides"
             },
             {
                 "type": {
@@ -14757,8 +15542,8 @@ var docData =
                         "Object"
                     ]
                 },
-                "description": "<p>number of additional options objects</p>",
-                "name": "Any"
+                "description": "<p>Any number of additional options objects</p>",
+                "name": "etc"
             }
         ],
         "returns": [
@@ -14780,15 +15565,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Create a Video.js player plugin\n* Plugins are only initialized when options for the plugin are included\n* in the player options, or the plugin function on the player instance is\n* called.\n* **See the plugin guide in the docs for a more detailed example**\n* ```js\n*     // Make a plugin that alerts when the player plays\n*     videojs.plugin('myPlugin', function(myPluginOptions) {\n*       myPluginOptions = myPluginOptions || {};\n*\n*       var player = this;\n*       var alertText = myPluginOptions.text || 'Player is playing!'\n*\n*       player.on('play', function(){\n*         alert(alertText);\n*       });\n*     });\n*     // USAGE EXAMPLES\n*     // EXAMPLE 1: New player with plugin options, call plugin immediately\n*     var player1 = videojs('idOne', {\n*       myPlugin: {\n*         text: 'Custom text!'\n*       }\n*     });\n*     // Click play\n*     // --> Should alert 'Custom text!'\n*     // EXAMPLE 3: New player, initialize plugin later\n*     var player3 = videojs('idThree');\n*     // Click play\n*     // --> NO ALERT\n*     // Click pause\n*     // Initialize plugin using the plugin function on the player instance\n*     player3.myPlugin({\n*       text: 'Plugin added later!'\n*     });\n*     // Click play\n*     // --> Should alert 'Plugin added later!'\n* ```\n*\n* @param {String} The plugin name\n* @param {Function} The plugin function that will be called with options\n* @mixes videojs\n* @method plugin\n*/",
+        "comment": "/**\n* Create a Video.js player plugin\n* Plugins are only initialized when options for the plugin are included\n* in the player options, or the plugin function on the player instance is\n* called.\n* **See the plugin guide in the docs for a more detailed example**\n* ```js\n*     // Make a plugin that alerts when the player plays\n*     videojs.plugin('myPlugin', function(myPluginOptions) {\n*       myPluginOptions = myPluginOptions || {};\n*\n*       var player = this;\n*       var alertText = myPluginOptions.text || 'Player is playing!'\n*\n*       player.on('play', function(){\n*         alert(alertText);\n*       });\n*     });\n*     // USAGE EXAMPLES\n*     // EXAMPLE 1: New player with plugin options, call plugin immediately\n*     var player1 = videojs('idOne', {\n*       myPlugin: {\n*         text: 'Custom text!'\n*       }\n*     });\n*     // Click play\n*     // --> Should alert 'Custom text!'\n*     // EXAMPLE 3: New player, initialize plugin later\n*     var player3 = videojs('idThree');\n*     // Click play\n*     // --> NO ALERT\n*     // Click pause\n*     // Initialize plugin using the plugin function on the player instance\n*     player3.myPlugin({\n*       text: 'Plugin added later!'\n*     });\n*     // Click play\n*     // --> Should alert 'Plugin added later!'\n* ```\n*\n* @param {String} name The plugin name\n* @param {Function} fn The plugin function that will be called with options\n* @mixes videojs\n* @method plugin\n*/",
         "meta": {
             "range": [
-                5603,
-                7023
+                5655,
+                7083
             ],
             "filename": "video.js",
-            "lineno": 303,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 312,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Create a Video.js player plugin\nPlugins are only initialized when options for the plugin are included\nin the player options, or the plugin function on the player instance is\ncalled.\n<strong>See the plugin guide in the docs for a more detailed example</strong></p>\n<pre class=\"prettyprint source lang-js\"><code>    // Make a plugin that alerts when the player plays\n    videojs.plugin('myPlugin', function(myPluginOptions) {\n      myPluginOptions = myPluginOptions || {};\n\n      var player = this;\n      var alertText = myPluginOptions.text || 'Player is playing!'\n\n      player.on('play', function(){\n        alert(alertText);\n      });\n    });\n    // USAGE EXAMPLES\n    // EXAMPLE 1: New player with plugin options, call plugin immediately\n    var player1 = videojs('idOne', {\n      myPlugin: {\n        text: 'Custom text!'\n      }\n    });\n    // Click play\n    // --> Should alert 'Custom text!'\n    // EXAMPLE 3: New player, initialize plugin later\n    var player3 = videojs('idThree');\n    // Click play\n    // --> NO ALERT\n    // Click pause\n    // Initialize plugin using the plugin function on the player instance\n    player3.myPlugin({\n      text: 'Plugin added later!'\n    });\n    // Click play\n    // --> Should alert 'Plugin added later!'</code></pre>",
@@ -14799,8 +15584,8 @@ var docData =
                         "String"
                     ]
                 },
-                "description": "<p>plugin name</p>",
-                "name": "The"
+                "description": "<p>The plugin name</p>",
+                "name": "name"
             },
             {
                 "type": {
@@ -14808,8 +15593,8 @@ var docData =
                         "function"
                     ]
                 },
-                "description": "<p>plugin function that will be called with options</p>",
-                "name": "The"
+                "description": "<p>The plugin function that will be called with options</p>",
+                "name": "fn"
             }
         ],
         "mixes": [
@@ -14824,12 +15609,12 @@ var docData =
         "comment": "/**\n* Adding languages so that they're available to all players.\n* ```js\n*     videojs.addLanguage('es', { 'Hello': 'Hola' });\n* ```\n*\n* @param  {String} code The language code or dictionary property\n* @param  {Object} data The data values to be translated\n* @return {Object} The resulting language dictionary object\n* @mixes videojs\n* @method addLanguage\n*/",
         "meta": {
             "range": [
-                7030,
-                7388
+                7090,
+                7448
             ],
             "filename": "video.js",
-            "lineno": 350,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 359,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Adding languages so that they're available to all players.</p>\n<pre class=\"prettyprint source lang-js\"><code>    videojs.addLanguage('es', { 'Hello': 'Hola' });</code></pre>",
@@ -14872,15 +15657,15 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* Creates an emulated TimeRange object.\n*\n* @param  {Number} start Start time in seconds\n* @param  {Number} end   End time in seconds\n* @return {Object}       Fake TimeRange object\n* @method createTimeRange\n*/",
+        "comment": "/**\n* Creates an emulated TimeRange object.\n*\n* @param  {Number|Array} start Start time in seconds or an array of ranges\n* @param  {Number} end   End time in seconds\n* @return {Object}       Fake TimeRange object\n* @method createTimeRange\n*/",
         "meta": {
             "range": [
-                7499,
-                7712
+                7559,
+                7800
             ],
             "filename": "video.js",
-            "lineno": 374,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 383,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Creates an emulated TimeRange object.</p>",
@@ -14888,10 +15673,11 @@ var docData =
             {
                 "type": {
                     "names": [
-                        "Number"
+                        "Number",
+                        "Array"
                     ]
                 },
-                "description": "<p>Start time in seconds</p>",
+                "description": "<p>Start time in seconds or an array of ranges</p>",
                 "name": "start"
             },
             {
@@ -14923,12 +15709,12 @@ var docData =
         "comment": "/**\n* Format seconds as a time string, H:MM:SS or M:SS\n* Supplying a guide (in seconds) will force a number of leading zeros\n* to cover the length of the guide\n*\n* @param  {Number} seconds Number of seconds to be turned into a string\n* @param  {Number} guide   Number (in seconds) to model the string after\n* @return {String}         Time formatted as H:MM:SS or M:SS\n* @method formatTime\n*/",
         "meta": {
             "range": [
-                7719,
-                8110
+                7807,
+                8198
             ],
             "filename": "video.js",
-            "lineno": 384,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 393,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Format seconds as a time string, H:MM:SS or M:SS\nSupplying a guide (in seconds) will force a number of leading zeros\nto cover the length of the guide</p>",
@@ -14971,12 +15757,12 @@ var docData =
         "comment": "/**\n* Resolve and parse the elements of a URL\n*\n* @param  {String} url The url to parse\n* @return {Object}     An object of url details\n* @method parseUrl\n*/",
         "meta": {
             "range": [
-                8950,
-                9107
+                8205,
+                8362
             ],
             "filename": "video.js",
-            "lineno": 427,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 405,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Resolve and parse the elements of a URL</p>",
@@ -15007,15 +15793,54 @@ var docData =
         "scope": "global"
     },
     {
+        "comment": "/**\n* Returns whether the url passed is a cross domain request or not.\n*\n* @param {String} url The url to check\n* @return {Boolean}   Whether it is a cross domain request or not\n* @method isCrossOrigin\n*/",
+        "meta": {
+            "range": [
+                8369,
+                8573
+            ],
+            "filename": "video.js",
+            "lineno": 414,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
+            "code": {}
+        },
+        "description": "<p>Returns whether the url passed is a cross domain request or not.</p>",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "<p>The url to check</p>",
+                "name": "url"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "description": "<p>Whether it is a cross domain request or not</p>"
+            }
+        ],
+        "kind": "function",
+        "name": "isCrossOrigin",
+        "longname": "isCrossOrigin",
+        "scope": "global"
+    },
+    {
         "comment": "/**\n* Add an event listener to element\n* It stores the handler function in a separate cache object\n* and adds a generic handler to the element's event,\n* along with a unique id (guid) to the element.\n*\n* @param  {Element|Object}   elem Element or object to bind listeners to\n* @param  {String|Array}   type Type of event to bind to.\n* @param  {Function} fn   Event listener.\n* @method on\n*/",
         "meta": {
             "range": [
-                9170,
-                9560
+                8636,
+                9026
             ],
             "filename": "video.js",
-            "lineno": 443,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 430,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Add an event listener to element\nIt stores the handler function in a separate cache object\nand adds a generic handler to the element's event,\nalong with a unique id (guid) to the element.</p>",
@@ -15059,12 +15884,12 @@ var docData =
         "comment": "/**\n* Trigger a listener only once for an event\n*\n* @param  {Element|Object}   elem Element or object to\n* @param  {String|Array}   type Name/type of event\n* @param  {Function} fn Event handler function\n* @method one\n*/",
         "meta": {
             "range": [
-                9567,
-                9786
+                9033,
+                9252
             ],
             "filename": "video.js",
-            "lineno": 456,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 443,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Trigger a listener only once for an event</p>",
@@ -15108,12 +15933,12 @@ var docData =
         "comment": "/**\n* Removes event listeners from an element\n*\n* @param  {Element|Object}   elem Object to remove listeners from\n* @param  {String|Array=}   type Type of listener to remove. Don't include to remove all events from element.\n* @param  {Function} fn   Specific listener to remove. Don't include to remove listeners for an event type.\n* @method off\n*/",
         "meta": {
             "range": [
-                9793,
-                10141
+                9259,
+                9607
             ],
             "filename": "video.js",
-            "lineno": 466,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 453,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Removes event listeners from an element</p>",
@@ -15157,12 +15982,12 @@ var docData =
         "comment": "/**\n* Trigger an event for an element\n*\n* @param  {Element|Object}      elem  Element to trigger an event on\n* @param  {Event|Object|String} event A string (the type) or an event object with a type attribute\n* @param  {Object} [hash] data hash to pass along with the event\n* @return {Boolean=} Returned only if default was prevented\n* @method trigger\n*/",
         "meta": {
             "range": [
-                10148,
-                10501
+                9614,
+                9967
             ],
             "filename": "video.js",
-            "lineno": 476,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
+            "lineno": 463,
+            "path": "/Users/rcrooks/git/docs/video.js/src/js",
             "code": {}
         },
         "description": "<p>Trigger an event for an element</p>",
@@ -15216,103 +16041,86 @@ var docData =
         "scope": "global"
     },
     {
-        "comment": "/**\n* @file xhr.js\n*/",
-        "meta": {
-            "range": [
-                0,
-                21
-            ],
-            "filename": "xhr.js",
-            "lineno": 1,
-            "path": "/Users/rcrooks/git/docs/videojs-src",
-            "code": {}
-        },
-        "name": "xhr.js",
-        "kind": "file",
-        "description": "<p>xhr.js</p>",
-        "preserveName": true,
-        "longname": "xhr.js",
-        "scope": "global"
-    },
-    {
         "kind": "package",
         "longname": "package:undefined",
         "files": [
-            "/Users/rcrooks/git/docs/videojs-src/base-styles.js",
-            "/Users/rcrooks/git/docs/videojs-src/big-play-button.js",
-            "/Users/rcrooks/git/docs/videojs-src/button.js",
-            "/Users/rcrooks/git/docs/videojs-src/component.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/control-bar.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/fullscreen-toggle.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/live-display.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/mute-toggle.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/play-toggle.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu/playback-rate-menu-button.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/playback-rate-menu/playback-rate-menu-item.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control/load-progress-bar.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control/play-progress-bar.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control/progress-control.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/progress-control/seek-bar.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls/custom-control-spacer.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/spacer-controls/spacer.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/caption-settings-menu-item.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/captions-button.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/chapters-button.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/chapters-track-menu-item.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/off-text-track-menu-item.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/subtitles-button.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/text-track-button.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/text-track-controls/text-track-menu-item.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls/current-time-display.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls/duration-display.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls/remaining-time-display.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/time-controls/time-divider.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control/volume-bar.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control/volume-control.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-control/volume-level.js",
-            "/Users/rcrooks/git/docs/videojs-src/control-bar/volume-menu-button.js",
-            "/Users/rcrooks/git/docs/videojs-src/error-display.js",
-            "/Users/rcrooks/git/docs/videojs-src/event-target.js",
-            "/Users/rcrooks/git/docs/videojs-src/extends.js",
-            "/Users/rcrooks/git/docs/videojs-src/fullscreen-api.js",
-            "/Users/rcrooks/git/docs/videojs-src/loading-spinner.js",
-            "/Users/rcrooks/git/docs/videojs-src/media-error.js",
-            "/Users/rcrooks/git/docs/videojs-src/menu/menu-button.js",
-            "/Users/rcrooks/git/docs/videojs-src/menu/menu-item.js",
-            "/Users/rcrooks/git/docs/videojs-src/menu/menu.js",
-            "/Users/rcrooks/git/docs/videojs-src/player.js",
-            "/Users/rcrooks/git/docs/videojs-src/plugins.js",
-            "/Users/rcrooks/git/docs/videojs-src/poster-image.js",
-            "/Users/rcrooks/git/docs/videojs-src/setup.js",
-            "/Users/rcrooks/git/docs/videojs-src/slider/slider.js",
-            "/Users/rcrooks/git/docs/videojs-src/tech/flash-rtmp.js",
-            "/Users/rcrooks/git/docs/videojs-src/tech/flash.js",
-            "/Users/rcrooks/git/docs/videojs-src/tech/html5.js",
-            "/Users/rcrooks/git/docs/videojs-src/tech/loader.js",
-            "/Users/rcrooks/git/docs/videojs-src/tech/tech.js",
-            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-cue-list.js",
-            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-display.js",
-            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-enums.js",
-            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-list-converter.js",
-            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-list.js",
-            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track-settings.js",
-            "/Users/rcrooks/git/docs/videojs-src/tracks/text-track.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/browser.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/buffer.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/create-deprecation-proxy.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/dom.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/events.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/fn.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/format-time.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/guid.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/log.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/merge-options.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/stylesheet.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/time-ranges.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/to-title-case.js",
-            "/Users/rcrooks/git/docs/videojs-src/utils/url.js",
-            "/Users/rcrooks/git/docs/videojs-src/video.js",
-            "/Users/rcrooks/git/docs/videojs-src/xhr.js"
+            "/Users/rcrooks/git/docs/video.js/src/js/base-styles.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/big-play-button.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/button.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/close-button.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/component.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/control-bar.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/fullscreen-toggle.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/live-display.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/mute-toggle.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/play-toggle.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu/playback-rate-menu-button.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/playback-rate-menu/playback-rate-menu-item.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control/load-progress-bar.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control/mouse-time-display.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control/play-progress-bar.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control/progress-control.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/progress-control/seek-bar.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/spacer-controls/custom-control-spacer.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/spacer-controls/spacer.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls/caption-settings-menu-item.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls/captions-button.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls/chapters-button.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls/chapters-track-menu-item.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls/off-text-track-menu-item.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls/subtitles-button.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls/text-track-button.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/text-track-controls/text-track-menu-item.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls/current-time-display.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls/duration-display.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls/remaining-time-display.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/time-controls/time-divider.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control/volume-bar.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control/volume-control.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-control/volume-level.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/control-bar/volume-menu-button.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/error-display.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/event-target.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/extend.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/fullscreen-api.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/loading-spinner.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/media-error.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/menu/menu-button.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/menu/menu-item.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/menu/menu.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/modal-dialog.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/player.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/plugins.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/poster-image.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/setup.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/slider/slider.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tech/flash-rtmp.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tech/flash.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tech/html5.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tech/loader.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tech/tech.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tracks/text-track-cue-list.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tracks/text-track-display.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tracks/text-track-enums.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tracks/text-track-list-converter.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tracks/text-track-list.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tracks/text-track-settings.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/tracks/text-track.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/browser.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/buffer.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/create-deprecation-proxy.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/dom.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/events.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/fn.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/format-time.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/guid.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/log.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/merge-options.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/stylesheet.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/time-ranges.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/to-title-case.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/utils/url.js",
+            "/Users/rcrooks/git/docs/video.js/src/js/video.js"
         ]
     }
 ]
