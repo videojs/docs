@@ -18,13 +18,13 @@
 
 <p>You can download the Video.js source and host it on your own servers, or use the free CDN hosted version. As of Video.js 5.0, the source is <a href="http://babeljs.io/">transpiled from ES2015</a> (formerly known as ES6) to <a href="https://es5.github.io/">ES5</a>, but IE8 only supports ES3. In order to continue to support IE8, we&#39;ve bundled an <a href="https://github.com/es-shims/es5-shim">ES5 shim and sham</a> together and hosted it on the CDN.</p>
 
-<pre><code class="html">&lt;script src=&quot;//vjs.zencdn.net/ie8/1.1.0/videojs-ie8.min.js&quot;&gt;&lt;/script&gt;
+<pre><code class="html">&lt;script src=&quot;http://vjs.zencdn.net/ie8/1.1.0/videojs-ie8.min.js&quot;&gt;&lt;/script&gt;
 </code></pre>
 
 <h3 id="toc_2">CDN Version</h3>
 
-<pre><code class="html">&lt;link href=&quot;//vjs.zencdn.net/4.12/video-js.min.css&quot; rel=&quot;stylesheet&quot;&gt;
-&lt;script src=&quot;//vjs.zencdn.net/4.12/video.min.js&quot;&gt;&lt;/script&gt;
+<pre><code class="html">&lt;link href=&quot;http://vjs.zencdn.net/5.0.2/video-js.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;script src=&quot;http://vjs.zencdn.net/5.0.2/video.js&quot;&gt;&lt;/script&gt;
 </code></pre>
 
 <p>We include a stripped down Google Analytics pixel that tracks a random percentage (currently 1%) of players loaded from the CDN. This allows us to see (roughly) what browsers are in use in the wild, along with other useful metrics such as OS and device. If you&#39;d like to disable analytics, you can simply include the following global <strong>before</strong> including Video.js:</p>
