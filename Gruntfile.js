@@ -1,20 +1,28 @@
 'use strict';
 module.exports = function (grunt) {
+
+    // Set the video.js version
+    var vjsVersion = '5.2.1';
+
     // Project configuration.
     grunt.initConfig({
         shell: {
             generateJSON: {
-                command: 'jsdoc --configure ./conf.json ./video.js/src/js > cumulative.json'
+                command: function(version) {
+                    return 'cd video.js && git checkout v' + version + ' && cd ../ && jsdoc --configure ./conf.json ./video.js/src/js > cumulative.json';
+                }
             },
             cloneVideoJS: {
                 // Once 5.0 is in stable the line below should be use instead
                 // command: 'rm -rf ./video.js && git clone -b stable --single-branch https://github.com/videojs/video.js.git'
-                command: 'rm -rf ./video.js && git clone -b stable --single-branch https://github.com/videojs/video.js.git'
+                command: 'rm -rf ./video.js && git clone https://github.com/videojs/video.js.git'
             },
         },
         concat: {
             dist: {
-                src: ['var-name.txt',
+                src: [
+                    'vjs-version.js',
+                    'var-name.txt',
                     'cumulative.json',
                     'semicolon.txt'
                 ],
@@ -49,7 +57,7 @@ module.exports = function (grunt) {
     grunt.task.registerTask('createFiles', 'Create files into which docs will be injected', function () {
         var classData = [],
             docData = '',
-            contentStr = '<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title></title><script src="//use.edgefonts.net/source-code-pro.js">\n // font for code blocks \n</script><link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css"> <!-- there are many other style for highlighted code here: https://cdnjs.com/libraries/highlight.js --><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/atelier-forest.light.min.css"><link rel="stylesheet" type="text/css" href="css/api-docs.css"></head><body></body></html>',
+            contentStr = '<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title></title><script src="//use.edgefonts.net/source-code-pro.js">\n // font for code blocks \n</script><link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css"> <!-- there are many other style for highlighted code here: https://cdnjs.com/libraries/highlight.js --><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/atelier-forest.light.min.css"><link rel="stylesheet" type="text/css" href="../css/api-docs.css"></head><body></body></html>',
             DOMParser = require('xmldom').DOMParser,
             XMLSerializer = require('xmldom').XMLSerializer,
             doc,
@@ -147,7 +155,7 @@ module.exports = function (grunt) {
                 docContentStr = docContentStr.replace(reGT, '>');
                 docContentStr = docContentStr.replace(reQuot1, '"');
                 docContentStr = docContentStr.replace(reQuot2, '"');
-                fullpath = './docs/api/' + filename;
+                fullpath = './docs/api/' + vjsVersion + '/' + filename;
                 grunt.file.write(fullpath, docContentStr);
             }
             for (i = 0; i < iMax; i++) {
@@ -948,7 +956,7 @@ module.exports = function (grunt) {
                         var highlighter = createEl('script', {src: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js'});
                         addText(highlighter, '\n // syntax highlighter for code samples \n');
                         doc_body.appendChild(highlighter);
-                        highlighter = createEl('script', {src: './js/highlight-syntax.js'});
+                        highlighter = createEl('script', {src: '../js/highlight-syntax.js'});
                         addText(highlighter, '\n // activates syntax highlighting \n');
                         doc_body.appendChild(highlighter);
 
@@ -960,6 +968,7 @@ module.exports = function (grunt) {
         };
     });
     // Default task.
-    grunt.registerTask('no-clone', ['shell:generateJSON', 'copy:fontawesome', 'concat', 'uglify', 'createFiles']);
+    var jsonVJSVersion = 'shell:generateJSON:' + vjsVersion;
+    grunt.registerTask('no-clone', [jsonVJSVersion, 'copy:fontawesome', 'concat', 'uglify', 'createFiles']);
     grunt.registerTask('default', ['shell:cloneVideoJS', 'no-clone']);
 }

@@ -1,4 +1,4 @@
-var BCLSVJS = (function (window, document, docData) {
+var BCLSVJS = (function (window, document, docData, vjsVersion) {
     'use strict';
     var title = document.getElementsByTagName('title')[0],
         // data structures
@@ -222,7 +222,7 @@ var BCLSVJS = (function (window, document, docData) {
                     bclslog('classlists[alphaArr[i]', classlists[alphaArr[i]]);
                     listItem = createEl('li');
                     indexList.appendChild(listItem);
-                    listLink = createEl('a', {href: classlists[alphaArr[i]][j].filename.replace('.js', '.html')});
+                    listLink = createEl('a', {href: vjsVersion + '/' + classlists[alphaArr[i]][j].filename.replace('.js', '.html')});
                     listItem.appendChild(listLink);
                     listText = document.createTextNode(classlists[alphaArr[i]][j].name);
                     listLink.appendChild(listText);
@@ -278,4 +278,4 @@ var BCLSVJS = (function (window, document, docData) {
     return {
 
     };
-})(window, document, docData);
+})(window, document, docData, vjsVersion);
