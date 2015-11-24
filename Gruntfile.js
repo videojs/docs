@@ -66,7 +66,7 @@ module.exports = function (grunt) {
             XMLSerializer = require('xmldom').XMLSerializer,
             doc,
             doc_data = {},
-            docsPath = 'https://github.com/videojs/video.js/blob/master/src/js/',
+            docsPath = 'https://github.com/videojs/video.js/tree/v' + vjsVersion + '/src/js/',
             title,
             // data structures
             classes = {
