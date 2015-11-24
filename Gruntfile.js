@@ -2,7 +2,7 @@
 module.exports = function (grunt) {
 
     // Set the video.js version
-    var vjsVersion = '5.2.1';
+    var vjsVersion = grunt.file.readJSON('package.json').version;
 
     // Project configuration.
     grunt.initConfig({
@@ -17,6 +17,10 @@ module.exports = function (grunt) {
                 // command: 'rm -rf ./video.js && git clone -b stable --single-branch https://github.com/videojs/video.js.git'
                 command: 'rm -rf ./video.js && git clone https://github.com/videojs/video.js.git'
             },
+            gitPull: {
+                // Used if video.js has alredy been cloned and we want the latest code to work with.
+                command: 'cd video.js && git pull origin master'
+            }
         },
         concat: {
             dist: {
@@ -77,6 +81,8 @@ module.exports = function (grunt) {
             main,
             doc_body,
             docContentStr;
+        // Generate vjs-version.js
+        grunt.file.write('./vjs-version.js', 'var vjsVersion = \'' + vjsVersion + '\';');
         //read the JSDoc JSON into a variable
         docData = grunt.file.readJSON('cumulative.json');
         // extract the class items from the doc data
@@ -970,5 +976,6 @@ module.exports = function (grunt) {
     // Default task.
     var jsonVJSVersion = 'shell:generateJSON:' + vjsVersion;
     grunt.registerTask('no-clone', [jsonVJSVersion, 'copy:fontawesome', 'concat', 'uglify', 'createFiles']);
+    grunt.registerTask('git-pull', ['shell:gitPull', 'no-clone']);
     grunt.registerTask('default', ['shell:cloneVideoJS', 'no-clone']);
 }
