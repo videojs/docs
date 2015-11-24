@@ -121,9 +121,9 @@ var BCLSVJS = (function (window, document, docData, vjsVersion) {
         var doc_body = document.getElementsByTagName('body')[0],
             mainContent = createEl('div', {id: 'main'}),
             topSection = createEl('section', {id: 'top', class: 'section'}),
-            mainLink = createEl('a', {href: '//docs.videojs.com/', style: 'float:right;font-weight:bold;margin-top:-3em;background-color:#ECEEF1;padding:2px 4px;'}),
+            mainLink = createEl('a', {href: '/', style: 'float:right;font-weight:bold;margin-top:-3em;background-color:#ECEEF1;padding:2px 4px;'}),
             header = createEl('h1'),
-            text = document.createTextNode('video.js API Documentation Index'),
+            text = document.createTextNode('video.js API Documentation Index: ' + vjsVersion),
             topP,
             topPtext,
             topLink,
@@ -222,7 +222,7 @@ var BCLSVJS = (function (window, document, docData, vjsVersion) {
                     bclslog('classlists[alphaArr[i]', classlists[alphaArr[i]]);
                     listItem = createEl('li');
                     indexList.appendChild(listItem);
-                    listLink = createEl('a', {href: vjsVersion + '/' + classlists[alphaArr[i]][j].filename.replace('.js', '.html')});
+                    listLink = createEl('a', {href: classlists[alphaArr[i]][j].filename.replace('.js', '.html')});
                     listItem.appendChild(listLink);
                     listText = document.createTextNode(classlists[alphaArr[i]][j].name);
                     listLink.appendChild(listText);

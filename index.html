@@ -106,7 +106,7 @@
         <div class="api">
             <h2>API Reference</h2>
             <ul style="list-style: none;">
-                <li><a href="./docs/api/index.html">Videojs API</a></li>
+                <li><a id="api-link" href="#">Videojs API</a></li>
             </ul>
         </div>
         <div class="samples">
@@ -128,7 +128,11 @@
     </script>
 
     <script src="./docs/js/home.js"></script>
-
+    <script type="text/javascript" src="/vjs-version.js"></script>
+    <script type="text/javascript">
+      var apiLink = document.getElementById('api-link');
+      apiLink.href = './docs/api/' + vjsVersion;
+    </script>
 
 </body>
 

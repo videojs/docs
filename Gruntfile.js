@@ -36,7 +36,7 @@ module.exports = function (grunt) {
         uglify: {
             dist: {
                 src: 'doc-data-full.js',
-                dest: './docs/api/js/doc-data.js'
+                dest: './docs/api/' + vjsVersion + '/js/doc-data.js'
             }
         },
         copy: {
@@ -48,6 +48,15 @@ module.exports = function (grunt) {
                 dest: 'docs/fonts',
                 filter: 'isFile',
                 flatten: true
+              }
+            ]
+          },
+          index: {
+            files: [
+              {
+                src: 'docs/api/assets/index.txt',
+                dest: 'docs/api/' + vjsVersion + '/index.html',
+                filter: 'isFile'
               }
             ]
           }
@@ -503,6 +512,9 @@ module.exports = function (grunt) {
                 navHeaderLink = createEl('a', {
                     href: 'index.html'
                 }),
+                navHeaderVersion = createEl('p', {
+                    class: 'version'
+                }),
                 memberIndex = createEl('div', {
                     id: 'memberIndex',
                     class: 'member-index'
@@ -609,7 +621,10 @@ module.exports = function (grunt) {
             addedMembers.Properties = [];
             addedMembers.Events = [];
             navHeader.appendChild(navHeaderLink);
+            navHeader.appendChild(navHeaderVersion);
             addText(navHeaderLink, 'API Index');
+            addText(navHeaderVersion, vjsVersion);
+
             // add parent class members if any
             if (isDefined(doc_data.parentClasses)) {
                 makeList(doc_data.thisClass.properties, doc_data.parentClasses, 'Properties', 'propertiesList');
@@ -975,7 +990,7 @@ module.exports = function (grunt) {
     });
     // Default task.
     var jsonVJSVersion = 'shell:generateJSON:' + vjsVersion;
-    grunt.registerTask('no-clone', [jsonVJSVersion, 'copy:fontawesome', 'concat', 'uglify', 'createFiles']);
+    grunt.registerTask('no-clone', [jsonVJSVersion, 'copy', 'concat', 'uglify', 'createFiles']);
     grunt.registerTask('git-pull', ['shell:gitPull', 'no-clone']);
     grunt.registerTask('default', ['shell:cloneVideoJS', 'no-clone']);
 }
