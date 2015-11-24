@@ -31,3 +31,4 @@ node_modules
 /doc-data-full.js
 /doc-data.js
 /vjs-version.js
+/docs/api/5.*
