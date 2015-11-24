@@ -9,12 +9,11 @@ module.exports = function (grunt) {
         shell: {
             generateJSON: {
                 command: function(version) {
+                    // Generate API docs based on correct git tag.
                     return 'cd video.js && git checkout v' + version + ' && cd ../ && jsdoc --configure ./conf.json ./video.js/src/js > cumulative.json';
                 }
             },
             cloneVideoJS: {
-                // Once 5.0 is in stable the line below should be use instead
-                // command: 'rm -rf ./video.js && git clone -b stable --single-branch https://github.com/videojs/video.js.git'
                 command: 'rm -rf ./video.js && git clone https://github.com/videojs/video.js.git'
             },
             gitPull: {
