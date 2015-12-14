@@ -2,6 +2,7 @@ var BCLS = ( function () {
     var heading = document.getElementsByTagName('h1')[0],
         title = document.getElementsByTagName('title')[0],
         sections = document.getElementsByTagName('h2'),
+        links = document.getElementsByTagName('a'),
         sidenav = document.getElementById('sidenav'),
         navList,
         navA,
@@ -21,7 +22,7 @@ var BCLS = ( function () {
             return false;
         }
         return true;
-    };
+    }
 
     function buildSideNav() {
         if (isDefined(sections)) {
@@ -56,32 +57,66 @@ var BCLS = ( function () {
         }
     }
 
+    /**
+     * fix link paths to point to html instead of md
+     */
+    function fixLinks() {
+        var i,
+            iMax = links.length,
+            link,
+            url;
+        for (i = 0; i < iMax; i += 1) {
+            link = links[i];
+            url = link.getAttribute('href');
+            if (isDefined(url)) {
+                // if CONTRIBUTING.md, don't change
+                if (url.indexOf('CONTRIBUTING.md' === -1)) {
+                    url.replace('.md', '.html');
+                    link.setAttribute('href', url);
+                }
+            }
+        }
+    }
+
+    /**
+     * set the doc title
+     */
     function setTitle() {
         title.textContent = 'Videojs ' + heading.textContent;
     }
 
+    /**
+     * add the page footer
+     */
     function addFooter() {
         var path = document.location.pathname,
             footer = document.createElement('div'),
             srcLink = document.createElement('a'),
+            srcLink2 = document.createElement('a'),
             main = document.getElementById('main'),
-            srcPath;
+            srcPath,
+            srcPath2;
         // extract file name
         if (path.indexOf('#') > 0) {
             path = path.substring(0, path.indexOf('#'));
         }
         path = path.substring(path.lastIndexOf('/') + 1);
-        srcPath = 'https://github.com/videojs/docs/blob/gh-pages/docs/guides/' + path;
+        srcPath = 'https://github.com/videojs/video.js/blob/master/docs/guides/' + path;
+        srcPath2 = 'https://github.com/videojs/docs';
         footer.setAttribute('class', 'footer');
         srcLink.setAttribute('href', srcPath);
-        srcLink.appendChild(document.createTextNode('source'));
-        footer.innerHTML = 'Want to add or fix something? Go to the ';
+        srcLink.appendChild(document.createTextNode('content source'));
+        srcLink2.setAttribute('href', srcPath2);
+        srcLink2.appendChild(document.createTextNode('doc generator'));
+        footer.innerHTML = 'Want to contribute? Go to the ';
         footer.appendChild(srcLink);
-        footer.innerHTML += ', fork it, work it, submit a pull request.';
+        footer.innerHTML += ' or the ';
+        footer.appendChild(srcLink2);
         main.appendChild(footer);
     }
 
     setTitle();
     buildSideNav();
+    fixLinks();
     addFooter();
 })();
