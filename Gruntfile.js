@@ -22,10 +22,11 @@ module.exports = function (grunt) {
             },
             examples: {
                 expand: true,
-                src: ['video.js/docs/examples/**'],
+                cwd: 'video.js/docs/examples/',
+                src: '**',
                 dest: 'docs/examples/',
                 filter: 'isFile',
-                flatten: true
+                flatten: false
             },
             fontawesome: {
               files: [
@@ -46,7 +47,7 @@ module.exports = function (grunt) {
                         expand: true,
                         src: 'docs/guides/*.md',
                         dest: './',
-                        ext: '.md'
+                        ext: '.html'
                     }
                 ],
                 options: {

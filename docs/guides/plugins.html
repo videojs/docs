@@ -24,7 +24,7 @@
     console.log(&#39;playback has started!&#39;);
   });
 };
-</code></pre><p>When it&#39;s activated, <code>this</code> will be the Video.js player your plugin is attached to. You can use anything you&#39;d like in the <a href="api.html">Video.js API</a> when you&#39;re writing a plugin: change the <code>src</code>, mess up the DOM, or listen for and emit your own events.</p>
+</code></pre><p>When it&#39;s activated, <code>this</code> will be the Video.js player your plugin is attached to. You can use anything you&#39;d like in the <a href="api.md">Video.js API</a> when you&#39;re writing a plugin: change the <code>src</code>, mess up the DOM, or listen for and emit your own events.</p>
 <h2 id="step-2-registering-a-plugin">Step 2: Registering A Plugin</h2>
 <p>It&#39;s time to give the rest of the world the opportunity to be awed by your genius. When your plugin is loaded, it needs to let Video.js know this amazing new functionality is now available:</p>
 <pre><code>videojs.plugin(&#39;examplePlugin&#39;, examplePlugin);
