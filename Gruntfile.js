@@ -21,6 +21,64 @@ module.exports = function (grunt) {
                 command: 'cd video.js && git pull origin master'
             }
         },
+        copy: {
+            guides: {
+                expand: true,
+                src: ['video.js/docs/guides/*'],
+                dest: 'docs/guides/',
+                filter: 'isFile',
+                flatten: true
+            },
+            examples: {
+                expand: true,
+                cwd: 'video.js/docs/examples/',
+                src: '**',
+                dest: 'docs/examples/',
+                filter: 'isFile',
+                flatten: false
+            },
+            fontawesome: {
+              files: [
+                {
+                  expand: true,
+                  src: ['node_modules/font-awesome/fonts/*'],
+                  dest: 'docs/fonts',
+                  filter: 'isFile',
+                  flatten: true
+                }
+              ]
+            },
+            index: {
+              files: [
+                {
+                  src: 'docs/api/assets/index.txt',
+                  dest: 'docs/api/' + vjsVersion + '/index.html',
+                  filter: 'isFile'
+                }
+              ]
+            }
+        },
+        markdown: {
+            all: {
+                files: [
+                    {
+                        expand: true,
+                        src: 'docs/guides/*.md',
+                        dest: './',
+                        ext: '.html'
+                    }
+                ],
+                options: {
+                    template: 'templates/guide-template.html',
+                    markdownOptions: {
+                        gfm: true
+                    }
+                }
+            }
+        },
+        clean: [
+            'docs/guides/*.md'
+        ],
         concat: {
             dist: {
                 src: [
@@ -37,35 +95,15 @@ module.exports = function (grunt) {
                 src: 'doc-data-full.js',
                 dest: './docs/api/' + vjsVersion + '/js/doc-data.js'
             }
-        },
-        copy: {
-          fontawesome: {
-            files: [
-              {
-                expand: true,
-                src: ['node_modules/font-awesome/fonts/*'],
-                dest: 'docs/fonts',
-                filter: 'isFile',
-                flatten: true
-              }
-            ]
-          },
-          index: {
-            files: [
-              {
-                src: 'docs/api/assets/index.txt',
-                dest: 'docs/api/' + vjsVersion + '/index.html',
-                filter: 'isFile'
-              }
-            ]
-          }
         }
     });
     // These plugins provide necessary tasks.
     grunt.loadNpmTasks('grunt-shell');
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-markdown');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.task.registerTask('createFiles', 'Create files into which docs will be injected', function () {
         var classData = [],
             docData = '',
@@ -97,6 +135,7 @@ module.exports = function (grunt) {
         classData = getSubArray(docData, 'kind', 'class');
         // now create the array of filenames
         createFilenameArray(classData);
+
         /**
          * get a subset of objects in array of objects
          * based on some property value
@@ -159,8 +198,6 @@ module.exports = function (grunt) {
             }
 
             function writeFile() {
-
-
                 // create file with name=filename and contents=contentStr
                 docContentStr = new XMLSerializer().serializeToString(doc);
                 // convert html character codes to brackets
@@ -201,6 +238,7 @@ module.exports = function (grunt) {
             // now create the files
             createFiles(filenameArray);
         }
+
         /**
          * tests for all the ways a variable might be undefined or not have a value
          *
@@ -212,7 +250,8 @@ module.exports = function (grunt) {
                 return false;
             }
             return true;
-        };
+        }
+
         /**
          * determines whether specified item is in an array
          *
@@ -229,7 +268,8 @@ module.exports = function (grunt) {
                 }
             }
             return false;
-        };
+        }
+
         /**
          * get a copy of (rather than reference to) an object
          *
@@ -241,7 +281,8 @@ module.exports = function (grunt) {
                 return JSON.parse(JSON.stringify(obj));
             }
             return null;
-        };
+        }
+
         /**
          * find index of an object in array of objects
          * based on some property value
@@ -264,7 +305,8 @@ module.exports = function (grunt) {
             if (objFound === false) {
                 return -1;
             }
-        };
+        }
+
         /**
          * find indexes of a set of object in array of objects
          * based on some property value
@@ -284,26 +326,8 @@ module.exports = function (grunt) {
                 }
             }
             return newArr;
-        };
-        /**
-         * get a subset of objects in array of objects
-         * based on some property value
-         *
-         * @param {array} targetArray - array to search
-         * @param {string} objProperty - object property to search
-         * @param {string|number} value - value of the property to search for
-         * @return {array} array of objects with matching property value
-         */
-        function getSubArray(targetArray, objProperty, value) {
-            var i, totalItems = targetArray.length,
-                idxArr = [];
-            for (i = 0; i < totalItems; i++) {
-                if (targetArray[i][objProperty] === value) {
-                    idxArr.push(targetArray[i]);
-                }
-            }
-            return idxArr;
-        };
+        }
+
         /**
          * sort an array of objects based on an object property
          *
@@ -324,7 +348,8 @@ module.exports = function (grunt) {
                 return 0;
             });
             return targetArray;
-        };
+        }
+
         /**
          * create an element
          *
@@ -344,7 +369,7 @@ module.exports = function (grunt) {
                 }
                 return el;
             }
-        };
+        }
         /**
          * creates a text node and adds it to an element
          * @param {object|node} el - the node (element) to add the text to
@@ -353,7 +378,7 @@ module.exports = function (grunt) {
         function addText(el, str) {
             var text = doc.createTextNode(str);
             el.appendChild(text);
-        };
+        }
         /**
          * finds the objects in the doc data for a fileName
          *
@@ -372,7 +397,7 @@ module.exports = function (grunt) {
                 }
             }
             return newArr;
-        };
+        }
         /**
          * add the class header content
          */
@@ -496,7 +521,7 @@ module.exports = function (grunt) {
             constructorCode.appendChild(text);
             addText(description, headerData.description);
             callback();
-        };
+        }
         /**
          * add the side nav
          */
@@ -638,7 +663,7 @@ module.exports = function (grunt) {
             section.appendChild(memberIndex);
             doc_body.appendChild(section);
             callback();
-        };
+        }
         /**
          * add the member content
          * @param {function} callback - function to call when done
@@ -830,7 +855,7 @@ module.exports = function (grunt) {
                 }
             }
             callback();
-        };
+        }
         /**
          * gets things going
          * @param {string} docFileName - name of the HTML doc we're building
@@ -894,7 +919,7 @@ module.exports = function (grunt) {
                 class: 'section'
             });
             // src file is the js file of the same name
-            srcFileName = docFileName.replace('.html', '.js')
+            srcFileName = docFileName.replace('.html', '.js');
             // video.js is a special case - all others will be the same
             if (srcFileName === 'video.js') {
                 // for doc purposes, treat video like a class, though it's not
@@ -985,11 +1010,11 @@ module.exports = function (grunt) {
                     });
                 });
             });
-        };
+        }
     });
     // Default task.
     var jsonVJSVersion = 'shell:generateJSON:' + vjsVersion;
-    grunt.registerTask('no-clone', [jsonVJSVersion, 'copy', 'concat', 'uglify', 'createFiles']);
+    grunt.registerTask('no-clone', [jsonVJSVersion, 'copy:guides', 'copy:examples', 'copy:fontawesome', 'copy:index', 'markdown', 'clean', 'concat', 'uglify', 'createFiles']);
     grunt.registerTask('git-pull', ['shell:gitPull', 'no-clone']);
     grunt.registerTask('default', ['shell:cloneVideoJS', 'no-clone']);
-}
+};
