@@ -1,16 +1,25 @@
 'use strict';
 module.exports = function (grunt) {
+
+    // Set the video.js version
+    var vjsVersion = grunt.file.readJSON('package.json').version;
+
     // Project configuration.
     grunt.initConfig({
         shell: {
             generateJSON: {
-                command: 'jsdoc --configure ./conf.json ./video.js/src/js > cumulative.json'
+                command: function(version) {
+                    // Generate API docs based on correct git tag.
+                    return 'cd video.js && git checkout v' + version + ' && cd ../ && jsdoc --configure ./conf.json ./video.js/src/js > cumulative.json';
+                }
             },
             cloneVideoJS: {
-                // Once 5.0 is in stable the line below should be use instead
-                // command: 'rm -rf ./video.js && git clone -b stable --single-branch https://github.com/videojs/video.js.git'
-                command: 'rm -rf ./video.js && git clone -b stable --single-branch https://github.com/videojs/video.js.git'
+                command: 'rm -rf ./video.js && git clone https://github.com/videojs/video.js.git'
             },
+            gitPull: {
+                // Used if video.js has alredy been cloned and we want the latest code to work with.
+                command: 'cd video.js && git pull origin master'
+            }
         },
         copy: {
             guides: {
@@ -38,6 +47,15 @@ module.exports = function (grunt) {
                   flatten: true
                 }
               ]
+            },
+            index: {
+              files: [
+                {
+                  src: 'docs/api/assets/index.txt',
+                  dest: 'docs/api/' + vjsVersion + '/index.html',
+                  filter: 'isFile'
+                }
+              ]
             }
         },
         markdown: {
@@ -63,7 +81,9 @@ module.exports = function (grunt) {
         ],
         concat: {
             dist: {
-                src: ['var-name.txt',
+                src: [
+                    'vjs-version.js',
+                    'var-name.txt',
                     'cumulative.json',
                     'semicolon.txt'
                 ],
@@ -73,7 +93,7 @@ module.exports = function (grunt) {
         uglify: {
             dist: {
                 src: 'doc-data-full.js',
-                dest: './docs/api/js/doc-data.js'
+                dest: './docs/api/' + vjsVersion + '/js/doc-data.js'
             }
         }
     });
@@ -87,12 +107,12 @@ module.exports = function (grunt) {
     grunt.task.registerTask('createFiles', 'Create files into which docs will be injected', function () {
         var classData = [],
             docData = '',
-            contentStr = '<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title></title><script src="//use.edgefonts.net/source-code-pro.js">\n // font for code blocks \n</script><link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css"> <!-- there are many other style for highlighted code here: https://cdnjs.com/libraries/highlight.js --><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/atelier-forest.light.min.css"><link rel="stylesheet" type="text/css" href="css/api-docs.css"></head><body></body></html>',
+            contentStr = '<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title></title><script src="//use.edgefonts.net/source-code-pro.js">\n // font for code blocks \n</script><link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css"> <!-- there are many other style for highlighted code here: https://cdnjs.com/libraries/highlight.js --><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/atelier-forest.light.min.css"><link rel="stylesheet" type="text/css" href="../css/api-docs.css"></head><body></body></html>',
             DOMParser = require('xmldom').DOMParser,
             XMLSerializer = require('xmldom').XMLSerializer,
             doc,
             doc_data = {},
-            docsPath = 'https://github.com/videojs/video.js/blob/master/src/js/',
+            docsPath = 'https://github.com/videojs/video.js/tree/v' + vjsVersion + '/src/js/',
             title,
             // data structures
             classes = {
@@ -107,6 +127,8 @@ module.exports = function (grunt) {
             main,
             doc_body,
             docContentStr;
+        // Generate vjs-version.js
+        grunt.file.write('./vjs-version.js', 'var vjsVersion = \'' + vjsVersion + '\';');
         //read the JSDoc JSON into a variable
         docData = grunt.file.readJSON('cumulative.json');
         // extract the class items from the doc data
@@ -184,7 +206,7 @@ module.exports = function (grunt) {
                 docContentStr = docContentStr.replace(reGT, '>');
                 docContentStr = docContentStr.replace(reQuot1, '"');
                 docContentStr = docContentStr.replace(reQuot2, '"');
-                fullpath = './docs/api/' + filename;
+                fullpath = './docs/api/' + vjsVersion + '/' + filename;
                 grunt.file.write(fullpath, docContentStr);
             }
             for (i = 0; i < iMax; i++) {
@@ -514,6 +536,9 @@ module.exports = function (grunt) {
                 navHeaderLink = createEl('a', {
                     href: 'index.html'
                 }),
+                navHeaderVersion = createEl('p', {
+                    class: 'version'
+                }),
                 memberIndex = createEl('div', {
                     id: 'memberIndex',
                     class: 'member-index'
@@ -620,7 +645,10 @@ module.exports = function (grunt) {
             addedMembers.Properties = [];
             addedMembers.Events = [];
             navHeader.appendChild(navHeaderLink);
+            navHeader.appendChild(navHeaderVersion);
             addText(navHeaderLink, 'API Index');
+            addText(navHeaderVersion, vjsVersion);
+
             // add parent class members if any
             if (isDefined(doc_data.parentClasses)) {
                 makeList(doc_data.thisClass.properties, doc_data.parentClasses, 'Properties', 'propertiesList');
@@ -973,7 +1001,7 @@ module.exports = function (grunt) {
                         var highlighter = createEl('script', {src: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js'});
                         addText(highlighter, '\n // syntax highlighter for code samples \n');
                         doc_body.appendChild(highlighter);
-                        highlighter = createEl('script', {src: './js/highlight-syntax.js'});
+                        highlighter = createEl('script', {src: '../js/highlight-syntax.js'});
                         addText(highlighter, '\n // activates syntax highlighting \n');
                         doc_body.appendChild(highlighter);
 
@@ -985,6 +1013,8 @@ module.exports = function (grunt) {
         }
     });
     // Default task.
-    grunt.registerTask('no-clone', ['shell:generateJSON', 'copy:guides', 'copy:examples', 'copy:fontawesome', 'markdown', 'clean', 'concat', 'uglify', 'createFiles']);
+    var jsonVJSVersion = 'shell:generateJSON:' + vjsVersion;
+    grunt.registerTask('no-clone', [jsonVJSVersion, 'copy:guides', 'copy:examples', 'copy:fontawesome', 'copy:index', 'markdown', 'clean', 'concat', 'uglify', 'createFiles']);
+    grunt.registerTask('git-pull', ['shell:gitPull', 'no-clone']);
     grunt.registerTask('default', ['shell:cloneVideoJS', 'no-clone']);
 };

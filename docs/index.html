@@ -39,10 +39,13 @@
     </div>
     <div class="api">
         <h2>API Reference</h2>
-        <p><a href="./api/index.html">Videojs API</a></p>
+        <p><a id="api-link" href="#">Videojs API</a></p>
     </div>
-
-
+    <script type="text/javascript" src="../vjs-version.js"></script>
+    <script type="text/javascript">
+      var apiLink = document.getElementById("api-link");
+      apiLink.href = './api/' + vjsVersion;
+    </script>
 </body>
 
 </html>

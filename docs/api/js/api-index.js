@@ -1,4 +1,4 @@
-var BCLSVJS = (function (window, document, docData) {
+var BCLSVJS = (function (window, document, docData, vjsVersion) {
     'use strict';
     var title = document.getElementsByTagName('title')[0],
         // data structures
@@ -121,9 +121,9 @@ var BCLSVJS = (function (window, document, docData) {
         var doc_body = document.getElementsByTagName('body')[0],
             mainContent = createEl('div', {id: 'main'}),
             topSection = createEl('section', {id: 'top', class: 'section'}),
-            mainLink = createEl('a', {href: '//docs.videojs.com/', style: 'float:right;font-weight:bold;margin-top:-3em;background-color:#ECEEF1;padding:2px 4px;'}),
+            mainLink = createEl('a', {href: '/', style: 'float:right;font-weight:bold;margin-top:-3em;background-color:#ECEEF1;padding:2px 4px;'}),
             header = createEl('h1'),
-            text = document.createTextNode('video.js API Documentation Index'),
+            text = document.createTextNode('video.js API Documentation Index: ' + vjsVersion),
             topP,
             topPtext,
             topLink,
@@ -278,4 +278,4 @@ var BCLSVJS = (function (window, document, docData) {
     return {
 
     };
-})(window, document, docData);
+})(window, document, docData, vjsVersion);
