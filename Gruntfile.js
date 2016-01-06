@@ -92,7 +92,8 @@ module.exports = function (grunt) {
             XMLSerializer = require('xmldom').XMLSerializer,
             doc,
             doc_data = {},
-            docsPath = 'https://github.com/videojs/video.js/blob/master/src/js/',
+            docsPathStem = 'https://github.com/videojs/video.js/blob/master/src',
+            docsFolder,
             title,
             // data structures
             classes = {
@@ -212,7 +213,6 @@ module.exports = function (grunt) {
             // videojs is special case
             filenameArray.push('video.html');
             filenameArray = filenameArray.sort();
-            console.log('filenameArray', filenameArray);
             // now create the files
             createFiles(filenameArray);
         }
@@ -390,7 +390,7 @@ module.exports = function (grunt) {
                 extendsLink,
                 definedIn = createEl('p'),
                 definedInLink = createEl('a', {
-                    href: docsPath + classFilePath + '#L' + headerData.meta.lineno
+                    href: docsPathStem + '/js/' + classFilePath + '#L' + headerData.meta.lineno
                 }),
                 description = createEl('div', {
                     style: 'border:none',
@@ -711,7 +711,7 @@ module.exports = function (grunt) {
                                 class: 'vjs-only'
                             });
                             itemFooterLink = createEl('a', {
-                                href: docsPath + item.meta.filename + '#L' + item.meta.lineno
+                                href: docsPathStem + docsFolder + item.meta.filename + '#L' + item.meta.lineno
                             });
                             itemFooterContent = createEl('em', {
                                 id: item.name + 'Footer'
@@ -793,7 +793,7 @@ module.exports = function (grunt) {
                             addText(itemDescription, item.description);
                             addText(itemFooterContent, 'Defined in ');
                             itemFooterContent.appendChild(itemFooterLink);
-                            addText(itemFooterLink, 'src/js/' + item.meta.filename + ' line number: ' + item.meta.lineno);
+                            addText(itemFooterLink, docsFolder + item.meta.filename + ' line number: ' + item.meta.lineno);
                         }
                     }
                 };
@@ -882,7 +882,7 @@ module.exports = function (grunt) {
                         getAncestorData(parent_class_name);
                     }
                 };
-            // get refenence to doc body and title
+            // get reference to doc body and title
             doc_body = doc.getElementsByTagName('body')[0];
             title = doc.getElementsByTagName('title')[0];
             // content wrapper
@@ -908,6 +908,8 @@ module.exports = function (grunt) {
                 } else {
                     classFilePath = doc_data.thisClass.headerInfo.meta.filename;
                 }
+                // get docsFolder to complete path for links to src
+                docsFolder = classes.thisClass[idx].meta.path.substr(doc_data.thisClass.headerInfo.meta.path.lastIndexOf('/js')) + '/';
                 // set the doc title
                 text = doc.createTextNode(doc_data.thisClass.headerInfo.name);
                 title.appendChild(text);
@@ -938,6 +940,8 @@ module.exports = function (grunt) {
                 } else {
                     classFilePath = doc_data.thisClass.headerInfo.meta.filename;
                 }
+                // get docsFolder to complete path for links to src
+                docsFolder = doc_data.thisClass.headerInfo.meta.path.substr(doc_data.thisClass.headerInfo.meta.path.lastIndexOf('/js')) + '/';
                 // set the doc title
                 text = doc.createTextNode(doc_data.thisClass.headerInfo.name);
                 title.appendChild(text);
