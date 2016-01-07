@@ -711,7 +711,7 @@ module.exports = function (grunt) {
                                 class: 'vjs-only'
                             });
                             itemFooterLink = createEl('a', {
-                                href: docsPathStem + docsFolder + item.meta.filename + '#L' + item.meta.lineno
+                                href: docsPathStem + item.meta.path.substr(item.meta.path.lastIndexOf('/js')) + '/' + item.meta.filename + '#L' + item.meta.lineno
                             });
                             itemFooterContent = createEl('em', {
                                 id: item.name + 'Footer'
@@ -793,7 +793,7 @@ module.exports = function (grunt) {
                             addText(itemDescription, item.description);
                             addText(itemFooterContent, 'Defined in ');
                             itemFooterContent.appendChild(itemFooterLink);
-                            addText(itemFooterLink, docsFolder + item.meta.filename + ' line number: ' + item.meta.lineno);
+                            addText(itemFooterLink, docsPathStem + item.meta.path.substr(item.meta.path.lastIndexOf('/js')) + '/' + item.meta.filename + ' line number: ' + item.meta.lineno);
                         }
                     }
                 };
