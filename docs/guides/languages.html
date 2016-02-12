@@ -90,12 +90,12 @@
 <ol>
 <li>During a Video.js player instantiation. Adding the languages to the configuration object provided in the <code>data-setup</code> attribute.</li>
 </ol>
-<pre><code class="lang-html">&lt;video id=&quot;example_video_1&quot; class=&quot;video-js vjs-default-skin&quot;  
-  controls preload=&quot;auto&quot; width=&quot;640&quot; height=&quot;264&quot;  
-  data-setup=&#39;{&quot;languages&quot;:{&quot;es&quot;:{&quot;Play&quot;:&quot;Juego&quot;}}}&#39;&gt;  
- &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.mp4&quot; type=&#39;video/mp4&#39; /&gt;  
- &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.webm&quot; type=&#39;video/webm&#39; /&gt;  
- &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.ogv&quot; type=&#39;video/ogg&#39; /&gt;  
+<pre><code class="lang-html">&lt;video id=&quot;example_video_1&quot; class=&quot;video-js vjs-default-skin&quot;
+  controls preload=&quot;auto&quot; width=&quot;640&quot; height=&quot;264&quot;
+  data-setup=&#39;{&quot;languages&quot;:{&quot;es&quot;:{&quot;Play&quot;:&quot;Juego&quot;}}}&#39;&gt;
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.mp4&quot; type=&#39;video/mp4&#39; /&gt;
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.webm&quot; type=&#39;video/webm&#39; /&gt;
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.ogv&quot; type=&#39;video/ogg&#39; /&gt;
 
  &lt;track kind=&quot;captions&quot; src=&quot;http://example.com/path/to/captions.vtt&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;
 
@@ -107,12 +107,12 @@
 </ul>
 <h2 id="setting-default-language-in-a-video-js-player">Setting Default Language in a Video.js Player</h2>
 <p>During a Video.js player instantiation you can force it to localize to a specific language by including the locale value into the configuration object via the <code>data-setup</code> attribute. Valid options listed at the bottom of the page for reference.</p>
-<pre><code class="lang-html">&lt;video id=&quot;example_video_1&quot; class=&quot;video-js vjs-default-skin&quot;  
-  controls preload=&quot;auto&quot; width=&quot;640&quot; height=&quot;264&quot;  
-  data-setup=&#39;{&quot;language&quot;:&quot;es&quot;}&#39;&gt;  
- &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.mp4&quot; type=&#39;video/mp4&#39; /&gt;  
- &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.webm&quot; type=&#39;video/webm&#39; /&gt;  
- &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.ogv&quot; type=&#39;video/ogg&#39; /&gt;  
+<pre><code class="lang-html">&lt;video id=&quot;example_video_1&quot; class=&quot;video-js vjs-default-skin&quot;
+  controls preload=&quot;auto&quot; width=&quot;640&quot; height=&quot;264&quot;
+  data-setup=&#39;{&quot;language&quot;:&quot;es&quot;}&#39;&gt;
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.mp4&quot; type=&#39;video/mp4&#39; /&gt;
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.webm&quot; type=&#39;video/webm&#39; /&gt;
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.ogv&quot; type=&#39;video/ogg&#39; /&gt;
 
  &lt;track kind=&quot;captions&quot; src=&quot;http://example.com/path/to/captions.vtt&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;
 
@@ -134,11 +134,11 @@
 </ul>
 <h2 id="localization-in-plugins">Localization in Plugins</h2>
 <p>When you&#39;re developing a plugin, you can also introduce new localized strings. Simply wrap the string with the player&#39;s <code>localize</code> function:</p>
-<pre><code class="lang-javascript">var details = &#39;&lt;div class=&quot;vjs-errors-details&quot;&gt;&#39; + player.localize(&#39;Technical details&#39;) + &#39;&lt;/div&gt;&#39;;
+<pre><code class="lang-js">var details = &#39;&lt;div class=&quot;vjs-errors-details&quot;&gt;&#39; + player.localize(&#39;Technical details&#39;) + &#39;&lt;/div&gt;&#39;;
 </code></pre>
 <h2 id="language-codes">Language Codes</h2>
 <p>The following is a list of official language codes.</p>
-<p><strong>NOTE:</strong> For supported language translations, please see the <a href="../../lang">Languages Folder (/lang)</a> folder located in the project root.</p>
+<p><strong>NOTE:</strong> For supported language translations, please see the <a href="https://github.com/videojs/video.js/tree/master/lang">Languages Folder (/lang)</a> folder located in the project root.</p>
 <table border="0" cellspacing="5" cellpadding="5">
   <tr>
     <td>

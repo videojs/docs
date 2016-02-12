@@ -19,7 +19,7 @@
 <p>(If the player hasn&#39;t been initialized yet via the data-setup attribute or another method, this will also initialize the player.)</p>
 <h2 id="wait-until-the-player-is-ready">Wait Until the Player is Ready</h2>
 <p>The time it takes Video.js to set up the video and API will vary depending on the playback technology being used (HTML5 will often be much faster to load than Flash). For that reason we want to use the player&#39;s &#39;ready&#39; function to trigger any code that requires the player&#39;s API.</p>
-<pre><code class="lang-javascript">videojs(&quot;example_video_1&quot;).ready(function(){
+<pre><code class="lang-js">videojs(&quot;example_video_1&quot;).ready(function(){
   var myPlayer = this;
 
   // EXAMPLE: Start playing the video.

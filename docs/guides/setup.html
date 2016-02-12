@@ -17,9 +17,10 @@
 <pre><code class="lang-html">&lt;script src=&quot;//vjs.zencdn.net/ie8/1.1.1/videojs-ie8.min.js&quot;&gt;&lt;/script&gt;
 </code></pre>
 <h3 id="cdn-version">CDN Version</h3>
-<pre><code class="lang-html">&lt;link href=&quot;//vjs.zencdn.net/4.12/video-js.min.css&quot; rel=&quot;stylesheet&quot;&gt;
-&lt;script src=&quot;//vjs.zencdn.net/4.12/video.min.js&quot;&gt;&lt;/script&gt;
+<pre><code class="lang-html">&lt;link href=&quot;//vjs.zencdn.net/5.4.6/video-js.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;script src=&quot;//vjs.zencdn.net/5.4.6/video.min.js&quot;&gt;&lt;/script&gt;
 </code></pre>
+<p>Alternatively you can always <a href="http://videojs.com/getting-started/">go here</a> to get the latest URL for videojs CDN.</p>
 <p>We include a stripped down Google Analytics pixel that tracks a random percentage (currently 1%) of players loaded from the CDN. This allows us to see (roughly) what browsers are in use in the wild, along with other useful metrics such as OS and device. If you&#39;d like to disable analytics, you can simply include the following global <strong>before</strong> including Video.js:</p>
 <pre><code class="lang-js">window.HELP_IMPROVE_VIDEOJS = false;
 </code></pre>
@@ -43,7 +44,7 @@ should Just Work™, but the paths can easily be changed by editing the LESS fil
 <p>Note: The <code>data-setup</code> attribute described here should not be used if you use the alternative setup described in the next section.</p>
 </blockquote>
 <ol>
-<li><p>The &#39;data-setup&#39; Attribute tells Video.js to automatically set up the video when the page is ready, and read any options (in JSON format) from the attribute (see <a href="options.md">options</a>). There are other methods for initializing the player, but this is the easiest.</p>
+<li><p>The &#39;data-setup&#39; Attribute tells Video.js to automatically set up the video when the page is ready, and read any options (in JSON format) from the attribute (see <a href="./options.html">options</a>). There are other methods for initializing the player, but this is the easiest.</p>
 </li>
 <li><p>The &#39;id&#39; Attribute: Should be used and unique for every video on the same page.</p>
 </li>
@@ -59,9 +60,9 @@ should Just Work™, but the paths can easily be changed by editing the LESS fil
   controls preload=&quot;auto&quot; width=&quot;640&quot; height=&quot;264&quot;
   poster=&quot;http://video-js.zencoder.com/oceans-clip.png&quot;
   data-setup=&#39;{&quot;example_option&quot;:true}&#39;&gt;
- &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.mp4&quot; type=&#39;video/mp4&#39; /&gt;
- &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.webm&quot; type=&#39;video/webm&#39; /&gt;
- &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.ogv&quot; type=&#39;video/ogg&#39; /&gt;
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.webm&quot; type=&quot;video/webm&quot; /&gt;
+ &lt;source src=&quot;http://video-js.zencoder.com/oceans-clip.ogv&quot; type=&quot;video/ogg&quot; /&gt;
  &lt;p class=&quot;vjs-no-js&quot;&gt;To view this video please enable JavaScript, and consider upgrading to a web browser that &lt;a href=&quot;http://videojs.com/html5-video-support/&quot; target=&quot;_blank&quot;&gt;supports HTML5 video&lt;/a&gt;&lt;/p&gt;
 &lt;/video&gt;
 </code></pre>
