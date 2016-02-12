@@ -51,6 +51,9 @@ module.exports = function (grunt) {
                     }
                 ],
                 options: {
+                    preCompile: function(src, context) {
+                        return src.replace(/\.\/(.*)\.md/g, "./$1.html");
+                    },
                     template: 'templates/guide-template.html',
                     markdownOptions: {
                         gfm: true
