@@ -31,8 +31,9 @@
 <pre><code>$ bower install --save video.js
 </code></pre><h3 id="self-hosted-">Self Hosted.</h3>
 <p>To entirely self-host, you&#39;ll need to pull in the font files and let Video.js know where the swf is located. If you simply copy the dist folder or zip file contents into your project everything
-should Just Work™, but the paths can easily be changed by editing the LESS file and re-building, or by modifying the generated CSS file.</p>
+should Just Work™, but the paths can easily be changed by editing the LESS file and re-building, or by modifying the generated CSS file. Additionally include the <a href="https://www.npmjs.com/package/videojs-vtt.js">videojs-vtt.js</a> source, which adds the <code>WebVTT</code> object to the global scope.</p>
 <pre><code class="lang-html">&lt;link href=&quot;//example.com/path/to/video-js.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;script src=&quot;//example.com/path/to/videojs-vtt.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;//example.com/path/to/video.min.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
   videojs.options.flash.swf = &quot;http://example.com/path/to/video-js.swf&quot;
