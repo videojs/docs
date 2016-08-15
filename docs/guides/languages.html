@@ -36,6 +36,7 @@
   &quot;Captions&quot;: &quot;Subtítulos especiales&quot;,
   &quot;captions off&quot;: &quot;Subtítulos especiales desactivados&quot;,
   &quot;Chapters&quot;: &quot;Capítulos&quot;,
+  &quot;Close Modal Dialog&quot;: &quot;Cerca de diálogo modal&quot;,
   &quot;You aborted the video playback&quot;: &quot;Ha interrumpido la reproducción del vídeo.&quot;,
   &quot;A network error caused the video download to fail part-way.&quot;: &quot;Un error de red ha interrumpido la descarga del vídeo.&quot;,
   &quot;The video could not be loaded, either because the server or network failed or because the format is not supported.&quot;: &quot;No se ha podido cargar el vídeo debido a un fallo de red o del servidor o porque el formato es incompatible.&quot;,
@@ -80,6 +81,7 @@
     &quot;Captions&quot;: &quot;Subtítulos especiales&quot;,
     &quot;captions off&quot;: &quot;Subtítulos especiales desactivados&quot;,
     &quot;Chapters&quot;: &quot;Capítulos&quot;,
+    &quot;Close Modal Dialog&quot;: &quot;Cerca de diálogo modal&quot;,
     &quot;You aborted the video playback&quot;: &quot;Ha interrumpido la reproducción del vídeo.&quot;,
     &quot;A network error caused the video download to fail part-way.&quot;: &quot;Un error de red ha interrumpido la descarga del vídeo.&quot;,
     &quot;The video could not be loaded, either because the server or network failed or because the format is not supported.&quot;: &quot;No se ha podido cargar el vídeo debido a un fallo de red o del servidor o porque el formato es incompatible.&quot;,
@@ -121,14 +123,14 @@
 &lt;/video&gt;
 </code></pre>
 <h2 id="determining-player-language">Determining Player Language</h2>
-<p>The player language is set to one of the following in descending priority</p>
+<p>The player language is set to one of the following in descending priority:</p>
 <ul>
-<li>The language set in setup options as above</li>
-<li>The document language (<code>lang</code> attribute of the <code>html</code> element)</li>
-<li>Browser language preference</li>
+<li>The language specified in setup options as above</li>
+<li>The language specified by the closet element with a <code>lang</code> attribute. This could be the player itself or a parent element. Usually the document language is specified on the <code>html</code> tag.</li>
+<li>Browser language preference (the first language if more than one is configured)</li>
 <li>&#39;en&#39;</li>
 </ul>
-<p>That can be overridden after instantiation with <code>language(&#39;fr&#39;)</code>.</p>
+<p>The player language can be change after instantiation with <code>language(&#39;fr&#39;)</code>. However localizable text will not be modified by doing this, for best results set the language beforehand.</p>
 <h2 id="language-selection">Language selection</h2>
 <ul>
 <li>Language codes are considered case-insensitively (<code>en-US</code> == <code>en-us</code>).</li>
